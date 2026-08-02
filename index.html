@@ -194,6 +194,11 @@
     return start + delta;
   }
 
+  function maxBid(name, balance){
+    const teamValue = (data.teamValues && data.teamValues[name]) || 0;
+    return balance + Math.floor(teamValue / 4);
+  }
+
   function txDelta(t){
     const sign = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, ajuste:1 }[t.type] || 0;
     return sign * t.amount;
@@ -253,6 +258,7 @@
               <td>
                 <div class="manager-name">${escapeHtml(p.name)}</div>
                 <div class="manager-sub">Plantilla inicial ${fmt(p.initialValue)} · ${p.txCount} mov.</div>
+                <div class="manager-sub">Puja máxima: <b style="color:var(--gold)">${fmt(maxBid(p.name, p.balance))}</b></div>
               </td>
               <td class="balance ${p.balance < 0 ? 'neg' : 'pos'}">${fmt(p.balance)}</td>
             </tr>
