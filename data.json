@@ -1,0 +1,13 @@
+{
+  "transactions": [
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1279900,
+      "detail": "Jugador #32042",
+      "date": "2026-08-02",
+      "sourceId": "transfer|1785674731|0|{\"amount\": 1279900, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 32042}:sell"
+    }
+  ],
+  "lastSync": "manual"
+}

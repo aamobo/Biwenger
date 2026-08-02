@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablón de Fichajes</title>
+<style>
+  :root{
+    --bg: #0B0F14;
+    --panel: #121821;
+    --panel-2: #171F2B;
+    --line: #232C3A;
+    --teal: #2ED9A8;
+    --teal-dim: #1B8F70;
+    --coral: #FF6B5B;
+    --gold: #E8B94A;
+    --text: #EDEFF3;
+    --text-dim: #8B96A8;
+    --text-faint: #5B6576;
+    --mono: 'SF Mono', 'Cascadia Code', 'Consolas', ui-monospace, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background: radial-gradient(ellipse 1200px 600px at 50% -10%, #142031 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding: 0 0 60px;
+  }
+  header.top{ padding: 28px 20px 0; max-width: 1080px; margin: 0 auto; }
+  .eyebrow{
+    display:flex; align-items:center; gap:8px;
+    font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--text-faint); font-weight: 600; margin-bottom: 6px;
+  }
+  .live-dot{
+    width:7px; height:7px; border-radius:50%; background: var(--teal);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse{
+    0%{ box-shadow: 0 0 0 0 rgba(46,217,168,.55); }
+    70%{ box-shadow: 0 0 0 7px rgba(46,217,168,0); }
+    100%{ box-shadow: 0 0 0 0 rgba(46,217,168,0); }
+  }
+  h1{ font-size: clamp(28px, 4.5vw, 42px); font-weight: 800; letter-spacing: -0.02em; margin: 0; line-height: 1.05; }
+  h1 .accent{ color: var(--teal); }
+  .sync-note{ font-size: 12px; color: var(--text-faint); margin-top: 6px; }
+  .stat-row{ display:grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin: 20px 0 0; }
+  .stat-chip{ background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .stat-chip .k{ font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-faint); margin-bottom: 4px; }
+  .stat-chip .v{ font-family: var(--mono); font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  @media (max-width: 680px){ .stat-row{ grid-template-columns: repeat(2,1fr); } }
+
+  .ticker-wrap{
+    margin-top: 22px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, #0E141C, #0B0F14);
+    overflow: hidden; position: relative; height: 44px; display:flex; align-items:center;
+  }
+  .ticker-wrap::before, .ticker-wrap::after{ content:''; position:absolute; top:0; bottom:0; width: 40px; z-index: 2; }
+  .ticker-wrap::before{ left:0; background: linear-gradient(90deg, var(--bg), transparent); }
+  .ticker-wrap::after{ right:0; background: linear-gradient(270deg, var(--bg), transparent); }
+  .ticker-track{ display: flex; white-space: nowrap; gap: 40px; animation: scroll-left 40s linear infinite; padding-left: 40px; }
+  @keyframes scroll-left{ from{ transform: translateX(0); } to{ transform: translateX(-50%); } }
+  .tick-item{ font-family: var(--mono); font-size: 13px; font-weight: 600; display:flex; align-items:center; gap:8px; color: var(--text-dim); }
+  .tick-item b{ color: var(--text); font-weight: 700; }
+  .tick-up{ color: var(--teal); } .tick-down{ color: var(--coral); }
+  @media (prefers-reduced-motion: reduce){ .ticker-track{ animation: none; } }
+
+  main{ max-width: 1080px; margin: 0 auto; padding: 26px 20px 0; display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; }
+  @media (max-width: 860px){ main{ grid-template-columns: 1fr; } }
+  section.card{ background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 20px; }
+  .card h2{ font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-dim); margin: 0 0 14px; font-weight: 700; }
+
+  table.board{ width:100%; border-collapse: collapse; }
+  table.board th{ text-align:left; font-size: 10px; text-transform:uppercase; letter-spacing:.06em; color: var(--text-faint); font-weight:600; padding: 0 8px 8px; border-bottom: 1px solid var(--line); }
+  table.board td{ padding: 10px 8px; border-bottom: 1px solid #1A222E; vertical-align: middle; }
+  table.board tr:last-child td{ border-bottom: none; }
+  table.board tr.row-click{ cursor:pointer; transition: background .12s; }
+  table.board tr.row-click:hover{ background: #16202b; }
+  table.board tr.active-filter{ background: #142633; }
+  .rank{ font-family: var(--mono); color: var(--text-faint); width: 26px; }
+  .manager-name{ font-weight: 700; }
+  .manager-sub{ font-size: 11px; color: var(--text-faint); }
+  .balance{ font-family: var(--mono); font-weight: 800; font-variant-numeric: tabular-nums; text-align:right; white-space:nowrap; }
+  .balance.pos{ color: var(--teal); } .balance.neg{ color: var(--coral); }
+  .empty{ color: var(--text-faint); font-size: 13px; text-align:center; padding: 24px 10px; line-height: 1.6; }
+
+  .feed-header{ display:flex; justify-content:space-between; align-items:center; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
+  .feed-filter select{ background: var(--panel-2); border: 1px solid var(--line); color: var(--text); border-radius: 8px; padding: 7px 9px; font-size: 12px; }
+  .day-group{ margin-bottom: 18px; }
+  .day-label{ font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: .08em; font-weight:700; margin-bottom: 8px; padding-left: 2px; }
+  .tx-card{ display:flex; align-items:center; gap: 12px; background: var(--panel-2); border: 1px solid var(--line); border-left: 3px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .tx-card.up{ border-left-color: var(--teal); } .tx-card.down{ border-left-color: var(--coral); } .tx-card.flat{ border-left-color: var(--gold); }
+  .tx-icon{ font-size: 18px; width: 26px; text-align:center; flex-shrink:0; }
+  .tx-body{ flex:1; min-width:0; }
+  .tx-line1{ font-size: 14px; font-weight: 600; }
+  .tx-line1 .who{ color: var(--text); font-weight: 800; }
+  .tx-line1 .type-label{ color: var(--text-dim); font-weight: 500; }
+  .tx-detail{ font-size: 12px; color: var(--text-faint); margin-top: 2px; }
+  .tx-amount{ font-family: var(--mono); font-weight: 800; font-size: 14px; white-space:nowrap; font-variant-numeric: tabular-nums; }
+  .tx-amount.up{ color: var(--teal); } .tx-amount.down{ color: var(--coral); } .tx-amount.flat{ color: var(--gold); }
+
+  .howto{ font-size: 12px; color: var(--text-faint); line-height: 1.7; }
+  .howto code{ background: var(--panel-2); padding: 1px 5px; border-radius: 4px; color: var(--text-dim); }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="eyebrow"><span class="live-dot"></span> Sincronizado automáticamente</div>
+  <h1 id="league-title">Tablón de <span class="accent">Fichajes</span></h1>
+  <div class="sync-note" id="sync-note">Cargando...</div>
+  <div class="stat-row">
+    <div class="stat-chip"><div class="k">Bolsa inicial</div><div class="v" id="stat-basepot">—</div></div>
+    <div class="stat-chip"><div class="k">Managers</div><div class="v" id="stat-players">0</div></div>
+    <div class="stat-chip"><div class="k">Movimientos</div><div class="v" id="stat-tx">0</div></div>
+    <div class="stat-chip"><div class="k">Fondo combinado</div><div class="v" id="stat-total">—</div></div>
+  </div>
+</header>
+
+<div class="ticker-wrap"><div class="ticker-track" id="ticker-track"></div></div>
+
+<main>
+  <div>
+    <section class="card">
+      <h2>🏆 Clasificación por saldo</h2>
+      <div id="leaderboard"></div>
+    </section>
+    <section class="card">
+      <h2>ℹ️ Cómo se mantiene esto</h2>
+      <div class="howto">
+        Los fichajes, ventas y cláusulas se traen solos de Biwenger cada pocas horas.
+        El valor de plantilla inicial de cada manager (necesario para calcular el saldo:
+        <code>40.000.000 − valor inicial</code>) se guarda en <code>overrides.json</code> del
+        repositorio — para corregirlo, edita ese archivo directamente en GitHub.
+      </div>
+    </section>
+  </div>
+  <div>
+    <section class="card">
+      <div class="feed-header">
+        <h2 style="margin:0;">📋 Tablón</h2>
+        <div class="feed-filter"><select id="filter-select"></select></div>
+      </div>
+      <div id="feed"></div>
+    </section>
+  </div>
+</main>
+
+<script>
+(function(){
+  const TX_TYPES = {
+    compra:            { label:'Fichaje (compra)',   icon:'⬇️', cls:'down' },
+    venta:             { label:'Venta',              icon:'⬆️', cls:'up'   },
+    clausula_pagada:   { label:'Cláusula pagada',    icon:'📤', cls:'down' },
+    clausula_cobrada:  { label:'Cláusula cobrada',   icon:'📥', cls:'up'   },
+    ajuste:            { label:'Ajuste manual',      icon:'⚖️', cls:'flat' }
+  };
+
+  let overrides = { leagueName: 'Tablón de Fichajes', basePot: 40000000, players: [] };
+  let data = { transactions: [], lastSync: null };
+  let activeFilter = 'all';
+
+  const $ = (id) => document.getElementById(id);
+  const fmt = (n) => new Intl.NumberFormat('es-ES').format(Math.round(n)) + ' €';
+  const escapeHtml = (s) => (s || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  async function load(){
+    try{
+      const bust = '?t=' + Date.now();
+      const [ovRes, dataRes] = await Promise.all([
+        fetch('overrides.json' + bust).then(r => r.json()).catch(() => ({})),
+        fetch('data.json' + bust).then(r => r.json()).catch(() => ({}))
+      ]);
+      overrides = Object.assign(overrides, ovRes);
+      data = Object.assign(data, dataRes);
+    }catch(e){
+      console.error('No se pudo cargar overrides.json / data.json', e);
+    }
+    renderAll();
+  }
+
+  function playerBalance(name){
+    const player = overrides.players.find(p => p.name === name);
+    const start = overrides.basePot - (player ? player.initialValue : 0);
+    const delta = data.transactions
+      .filter(t => t.manager === name)
+      .reduce((sum, t) => {
+        const meta = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, ajuste:1 }[t.type] || 0;
+        return sum + meta * t.amount;
+      }, 0);
+    return start + delta;
+  }
+
+  function txDelta(t){
+    const sign = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, ajuste:1 }[t.type] || 0;
+    return sign * t.amount;
+  }
+
+  function renderAll(){
+    $('league-title').innerHTML = `${escapeHtml(overrides.leagueName || 'Tablón')} <span class="accent">de Fichajes</span>`;
+    $('sync-note').textContent = data.lastSync
+      ? `Última sincronización: ${new Date(data.lastSync).toLocaleString('es-ES')}`
+      : 'Aún sin sincronizar';
+    $('stat-basepot').textContent = fmt(overrides.basePot);
+    $('stat-players').textContent = overrides.players.length;
+    $('stat-tx').textContent = data.transactions.length;
+    const total = overrides.players.reduce((s,p) => s + playerBalance(p.name), 0);
+    $('stat-total').textContent = overrides.players.length ? fmt(total) : '—';
+
+    renderTicker();
+    renderLeaderboard();
+    renderFilterSelect();
+    renderFeed();
+  }
+
+  function renderTicker(){
+    const track = $('ticker-track');
+    const recent = [...data.transactions].slice(-12).reverse();
+    if (!recent.length){
+      track.innerHTML = '<div class="tick-item">Esperando el primer movimiento del mercado…</div>'.repeat(4);
+      return;
+    }
+    const items = recent.map(t => {
+      const d = txDelta(t);
+      const arrow = d > 0 ? '▲' : (d < 0 ? '▼' : '◆');
+      const cls = d > 0 ? 'tick-up' : (d < 0 ? 'tick-down' : '');
+      const sign = d > 0 ? '+' : (d < 0 ? '−' : '');
+      return `<div class="tick-item"><span class="${cls}">${arrow}</span> <b>${escapeHtml(t.manager)}</b> ${escapeHtml(TX_TYPES[t.type]?.label || t.type)} <span class="${cls}">${sign}${fmt(Math.abs(d))}</span></div>`;
+    }).join('');
+    track.innerHTML = items + items;
+  }
+
+  function renderLeaderboard(){
+    const box = $('leaderboard');
+    if (!overrides.players.length){
+      box.innerHTML = '<div class="empty">Todavía no hay managers en overrides.json.</div>';
+      return;
+    }
+    const ranked = overrides.players
+      .map(p => ({ ...p, balance: playerBalance(p.name), txCount: data.transactions.filter(t => t.manager === p.name).length }))
+      .sort((a,b) => b.balance - a.balance);
+    const medals = ['🥇','🥈','🥉'];
+    box.innerHTML = `
+      <table class="board">
+        <thead><tr><th></th><th>Manager</th><th style="text-align:right;">Saldo</th></tr></thead>
+        <tbody>
+          ${ranked.map((p, i) => `
+            <tr class="row-click ${activeFilter === p.name ? 'active-filter' : ''}" data-player="${escapeHtml(p.name)}">
+              <td class="rank">${medals[i] || (i+1)}</td>
+              <td>
+                <div class="manager-name">${escapeHtml(p.name)}</div>
+                <div class="manager-sub">Plantilla inicial ${fmt(p.initialValue)} · ${p.txCount} mov.</div>
+              </td>
+              <td class="balance ${p.balance < 0 ? 'neg' : 'pos'}">${fmt(p.balance)}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>`;
+    box.querySelectorAll('tr[data-player]').forEach(row => {
+      row.addEventListener('click', () => {
+        const name = row.getAttribute('data-player');
+        activeFilter = (activeFilter === name) ? 'all' : name;
+        $('filter-select').value = activeFilter;
+        renderLeaderboard();
+        renderFeed();
+      });
+    });
+  }
+
+  function renderFilterSelect(){
+    const sel = $('filter-select');
+    const prev = activeFilter;
+    sel.innerHTML = '<option value="all">Todos los managers</option>' +
+      overrides.players.map(p => `<option value="${escapeHtml(p.name)}">${escapeHtml(p.name)}</option>`).join('');
+    sel.value = overrides.players.some(p => p.name === prev) || prev === 'all' ? prev : 'all';
+    activeFilter = sel.value;
+    sel.onchange = () => { activeFilter = sel.value; renderLeaderboard(); renderFeed(); };
+  }
+
+  function renderFeed(){
+    const box = $('feed');
+    let txs = [...data.transactions].reverse();
+    if (activeFilter !== 'all') txs = txs.filter(t => t.manager === activeFilter);
+    if (!txs.length){ box.innerHTML = '<div class="empty">Todavía no hay movimientos en el tablón.</div>'; return; }
+
+    const groups = {}; const order = [];
+    txs.forEach(t => {
+      const label = dayLabel(t.date);
+      if (!groups[label]){ groups[label] = []; order.push(label); }
+      groups[label].push(t);
+    });
+
+    box.innerHTML = order.map(label => `
+      <div class="day-group">
+        <div class="day-label">${label}</div>
+        ${groups[label].map(txCardHtml).join('')}
+      </div>
+    `).join('');
+  }
+
+  function txCardHtml(t){
+    const meta = TX_TYPES[t.type] || { label: t.type, icon: '•', cls: 'flat' };
+    const d = txDelta(t);
+    const sign = d > 0 ? '+' : (d < 0 ? '−' : '');
+    return `
+      <div class="tx-card ${meta.cls}">
+        <div class="tx-icon">${meta.icon}</div>
+        <div class="tx-body">
+          <div class="tx-line1"><span class="who">${escapeHtml(t.manager)}</span> <span class="type-label">· ${escapeHtml(meta.label)}</span></div>
+          ${t.detail ? `<div class="tx-detail">${escapeHtml(t.detail)}</div>` : ''}
+        </div>
+        <div class="tx-amount ${meta.cls}">${sign}${fmt(Math.abs(d))}</div>
+      </div>`;
+  }
+
+  function dayLabel(dateStr){
+    if (!dateStr) return 'Fecha desconocida';
+    const d = new Date(dateStr + 'T00:00:00');
+    const today = new Date(); today.setHours(0,0,0,0);
+    const yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
+    if (d.getTime() === today.getTime()) return 'Hoy';
+    if (d.getTime() === yesterday.getTime()) return 'Ayer';
+    return d.toLocaleDateString('es-ES', { day:'numeric', month:'short', year:'numeric' });
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "leagueName": "Men in Black",
+  "basePot": 40000000,
+  "players": [
+    {"name": "Saltamonti", "initialValue": 14130000},
+    {"name": "Tietes FC", "initialValue": 14050000},
+    {"name": "anihi and the anihaloors", "initialValue": 14080000},
+    {"name": "Real Vicentón Balompié", "initialValue": 14110000},
+    {"name": "Keko Kane", "initialValue": 14140000},
+    {"name": "Reial Club Estanislau", "initialValue": 14150000},
+    {"name": "Jajajajajaja", "initialValue": 14150000},
+    {"name": "Tikitaki de Aatun", "initialValue": 14160000},
+    {"name": "Gruu", "initialValue": 14160000},
+    {"name": "Error del sistema", "initialValue": 14170000},
+    {"name": "Diablos Cojos", "initialValue": 14170000},
+    {"name": "Yastariabros", "initialValue": 14180000},
+    {"name": "FC Carcelona", "initialValue": 14180000},
+    {"name": "FCodina", "initialValue": 14180000},
+    {"name": "valero10", "initialValue": 14200000},
+    {"name": "Quim fc", "initialValue": 14230000}
+  ]
+}
