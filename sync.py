@@ -116,9 +116,14 @@ def main():
         sys.exit(f"No encontré la liga {league_id} en esta cuenta.")
     league_user_id = (league.get("user") or {}).get("id") or account_user_id
 
-    print("Descargando clasificación (para nombres de managers)...")
-    standings = get_json(f"{API}/league/{league_id}", token, league_id, league_user_id, params={"fields": "*,standings"})
-    id_to_name = {s.get("id"): s.get("name") for s in standings.get("standings", []) if s.get("id") is not None}
+    print("Descargando clasificación (para nombres y valor de equipo)...")
+    standings = get_json(
+        f"{API}/league/{league_id}", token, league_id, league_user_id,
+        params={"include": "all", "fields": "*,standings"}
+    )
+    standings_list = standings.get("standings", [])
+    id_to_name = {s.get("id"): s.get("name") for s in standings_list if s.get("id") is not None}
+    team_values = {s.get("name"): s.get("teamValue") for s in standings_list if s.get("name") and s.get("teamValue") is not None}
 
     print("Descargando tablón de actividad...")
     board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 300})
@@ -141,6 +146,7 @@ def main():
         added += 1
 
     existing["lastSync"] = datetime.now(timezone.utc).isoformat()
+    existing["teamValues"] = team_values
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
