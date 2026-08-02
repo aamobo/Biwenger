@@ -7,7 +7,23 @@
       "detail": "Jugador #32042",
       "date": "2026-08-02",
       "sourceId": "transfer|1785674731|0|{\"amount\": 1279900, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 32042}:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 846000,
+      "detail": "Jugador #35901",
+      "date": "2026-08-02",
+      "sourceId": "transfer|1785677798|0|{\"amount\": 846000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 35901}:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 1289200,
+      "detail": "Jugador #42412",
+      "date": "2026-08-02",
+      "sourceId": "transfer|1785677798|1|{\"amount\": 1289200, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 42412}:sell"
     }
   ],
-  "lastSync": "manual"
+  "lastSync": "2026-08-02T15:32:18.965785+00:00"
 }
