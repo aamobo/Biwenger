@@ -1,0 +1,36 @@
+name: Sincronizar Biwenger
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # cada 3 horas
+  workflow_dispatch: {}     # botón para lanzarlo a mano desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Sincronizar
+        run: python sync.py
+        env:
+          BIWENGER_EMAIL: ${{ secrets.BIWENGER_EMAIL }}
+          BIWENGER_PASSWORD: ${{ secrets.BIWENGER_PASSWORD }}
+          BIWENGER_LEAGUE_ID: ${{ secrets.BIWENGER_LEAGUE_ID }}
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "Tablon Bot"
+          git config user.email "actions@github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Sincronización automática"
+          git push
