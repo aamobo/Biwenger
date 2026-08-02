@@ -194,9 +194,12 @@
     return start + delta;
   }
 
+  function teamValueOf(name){
+    return (data.teamValues && data.teamValues[name]) || 0;
+  }
+
   function maxBid(name, balance){
-    const teamValue = (data.teamValues && data.teamValues[name]) || 0;
-    return balance + Math.floor(teamValue / 4);
+    return balance + Math.floor(teamValueOf(name) / 4);
   }
 
   function txDelta(t){
@@ -258,6 +261,7 @@
               <td>
                 <div class="manager-name">${escapeHtml(p.name)}</div>
                 <div class="manager-sub">Plantilla inicial ${fmt(p.initialValue)} · ${p.txCount} mov.</div>
+                <div class="manager-sub">Valor de equipo: <b style="color:var(--text-dim)">${fmt(teamValueOf(p.name))}</b></div>
                 <div class="manager-sub">Puja máxima: <b style="color:var(--gold)">${fmt(maxBid(p.name, p.balance))}</b></div>
               </td>
               <td class="balance ${p.balance < 0 ? 'neg' : 'pos'}">${fmt(p.balance)}</td>
