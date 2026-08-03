@@ -156,6 +156,7 @@
     venta:             { label:'Venta',              icon:'⬆️', cls:'up'   },
     clausula_pagada:   { label:'Cláusula pagada',    icon:'📤', cls:'down' },
     clausula_cobrada:  { label:'Cláusula cobrada',   icon:'📥', cls:'up'   },
+    clausula_subida:   { label:'Cláusula subida',    icon:'📈', cls:'down' },
     ajuste:            { label:'Ajuste manual',      icon:'⚖️', cls:'flat' }
   };
 
@@ -188,7 +189,7 @@
     const delta = data.transactions
       .filter(t => t.manager === name)
       .reduce((sum, t) => {
-        const meta = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, ajuste:1 }[t.type] || 0;
+        const meta = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, clausula_subida:-1, ajuste:1 }[t.type] || 0;
         return sum + meta * t.amount;
       }, 0);
     return start + delta;
@@ -203,7 +204,7 @@
   }
 
   function txDelta(t){
-    const sign = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, ajuste:1 }[t.type] || 0;
+    const sign = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, clausula_subida:-1, ajuste:1 }[t.type] || 0;
     return sign * t.amount;
   }
 
