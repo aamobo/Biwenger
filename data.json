@@ -287,14 +287,78 @@
       "detail": "Jugador #29446",
       "date": "2026-08-03",
       "sourceId": "transfer|1785753487|1|{\"amount\": 1327700, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 29446}:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2178000,
+      "detail": "Jugador #21132",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785778761|0|{\"amount\": 2178000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21132, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2178000,
+      "detail": "Jugador #21132",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785778761|0|{\"amount\": 2178000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21132, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 5724000,
+      "detail": "Jugador #2184",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785778761|1|{\"amount\": 5724000, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 2184, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 5724000,
+      "detail": "Jugador #2184",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785778761|1|{\"amount\": 5724000, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 2184, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 155300,
+      "detail": "Jugador #30334",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785775848|0|{\"amount\": 155300, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 30334}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 240200,
+      "detail": "Jugador #17200",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785775848|1|{\"amount\": 240200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 17200}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 144000,
+      "detail": "Jugador #35426",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785775848|2|{\"amount\": 144000, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 35426}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 477600,
+      "detail": "Jugador #17121",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785775848|3|{\"amount\": 477600, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 17121}:sell"
     }
   ],
-  "lastSync": "2026-08-03T12:40:57.528645+00:00",
+  "lastSync": "2026-08-03T18:55:01.596153+00:00",
   "teamValues": {
-    "FCodina": 15160000,
+    "FCodina": 14130000,
     "Diablos Cojos": 14790000,
-    "Jajajajajaja": 21250000,
-    "Tikitaki de Aatun": 14600000,
+    "Jajajajajaja": 20040000,
+    "Tikitaki de Aatun": 18990000,
     "valero10": 14540000,
     "Quim fc": 14570000,
     "anihi and the anihaloors": 19860000,
@@ -303,7 +367,7 @@
     "Error del sistema": 14390000,
     "Yastariabros": 16240000,
     "Saltamonti": 12690000,
-    "FC Carcelona": 14320000,
+    "FC Carcelona": 11140000,
     "Real Vicentón Balompié": 12650000,
     "Keko Kane": 26950000,
     "Gruu": 30350000
