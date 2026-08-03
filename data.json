@@ -351,22 +351,54 @@
       "detail": "Jugador #17121",
       "date": "2026-08-03",
       "sourceId": "transfer|1785775848|3|{\"amount\": 477600, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 17121}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 685900,
+      "detail": "Jugador #27059",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785788217|0|{\"amount\": 685900, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 27059}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 526500,
+      "detail": "Jugador #19141",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785788217|1|{\"amount\": 526500, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 19141}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 1436800,
+      "detail": "Jugador #37897",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785788217|2|{\"amount\": 1436800, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 37897}:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 379600,
+      "detail": "Jugador #34613",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785788217|3|{\"amount\": 379600, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 34613}:sell"
     }
   ],
-  "lastSync": "2026-08-03T18:55:01.596153+00:00",
+  "lastSync": "2026-08-03T20:19:27.049021+00:00",
   "teamValues": {
     "FCodina": 14130000,
     "Diablos Cojos": 14790000,
     "Jajajajajaja": 20040000,
     "Tikitaki de Aatun": 18990000,
-    "valero10": 14540000,
+    "valero10": 11940000,
     "Quim fc": 14570000,
     "anihi and the anihaloors": 19860000,
     "Reial Club Estanislau": 13140000,
     "Tietes FC": 23930000,
     "Error del sistema": 14390000,
     "Yastariabros": 16240000,
-    "Saltamonti": 12690000,
+    "Saltamonti": 12340000,
     "FC Carcelona": 11140000,
     "Real Vicentón Balompié": 12650000,
     "Keko Kane": 26950000,
