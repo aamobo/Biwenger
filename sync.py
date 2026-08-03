@@ -76,7 +76,12 @@ def extract_transactions(board, id_to_name):
             else:
                 player_name = ""
 
-            if "clause" in etype and amount:
+            if etype == "clauseincrement" and amount:
+                user = content.get("user") or {}
+                manager = user.get("name") or id_to_name.get(user.get("id"), "")
+                if manager:
+                    transactions.append({"manager": manager, "type": "clausula_subida", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id})
+            elif "clause" in etype and amount:
                 buyer = to_user.get("name") or id_to_name.get(to_user.get("id"), "")
                 seller = from_user.get("name") or id_to_name.get(from_user.get("id"), "")
                 if buyer:
