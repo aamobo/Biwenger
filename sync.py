@@ -129,6 +129,9 @@ def main():
     board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 300})
     new_transactions = extract_transactions(board, id_to_name)
 
+    with open("board_raw.json", "w", encoding="utf-8") as f:
+        json.dump(board, f, ensure_ascii=False, indent=2)
+
     # Cargar lo que ya teníamos y añadir solo lo nuevo (sin duplicar)
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
