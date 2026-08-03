@@ -263,9 +263,17 @@
       "detail": "Jugador #41076",
       "date": "2026-08-03",
       "sourceId": "transfer|1785745325|3|{\"amount\": 659600, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 41076}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 1247000,
+      "detail": "Jugador #34805",
+      "date": "2026-08-03",
+      "sourceId": "clauseincrement|1785746569|0|{\"amount\": 1247000, \"player\": 34805, \"releaseClause\": 3000600, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}"
     }
   ],
-  "lastSync": "2026-08-03T09:53:55.673538+00:00",
+  "lastSync": "2026-08-03T10:02:11.216510+00:00",
   "teamValues": {
     "FCodina": 15160000,
     "Diablos Cojos": 14790000,
