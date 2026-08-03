@@ -271,9 +271,25 @@
       "detail": "Jugador #34805",
       "date": "2026-08-03",
       "sourceId": "clauseincrement|1785746569|0|{\"amount\": 1247000, \"player\": 34805, \"releaseClause\": 3000600, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 155000,
+      "detail": "Jugador #30507",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785753487|0|{\"amount\": 155000, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 30507}:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 1327700,
+      "detail": "Jugador #29446",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785753487|1|{\"amount\": 1327700, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 29446}:sell"
     }
   ],
-  "lastSync": "2026-08-03T10:09:25.088687+00:00",
+  "lastSync": "2026-08-03T11:45:46.003249+00:00",
   "teamValues": {
     "FCodina": 15160000,
     "Diablos Cojos": 14790000,
@@ -288,7 +304,7 @@
     "Yastariabros": 16240000,
     "Saltamonti": 12690000,
     "FC Carcelona": 14320000,
-    "Real Vicentón Balompié": 14120000,
+    "Real Vicentón Balompié": 12650000,
     "Keko Kane": 26950000,
     "Gruu": 30350000
   }
