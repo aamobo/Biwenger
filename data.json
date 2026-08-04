@@ -495,25 +495,273 @@
       "detail": "Jugador #12404",
       "date": "2026-08-04",
       "sourceId": "transfer|1785802910|0|{\"amount\": 167500, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 12404}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 275600,
+      "detail": "Jugador #32569",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785849108|0|{\"amount\": 275600, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 32569}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 161900,
+      "detail": "Jugador #26676",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785849108|1|{\"amount\": 161900, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 26676}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 382200,
+      "detail": "Jugador #5618",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785844969|0|{\"amount\": 382200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 5618}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1380100,
+      "detail": "Jugador #39431",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785842807|0|{\"amount\": 1380100, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 39431}:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 295000,
+      "detail": "Jugador #1852",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785842807|1|{\"amount\": 295000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 1852}:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 766900,
+      "detail": "Jugador #35249",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785841464|0|{\"amount\": 766900, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 35249}:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 280200,
+      "detail": "Jugador #33871",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785841464|1|{\"amount\": 280200, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 33871}:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 222500,
+      "detail": "Jugador #32464",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785841464|2|{\"amount\": 222500, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 32464}:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 154600,
+      "detail": "Jugador #6871",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785841464|3|{\"amount\": 154600, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 6871}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 167400,
+      "detail": "Jugador #38239",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785839915|0|{\"amount\": 167400, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 38239}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 199400,
+      "detail": "Jugador #16606",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785839915|1|{\"amount\": 199400, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 16606}:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 170000,
+      "detail": "Jugador #36531",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785836774|0|{\"amount\": 170000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 36531}:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 512600,
+      "detail": "Jugador #9557",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785836774|1|{\"amount\": 512600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 9557}:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 146800,
+      "detail": "Jugador #14466",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785836774|2|{\"amount\": 146800, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 14466}:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 1313100,
+      "detail": "Jugador #42396",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785831570|0|{\"amount\": 1313100, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 42396}:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 261500,
+      "detail": "Jugador #25392",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785831570|1|{\"amount\": 261500, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 25392}:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 144900,
+      "detail": "Jugador #39223",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785831570|2|{\"amount\": 144900, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 39223}:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 144200,
+      "detail": "Jugador #39736",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785831570|3|{\"amount\": 144200, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 39736}:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 207700,
+      "detail": "Jugador #18128",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785826261|0|{\"amount\": 207700, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 18128}:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 150200,
+      "detail": "Jugador #38422",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785826261|1|{\"amount\": 150200, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 38422}:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 151700,
+      "detail": "Jugador #41259",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785826261|2|{\"amount\": 151700, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 41259}:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 157400,
+      "detail": "Jugador #25778",
+      "date": "2026-08-04",
+      "sourceId": "transfer|1785826261|3|{\"amount\": 157400, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 25778}:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 3841850,
+      "detail": "Jugador #2253",
+      "date": "2026-08-04",
+      "sourceId": "market|1785820061|4|{\"amount\": 3841850, \"bids\": [{\"amount\": 3826580, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 3486990, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 2253, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 10500000,
+      "detail": "Jugador #30495",
+      "date": "2026-08-04",
+      "sourceId": "market|1785820061|6|{\"amount\": 10500000, \"bids\": [{\"amount\": 10250000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 9987920, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 30495, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 1247000,
+      "detail": "Jugador #34805",
+      "date": "2026-08-03",
+      "sourceId": "clauseincrement|1785746569|0|{\"amount\": 1247000, \"player\": 34805, \"releaseClause\": 3000600, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 147900,
+      "detail": "Jugador #38144",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785746199|0|{\"amount\": 147900, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38144}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 145400,
+      "detail": "Jugador #38424",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785746199|1|{\"amount\": 145400, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38424}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 152600,
+      "detail": "Jugador #39835",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785746199|2|{\"amount\": 152600, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 39835}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 152500,
+      "detail": "Jugador #41567",
+      "date": "2026-08-03",
+      "sourceId": "transfer|1785746199|3|{\"amount\": 152500, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 41567}:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 6417730,
+      "detail": "Jugador #2009",
+      "date": "2026-08-03",
+      "sourceId": "market|1785733551|11|{\"amount\": 6417730, \"bids\": [{\"amount\": 6241510, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 6052000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 2009, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 7878860,
+      "detail": "Jugador #19547",
+      "date": "2026-08-03",
+      "sourceId": "market|1785733551|13|{\"amount\": 7878860, \"bids\": [{\"amount\": 7500000, \"user\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}, {\"amount\": 6988750, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 19547, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
     }
   ],
-  "lastSync": "2026-08-04T06:17:08.486240+00:00",
+  "lastSync": "2026-08-04T16:28:03.635170+00:00",
   "teamValues": {
     "Jajajajajaja": 21040000,
-    "FC Carcelona": 20330000,
+    "FC Carcelona": 18900000,
     "Diablos Cojos": 15070000,
-    "anihi and the anihaloors": 20200000,
-    "FCodina": 19540000,
-    "valero10": 12170000,
-    "Tietes FC": 24240000,
-    "Quim fc": 14790000,
+    "anihi and the anihaloors": 19350000,
+    "FCodina": 19150000,
+    "valero10": 11800000,
+    "Tietes FC": 23960000,
+    "Quim fc": 13390000,
     "Saltamonti": 13160000,
     "Error del sistema": 14470000,
     "Yastariabros": 16320000,
     "Real Vicentón Balompié": 12780000,
-    "Reial Club Estanislau": 20100000,
-    "Keko Kane": 27290000,
-    "Gruu": 36540000,
+    "Reial Club Estanislau": 18270000,
+    "Keko Kane": 26840000,
+    "Gruu": 35890000,
     "Tikitaki de Aatun": 25170000
   }
 }
