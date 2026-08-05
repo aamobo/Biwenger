@@ -743,25 +743,177 @@
       "detail": "Jugador #19547",
       "date": "2026-08-03",
       "sourceId": "market|1785733551|13|{\"amount\": 7878860, \"bids\": [{\"amount\": 7500000, \"user\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}, {\"amount\": 6988750, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 19547, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 147600,
+      "detail": "Jugador #5717",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785918987|0|{\"amount\": 147600, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 5717}:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 806500,
+      "detail": "Jugador #38059",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785918987|1|{\"amount\": 806500, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 38059}:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 215700,
+      "detail": "Jugador #12424",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785918987|2|{\"amount\": 215700, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 12424}:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 161400,
+      "detail": "Jugador #21145",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785913101|0|{\"amount\": 161400, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21145}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 2111110,
+      "detail": "Jugador #11045",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|0|{\"amount\": 2111110, \"bids\": [{\"amount\": 1959190, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 1944730, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 11045, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 2103650,
+      "detail": "Jugador #41416",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|1|{\"amount\": 2103650, \"bids\": [{\"amount\": 1965210, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 1923920, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 41416, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2160190,
+      "detail": "Jugador #25403",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|2|{\"amount\": 2160190, \"bids\": [{\"amount\": 1990000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 1980000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}], \"player\": 25403, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 7965000,
+      "detail": "Jugador #30081",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|3|{\"amount\": 7965000, \"bids\": [{\"amount\": 7637110, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 7400500, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 30081, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 11670000,
+      "detail": "Jugador #18398",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|4|{\"amount\": 11670000, \"bids\": [{\"amount\": 10957000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 10919990, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"player\": 18398, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "compra",
+      "amount": 5500000,
+      "detail": "Jugador #30123",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|5|{\"amount\": 5500000, \"bids\": [{\"amount\": 4875990, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 4790010, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 30123, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 6245810,
+      "detail": "Jugador #11",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|6|{\"amount\": 6245810, \"bids\": [{\"amount\": 5742450, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 5700000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 11, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 2140020,
+      "detail": "Jugador #38517",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|7|{\"amount\": 2140020, \"bids\": [{\"amount\": 2100000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 1850000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 38517, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 875680,
+      "detail": "Jugador #41073",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|8|{\"amount\": 875680, \"bids\": [{\"amount\": 680000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 41073, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 4865586,
+      "detail": "Jugador #24732",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|9|{\"amount\": 4865586, \"bids\": [{\"amount\": 4580050, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 24732, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 720001,
+      "detail": "Jugador #33789",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|10|{\"amount\": 720001, \"bids\": [{\"amount\": 720000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}], \"player\": 33789, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 2222222,
+      "detail": "Jugador #22699",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|11|{\"amount\": 2222222, \"bids\": [{\"amount\": 2016840, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 1962330, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 22699, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "compra",
+      "amount": 5000000,
+      "detail": "Jugador #17056",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|12|{\"amount\": 5000000, \"bids\": [{\"amount\": 3605000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 17056, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 3358000,
+      "detail": "Jugador #19501",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|13|{\"amount\": 3358000, \"player\": 19501, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 170000,
+      "detail": "Jugador #31465",
+      "date": "2026-08-05",
+      "sourceId": "market|1785906381|14|{\"amount\": 170000, \"player\": 31465, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
     }
   ],
-  "lastSync": "2026-08-04T22:20:50.598819+00:00",
+  "lastSync": "2026-08-05T10:12:07.851907+00:00",
   "teamValues": {
-    "Jajajajajaja": 21040000,
-    "FC Carcelona": 18900000,
-    "Diablos Cojos": 15070000,
-    "anihi and the anihaloors": 19350000,
-    "FCodina": 19150000,
-    "valero10": 11800000,
-    "Tietes FC": 23960000,
-    "Quim fc": 13390000,
-    "Saltamonti": 13160000,
-    "Error del sistema": 14470000,
-    "Yastariabros": 16320000,
-    "Real Vicentón Balompié": 12780000,
-    "Reial Club Estanislau": 18270000,
-    "Keko Kane": 26840000,
-    "Gruu": 35890000,
-    "Tikitaki de Aatun": 25170000
+    "FC Carcelona": 19030000,
+    "Diablos Cojos": 15260000,
+    "FCodina": 19490000,
+    "valero10": 11850000,
+    "Jajajajajaja": 31200000,
+    "Saltamonti": 13390000,
+    "Quim fc": 17520000,
+    "Real Vicentón Balompié": 12910000,
+    "Yastariabros": 16290000,
+    "Reial Club Estanislau": 20440000,
+    "Tietes FC": 34210000,
+    "anihi and the anihaloors": 32590000,
+    "Keko Kane": 27150000,
+    "Error del sistema": 22400000,
+    "Gruu": 36690000,
+    "Tikitaki de Aatun": 27480000
   }
 }
