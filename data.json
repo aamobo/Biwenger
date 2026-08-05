@@ -895,17 +895,89 @@
       "detail": "Jugador #31465",
       "date": "2026-08-05",
       "sourceId": "market|1785906381|14|{\"amount\": 170000, \"player\": 31465, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 176400,
+      "detail": "Jugador #41080",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785940126|0|{\"amount\": 176400, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 41080}:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 152000,
+      "detail": "Jugador #40070",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785940126|1|{\"amount\": 152000, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 40070}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 3906000,
+      "detail": "Jugador #28103",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785937256|0|{\"amount\": 3906000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 28103, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 3906000,
+      "detail": "Jugador #28103",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785937256|0|{\"amount\": 3906000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 28103, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 5616000,
+      "detail": "Jugador #42425",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785937256|1|{\"amount\": 5616000, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 42425, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 5616000,
+      "detail": "Jugador #42425",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785937256|1|{\"amount\": 5616000, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 42425, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 6732000,
+      "detail": "Jugador #32134",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785936394|0|{\"amount\": 6732000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 32134, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 6732000,
+      "detail": "Jugador #32134",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785936394|0|{\"amount\": 6732000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 32134, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 207400,
+      "detail": "Jugador #15455",
+      "date": "2026-08-05",
+      "sourceId": "transfer|1785932940|0|{\"amount\": 207400, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 15455}:sell"
     }
   ],
-  "lastSync": "2026-08-05T10:12:07.851907+00:00",
+  "lastSync": "2026-08-05T17:13:32.955351+00:00",
   "teamValues": {
     "FC Carcelona": 19030000,
-    "Diablos Cojos": 15260000,
-    "FCodina": 19490000,
-    "valero10": 11850000,
+    "Diablos Cojos": 12140000,
+    "FCodina": 28520000,
+    "valero10": 8110000,
     "Jajajajajaja": 31200000,
     "Saltamonti": 13390000,
-    "Quim fc": 17520000,
+    "Quim fc": 15140000,
     "Real Vicentón Balompié": 12910000,
     "Yastariabros": 16290000,
     "Reial Club Estanislau": 20440000,
@@ -914,6 +986,6 @@
     "Keko Kane": 27150000,
     "Error del sistema": 22400000,
     "Gruu": 36690000,
-    "Tikitaki de Aatun": 27480000
+    "Tikitaki de Aatun": 27170000
   }
 }
