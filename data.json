@@ -1087,22 +1087,62 @@
       "detail": "Jugador #17057",
       "date": "2026-08-06",
       "sourceId": "market|1785992668|9|{\"amount\": 5508000, \"player\": 17057, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 152600,
+      "detail": "Jugador #23988",
+      "date": "2026-08-06",
+      "sourceId": "transfer|1786009898|0|{\"amount\": 152600, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 23988}:sell"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 193400,
+      "detail": "Jugador #41100",
+      "date": "2026-08-06",
+      "sourceId": "transfer|1786009898|1|{\"amount\": 193400, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 41100}:sell"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 142700,
+      "detail": "Jugador #1309",
+      "date": "2026-08-06",
+      "sourceId": "transfer|1786009898|2|{\"amount\": 142700, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 1309}:sell"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 148100,
+      "detail": "Jugador #33886",
+      "date": "2026-08-06",
+      "sourceId": "transfer|1786009898|3|{\"amount\": 148100, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 33886}:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 318000,
+      "detail": "Jugador #9475",
+      "date": "2026-08-06",
+      "sourceId": "transfer|1785999791|0|{\"amount\": 318000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 9475}:sell"
     }
   ],
-  "lastSync": "2026-08-06T06:56:20.616465+00:00",
+  "lastSync": "2026-08-06T10:15:16.420549+00:00",
   "teamValues": {
     "Diablos Cojos": 12260000,
     "valero10": 10990000,
     "FC Carcelona": 19010000,
     "Quim fc": 26010000,
-    "Saltamonti": 20290000,
+    "Saltamonti": 19990000,
     "Jajajajajaja": 37840000,
     "Yastariabros": 16310000,
     "anihi and the anihaloors": 33140000,
     "Tietes FC": 39810000,
     "Keko Kane": 27560000,
     "Reial Club Estanislau": 32250000,
-    "Error del sistema": 22630000,
+    "Error del sistema": 22000000,
     "Gruu": 36690000,
     "Tikitaki de Aatun": 27810000,
     "FCodina": 29110000,
