@@ -1303,15 +1303,39 @@
       "detail": "Jugador #10745",
       "date": "2026-08-07",
       "sourceId": "market|1786078945|13|{\"amount\": 6513470, \"player\": 10745, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 176900,
+      "detail": "Jugador #22975",
+      "date": "2026-08-07",
+      "sourceId": "transfer|1786130578|0|{\"amount\": 176900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 22975}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 249100,
+      "detail": "Jugador #33474",
+      "date": "2026-08-07",
+      "sourceId": "transfer|1786130578|1|{\"amount\": 249100, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 33474}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 143700,
+      "detail": "Jugador #34173",
+      "date": "2026-08-07",
+      "sourceId": "transfer|1786130578|2|{\"amount\": 143700, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 34173}:sell"
     }
   ],
-  "lastSync": "2026-08-07T15:12:16.213850+00:00",
+  "lastSync": "2026-08-07T20:05:22.027544+00:00",
   "teamValues": {
     "Diablos Cojos": 12420000,
     "valero10": 32410000,
     "FC Carcelona": 19860000,
     "Saltamonti": 29690000,
-    "Quim fc": 25530000,
+    "Quim fc": 24940000,
     "anihi and the anihaloors": 35250000,
     "Yastariabros": 16340000,
     "Jajajajajaja": 42200000,
