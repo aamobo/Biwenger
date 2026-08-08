@@ -1463,9 +1463,25 @@
       "detail": "Jugador #25159",
       "date": "2026-08-08",
       "sourceId": "transfer|1786179261|0|{\"amount\": 1187200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 25159}:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 161500,
+      "detail": "Jugador #38457",
+      "date": "2026-08-08",
+      "sourceId": "transfer|1786192382|0|{\"amount\": 161500, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 38457}:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 156500,
+      "detail": "Jugador #41421",
+      "date": "2026-08-08",
+      "sourceId": "transfer|1786190956|0|{\"amount\": 156500, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 41421}:sell"
     }
   ],
-  "lastSync": "2026-08-08T10:16:45.959800+00:00",
+  "lastSync": "2026-08-08T14:06:29.483251+00:00",
   "teamValues": {
     "valero10": 36370000,
     "Diablos Cojos": 21140000,
@@ -1474,14 +1490,14 @@
     "Quim fc": 28170000,
     "Jajajajajaja": 42750000,
     "Yastariabros": 16480000,
-    "anihi and the anihaloors": 38250000,
+    "anihi and the anihaloors": 38100000,
     "Tietes FC": 37800000,
     "Reial Club Estanislau": 32800000,
     "Keko Kane": 28310000,
     "Gruu": 37350000,
     "Error del sistema": 32610000,
     "Tikitaki de Aatun": 38020000,
-    "FCodina": 28720000,
+    "FCodina": 28560000,
     "Real Vicentón Balompié": 35620000
   }
 }
