@@ -1479,9 +1479,17 @@
       "detail": "Jugador #41421",
       "date": "2026-08-08",
       "sourceId": "transfer|1786190956|0|{\"amount\": 156500, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 41421}:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 149800,
+      "detail": "Jugador #41091",
+      "date": "2026-08-08",
+      "sourceId": "transfer|1786201840|0|{\"amount\": 149800, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 41091}:sell"
     }
   ],
-  "lastSync": "2026-08-08T14:06:29.483251+00:00",
+  "lastSync": "2026-08-08T16:01:15.156454+00:00",
   "teamValues": {
     "valero10": 36370000,
     "Diablos Cojos": 21140000,
@@ -1496,7 +1504,7 @@
     "Keko Kane": 28310000,
     "Gruu": 37350000,
     "Error del sistema": 32610000,
-    "Tikitaki de Aatun": 38020000,
+    "Tikitaki de Aatun": 37870000,
     "FCodina": 28560000,
     "Real Vicentón Balompié": 35620000
   }
