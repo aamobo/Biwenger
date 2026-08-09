@@ -1519,17 +1519,33 @@
       "detail": "Jugador #37863",
       "date": "2026-08-08",
       "sourceId": "transfer|1786219155|0|{\"amount\": 1512000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 37863, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"type\": \"clause\"}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 1134000,
+      "detail": "Jugador #19192",
+      "date": "2026-08-09",
+      "sourceId": "transfer|1786239871|0|{\"amount\": 1134000, \"from\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"type\": \"clause\"}:buy"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 1134000,
+      "detail": "Jugador #19192",
+      "date": "2026-08-09",
+      "sourceId": "transfer|1786239871|0|{\"amount\": 1134000, \"from\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"type\": \"clause\"}:sell"
     }
   ],
-  "lastSync": "2026-08-08T22:00:08.573715+00:00",
+  "lastSync": "2026-08-09T04:47:21.576529+00:00",
   "teamValues": {
-    "valero10": 36370000,
+    "valero10": 37000000,
     "Diablos Cojos": 21140000,
     "FC Carcelona": 20050000,
     "Saltamonti": 29610000,
     "Quim fc": 28170000,
     "Jajajajajaja": 42750000,
-    "Yastariabros": 16480000,
+    "Yastariabros": 15850000,
     "anihi and the anihaloors": 38790000,
     "Tietes FC": 36020000,
     "Reial Club Estanislau": 32800000,
