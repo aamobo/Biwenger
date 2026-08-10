@@ -1735,9 +1735,17 @@
       "detail": "Jugador #12404",
       "date": "2026-08-10",
       "sourceId": "market|1786338219|10|{\"amount\": 150000, \"player\": 12404, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 715800,
+      "detail": "Jugador #37724",
+      "date": "2026-08-10",
+      "sourceId": "transfer|1786340607|0|{\"amount\": 715800, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 37724}:sell"
     }
   ],
-  "lastSync": "2026-08-10T05:11:19.995511+00:00",
+  "lastSync": "2026-08-10T06:46:27.009315+00:00",
   "teamValues": {
     "valero10": 39830000,
     "Diablos Cojos": 35310000,
@@ -1754,6 +1762,6 @@
     "Tikitaki de Aatun": 42180000,
     "Error del sistema": 32670000,
     "FCodina": 28670000,
-    "Real Vicentón Balompié": 36120000
+    "Real Vicentón Balompié": 35440000
   }
 }
