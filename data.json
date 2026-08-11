@@ -1903,9 +1903,25 @@
       "detail": "Jugador #41271",
       "date": "2026-08-11",
       "sourceId": "transfer|1786463220|0|{\"amount\": 3531600, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 41271}:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 2016600,
+      "detail": "Jugador #11045",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786485987|0|{\"amount\": 2016600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 11045}:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 1613200,
+      "detail": "Jugador #39673",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786481528|0|{\"amount\": 1613200, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 39673}:sell"
     }
   ],
-  "lastSync": "2026-08-11T20:22:22.303767+00:00",
+  "lastSync": "2026-08-11T23:22:53.063004+00:00",
   "teamValues": {
     "Saltamonti": 50820000,
     "valero10": 41230000,
@@ -1915,8 +1931,8 @@
     "FC Carcelona": 28390000,
     "Yastariabros": 16000000,
     "Reial Club Estanislau": 34100000,
-    "Tietes FC": 38340000,
-    "Quim fc": 37800000,
+    "Tietes FC": 36850000,
+    "Quim fc": 35800000,
     "Gruu": 38890000,
     "Keko Kane": 44680000,
     "Tikitaki de Aatun": 39230000,
