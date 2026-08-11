@@ -1863,14 +1863,46 @@
       "detail": "Jugador #38095",
       "date": "2026-08-11",
       "sourceId": "market|1786424628|4|{\"amount\": 1880000, \"bids\": [{\"amount\": 1782000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}, {\"amount\": 1680140, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 38095, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 3190500,
+      "detail": "Jugador #28282",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786440058|0|{\"amount\": 3190500, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 28282}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 1423200,
+      "detail": "Jugador #35706",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786437902|0|{\"amount\": 1423200, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 35706}:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 2945300,
+      "detail": "Jugador #6259",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786437902|1|{\"amount\": 2945300, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 6259}:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 1690600,
+      "detail": "Jugador #38517",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786435099|0|{\"amount\": 1690600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 38517}:sell"
     }
   ],
-  "lastSync": "2026-08-11T05:22:11.629962+00:00",
+  "lastSync": "2026-08-11T09:36:36.536821+00:00",
   "teamValues": {
     "Saltamonti": 50820000,
-    "valero10": 45660000,
+    "valero10": 41230000,
     "Diablos Cojos": 35550000,
-    "anihi and the anihaloors": 39360000,
+    "anihi and the anihaloors": 37620000,
     "Jajajajajaja": 40300000,
     "FC Carcelona": 31840000,
     "Yastariabros": 16000000,
@@ -1882,6 +1914,6 @@
     "Tikitaki de Aatun": 39230000,
     "Error del sistema": 32750000,
     "Real Vicentón Balompié": 35750000,
-    "FCodina": 31670000
+    "FCodina": 28590000
   }
 }
