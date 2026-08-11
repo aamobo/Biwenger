@@ -1895,16 +1895,24 @@
       "detail": "Jugador #38517",
       "date": "2026-08-11",
       "sourceId": "transfer|1786435099|0|{\"amount\": 1690600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 38517}:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 3531600,
+      "detail": "Jugador #41271",
+      "date": "2026-08-11",
+      "sourceId": "transfer|1786463220|0|{\"amount\": 3531600, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 41271}:sell"
     }
   ],
-  "lastSync": "2026-08-11T15:30:24.589906+00:00",
+  "lastSync": "2026-08-11T20:22:22.303767+00:00",
   "teamValues": {
     "Saltamonti": 50820000,
     "valero10": 41230000,
     "Diablos Cojos": 35550000,
     "anihi and the anihaloors": 37620000,
     "Jajajajajaja": 40300000,
-    "FC Carcelona": 31840000,
+    "FC Carcelona": 28390000,
     "Yastariabros": 16000000,
     "Reial Club Estanislau": 34100000,
     "Tietes FC": 38340000,
