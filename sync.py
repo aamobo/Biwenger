@@ -211,10 +211,19 @@ def main():
     team_values = {s.get("name"): s.get("teamValue") for s in standings_list if s.get("name") and s.get("teamValue") is not None}
 
     print("Descargando tablón de actividad...")
-    board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 300})
+    board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 1000})
+    board_events = board if isinstance(board, list) else board.get("data", [])
+    print(f"[debug] Eventos totales recibidos del tablón: {len(board_events)}")
 
     players_map, players_values = get_players_data()
     new_transactions = extract_transactions(board, id_to_name, players_map, players_values)
+
+    own_manager_name = id_to_name.get(league_user_id)
+    if own_manager_name:
+        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "ajuste": 1}
+        own_moves = [t for t in new_transactions if t.get("manager") == own_manager_name]
+        net = sum(sign_map.get(t["type"], 0) * t["amount"] for t in own_moves)
+        print(f"[debug] En este lote de {len(board_events)} eventos, movimientos detectados para {own_manager_name}: {len(own_moves)} (neto: {net})")
 
     with open("board_raw.json", "w", encoding="utf-8") as f:
         json.dump(board, f, ensure_ascii=False, indent=2)
@@ -271,6 +280,13 @@ def main():
 
     print(f"Movimientos nuevos añadidos: {added}")
     print(f"Total movimientos guardados: {len(existing['transactions'])}")
+
+    if own_manager_name:
+        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "ajuste": 1}
+        all_own = [t for t in existing["transactions"] if t.get("manager") == own_manager_name]
+        net_total = sum(sign_map.get(t["type"], 0) * t["amount"] for t in all_own)
+        print(f"[debug] Historial completo guardado para {own_manager_name}: {len(all_own)} movimientos, neto acumulado: {net_total}")
+        print(f"[debug] Compara: tu saldo real de Biwenger debería ser aprox. 40.000.000 - (tu valor de plantilla inicial en overrides.json) + {net_total}")
 
 
 if __name__ == "__main__":
