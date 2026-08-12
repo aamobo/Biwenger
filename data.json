@@ -1919,25 +1919,89 @@
       "detail": "Jugador #39673",
       "date": "2026-08-11",
       "sourceId": "transfer|1786481528|0|{\"amount\": 1613200, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 39673}:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 405000,
+      "detail": "Jugador #39350",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|0|{\"amount\": 405000, \"bids\": [{\"amount\": 333330, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 330001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 39350, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 2000000,
+      "detail": "Jugador #14800",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|1|{\"amount\": 2000000, \"bids\": [{\"amount\": 1996180, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 14800, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 5000000,
+      "detail": "Jugador #2001",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|2|{\"amount\": 5000000, \"bids\": [{\"amount\": 4865670, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 4817280, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"player\": 2001, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 2755000,
+      "detail": "Jugador #32363",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|3|{\"amount\": 2755000, \"player\": 32363, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 4060420,
+      "detail": "Jugador #17731",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|4|{\"amount\": 4060420, \"bids\": [{\"amount\": 4038218, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 17731, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 3325000,
+      "detail": "Jugador #39885",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|5|{\"amount\": 3325000, \"player\": 39885, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 5299910,
+      "detail": "Jugador #9480",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|6|{\"amount\": 5299910, \"bids\": [{\"amount\": 5022510, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 4824410, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 9480, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 4125600,
+      "detail": "Jugador #39804",
+      "date": "2026-08-12",
+      "sourceId": "market|1786511143|7|{\"amount\": 4125600, \"player\": 39804, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
     }
   ],
-  "lastSync": "2026-08-11T23:22:53.063004+00:00",
+  "lastSync": "2026-08-12T05:46:30.041007+00:00",
   "teamValues": {
-    "Saltamonti": 50820000,
-    "valero10": 41230000,
-    "Diablos Cojos": 35550000,
-    "anihi and the anihaloors": 37620000,
-    "Jajajajajaja": 40300000,
-    "FC Carcelona": 28390000,
-    "Yastariabros": 16000000,
-    "Reial Club Estanislau": 34100000,
-    "Tietes FC": 36850000,
-    "Quim fc": 35800000,
-    "Gruu": 38890000,
-    "Keko Kane": 44680000,
-    "Tikitaki de Aatun": 39230000,
-    "Error del sistema": 32750000,
-    "Real Vicentón Balompié": 35750000,
-    "FCodina": 28590000
+    "valero10": 41310000,
+    "Saltamonti": 55190000,
+    "Diablos Cojos": 35650000,
+    "anihi and the anihaloors": 41950000,
+    "Jajajajajaja": 40540000,
+    "FC Carcelona": 33240000,
+    "Yastariabros": 16060000,
+    "Reial Club Estanislau": 39350000,
+    "Quim fc": 38750000,
+    "Tietes FC": 42850000,
+    "Gruu": 39310000,
+    "Keko Kane": 44980000,
+    "Tikitaki de Aatun": 39360000,
+    "Error del sistema": 32870000,
+    "Real Vicentón Balompié": 35960000,
+    "FCodina": 28800000
   }
 }
