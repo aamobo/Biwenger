@@ -2137,9 +2137,42 @@
       "detail": "Óscar Valentín",
       "date": "2026-08-12",
       "sourceId": "transfer|1786520345|0|1594880|5352|1683100:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 150000,
+      "detail": "Berrocal",
+      "playerId": 12404,
+      "date": "2026-08-10",
+      "sourceId": "market|1786338219|10|11770405|12404|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 777000,
+      "detail": "Luis García",
+      "playerId": 21854,
+      "date": "2026-08-08",
+      "sourceId": "market|1786165541|8|14039644|21854|777000:buy",
+      "overpay": 157000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 150000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-04",
+      "sourceId": "market|1785820061|12|1594869|25815|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
     }
   ],
-  "lastSync": "2026-08-12T08:44:43.887647+00:00",
+  "lastSync": "2026-08-12T08:52:21.173825+00:00",
   "teamValues": {
     "valero10": 41310000,
     "Saltamonti": 55190000,
