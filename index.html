@@ -346,6 +346,7 @@
         <div class="tx-body">
           <div class="tx-line1"><span class="who">${escapeHtml(t.manager)}</span> <span class="type-label">· ${escapeHtml(meta.label)}</span></div>
           ${t.detail ? `<div class="tx-detail" data-player-detail="${escapeHtml(t.detail)}" style="cursor:pointer; text-decoration:underline dotted; text-underline-offset:2px;">${escapeHtml(t.detail)}</div>` : ''}
+          ${typeof t.overpay === 'number' ? `<div class="tx-detail" style="color:var(--gold);">${t.overpay >= 0 ? 'Pagó' : 'Ahorró'} ${fmt(Math.abs(t.overpay))} ${t.overpay >= 0 ? 'de más' : ''} respecto a ${t.overpayRef || 'su valor de referencia'}</div>` : ''}
         </div>
         <div class="tx-amount ${meta.cls}">${sign}${fmt(Math.abs(d))}</div>
       </div>`;
