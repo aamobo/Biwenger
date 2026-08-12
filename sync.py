@@ -43,41 +43,60 @@ def get_json(url, token, league_id=None, user_id=None, params=None):
     return data.get("data", data)
 
 
-def get_players_map():
+def get_players_data():
     """
-    Diccionario id de jugador -> nombre real, sacado del listado público
-    de La Liga de Biwenger (no necesita sesión ni cabeceras de liga).
-    Si algo falla, devolvemos un diccionario vacío y seguimos sin nombres
-    (mejor eso que romper toda la sincronización).
+    Devuelve (id_a_nombre, id_a_valor_mercado) de todos los jugadores de
+    La Liga. Prueba varias rutas porque una de ellas puede estar
+    bloqueada para tráfico automatizado (protección anti-bots); si todas
+    fallan, devolvemos diccionarios vacíos y seguimos sin nombres/valores
+    (mejor eso que romper la sincronización).
     """
-    try:
-        r = requests.get(
-            "https://cf.biwenger.com/api/v2/competitions/la-liga/data",
-            params={"score": 2},
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"},
-            timeout=20,
-        )
-        r.raise_for_status()
-        data = r.json()
-        data = data.get("data", data)
-        players_data = data.get("players", {})
-        players_map = {}
-        if isinstance(players_data, dict):
-            for pid, p in players_data.items():
-                if isinstance(p, dict) and p.get("name"):
-                    players_map[str(pid)] = p["name"]
-        elif isinstance(players_data, list):
-            for p in players_data:
-                if isinstance(p, dict) and p.get("id") is not None and p.get("name"):
-                    players_map[str(p["id"])] = p["name"]
-        print(f"Nombres de jugadores descargados: {len(players_map)}")
-        return players_map
-    except Exception as e:
-        print(f"[aviso] No se pudo descargar el listado de jugadores ({e}). Se usarán números de ficha.")
-        return {}
+    attempts = [
+        "https://biwenger.as.com/api/v2/competitions/la-liga/data",
+        "https://cf.biwenger.com/api/v2/competitions/la-liga/data",
+    ]
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
+    for url in attempts:
+        try:
+            r = requests.get(url, params={"score": 2}, headers=headers, timeout=20)
+            print(f"[debug] Probando listado de jugadores en {url} -> status {r.status_code}")
+            if not r.ok:
+                continue
+            data = r.json()
+            data = data.get("data", data)
+            players_data = data.get("players", {})
+
+            entries = []
+            if isinstance(players_data, dict):
+                entries = [(pid, p) for pid, p in players_data.items()]
+            elif isinstance(players_data, list):
+                entries = [(p.get("id"), p) for p in players_data if isinstance(p, dict)]
+
+            names, values = {}, {}
+            for pid, p in entries:
+                if pid is None or not isinstance(p, dict):
+                    continue
+                if p.get("name"):
+                    names[str(pid)] = p["name"]
+                pv = p.get("price")
+                if pv is None:
+                    pv = p.get("marketValue")
+                if pv is None:
+                    pv = p.get("value")
+                if isinstance(pv, (int, float)):
+                    values[str(pid)] = pv
+
+            if names:
+                print(f"Nombres de jugadores descargados: {len(names)} (con valor de mercado: {len(values)})")
+                return names, values
+        except Exception as e:
+            print(f"[aviso] Fallo consultando {url}: {e}")
+
+    print("[aviso] No se pudo descargar el listado de jugadores por ninguna vía. Se usarán números de ficha.")
+    return {}, {}
 
 
-def extract_transactions(board, id_to_name, players_map):
+def extract_transactions(board, id_to_name, players_map, players_values):
     events = board if isinstance(board, list) else board.get("data", [])
     transactions = []
 
@@ -135,8 +154,25 @@ def extract_transactions(board, id_to_name, players_map):
             elif ("transfer" in etype or "market" in etype) and amount:
                 buyer = to_user.get("name") or id_to_name.get(to_user.get("id"), "")
                 seller = from_user.get("name") or id_to_name.get(from_user.get("id"), "")
+                overpay = None
+                overpay_ref = None
+                market_value = players_values.get(str(player_id)) if player_id is not None else None
+                if isinstance(market_value, (int, float)):
+                    overpay = amount - market_value
+                    overpay_ref = "su valor de mercado"
+                else:
+                    raw_bids = content.get("bids")
+                    if isinstance(raw_bids, list) and raw_bids:
+                        bid_amounts = [b.get("amount") for b in raw_bids if isinstance(b, dict) and isinstance(b.get("amount"), (int, float))]
+                        if bid_amounts:
+                            overpay = amount - max(bid_amounts)
+                            overpay_ref = "la siguiente puja"
                 if buyer:
-                    transactions.append({"manager": buyer, "type": "compra", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":buy"})
+                    tx = {"manager": buyer, "type": "compra", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":buy"}
+                    if overpay is not None:
+                        tx["overpay"] = overpay
+                        tx["overpayRef"] = overpay_ref
+                    transactions.append(tx)
                 if seller:
                     transactions.append({"manager": seller, "type": "venta", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":sell"})
 
@@ -177,8 +213,8 @@ def main():
     print("Descargando tablón de actividad...")
     board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 300})
 
-    players_map = get_players_map()
-    new_transactions = extract_transactions(board, id_to_name, players_map)
+    players_map, players_values = get_players_data()
+    new_transactions = extract_transactions(board, id_to_name, players_map, players_values)
 
     with open("board_raw.json", "w", encoding="utf-8") as f:
         json.dump(board, f, ensure_ascii=False, indent=2)
