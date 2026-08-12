@@ -481,14 +481,6 @@
       "sourceId": "market|1785820061|11|{\"amount\": 150000, \"player\": 26299, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
     },
     {
-      "manager": "Saltamonti",
-      "type": "compra",
-      "amount": 150000,
-      "detail": "Jugador #25815",
-      "date": "2026-08-04",
-      "sourceId": "market|1785820061|12|{\"amount\": 150000, \"player\": 25815, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
-    },
-    {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 167500,
@@ -671,78 +663,6 @@
       "detail": "Jugador #25778",
       "date": "2026-08-04",
       "sourceId": "transfer|1785826261|3|{\"amount\": 157400, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 25778}:sell"
-    },
-    {
-      "manager": "Reial Club Estanislau",
-      "type": "compra",
-      "amount": 3841850,
-      "detail": "Jugador #2253",
-      "date": "2026-08-04",
-      "sourceId": "market|1785820061|4|{\"amount\": 3841850, \"bids\": [{\"amount\": 3826580, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 3486990, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 2253, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
-    },
-    {
-      "manager": "FC Carcelona",
-      "type": "compra",
-      "amount": 10500000,
-      "detail": "Jugador #30495",
-      "date": "2026-08-04",
-      "sourceId": "market|1785820061|6|{\"amount\": 10500000, \"bids\": [{\"amount\": 10250000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 9987920, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 30495, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "clausula_subida",
-      "amount": 1247000,
-      "detail": "Jugador #34805",
-      "date": "2026-08-03",
-      "sourceId": "clauseincrement|1785746569|0|{\"amount\": 1247000, \"player\": 34805, \"releaseClause\": 3000600, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "venta",
-      "amount": 147900,
-      "detail": "Jugador #38144",
-      "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|0|{\"amount\": 147900, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38144}:sell"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "venta",
-      "amount": 145400,
-      "detail": "Jugador #38424",
-      "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|1|{\"amount\": 145400, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38424}:sell"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "venta",
-      "amount": 152600,
-      "detail": "Jugador #39835",
-      "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|2|{\"amount\": 152600, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 39835}:sell"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "venta",
-      "amount": 152500,
-      "detail": "Jugador #41567",
-      "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|3|{\"amount\": 152500, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 41567}:sell"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "compra",
-      "amount": 6417730,
-      "detail": "Jugador #2009",
-      "date": "2026-08-03",
-      "sourceId": "market|1785733551|11|{\"amount\": 6417730, \"bids\": [{\"amount\": 6241510, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 6052000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 2009, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "compra",
-      "amount": 7878860,
-      "detail": "Jugador #19547",
-      "date": "2026-08-03",
-      "sourceId": "market|1785733551|13|{\"amount\": 7878860, \"bids\": [{\"amount\": 7500000, \"user\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}, {\"amount\": 6988750, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 19547, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
     },
     {
       "manager": "valero10",
@@ -1433,14 +1353,6 @@
       "sourceId": "market|1786165541|7|{\"amount\": 5703970, \"bids\": [{\"amount\": 5681700, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 5493830, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 1613, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
     },
     {
-      "manager": "Quim fc",
-      "type": "compra",
-      "amount": 777000,
-      "detail": "Jugador #21854",
-      "date": "2026-08-08",
-      "sourceId": "market|1786165541|8|{\"amount\": 777000, \"bids\": [{\"amount\": 560001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 551030, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 21854, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
-    },
-    {
       "manager": "Diablos Cojos",
       "type": "compra",
       "amount": 12200010,
@@ -1729,14 +1641,6 @@
       "sourceId": "market|1786338219|9|{\"amount\": 2382490, \"bids\": [{\"amount\": 2296500, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 2069510, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 91, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
     },
     {
-      "manager": "FC Carcelona",
-      "type": "compra",
-      "amount": 150000,
-      "detail": "Jugador #12404",
-      "date": "2026-08-10",
-      "sourceId": "market|1786338219|10|{\"amount\": 150000, \"player\": 12404, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
-    },
-    {
       "manager": "Real Vicentón Balompié",
       "type": "venta",
       "amount": 715800,
@@ -1985,7 +1889,7 @@
       "sourceId": "market|1786511143|7|{\"amount\": 4125600, \"player\": 39804, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
     }
   ],
-  "lastSync": "2026-08-12T05:46:30.041007+00:00",
+  "lastSync": "2026-08-12T07:00:23.172736+00:00",
   "teamValues": {
     "valero10": 41310000,
     "Saltamonti": 55190000,
