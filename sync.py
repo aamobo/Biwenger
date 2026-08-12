@@ -177,14 +177,14 @@ def extract_transactions(board, id_to_name, players_map, players_values):
             if etype == "clauseincrement" and amount:
                 manager = clause_user.get("name") or id_to_name.get(clause_user.get("id"), "")
                 if manager:
-                    transactions.append({"manager": manager, "type": "clausula_subida", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id})
+                    transactions.append({"manager": manager, "type": "clausula_subida", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id})
             elif "clause" in etype and amount:
                 buyer = to_user.get("name") or id_to_name.get(to_user.get("id"), "")
                 seller = from_user.get("name") or id_to_name.get(from_user.get("id"), "")
                 if buyer:
-                    transactions.append({"manager": buyer, "type": "clausula_pagada", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":buy"})
+                    transactions.append({"manager": buyer, "type": "clausula_pagada", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id + ":buy"})
                 if seller:
-                    transactions.append({"manager": seller, "type": "clausula_cobrada", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":sell"})
+                    transactions.append({"manager": seller, "type": "clausula_cobrada", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id + ":sell"})
             elif ("transfer" in etype or "market" in etype) and amount:
                 buyer = to_user.get("name") or id_to_name.get(to_user.get("id"), "")
                 seller = from_user.get("name") or id_to_name.get(from_user.get("id"), "")
@@ -202,13 +202,13 @@ def extract_transactions(board, id_to_name, players_map, players_values):
                             overpay = amount - max(bid_amounts)
                             overpay_ref = "la siguiente puja"
                 if buyer:
-                    tx = {"manager": buyer, "type": "compra", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":buy"}
+                    tx = {"manager": buyer, "type": "compra", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id + ":buy"}
                     if overpay is not None:
                         tx["overpay"] = overpay
                         tx["overpayRef"] = overpay_ref
                     transactions.append(tx)
                 if seller:
-                    transactions.append({"manager": seller, "type": "venta", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id + ":sell"})
+                    transactions.append({"manager": seller, "type": "venta", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id + ":sell"})
 
     return transactions
 
@@ -308,7 +308,8 @@ def main():
     best_by_key = {}
     order = []
     for t in existing["transactions"]:
-        key = (t.get("manager"), t.get("type"), t.get("amount"), t.get("date"))
+        player_key = t["playerId"] if t.get("playerId") is not None else t.get("detail")
+        key = (t.get("manager"), t.get("type"), t.get("amount"), t.get("date"), player_key)
         if key not in best_by_key:
             best_by_key[key] = t
             order.append(key)
@@ -327,6 +328,28 @@ def main():
 
     print(f"Movimientos nuevos añadidos: {added}")
     print(f"Total movimientos guardados: {len(existing['transactions'])}")
+
+    # Chequeo para TODOS los managers (no solo el tuyo): buscamos grupos de
+    # movimientos que comparten manager+tipo+importe+fecha, el mismo patrón
+    # que causó el fallo de los 150.000 €. Si dentro de un grupo hay más de
+    # un playerId distinto, es señal de que había varios movimientos reales
+    # y ahora se están guardando todos por separado (correcto). Si vieras
+    # aquí un grupo con un solo playerId y más de una entrada, sería un
+    # duplicado real que seguiría sin arreglar.
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for t in existing["transactions"]:
+        loose_key = (t.get("manager"), t.get("type"), t.get("amount"), t.get("date"))
+        groups[loose_key].append(t)
+    collisions = {k: v for k, v in groups.items() if len(v) > 1}
+    if collisions:
+        print(f"\n[debug] Grupos con mismo manager+tipo+importe+fecha en TODA la liga: {len(collisions)}")
+        for (manager, ttype, amount, date), items in collisions.items():
+            player_ids = {i.get("playerId") for i in items}
+            estado = "OK, jugadores distintos" if len(player_ids) == len(items) else "REVISAR: posible duplicado real"
+            print(f"  - {manager} | {ttype} | {amount} | {date} | {len(items)} movimientos | {estado}")
+    else:
+        print("\n[debug] No hay grupos con manager+tipo+importe+fecha repetidos en toda la liga.")
 
     if own_manager_name:
         sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "ajuste": 1}
