@@ -54,6 +54,7 @@ def get_players_map():
         r = requests.get(
             "https://cf.biwenger.com/api/v2/competitions/la-liga/data",
             params={"score": 2},
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"},
             timeout=20,
         )
         r.raise_for_status()
@@ -96,9 +97,12 @@ def extract_transactions(board, id_to_name, players_map):
                 continue
 
             amount = content.get("amount") or content.get("price")
-            to_user = content.get("to") or {}
-            from_user = content.get("from") or {}
-            clause_user = content.get("user") or {}
+            raw_to = content.get("to")
+            to_user = raw_to if isinstance(raw_to, dict) else {}
+            raw_from = content.get("from")
+            from_user = raw_from if isinstance(raw_from, dict) else {}
+            raw_clause_user = content.get("user")
+            clause_user = raw_clause_user if isinstance(raw_clause_user, dict) else {}
             player_field = content.get("player")
 
             if isinstance(player_field, dict):
