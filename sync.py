@@ -237,19 +237,29 @@ def main():
 
     # Limpieza de seguridad: si por lo que sea se coló algún duplicado
     # (identificador distinto pero mismo movimiento real), lo quitamos.
-    # No usamos el "detalle" en la clave porque puede cambiar si antes
-    # salía como "Jugador #ID" y ahora ya tenemos el nombre real.
-    seen = set()
-    deduped = []
-    removed = 0
+    # Cuando hay dos versiones del mismo movimiento, nos quedamos con la
+    # más completa (con nombre real del jugador y sobrepago si lo tiene),
+    # no con la primera que encontremos.
+    def richness(t):
+        score = 0
+        detail = t.get("detail") or ""
+        if detail and not detail.startswith("Jugador #"):
+            score += 2
+        if "overpay" in t:
+            score += 1
+        return score
+
+    best_by_key = {}
+    order = []
     for t in existing["transactions"]:
         key = (t.get("manager"), t.get("type"), t.get("amount"), t.get("date"))
-        if key in seen:
-            removed += 1
-            continue
-        seen.add(key)
-        deduped.append(t)
-    existing["transactions"] = deduped
+        if key not in best_by_key:
+            best_by_key[key] = t
+            order.append(key)
+        elif richness(t) > richness(best_by_key[key]):
+            best_by_key[key] = t
+    removed = len(existing["transactions"]) - len(order)
+    existing["transactions"] = [best_by_key[k] for k in order]
     if removed:
         print(f"Movimientos duplicados eliminados: {removed}")
 
