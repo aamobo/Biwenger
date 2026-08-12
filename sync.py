@@ -248,6 +248,20 @@ def main():
     board_events = fetch_full_board(token, league_id, league_user_id)
     print(f"[debug] Eventos totales recibidos del tablón: {len(board_events)}")
 
+    reset_dates = [
+        e.get("date") for e in board_events
+        if str(e.get("type", "")).lower() in ("leaguereset", "seasonfinished")
+        and isinstance(e.get("date"), (int, float))
+    ]
+    if reset_dates:
+        season_start_ts = max(reset_dates)
+        before_count = len(board_events)
+        board_events = [
+            e for e in board_events
+            if isinstance(e.get("date"), (int, float)) and e.get("date") >= season_start_ts
+        ]
+        print(f"[debug] Cortando en el inicio de temporada (fecha {season_start_ts}): {before_count} -> {len(board_events)} eventos")
+
     players_map, players_values = get_players_data()
     new_transactions = extract_transactions(board_events, id_to_name, players_map, players_values)
 
