@@ -96,6 +96,40 @@ def get_players_data():
     return {}, {}
 
 
+def fetch_full_board(token, league_id, league_user_id, page_size=500, max_pages=20):
+    """
+    Trae el tablón de actividad paginando, en vez de fiarnos de un único
+    "limit" fijo que algún día se quede corto y nos haga perder
+    movimientos antiguos. Para en cuanto una página viene más corta que
+    lo pedido (fin de los datos) o si detecta que la paginación no
+    avanza (por si Biwenger no soporta "offset" como esperamos, en cuyo
+    caso lo veremos en el log y lo ajustamos).
+    """
+    all_events = []
+    seen_first_marker = None
+    offset = 0
+    for page in range(max_pages):
+        page_events = get_json(
+            f"{API}/league/{league_id}/board", token, league_id, league_user_id,
+            params={"limit": page_size, "offset": offset}
+        )
+        page_events = page_events if isinstance(page_events, list) else page_events.get("data", [])
+        if not page_events:
+            print(f"[debug] Página {page + 1}: vacía, fin del tablón.")
+            break
+        marker = (page_events[0].get("id"), page_events[0].get("date"))
+        print(f"[debug] Página {page + 1}: {len(page_events)} eventos (offset={offset}), primer evento fecha={page_events[0].get('date')}")
+        if marker == seen_first_marker:
+            print("[aviso] La paginación no avanza (puede que 'offset' no esté soportado). Me quedo con lo ya traído.")
+            break
+        seen_first_marker = marker
+        all_events.extend(page_events)
+        if len(page_events) < page_size:
+            break
+        offset += page_size
+    return all_events
+
+
 def extract_transactions(board, id_to_name, players_map, players_values):
     events = board if isinstance(board, list) else board.get("data", [])
     transactions = []
@@ -210,13 +244,12 @@ def main():
     id_to_name = {s.get("id"): s.get("name") for s in standings_list if s.get("id") is not None}
     team_values = {s.get("name"): s.get("teamValue") for s in standings_list if s.get("name") and s.get("teamValue") is not None}
 
-    print("Descargando tablón de actividad...")
-    board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 1000})
-    board_events = board if isinstance(board, list) else board.get("data", [])
+    print("Descargando tablón de actividad (con paginación completa)...")
+    board_events = fetch_full_board(token, league_id, league_user_id)
     print(f"[debug] Eventos totales recibidos del tablón: {len(board_events)}")
 
     players_map, players_values = get_players_data()
-    new_transactions = extract_transactions(board, id_to_name, players_map, players_values)
+    new_transactions = extract_transactions(board_events, id_to_name, players_map, players_values)
 
     own_manager_name = id_to_name.get(league_user_id)
     if own_manager_name:
@@ -226,7 +259,7 @@ def main():
         print(f"[debug] En este lote de {len(board_events)} eventos, movimientos detectados para {own_manager_name}: {len(own_moves)} (neto: {net})")
 
     with open("board_raw.json", "w", encoding="utf-8") as f:
-        json.dump(board, f, ensure_ascii=False, indent=2)
+        json.dump(board_events, f, ensure_ascii=False, indent=2)
 
     # Cargar lo que ya teníamos y añadir solo lo nuevo (sin duplicar)
     try:
