@@ -2206,9 +2206,18 @@
       "playerId": 41157,
       "date": "2026-08-12",
       "sourceId": "transfer|1786529686|2|1594907|41157|243600:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 3105900,
+      "detail": "Santiago Mouriño",
+      "playerId": 31018,
+      "date": "2026-08-12",
+      "sourceId": "transfer|1786564035|0|12756155|31018|3105900:sell"
     }
   ],
-  "lastSync": "2026-08-12T15:30:57.302095+00:00",
+  "lastSync": "2026-08-12T20:11:42.973614+00:00",
   "teamValues": {
     "valero10": 33320000,
     "Saltamonti": 55190000,
@@ -2219,7 +2228,7 @@
     "Yastariabros": 16060000,
     "Reial Club Estanislau": 39350000,
     "Quim fc": 38750000,
-    "Tietes FC": 42850000,
+    "Tietes FC": 39680000,
     "Gruu": 39310000,
     "Keko Kane": 44980000,
     "Tikitaki de Aatun": 39360000,
