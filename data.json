@@ -4,1892 +4,2142 @@
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 1279900,
-      "detail": "Jugador #32042",
+      "detail": "Gonzalo García",
       "date": "2026-08-02",
-      "sourceId": "transfer|1785674731|0|{\"amount\": 1279900, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 32042}:sell"
+      "sourceId": "transfer|1785674731|0|1594869|32042|1279900:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 846000,
-      "detail": "Jugador #35901",
+      "detail": "Thiago Almada",
       "date": "2026-08-02",
-      "sourceId": "transfer|1785677798|0|{\"amount\": 846000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 35901}:sell"
+      "sourceId": "transfer|1785677798|0|1603117|35901|846000:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 1289200,
-      "detail": "Jugador #42412",
+      "detail": "Moscardo",
       "date": "2026-08-02",
-      "sourceId": "transfer|1785677798|1|{\"amount\": 1289200, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 42412}:sell"
+      "sourceId": "transfer|1785677798|1|1603117|42412|1289200:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 338900,
-      "detail": "Jugador #27994",
+      "detail": "Diego López",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785743967|0|{\"amount\": 338900, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 27994}:sell"
+      "sourceId": "transfer|1785743967|0|1594869|27994|338900:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 779400,
-      "detail": "Jugador #37898",
+      "detail": "Hugo Rincón",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785740383|0|{\"amount\": 779400, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 37898}:sell"
+      "sourceId": "transfer|1785740383|0|1597817|37898|779400:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 165500,
-      "detail": "Jugador #41022",
+      "detail": "Álvaro Cortés",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785740383|1|{\"amount\": 165500, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 41022}:sell"
+      "sourceId": "transfer|1785740383|1|1597817|41022|165500:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 285600,
-      "detail": "Jugador #40075",
+      "detail": "Xavi Espart",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785740383|2|{\"amount\": 285600, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 40075}:sell"
+      "sourceId": "transfer|1785740383|2|1597817|40075|285600:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 152200,
-      "detail": "Jugador #42269",
+      "detail": "Pablo Arriaza",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785740383|3|{\"amount\": 152200, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 42269}:sell"
+      "sourceId": "transfer|1785740383|3|1597817|42269|152200:sell"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 7170000,
-      "detail": "Jugador #6837",
+      "detail": "Soler",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|0|{\"amount\": 7170000, \"bids\": [{\"amount\": 6659330, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 5620000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 6837, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785733551|0|13990414|6837|7170000:buy",
+      "overpay": 1330000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 1590000,
-      "detail": "Jugador #26592",
+      "detail": "Tárrega",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|1|{\"amount\": 1590000, \"bids\": [{\"amount\": 1490000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 1456230, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 26592, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785733551|1|13990414|26592|1590000:buy",
+      "overpay": -240000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Yastariabros",
       "type": "compra",
       "amount": 1870000,
-      "detail": "Jugador #33839",
+      "detail": "Javi Rodríguez",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|2|{\"amount\": 1870000, \"bids\": [{\"amount\": 1870000, \"date\": 1785704730, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 1860480, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"date\": 1785671399, \"player\": 33839, \"to\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}}:buy"
+      "sourceId": "market|1785733551|2|2061477|33839|1870000:buy",
+      "overpay": -280000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 3523000,
-      "detail": "Jugador #17937",
+      "detail": "Iván Romero",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|3|{\"amount\": 3523000, \"bids\": [{\"amount\": 3480000, \"user\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}}, {\"amount\": 3260580, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 17937, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785733551|3|1603117|17937|3523000:buy",
+      "overpay": -117000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 2300000,
-      "detail": "Jugador #19513",
+      "detail": "Pellegrini",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|4|{\"amount\": 2300000, \"bids\": [{\"amount\": 2200000, \"user\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}, {\"amount\": 2197000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 19513, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1785733551|4|12756155|19513|2300000:buy",
+      "overpay": -20000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 5570000,
-      "detail": "Jugador #5220",
+      "detail": "Fran García",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|5|{\"amount\": 5570000, \"bids\": [{\"amount\": 5270000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 5187270, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 5220, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785733551|5|13990414|5220|5570000:buy",
+      "overpay": 60000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 4310000,
-      "detail": "Jugador #37600",
+      "detail": "Ionut Radu",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|6|{\"amount\": 4310000, \"bids\": [{\"amount\": 4100000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}, {\"amount\": 3780160, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 37600, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785733551|6|13990414|37600|4310000:buy",
+      "overpay": 460000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 2254370,
-      "detail": "Jugador #31321",
+      "detail": "Starfelt",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|7|{\"amount\": 2254370, \"bids\": [{\"amount\": 2245670, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 2240010, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 31321, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785733551|7|1603117|31321|2254370:buy",
+      "overpay": -745630,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 2530000,
-      "detail": "Jugador #26092",
+      "detail": "Terrats",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|8|{\"amount\": 2530000, \"bids\": [{\"amount\": 1950000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 1941000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 26092, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785733551|8|13990414|26092|2530000:buy",
+      "overpay": -560000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1780000,
-      "detail": "Jugador #42459",
+      "detail": "Jensen",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|9|{\"amount\": 1780000, \"bids\": [{\"amount\": 1701000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 1691590, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 42459, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1785733551|9|13979073|42459|1780000:buy",
+      "overpay": 30000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 2230000,
-      "detail": "Jugador #1523",
+      "detail": "Iago Aspas",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|10|{\"amount\": 2230000, \"player\": 1523, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785733551|10|1603117|1523|2230000:buy",
+      "overpay": -150000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 6417730,
-      "detail": "Jugador #2009",
+      "detail": "Borja Iglesias",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|11|{\"amount\": 6417730, \"bids\": [{\"amount\": 6241510, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 6052000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 2009, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1785733551|11|13978983|2009|6417730:buy",
+      "overpay": 657730,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 3820000,
-      "detail": "Jugador #27591",
+      "detail": "Aimar Oroz",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|12|{\"amount\": 3820000, \"bids\": [{\"amount\": 3760030, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 3654200, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 27591, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1785733551|12|13979073|27591|3820000:buy",
+      "overpay": -130000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 7878860,
-      "detail": "Jugador #19547",
+      "detail": "Baena",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|13|{\"amount\": 7878860, \"bids\": [{\"amount\": 7500000, \"user\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}, {\"amount\": 6988750, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 19547, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1785733551|13|13978983|19547|7878860:buy",
+      "overpay": 378860,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 685750,
-      "detail": "Jugador #10157",
+      "detail": "Aleñá",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|14|{\"amount\": 685750, \"bids\": [{\"amount\": 610850, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 10157, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785733551|14|1603117|10157|685750:buy",
+      "overpay": -184250,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 7280000,
-      "detail": "Jugador #19860",
+      "detail": "Febas",
       "date": "2026-08-03",
-      "sourceId": "market|1785733551|15|{\"amount\": 7280000, \"player\": 19860, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1785733551|15|12756155|19860|7280000:buy",
+      "overpay": 500000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 144300,
-      "detail": "Jugador #41413",
+      "detail": "Diego Murillo",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785746574|0|{\"amount\": 144300, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 41413}:sell"
+      "sourceId": "transfer|1785746574|0|13979073|41413|144300:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 147900,
-      "detail": "Jugador #38144",
+      "detail": "Egiluz",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|0|{\"amount\": 147900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38144}:sell"
+      "sourceId": "transfer|1785746199|0|13978983|38144|147900:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 145400,
-      "detail": "Jugador #38424",
+      "detail": "Goti",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|1|{\"amount\": 145400, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 38424}:sell"
+      "sourceId": "transfer|1785746199|1|13978983|38424|145400:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 152600,
-      "detail": "Jugador #39835",
+      "detail": "Tay Abed",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|2|{\"amount\": 152600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 39835}:sell"
+      "sourceId": "transfer|1785746199|2|13978983|39835|152600:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 152500,
-      "detail": "Jugador #41567",
+      "detail": "Kevin Sánchez",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785746199|3|{\"amount\": 152500, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 41567}:sell"
+      "sourceId": "transfer|1785746199|3|13978983|41567|152500:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 142900,
-      "detail": "Jugador #34149",
+      "detail": "Letacek",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785745325|0|{\"amount\": 142900, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 34149}:sell"
+      "sourceId": "transfer|1785745325|0|13990414|34149|142900:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 919600,
-      "detail": "Jugador #26131",
+      "detail": "Andrés García",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785745325|1|{\"amount\": 919600, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 26131}:sell"
+      "sourceId": "transfer|1785745325|1|13990414|26131|919600:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 143300,
-      "detail": "Jugador #31465",
+      "detail": "Torrents",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785745325|2|{\"amount\": 143300, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 31465}:sell"
+      "sourceId": "transfer|1785745325|2|13990414|31465|143300:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 659600,
-      "detail": "Jugador #41076",
+      "detail": "Villares",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785745325|3|{\"amount\": 659600, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 41076}:sell"
+      "sourceId": "transfer|1785745325|3|13990414|41076|659600:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "clausula_subida",
       "amount": 1247000,
-      "detail": "Jugador #34805",
+      "detail": "Juan Musso",
       "date": "2026-08-03",
-      "sourceId": "clauseincrement|1785746569|0|{\"amount\": 1247000, \"player\": 34805, \"releaseClause\": 3000600, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}"
+      "sourceId": "clauseincrement|1785746569|0|13978983|34805|1247000"
     },
     {
       "manager": "Real Vicentón Balompié",
       "type": "venta",
       "amount": 155000,
-      "detail": "Jugador #30507",
+      "detail": "Benavidez",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785753487|0|{\"amount\": 155000, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 30507}:sell"
+      "sourceId": "transfer|1785753487|0|1594880|30507|155000:sell"
     },
     {
       "manager": "Real Vicentón Balompié",
       "type": "venta",
       "amount": 1327700,
-      "detail": "Jugador #29446",
+      "detail": "Miguel Rodríguez",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785753487|1|{\"amount\": 1327700, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 29446}:sell"
+      "sourceId": "transfer|1785753487|1|1594880|29446|1327700:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 2178000,
-      "detail": "Jugador #21132",
+      "detail": "Fer Niño",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785778761|0|{\"amount\": 2178000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21132, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1785778761|0|1598649|21132|2178000:buy",
+      "overpay": -1062000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 2178000,
-      "detail": "Jugador #21132",
+      "detail": "Fer Niño",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785778761|0|{\"amount\": 2178000, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21132, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1785778761|0|1598649|21132|2178000:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 5724000,
-      "detail": "Jugador #2184",
+      "detail": "Ryan",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785778761|1|{\"amount\": 5724000, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 2184, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1785778761|1|1598649|2184|5724000:buy",
+      "overpay": 1934000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 5724000,
-      "detail": "Jugador #2184",
+      "detail": "Ryan",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785778761|1|{\"amount\": 5724000, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 2184, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1785778761|1|1598649|2184|5724000:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 155300,
-      "detail": "Jugador #30334",
+      "detail": "Fortuño",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785775848|0|{\"amount\": 155300, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 30334}:sell"
+      "sourceId": "transfer|1785775848|0|14077779|30334|155300:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 240200,
-      "detail": "Jugador #17200",
+      "detail": "Aihen",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785775848|1|{\"amount\": 240200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 17200}:sell"
+      "sourceId": "transfer|1785775848|1|14077779|17200|240200:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 144000,
-      "detail": "Jugador #35426",
+      "detail": "Facundo Garcés",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785775848|2|{\"amount\": 144000, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 35426}:sell"
+      "sourceId": "transfer|1785775848|2|14077779|35426|144000:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 477600,
-      "detail": "Jugador #17121",
+      "detail": "Víctor García",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785775848|3|{\"amount\": 477600, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 17121}:sell"
+      "sourceId": "transfer|1785775848|3|14077779|17121|477600:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 685900,
-      "detail": "Jugador #27059",
+      "detail": "Molina",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785788217|0|{\"amount\": 685900, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 27059}:sell"
+      "sourceId": "transfer|1785788217|0|1594907|27059|685900:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 526500,
-      "detail": "Jugador #19141",
+      "detail": "Ruibal",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785788217|1|{\"amount\": 526500, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 19141}:sell"
+      "sourceId": "transfer|1785788217|1|1594907|19141|526500:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 1436800,
-      "detail": "Jugador #37897",
+      "detail": "Gorrotxategi",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785788217|2|{\"amount\": 1436800, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 37897}:sell"
+      "sourceId": "transfer|1785788217|2|1594907|37897|1436800:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 379600,
-      "detail": "Jugador #34613",
+      "detail": "Szczęsny",
       "date": "2026-08-03",
-      "sourceId": "transfer|1785788217|3|{\"amount\": 379600, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 34613}:sell"
+      "sourceId": "transfer|1785788217|3|1594869|34613|379600:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 5742390,
-      "detail": "Jugador #19244",
+      "detail": "Hansi Flick",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|0|{\"amount\": 5742390, \"bids\": [{\"amount\": 4920000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}], \"player\": 19244, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}:buy"
+      "sourceId": "market|1785820061|0|14077779|19244|5742390:buy",
+      "overpay": 732390,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 3736970,
-      "detail": "Jugador #25384",
+      "detail": "Tenaglia",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|1|{\"amount\": 3736970, \"bids\": [{\"amount\": 3530000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 3417000, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 25384, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1785820061|1|1597817|25384|3736970:buy",
+      "overpay": 416970,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 1513610,
-      "detail": "Jugador #41077",
+      "detail": "David Mella",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|2|{\"amount\": 1513610, \"bids\": [{\"amount\": 1510000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 1510000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 41077, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1785820061|2|1598649|41077|1513610:buy",
+      "overpay": 33610,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 301000,
-      "detail": "Jugador #37863",
+      "detail": "Yanis Musuayi",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|3|{\"amount\": 301000, \"bids\": [{\"amount\": 260000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 232810, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 37863, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1785820061|3|1594869|37863|301000:buy",
+      "overpay": -1259000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 3841850,
-      "detail": "Jugador #2253",
+      "detail": "Rüdiger",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|4|{\"amount\": 3841850, \"bids\": [{\"amount\": 3826580, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 3486990, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 2253, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1785820061|4|1597817|2253|3841850:buy",
+      "overpay": 241850,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 7170000,
-      "detail": "Jugador #41412",
+      "detail": "Larrubia",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|5|{\"amount\": 7170000, \"bids\": [{\"amount\": 6865280, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 6306070, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 41412, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785820061|5|13990414|41412|7170000:buy",
+      "overpay": 1000000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 10500000,
-      "detail": "Jugador #30495",
+      "detail": "Moleiro",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|6|{\"amount\": 10500000, \"bids\": [{\"amount\": 10250000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocIkTj3L0XirzxeW2cEMIAJOcnqVu2yKIgyKoGfPHbJLTqolaw=s300-c\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 9987920, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 30495, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1785820061|6|11770405|30495|10500000:buy",
+      "overpay": 900000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 6256610,
-      "detail": "Jugador #2602",
+      "detail": "Barrenetxea",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|7|{\"amount\": 6256610, \"bids\": [{\"amount\": 4950000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}, {\"amount\": 4180000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 2602, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1785820061|7|1598649|2602|6256610:buy",
+      "overpay": 1806610,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 423680,
-      "detail": "Jugador #39398",
+      "detail": "Luis Castro",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|8|{\"amount\": 423680, \"bids\": [{\"amount\": 320000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 310000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 39398, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785820061|8|1603117|39398|423680:buy",
+      "overpay": 43680,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 315080,
-      "detail": "Jugador #22690",
+      "detail": "Tete Morente",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|9|{\"amount\": 315080, \"bids\": [{\"amount\": 282550, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 22690, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785820061|9|1603117|22690|315080:buy",
+      "overpay": 35080,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 251070,
-      "detail": "Jugador #26678",
+      "detail": "Christensen",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|10|{\"amount\": 251070, \"bids\": [{\"amount\": 250000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 26678, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1785820061|10|1598649|26678|251070:buy",
+      "overpay": -48930,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 150000,
-      "detail": "Jugador #26299",
+      "detail": "Manu Bueno",
       "date": "2026-08-04",
-      "sourceId": "market|1785820061|11|{\"amount\": 150000, \"player\": 26299, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1785820061|11|1594869|26299|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 167500,
-      "detail": "Jugador #12404",
+      "detail": "Berrocal",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785802910|0|{\"amount\": 167500, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 12404}:sell"
+      "sourceId": "transfer|1785802910|0|1598649|12404|167500:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 275600,
-      "detail": "Jugador #32569",
+      "detail": "Sazonov",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785849108|0|{\"amount\": 275600, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 32569}:sell"
+      "sourceId": "transfer|1785849108|0|13978983|32569|275600:sell"
     },
     {
       "manager": "Keko Kane",
       "type": "venta",
       "amount": 161900,
-      "detail": "Jugador #26676",
+      "detail": "Luiz Felipe",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785849108|1|{\"amount\": 161900, \"from\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}, \"player\": 26676}:sell"
+      "sourceId": "transfer|1785849108|1|13978983|26676|161900:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 382200,
-      "detail": "Jugador #5618",
+      "detail": "Álvaro Fernández",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785844969|0|{\"amount\": 382200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 5618}:sell"
+      "sourceId": "transfer|1785844969|0|14077779|5618|382200:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 1380100,
-      "detail": "Jugador #39431",
+      "detail": "Thiago Fernández",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785842807|0|{\"amount\": 1380100, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 39431}:sell"
+      "sourceId": "transfer|1785842807|0|14039644|39431|1380100:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 295000,
-      "detail": "Jugador #1852",
+      "detail": "Ter Stegen",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785842807|1|{\"amount\": 295000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 1852}:sell"
+      "sourceId": "transfer|1785842807|1|12756155|1852|295000:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 766900,
-      "detail": "Jugador #35249",
+      "detail": "Asencio",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785841464|0|{\"amount\": 766900, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 35249}:sell"
+      "sourceId": "transfer|1785841464|0|11770405|35249|766900:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 280200,
-      "detail": "Jugador #33871",
+      "detail": "Pedro Felipe",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785841464|1|{\"amount\": 280200, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 33871}:sell"
+      "sourceId": "transfer|1785841464|1|11770405|33871|280200:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 222500,
-      "detail": "Jugador #32464",
+      "detail": "Boiro",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785841464|2|{\"amount\": 222500, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 32464}:sell"
+      "sourceId": "transfer|1785841464|2|11770405|32464|222500:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 154600,
-      "detail": "Jugador #6871",
+      "detail": "Odriozola",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785841464|3|{\"amount\": 154600, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 6871}:sell"
+      "sourceId": "transfer|1785841464|3|11770405|6871|154600:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 167400,
-      "detail": "Jugador #38239",
+      "detail": "Gonzalo Petit",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785839915|0|{\"amount\": 167400, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 38239}:sell"
+      "sourceId": "transfer|1785839915|0|1594907|38239|167400:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 199400,
-      "detail": "Jugador #16606",
+      "detail": "Aitor Fernández",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785839915|1|{\"amount\": 199400, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 16606}:sell"
+      "sourceId": "transfer|1785839915|1|1594907|16606|199400:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 170000,
-      "detail": "Jugador #36531",
+      "detail": "Etienne Eto'o",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785836774|0|{\"amount\": 170000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 36531}:sell"
+      "sourceId": "transfer|1785836774|0|13979073|36531|170000:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 512600,
-      "detail": "Jugador #9557",
+      "detail": "Javi López",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785836774|1|{\"amount\": 512600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 9557}:sell"
+      "sourceId": "transfer|1785836774|1|13979073|9557|512600:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 146800,
-      "detail": "Jugador #14466",
+      "detail": "Hinojo",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785836774|2|{\"amount\": 146800, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 14466}:sell"
+      "sourceId": "transfer|1785836774|2|13979073|14466|146800:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 1313100,
-      "detail": "Jugador #42396",
+      "detail": "Aliou Dieng",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785831570|0|{\"amount\": 1313100, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 42396}:sell"
+      "sourceId": "transfer|1785831570|0|1597817|42396|1313100:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 261500,
-      "detail": "Jugador #25392",
+      "detail": "Jofre Carreras",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785831570|1|{\"amount\": 261500, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 25392}:sell"
+      "sourceId": "transfer|1785831570|1|1597817|25392|261500:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 144900,
-      "detail": "Jugador #39223",
+      "detail": "Samu Becerra",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785831570|2|{\"amount\": 144900, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 39223}:sell"
+      "sourceId": "transfer|1785831570|2|1597817|39223|144900:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 144200,
-      "detail": "Jugador #39736",
+      "detail": "Paco Cortés",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785831570|3|{\"amount\": 144200, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 39736}:sell"
+      "sourceId": "transfer|1785831570|3|1597817|39736|144200:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 207700,
-      "detail": "Jugador #18128",
+      "detail": "Iker Muñoz",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785826261|0|{\"amount\": 207700, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 18128}:sell"
+      "sourceId": "transfer|1785826261|0|13990414|18128|207700:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 150200,
-      "detail": "Jugador #38422",
+      "detail": "Redondo",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785826261|1|{\"amount\": 150200, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 38422}:sell"
+      "sourceId": "transfer|1785826261|1|13990414|38422|150200:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 151700,
-      "detail": "Jugador #41259",
+      "detail": "Sergio Martínez",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785826261|2|{\"amount\": 151700, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 41259}:sell"
+      "sourceId": "transfer|1785826261|2|13990414|41259|151700:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 157400,
-      "detail": "Jugador #25778",
+      "detail": "Iker Benito",
       "date": "2026-08-04",
-      "sourceId": "transfer|1785826261|3|{\"amount\": 157400, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 25778}:sell"
+      "sourceId": "transfer|1785826261|3|13990414|25778|157400:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 147600,
-      "detail": "Jugador #5717",
+      "detail": "Vesga",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785918987|0|{\"amount\": 147600, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 5717}:sell"
+      "sourceId": "transfer|1785918987|0|1594907|5717|147600:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 806500,
-      "detail": "Jugador #38059",
+      "detail": "Ruggeri",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785918987|1|{\"amount\": 806500, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 38059}:sell"
+      "sourceId": "transfer|1785918987|1|1603117|38059|806500:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 215700,
-      "detail": "Jugador #12424",
+      "detail": "Jon Pacheco",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785918987|2|{\"amount\": 215700, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 12424}:sell"
+      "sourceId": "transfer|1785918987|2|1603117|12424|215700:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 161400,
-      "detail": "Jugador #21145",
+      "detail": "Vencedor",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785913101|0|{\"amount\": 161400, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 21145}:sell"
+      "sourceId": "transfer|1785913101|0|1603117|21145|161400:sell"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 2111110,
-      "detail": "Jugador #11045",
+      "detail": "Calero",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|0|{\"amount\": 2111110, \"bids\": [{\"amount\": 1959190, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 1944730, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 11045, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1785906381|0|14039644|11045|2111110:buy",
+      "overpay": 231110,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 2103650,
-      "detail": "Jugador #41416",
+      "detail": "Puga",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|1|{\"amount\": 2103650, \"bids\": [{\"amount\": 1965210, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 1923920, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 41416, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1785906381|1|1597817|41416|2103650:buy",
+      "overpay": -86350,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 2160190,
-      "detail": "Jugador #25403",
+      "detail": "Gonzalo Villar",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|2|{\"amount\": 2160190, \"bids\": [{\"amount\": 1990000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 1980000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}], \"player\": 25403, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1785906381|2|1598649|25403|2160190:buy",
+      "overpay": 10190,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 7965000,
-      "detail": "Jugador #30081",
+      "detail": "Pape Gueye",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|3|{\"amount\": 7965000, \"bids\": [{\"amount\": 7637110, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 7400500, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 30081, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785906381|3|1603117|30081|7965000:buy",
+      "overpay": 585000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 11670000,
-      "detail": "Jugador #18398",
+      "detail": "Budimir",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|4|{\"amount\": 11670000, \"bids\": [{\"amount\": 10957000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 10919990, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"player\": 18398, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1785906381|4|13979073|18398|11670000:buy",
+      "overpay": 760000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Error del sistema",
       "type": "compra",
       "amount": 5500000,
-      "detail": "Jugador #30123",
+      "detail": "Javi Guerra",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|5|{\"amount\": 5500000, \"bids\": [{\"amount\": 4875990, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 4790010, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 30123, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+      "sourceId": "market|1785906381|5|13990170|30123|5500000:buy",
+      "overpay": 800000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 6245810,
-      "detail": "Jugador #11",
+      "detail": "David Soria",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|6|{\"amount\": 6245810, \"bids\": [{\"amount\": 5742450, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 5700000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 11, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1785906381|6|12756155|11|6245810:buy",
+      "overpay": 535810,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 2140020,
-      "detail": "Jugador #38517",
+      "detail": "Riedel",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|7|{\"amount\": 2140020, \"bids\": [{\"amount\": 2100000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 1850000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 38517, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1785906381|7|13979073|38517|2140020:buy",
+      "overpay": 490020,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 875680,
-      "detail": "Jugador #41073",
+      "detail": "Eddahchouri",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|8|{\"amount\": 875680, \"bids\": [{\"amount\": 680000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 41073, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785906381|8|1603117|41073|875680:buy",
+      "overpay": 155680,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 4865586,
-      "detail": "Jugador #24732",
+      "detail": "Gavi",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|9|{\"amount\": 4865586, \"bids\": [{\"amount\": 4580050, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 24732, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1785906381|9|12756155|24732|4865586:buy",
+      "overpay": 895586,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 720001,
-      "detail": "Jugador #33789",
+      "detail": "Manolo González",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|10|{\"amount\": 720001, \"bids\": [{\"amount\": 720000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}], \"player\": 33789, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1785906381|10|13979073|33789|720001:buy",
+      "overpay": -69999,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 2222222,
-      "detail": "Jugador #22699",
+      "detail": "Urko Gonzalez",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|11|{\"amount\": 2222222, \"bids\": [{\"amount\": 2016840, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 1962330, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 22699, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1785906381|11|14039644|22699|2222222:buy",
+      "overpay": -107778,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Error del sistema",
       "type": "compra",
       "amount": 5000000,
-      "detail": "Jugador #17056",
+      "detail": "Guruzeta",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|12|{\"amount\": 5000000, \"bids\": [{\"amount\": 3605000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 17056, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+      "sourceId": "market|1785906381|12|13990170|17056|5000000:buy",
+      "overpay": 1070000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 3358000,
-      "detail": "Jugador #19501",
+      "detail": "Simeone",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|13|{\"amount\": 3358000, \"player\": 19501, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785906381|13|1603117|19501|3358000:buy",
+      "overpay": 288000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 170000,
-      "detail": "Jugador #31465",
+      "detail": "Torrents",
       "date": "2026-08-05",
-      "sourceId": "market|1785906381|14|{\"amount\": 170000, \"player\": 31465, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785906381|14|1603117|31465|170000:buy",
+      "overpay": 20000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 176400,
-      "detail": "Jugador #41080",
+      "detail": "Barcia",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785940126|0|{\"amount\": 176400, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 41080}:sell"
+      "sourceId": "transfer|1785940126|0|1598649|41080|176400:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 152000,
-      "detail": "Jugador #40070",
+      "detail": "Manuel Ángel",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785940126|1|{\"amount\": 152000, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 40070}:sell"
+      "sourceId": "transfer|1785940126|1|1598649|40070|152000:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 3906000,
-      "detail": "Jugador #28103",
+      "detail": "El Hilali",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785937256|0|{\"amount\": 3906000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 28103, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1785937256|0|14077779|28103|3906000:buy",
+      "overpay": 1396000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 3906000,
-      "detail": "Jugador #28103",
+      "detail": "El Hilali",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785937256|0|{\"amount\": 3906000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 28103, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1785937256|0|14077779|28103|3906000:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 5616000,
-      "detail": "Jugador #42425",
+      "detail": "Amatucci",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785937256|1|{\"amount\": 5616000, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 42425, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1785937256|1|14077779|42425|5616000:buy",
+      "overpay": 2406000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Diablos Cojos",
       "type": "venta",
       "amount": 5616000,
-      "detail": "Jugador #42425",
+      "detail": "Amatucci",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785937256|1|{\"amount\": 5616000, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 42425, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1785937256|1|14077779|42425|5616000:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 6732000,
-      "detail": "Jugador #32134",
+      "detail": "Batalla",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785936394|0|{\"amount\": 6732000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 32134, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1785936394|0|14077779|32134|6732000:buy",
+      "overpay": 2752000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 6732000,
-      "detail": "Jugador #32134",
+      "detail": "Batalla",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785936394|0|{\"amount\": 6732000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 32134, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1785936394|0|14077779|32134|6732000:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 207400,
-      "detail": "Jugador #15455",
+      "detail": "Elgezabal",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785932940|0|{\"amount\": 207400, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 15455}:sell"
+      "sourceId": "transfer|1785932940|0|14039644|15455|207400:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 466400,
-      "detail": "Jugador #41565",
+      "detail": "Osorio",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785962055|0|{\"amount\": 466400, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 41565}:sell"
+      "sourceId": "transfer|1785962055|0|12756155|41565|466400:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 193000,
-      "detail": "Jugador #23842",
+      "detail": "Alfon González",
       "date": "2026-08-05",
-      "sourceId": "transfer|1785961349|0|{\"amount\": 193000, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 23842}:sell"
+      "sourceId": "transfer|1785961349|0|11770405|23842|193000:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 1680700,
-      "detail": "Jugador #24509",
+      "detail": "Danjuma",
       "date": "2026-08-06",
-      "sourceId": "transfer|1785996323|0|{\"amount\": 1680700, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 24509}:sell"
+      "sourceId": "transfer|1785996323|0|13990414|24509|1680700:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 3101800,
-      "detail": "Jugador #37499",
+      "detail": "Trent",
       "date": "2026-08-06",
-      "sourceId": "transfer|1785996323|1|{\"amount\": 3101800, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 37499}:sell"
+      "sourceId": "transfer|1785996323|1|13990414|37499|3101800:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 321400,
-      "detail": "Jugador #18256",
+      "detail": "Kike Barja",
       "date": "2026-08-06",
-      "sourceId": "transfer|1785992894|0|{\"amount\": 321400, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 18256}:sell"
+      "sourceId": "transfer|1785992894|0|12756155|18256|321400:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 1485200,
-      "detail": "Jugador #40010",
+      "detail": "Sangaré",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|0|{\"amount\": 1485200, \"bids\": [{\"amount\": 1444444, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 1329930, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 40010, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1785992668|0|1594869|40010|1485200:buy",
+      "overpay": -154800,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 3005210,
-      "detail": "Jugador #19614",
+      "detail": "Natan",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|1|{\"amount\": 3005210, \"bids\": [{\"amount\": 2850000, \"user\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}, {\"amount\": 2850000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 19614, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1785992668|1|1594907|19614|3005210:buy",
+      "overpay": -84790,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 6465000,
-      "detail": "Jugador #18397",
+      "detail": "De Frutos",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|2|{\"amount\": 6465000, \"bids\": [{\"amount\": 6222222, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 18397, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1785992668|2|12756155|18397|6465000:buy",
+      "overpay": 185000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 7028620,
-      "detail": "Jugador #25769",
+      "detail": "Aubameyang",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|3|{\"amount\": 7028620, \"bids\": [{\"amount\": 6762000, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 6675000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 25769, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1785992668|3|1597817|25769|7028620:buy",
+      "overpay": -11380,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 6040270,
-      "detail": "Jugador #17687",
+      "detail": "Kang-in Lee",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|4|{\"amount\": 6040270, \"bids\": [{\"amount\": 5505000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 5415001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 17687, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1785992668|4|1597817|17687|6040270:buy",
+      "overpay": 90270,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 6865000,
-      "detail": "Jugador #20969",
+      "detail": "Germán Valera",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|5|{\"amount\": 6865000, \"bids\": [{\"amount\": 6795000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 6722960, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"player\": 20969, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1785992668|5|1603117|20969|6865000:buy",
+      "overpay": 445000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Real Vicentón Balompié",
       "type": "compra",
       "amount": 29680000,
-      "detail": "Jugador #26271",
+      "detail": "Yamal",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|6|{\"amount\": 29680000, \"bids\": [{\"amount\": 23837680, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 22400000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}], \"player\": 26271, \"to\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}}:buy"
+      "sourceId": "market|1785992668|6|1594880|26271|29680000:buy",
+      "overpay": 7240000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 12222222,
-      "detail": "Jugador #15430",
+      "detail": "Joan García",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|7|{\"amount\": 12222222, \"player\": 15430, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1785992668|7|14039644|15430|12222222:buy",
+      "overpay": 1742222,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 4500000,
-      "detail": "Jugador #11800",
+      "detail": "Cabrera",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|8|{\"amount\": 4500000, \"player\": 11800, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1785992668|8|13990414|11800|4500000:buy",
+      "overpay": 400000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 5508000,
-      "detail": "Jugador #17057",
+      "detail": "Sancet",
       "date": "2026-08-06",
-      "sourceId": "market|1785992668|9|{\"amount\": 5508000, \"player\": 17057, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1785992668|9|1594869|17057|5508000:buy",
+      "overpay": -462000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Error del sistema",
       "type": "venta",
       "amount": 152600,
-      "detail": "Jugador #23988",
+      "detail": "Miguel Rubio",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786009898|0|{\"amount\": 152600, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 23988}:sell"
+      "sourceId": "transfer|1786009898|0|13990170|23988|152600:sell"
     },
     {
       "manager": "Error del sistema",
       "type": "venta",
       "amount": 193400,
-      "detail": "Jugador #41100",
+      "detail": "Álex Pastor",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786009898|1|{\"amount\": 193400, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 41100}:sell"
+      "sourceId": "transfer|1786009898|1|13990170|41100|193400:sell"
     },
     {
       "manager": "Error del sistema",
       "type": "venta",
       "amount": 142700,
-      "detail": "Jugador #1309",
+      "detail": "Nikola Maraš",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786009898|2|{\"amount\": 142700, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 1309}:sell"
+      "sourceId": "transfer|1786009898|2|13990170|1309|142700:sell"
     },
     {
       "manager": "Error del sistema",
       "type": "venta",
       "amount": 148100,
-      "detail": "Jugador #33886",
+      "detail": "Dani Martín",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786009898|3|{\"amount\": 148100, \"from\": {\"id\": 13990170, \"name\": \"Error del sistema\"}, \"player\": 33886}:sell"
+      "sourceId": "transfer|1786009898|3|13990170|33886|148100:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 318000,
-      "detail": "Jugador #9475",
+      "detail": "De Tomás",
       "date": "2026-08-06",
-      "sourceId": "transfer|1785999791|0|{\"amount\": 318000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 9475}:sell"
+      "sourceId": "transfer|1785999791|0|1594869|9475|318000:sell"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "venta",
       "amount": 631600,
-      "detail": "Jugador #1462",
+      "detail": "Moi Gómez",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786054001|0|{\"amount\": 631600, \"from\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}, \"player\": 1462}:sell"
+      "sourceId": "transfer|1786054001|0|1597817|1462|631600:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 2323600,
-      "detail": "Jugador #39360",
+      "detail": "Oso",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786049970|0|{\"amount\": 2323600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 39360}:sell"
+      "sourceId": "transfer|1786049970|0|12756155|39360|2323600:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 219300,
-      "detail": "Jugador #39350",
+      "detail": "Miguel Sierra",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786028631|0|{\"amount\": 219300, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 39350}:sell"
+      "sourceId": "transfer|1786028631|0|14039644|39350|219300:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 230900,
-      "detail": "Jugador #31069",
+      "detail": "Mikel Rodriguez",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786028631|1|{\"amount\": 230900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 31069}:sell"
+      "sourceId": "transfer|1786028631|1|14039644|31069|230900:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 155300,
-      "detail": "Jugador #39327",
+      "detail": "Selton Sánchez",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786028631|2|{\"amount\": 155300, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 39327}:sell"
+      "sourceId": "transfer|1786028631|2|14039644|39327|155300:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 171800,
-      "detail": "Jugador #10997",
+      "detail": "Bauzà",
       "date": "2026-08-06",
-      "sourceId": "transfer|1786028631|3|{\"amount\": 171800, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 10997}:sell"
+      "sourceId": "transfer|1786028631|3|14039644|10997|171800:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 3149900,
-      "detail": "Jugador #19501",
+      "detail": "Simeone",
       "date": "2026-08-07",
-      "sourceId": "transfer|1786085292|0|{\"amount\": 3149900, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 19501}:sell"
+      "sourceId": "transfer|1786085292|0|1603117|19501|3149900:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 1787900,
-      "detail": "Jugador #31267",
+      "detail": "Sow",
       "date": "2026-08-07",
-      "sourceId": "transfer|1786085292|1|{\"amount\": 1787900, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 31267}:sell"
+      "sourceId": "transfer|1786085292|1|1603117|31267|1787900:sell"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 4125456,
-      "detail": "Jugador #41101",
+      "detail": "Alfonso Herrero",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|0|{\"amount\": 4125456, \"player\": 41101, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1786078945|0|1603117|41101|4125456:buy",
+      "overpay": 225456,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 3570000,
-      "detail": "Jugador #10040",
+      "detail": "Balde",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|1|{\"amount\": 3570000, \"bids\": [{\"amount\": 3333333, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 3225790, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 10040, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1786078945|1|1603117|10040|3570000:buy",
+      "overpay": 350000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "compra",
       "amount": 2135440,
-      "detail": "Jugador #10158",
+      "detail": "Guridi",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|2|{\"amount\": 2135440, \"bids\": [{\"amount\": 1941830, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 1940320, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 10158, \"to\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}:buy"
+      "sourceId": "market|1786078945|2|1603117|10158|2135440:buy",
+      "overpay": -34560,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Error del sistema",
       "type": "compra",
       "amount": 7200000,
-      "detail": "Jugador #25398",
+      "detail": "Pubill",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|3|{\"amount\": 7200000, \"bids\": [{\"amount\": 6857200, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 6520000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}], \"player\": 25398, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+      "sourceId": "market|1786078945|3|13990170|25398|7200000:buy",
+      "overpay": 720000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 5015730,
-      "detail": "Jugador #163",
+      "detail": "Guido Rodríguez",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|4|{\"amount\": 5015730, \"bids\": [{\"amount\": 4915040, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 4888888, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 163, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786078945|4|1594907|163|5015730:buy",
+      "overpay": 85730,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 190000,
-      "detail": "Jugador #38424",
+      "detail": "Goti",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|5|{\"amount\": 190000, \"player\": 38424, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1786078945|5|13990414|38424|190000:buy",
+      "overpay": 40000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Error del sistema",
       "type": "compra",
       "amount": 4400000,
-      "detail": "Jugador #37725",
+      "detail": "Affengruber",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|6|{\"amount\": 4400000, \"bids\": [{\"amount\": 3979040, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}, {\"amount\": 3958000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 37725, \"to\": {\"id\": 13990170, \"name\": \"Error del sistema\"}}:buy"
+      "sourceId": "market|1786078945|6|13990170|37725|4400000:buy",
+      "overpay": 560000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1712000,
-      "detail": "Jugador #35171",
+      "detail": "Peio Canales",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|7|{\"amount\": 1712000, \"bids\": [{\"amount\": 1685000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 1604080, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 35171, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786078945|7|13979073|35171|1712000:buy",
+      "overpay": -108000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 150000,
-      "detail": "Jugador #37735",
+      "detail": "Xavi Grande",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|8|{\"amount\": 150000, \"player\": 37735, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786078945|8|11770405|37735|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 6167830,
-      "detail": "Jugador #41420",
+      "detail": "Chupe",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|9|{\"amount\": 6167830, \"bids\": [{\"amount\": 6152480, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 6110000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 41420, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786078945|9|1594907|41420|6167830:buy",
+      "overpay": 17830,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 9128500,
-      "detail": "Jugador #41082",
+      "detail": "Yeremay Hernández",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|10|{\"amount\": 9128500, \"player\": 41082, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786078945|10|1594869|41082|9128500:buy",
+      "overpay": -41500,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 520000,
-      "detail": "Jugador #42571",
+      "detail": "Funes",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|11|{\"amount\": 520000, \"player\": 42571, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786078945|11|11770405|42571|520000:buy",
+      "overpay": -20000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 4828810,
-      "detail": "Jugador #18251",
+      "detail": "Sergio Herrera",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|12|{\"amount\": 4828810, \"player\": 18251, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786078945|12|1594907|18251|4828810:buy",
+      "overpay": 198810,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 6513470,
-      "detail": "Jugador #10745",
+      "detail": "Guedes",
       "date": "2026-08-07",
-      "sourceId": "market|1786078945|13|{\"amount\": 6513470, \"player\": 10745, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786078945|13|1594907|10745|6513470:buy",
+      "overpay": 113470,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 176900,
-      "detail": "Jugador #22975",
+      "detail": "Dani Cárdenas",
       "date": "2026-08-07",
-      "sourceId": "transfer|1786130578|0|{\"amount\": 176900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 22975}:sell"
+      "sourceId": "transfer|1786130578|0|14039644|22975|176900:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 249100,
-      "detail": "Jugador #33474",
+      "detail": "Yoel Lago",
       "date": "2026-08-07",
-      "sourceId": "transfer|1786130578|1|{\"amount\": 249100, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 33474}:sell"
+      "sourceId": "transfer|1786130578|1|14039644|33474|249100:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 143700,
-      "detail": "Jugador #34173",
+      "detail": "Álex Padilla",
       "date": "2026-08-07",
-      "sourceId": "transfer|1786130578|2|{\"amount\": 143700, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 34173}:sell"
+      "sourceId": "transfer|1786130578|2|14039644|34173|143700:sell"
     },
     {
       "manager": "Gruu",
       "type": "venta",
       "amount": 4334400,
-      "detail": "Jugador #33516",
+      "detail": "Uche",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786169049|0|{\"amount\": 4334400, \"from\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}, \"player\": 33516}:sell"
+      "sourceId": "transfer|1786169049|0|13990414|33516|4334400:sell"
     },
     {
       "manager": "Diablos Cojos",
       "type": "venta",
       "amount": 545300,
-      "detail": "Jugador #15289",
+      "detail": "Lunin",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786167432|0|{\"amount\": 545300, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 15289}:sell"
+      "sourceId": "transfer|1786167432|0|13990176|15289|545300:sell"
     },
     {
       "manager": "Diablos Cojos",
       "type": "venta",
       "amount": 228900,
-      "detail": "Jugador #41081",
+      "detail": "Riki Rodríguez",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786167432|1|{\"amount\": 228900, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 41081}:sell"
+      "sourceId": "transfer|1786167432|1|13990176|41081|228900:sell"
     },
     {
       "manager": "Diablos Cojos",
       "type": "venta",
       "amount": 1114600,
-      "detail": "Jugador #37467",
+      "detail": "Nobel Mendy",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786167432|2|{\"amount\": 1114600, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 37467}:sell"
+      "sourceId": "transfer|1786167432|2|13990176|37467|1114600:sell"
     },
     {
       "manager": "Diablos Cojos",
       "type": "venta",
       "amount": 145400,
-      "detail": "Jugador #25688",
+      "detail": "Rafa Núñez",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786167432|3|{\"amount\": 145400, \"from\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}, \"player\": 25688}:sell"
+      "sourceId": "transfer|1786167432|3|13990176|25688|145400:sell"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 3820570,
-      "detail": "Jugador #42389",
+      "detail": "Ryunosuke Sato",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|0|{\"amount\": 3820570, \"bids\": [{\"amount\": 3690001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 3627050, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}], \"player\": 42389, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786165541|0|1594907|42389|3820570:buy",
+      "overpay": 170570,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 4100020,
-      "detail": "Jugador #19299",
+      "detail": "Sergio Gómez",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|1|{\"amount\": 4100020, \"bids\": [{\"amount\": 3905980, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}, {\"amount\": 3888000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 19299, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1786165541|1|1598649|19299|4100020:buy",
+      "overpay": 410020,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 150001,
-      "detail": "Jugador #21145",
+      "detail": "Vencedor",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|2|{\"amount\": 150001, \"player\": 21145, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786165541|2|13979073|21145|150001:buy",
+      "overpay": 1,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1281010,
-      "detail": "Jugador #8695",
+      "detail": "Areso",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|3|{\"amount\": 1281010, \"bids\": [{\"amount\": 1250000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 1111110, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}], \"player\": 8695, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786165541|3|13979073|8695|1281010:buy",
+      "overpay": 41010,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Gruu",
       "type": "compra",
       "amount": 4360000,
-      "detail": "Jugador #33",
+      "detail": "Álvaro García",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|4|{\"amount\": 4360000, \"bids\": [{\"amount\": 4030009, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 3955710, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 33, \"to\": {\"icon\": \"icons/12.png\", \"id\": 13990414, \"name\": \"Gruu\"}}:buy"
+      "sourceId": "market|1786165541|4|13990414|33|4360000:buy",
+      "overpay": 530000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 777000,
-      "detail": "Jugador #34127",
+      "detail": "Peque",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|5|{\"amount\": 777000, \"bids\": [{\"amount\": 600010, \"user\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}}, {\"amount\": 585000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 34127, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786165541|5|14039644|34127|777000:buy",
+      "overpay": 197000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1500001,
-      "detail": "Jugador #30505",
+      "detail": "Abqar",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|6|{\"amount\": 1500001, \"bids\": [{\"amount\": 1400000, \"user\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}}, {\"amount\": 1300000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}], \"player\": 30505, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786165541|6|13979073|30505|1500001:buy",
+      "overpay": 110001,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 5703970,
-      "detail": "Jugador #1613",
+      "detail": "Laporte",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|7|{\"amount\": 5703970, \"bids\": [{\"amount\": 5681700, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 5493830, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 1613, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1786165541|7|1598649|1613|5703970:buy",
+      "overpay": 123970,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Diablos Cojos",
       "type": "compra",
       "amount": 12200010,
-      "detail": "Jugador #1249",
+      "detail": "Isco",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|9|{\"amount\": 12200010, \"bids\": [{\"amount\": 10950000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 1249, \"to\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}}:buy"
+      "sourceId": "market|1786165541|9|13990176|1249|12200010:buy",
+      "overpay": 1450010,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 2111000,
-      "detail": "Jugador #41275",
+      "detail": "Facundo González",
       "date": "2026-08-08",
-      "sourceId": "market|1786165541|10|{\"amount\": 2111000, \"bids\": [{\"amount\": 1990000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 1950000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 41275, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786165541|10|14039644|41275|2111000:buy",
+      "overpay": 161000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 1187200,
-      "detail": "Jugador #25159",
+      "detail": "Akhomach",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786179261|0|{\"amount\": 1187200, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 25159}:sell"
+      "sourceId": "transfer|1786179261|0|14077779|25159|1187200:sell"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 161500,
-      "detail": "Jugador #38457",
+      "detail": "Ali Houary",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786192382|0|{\"amount\": 161500, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 38457}:sell"
+      "sourceId": "transfer|1786192382|0|14077779|38457|161500:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 156500,
-      "detail": "Jugador #41421",
+      "detail": "Abaida",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786190956|0|{\"amount\": 156500, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 41421}:sell"
+      "sourceId": "transfer|1786190956|0|13979073|41421|156500:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 149800,
-      "detail": "Jugador #41091",
+      "detail": "Carlos López",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786201840|0|{\"amount\": 149800, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 41091}:sell"
+      "sourceId": "transfer|1786201840|0|1598649|41091|149800:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 151900,
-      "detail": "Jugador #2086",
+      "detail": "Germán Parreño",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786226324|0|{\"amount\": 151900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 2086}:sell"
+      "sourceId": "transfer|1786226324|0|13979073|2086|151900:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 1762800,
-      "detail": "Jugador #19485",
+      "detail": "Torró",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786223248|0|{\"amount\": 1762800, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 19485}:sell"
+      "sourceId": "transfer|1786223248|0|12756155|19485|1762800:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1512000,
-      "detail": "Jugador #37863",
+      "detail": "Yanis Musuayi",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786219155|0|{\"amount\": 1512000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 37863, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1786219155|0|13979073|37863|1512000:buy",
+      "overpay": -48000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 1512000,
-      "detail": "Jugador #37863",
+      "detail": "Yanis Musuayi",
       "date": "2026-08-08",
-      "sourceId": "transfer|1786219155|0|{\"amount\": 1512000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 37863, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1786219155|0|13979073|37863|1512000:sell"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 1134000,
-      "detail": "Jugador #19192",
+      "detail": "Agirrezabala",
       "date": "2026-08-09",
-      "sourceId": "transfer|1786239871|0|{\"amount\": 1134000, \"from\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1786239871|0|1594907|19192|1134000:buy",
+      "overpay": -256000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Yastariabros",
       "type": "venta",
       "amount": 1134000,
-      "detail": "Jugador #19192",
+      "detail": "Agirrezabala",
       "date": "2026-08-09",
-      "sourceId": "transfer|1786239871|0|{\"amount\": 1134000, \"from\": {\"icon\": \"i/u/2061477.png\", \"id\": 2061477, \"name\": \"Yastariabros\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1786239871|0|1594907|19192|1134000:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 645000,
-      "detail": "Jugador #39801",
+      "detail": "Boselli",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|0|{\"amount\": 645000, \"bids\": [{\"amount\": 480025, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}, {\"amount\": 460000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 39801, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786251693|0|1594869|39801|645000:buy",
+      "overpay": 195000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 2730753,
-      "detail": "Jugador #24509",
+      "detail": "Danjuma",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|1|{\"amount\": 2730753, \"bids\": [{\"amount\": 2484000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 2431750, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 24509, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786251693|1|13979073|24509|2730753:buy",
+      "overpay": 320753,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 3623140,
-      "detail": "Jugador #9047",
+      "detail": "Pere Milla",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|2|{\"amount\": 3623140, \"bids\": [{\"amount\": 3333000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 3238509, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 9047, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1786251693|2|13978983|9047|3623140:buy",
+      "overpay": 553140,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 360000,
-      "detail": "Jugador #42570",
+      "detail": "José Alberto López",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|3|{\"amount\": 360000, \"player\": 42570, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786251693|3|11770405|42570|360000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Diablos Cojos",
       "type": "compra",
       "amount": 13700010,
-      "detail": "Jugador #2603",
+      "detail": "Oyarzabal",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|4|{\"amount\": 13700010, \"player\": 2603, \"to\": {\"icon\": \"icons/42.png\", \"id\": 13990176, \"name\": \"Diablos Cojos\"}}:buy"
+      "sourceId": "market|1786251693|4|13990176|2603|13700010:buy",
+      "overpay": 180010,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 593770,
-      "detail": "Jugador #42569",
+      "detail": "Hidalgo",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|5|{\"amount\": 593770, \"bids\": [{\"amount\": 590000, \"user\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}, {\"amount\": 590000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}], \"player\": 42569, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786251693|5|1594907|42569|593770:buy",
+      "overpay": -16230,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 2919850,
-      "detail": "Jugador #39360",
+      "detail": "Oso",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|6|{\"amount\": 2919850, \"bids\": [{\"amount\": 2664090, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 2505000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 39360, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1786251693|6|13978983|39360|2919850:buy",
+      "overpay": 319850,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 2561810,
-      "detail": "Jugador #5069",
+      "detail": "Isi Palazón",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|7|{\"amount\": 2561810, \"bids\": [{\"amount\": 2245000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 5069, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1786251693|7|13978983|5069|2561810:buy",
+      "overpay": -218190,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Keko Kane",
       "type": "compra",
       "amount": 8088660,
-      "detail": "Jugador #31027",
+      "detail": "Arda Güler",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|8|{\"amount\": 8088660, \"player\": 31027, \"to\": {\"icon\": \"i/u/13978983.png\", \"id\": 13978983, \"name\": \"Keko Kane\"}}:buy"
+      "sourceId": "market|1786251693|8|13978983|31027|8088660:buy",
+      "overpay": 198660,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 5550000,
-      "detail": "Jugador #20102",
+      "detail": "Kubo",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|9|{\"amount\": 5550000, \"bids\": [{\"amount\": 4525910, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 20102, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786251693|9|11770405|20102|5550000:buy",
+      "overpay": 750000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 9235700,
-      "detail": "Jugador #39941",
+      "detail": "Lookman",
       "date": "2026-08-09",
-      "sourceId": "market|1786251693|10|{\"amount\": 9235700, \"player\": 39941, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786251693|10|1594869|39941|9235700:buy",
+      "overpay": 335700,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Jajajajajaja",
       "type": "venta",
       "amount": 3587300,
-      "detail": "Jugador #34621",
+      "detail": "Luiz Júnior",
       "date": "2026-08-09",
-      "sourceId": "transfer|1786271768|0|{\"amount\": 3587300, \"from\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}, \"player\": 34621}:sell"
+      "sourceId": "transfer|1786271768|0|1603117|34621|3587300:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 145000,
-      "detail": "Jugador #21145",
+      "detail": "Vencedor",
       "date": "2026-08-09",
-      "sourceId": "transfer|1786264371|0|{\"amount\": 145000, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 21145}:sell"
+      "sourceId": "transfer|1786264371|0|13979073|21145|145000:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 364600,
-      "detail": "Jugador #41411",
+      "detail": "Ramón Enríquez",
       "date": "2026-08-09",
-      "sourceId": "transfer|1786297682|0|{\"amount\": 364600, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 41411}:sell"
+      "sourceId": "transfer|1786297682|0|1598649|41411|364600:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 210000,
-      "detail": "Jugador #30141",
+      "detail": "Herrando",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|0|{\"amount\": 210000, \"player\": 30141, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786338219|0|11770405|30141|210000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 10525010,
-      "detail": "Jugador #35770",
+      "detail": "Antony",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|1|{\"amount\": 10525010, \"bids\": [{\"amount\": 10470000, \"user\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}], \"player\": 35770, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786338219|1|1594869|35770|10525010:buy",
+      "overpay": -44990,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 1529000,
-      "detail": "Jugador #42610",
+      "detail": "Yassir Zabiri",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|2|{\"amount\": 1529000, \"bids\": [{\"amount\": 1458000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 1354580, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 42610, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786338219|2|13979073|42610|1529000:buy",
+      "overpay": 199000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 645000,
-      "detail": "Jugador #41253",
+      "detail": "Ramis",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|3|{\"amount\": 645000, \"bids\": [{\"amount\": 621860, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}], \"player\": 41253, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786338219|3|1594869|41253|645000:buy",
+      "overpay": -5000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "compra",
       "amount": 3721090,
-      "detail": "Jugador #12494",
+      "detail": "Boyé",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|4|{\"amount\": 3721090, \"bids\": [{\"amount\": 3720080, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 12494, \"to\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}:buy"
+      "sourceId": "market|1786338219|4|1598649|12494|3721090:buy",
+      "overpay": 371090,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 7555000,
-      "detail": "Jugador #26048",
+      "detail": "Tchouameni",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|5|{\"amount\": 7555000, \"bids\": [{\"amount\": 6440030, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 26048, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786338219|5|14039644|26048|7555000:buy",
+      "overpay": 1065000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 238000,
-      "detail": "Jugador #38875",
+      "detail": "Diangana",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|6|{\"amount\": 238000, \"bids\": [{\"amount\": 215080, \"user\": {\"icon\": \"icons/24.png\", \"id\": 1603117, \"name\": \"Jajajajajaja\"}}, {\"amount\": 205400, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}], \"player\": 38875, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1786338219|6|12756155|38875|238000:buy",
+      "overpay": -12000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 1423030,
-      "detail": "Jugador #38143",
+      "detail": "Toljan",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|7|{\"amount\": 1423030, \"bids\": [{\"amount\": 1406480, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 38143, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786338219|7|1594907|38143|1423030:buy",
+      "overpay": 73030,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 150000,
-      "detail": "Jugador #10292",
+      "detail": "Arguibide",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|8|{\"amount\": 150000, \"player\": 10292, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786338219|8|11770405|10292|150000:buy",
+      "overpay": -30000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 2382490,
-      "detail": "Jugador #91",
+      "detail": "Mayoral",
       "date": "2026-08-10",
-      "sourceId": "market|1786338219|9|{\"amount\": 2382490, \"bids\": [{\"amount\": 2296500, \"user\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}}, {\"amount\": 2069510, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 91, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1786338219|9|12756155|91|2382490:buy",
+      "overpay": 132490,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Real Vicentón Balompié",
       "type": "venta",
       "amount": 715800,
-      "detail": "Jugador #37724",
+      "detail": "Mendoza",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786340607|0|{\"amount\": 715800, \"from\": {\"icon\": \"i/u/1594880.png\", \"id\": 1594880, \"name\": \"Real Vicentón Balompié\"}, \"player\": 37724}:sell"
+      "sourceId": "transfer|1786340607|0|1594880|37724|715800:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 2736000,
-      "detail": "Jugador #40010",
+      "detail": "Sangaré",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786362142|0|{\"amount\": 2736000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 40010, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1786362142|0|14077779|40010|2736000:buy",
+      "overpay": 1096000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "venta",
       "amount": 2736000,
-      "detail": "Jugador #40010",
+      "detail": "Sangaré",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786362142|0|{\"amount\": 2736000, \"from\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"player\": 40010, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1786362142|0|14077779|40010|2736000:sell"
     },
     {
       "manager": "FCodina",
       "type": "compra",
       "amount": 2721600,
-      "detail": "Jugador #37863",
+      "detail": "Yanis Musuayi",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786362142|1|{\"amount\": 2721600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 37863, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1786362142|1|14077779|37863|2721600:buy",
+      "overpay": 1161600,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 2721600,
-      "detail": "Jugador #37863",
+      "detail": "Yanis Musuayi",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786362142|1|{\"amount\": 2721600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 37863, \"to\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1786362142|1|14077779|37863|2721600:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 1863900,
-      "detail": "Jugador #42459",
+      "detail": "Jensen",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786359073|0|{\"amount\": 1863900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 42459}:sell"
+      "sourceId": "transfer|1786359073|0|13979073|42459|1863900:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 1113900,
-      "detail": "Jugador #39966",
+      "detail": "Álvaro Fidalgo",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786359073|1|{\"amount\": 1113900, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 39966}:sell"
+      "sourceId": "transfer|1786359073|1|13979073|39966|1113900:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 144100,
-      "detail": "Jugador #39385",
+      "detail": "David Jiménez",
       "date": "2026-08-10",
-      "sourceId": "transfer|1786359073|2|{\"amount\": 144100, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 39385}:sell"
+      "sourceId": "transfer|1786359073|2|13979073|39385|144100:sell"
     },
     {
       "manager": "Tikitaki de Aatun",
       "type": "venta",
       "amount": 3387100,
-      "detail": "Jugador #39885",
+      "detail": "Ángel Pérez",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786409478|0|{\"amount\": 3387100, \"from\": {\"icon\": \"i/u/1598649.png\", \"id\": 1598649, \"name\": \"Tikitaki de Aatun\"}, \"player\": 39885}:sell"
+      "sourceId": "transfer|1786409478|0|1598649|39885|3387100:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 2052000,
-      "detail": "Jugador #19192",
+      "detail": "Agirrezabala",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786425086|0|{\"amount\": 2052000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"type\": \"clause\"}:buy"
+      "sourceId": "transfer|1786425086|0|1594869|19192|2052000:buy",
+      "overpay": 662000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 2052000,
-      "detail": "Jugador #19192",
+      "detail": "Agirrezabala",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786425086|0|{\"amount\": 2052000, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 19192, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}, \"type\": \"clause\"}:sell"
+      "sourceId": "transfer|1786425086|0|1594869|19192|2052000:sell"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 1100000,
-      "detail": "Jugador #34080",
+      "detail": "Kumbulla",
       "date": "2026-08-11",
-      "sourceId": "market|1786424628|0|{\"amount\": 1100000, \"bids\": [{\"amount\": 969526, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}, {\"amount\": 890010, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 34080, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786424628|0|14039644|34080|1100000:buy",
+      "overpay": 150000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 2852180,
-      "detail": "Jugador #1844",
+      "detail": "Gayà",
       "date": "2026-08-11",
-      "sourceId": "market|1786424628|1|{\"amount\": 2852180, \"player\": 1844, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786424628|1|1594907|1844|2852180:buy",
+      "overpay": 22180,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 6100000,
-      "detail": "Jugador #30789",
+      "detail": "Giuliano Simeone",
       "date": "2026-08-11",
-      "sourceId": "market|1786424628|2|{\"amount\": 6100000, \"bids\": [{\"amount\": 5801000, \"user\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}, {\"amount\": 5740001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 30789, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786424628|2|11770405|30789|6100000:buy",
+      "overpay": 340000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "valero10",
       "type": "compra",
       "amount": 3663500,
-      "detail": "Jugador #38290",
+      "detail": "Hancko",
       "date": "2026-08-11",
-      "sourceId": "market|1786424628|3|{\"amount\": 3663500, \"player\": 38290, \"to\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}:buy"
+      "sourceId": "market|1786424628|3|1594907|38290|3663500:buy",
+      "overpay": -36500,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 1880000,
-      "detail": "Jugador #38095",
+      "detail": "Davinchi",
       "date": "2026-08-11",
-      "sourceId": "market|1786424628|4|{\"amount\": 1880000, \"bids\": [{\"amount\": 1782000, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}, {\"amount\": 1680140, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 38095, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786424628|4|14039644|38095|1880000:buy",
+      "overpay": 180000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FCodina",
       "type": "venta",
       "amount": 3190500,
-      "detail": "Jugador #28282",
+      "detail": "Juan Cruz Díaz",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786440058|0|{\"amount\": 3190500, \"from\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}, \"player\": 28282}:sell"
+      "sourceId": "transfer|1786440058|0|14077779|28282|3190500:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 1423200,
-      "detail": "Jugador #35706",
+      "detail": "Adrián Niño",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786437902|0|{\"amount\": 1423200, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 35706}:sell"
+      "sourceId": "transfer|1786437902|0|1594907|35706|1423200:sell"
     },
     {
       "manager": "valero10",
       "type": "venta",
       "amount": 2945300,
-      "detail": "Jugador #6259",
+      "detail": "Hugo Duro",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786437902|1|{\"amount\": 2945300, \"from\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}, \"player\": 6259}:sell"
+      "sourceId": "transfer|1786437902|1|1594907|6259|2945300:sell"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "venta",
       "amount": 1690600,
-      "detail": "Jugador #38517",
+      "detail": "Riedel",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786435099|0|{\"amount\": 1690600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}, \"player\": 38517}:sell"
+      "sourceId": "transfer|1786435099|0|13979073|38517|1690600:sell"
     },
     {
       "manager": "FC Carcelona",
       "type": "venta",
       "amount": 3531600,
-      "detail": "Jugador #41271",
+      "detail": "Gustavo Puerta",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786463220|0|{\"amount\": 3531600, \"from\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}, \"player\": 41271}:sell"
+      "sourceId": "transfer|1786463220|0|11770405|41271|3531600:sell"
     },
     {
       "manager": "Quim fc",
       "type": "venta",
       "amount": 2016600,
-      "detail": "Jugador #11045",
+      "detail": "Calero",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786485987|0|{\"amount\": 2016600, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}, \"player\": 11045}:sell"
+      "sourceId": "transfer|1786485987|0|14039644|11045|2016600:sell"
     },
     {
       "manager": "Tietes FC",
       "type": "venta",
       "amount": 1613200,
-      "detail": "Jugador #39673",
+      "detail": "Julio Díaz",
       "date": "2026-08-11",
-      "sourceId": "transfer|1786481528|0|{\"amount\": 1613200, \"from\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}, \"player\": 39673}:sell"
+      "sourceId": "transfer|1786481528|0|12756155|39673|1613200:sell"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 405000,
-      "detail": "Jugador #39350",
+      "detail": "Miguel Sierra",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|0|{\"amount\": 405000, \"bids\": [{\"amount\": 333330, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}, {\"amount\": 330001, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}], \"player\": 39350, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786511143|0|1594869|39350|405000:buy",
+      "overpay": 15000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 2000000,
-      "detail": "Jugador #14800",
+      "detail": "Pablo Ibáñez",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|1|{\"amount\": 2000000, \"bids\": [{\"amount\": 1996180, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}], \"player\": 14800, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1786511143|1|12756155|14800|2000000:buy",
+      "overpay": 30000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "FC Carcelona",
       "type": "compra",
       "amount": 5000000,
-      "detail": "Jugador #2001",
+      "detail": "Ayoze",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|2|{\"amount\": 5000000, \"bids\": [{\"amount\": 4865670, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}, {\"amount\": 4817280, \"user\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}], \"player\": 2001, \"to\": {\"icon\": \"i/u/11770405.png\", \"id\": 11770405, \"name\": \"FC Carcelona\"}}:buy"
+      "sourceId": "market|1786511143|2|11770405|2001|5000000:buy",
+      "overpay": 360000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Quim fc",
       "type": "compra",
       "amount": 2755000,
-      "detail": "Jugador #32363",
+      "detail": "Isaac Romero",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|3|{\"amount\": 2755000, \"player\": 32363, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocKJXxc2SBeheA9aZmTCkdryzXfA5hUpmlXflnKBE9b3QHGATg=s300-c\", \"id\": 14039644, \"name\": \"Quim fc\"}}:buy"
+      "sourceId": "market|1786511143|3|14039644|32363|2755000:buy",
+      "overpay": 15000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "anihi and the anihaloors",
       "type": "compra",
       "amount": 4060420,
-      "detail": "Jugador #17731",
+      "detail": "Catena",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|4|{\"amount\": 4060420, \"bids\": [{\"amount\": 4038218, \"user\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}], \"player\": 17731, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/AAcHTtd87v3B3W522TMJgV7-ZV9QzWJtSeNAHc1jM08yy0iW=s300-c\", \"id\": 13979073, \"name\": \"anihi and the anihaloors\"}}:buy"
+      "sourceId": "market|1786511143|4|13979073|17731|4060420:buy",
+      "overpay": 280420,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Saltamonti",
       "type": "compra",
       "amount": 3325000,
-      "detail": "Jugador #39885",
+      "detail": "Ángel Pérez",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|5|{\"amount\": 3325000, \"player\": 39885, \"to\": {\"icon\": \"icons/27.png\", \"id\": 1594869, \"name\": \"Saltamonti\"}}:buy"
+      "sourceId": "market|1786511143|5|1594869|39885|3325000:buy",
+      "overpay": 5000,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Reial Club Estanislau",
       "type": "compra",
       "amount": 5299910,
-      "detail": "Jugador #9480",
+      "detail": "Comesaña",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|6|{\"amount\": 5299910, \"bids\": [{\"amount\": 5022510, \"user\": {\"icon\": \"icons/29.png\", \"id\": 1594907, \"name\": \"valero10\"}}, {\"amount\": 4824410, \"user\": {\"icon\": \"i/t/3.png\", \"id\": 14077779, \"name\": \"FCodina\"}}], \"player\": 9480, \"to\": {\"icon\": \"i/t/15.png\", \"id\": 1597817, \"name\": \"Reial Club Estanislau\"}}:buy"
+      "sourceId": "market|1786511143|6|1597817|9480|5299910:buy",
+      "overpay": 439910,
+      "overpayRef": "su valor de mercado"
     },
     {
       "manager": "Tietes FC",
       "type": "compra",
       "amount": 4125600,
-      "detail": "Jugador #39804",
+      "detail": "Zaid Romero",
       "date": "2026-08-12",
-      "sourceId": "market|1786511143|7|{\"amount\": 4125600, \"player\": 39804, \"to\": {\"icon\": \"https://lh3.googleusercontent.com/a/ACg8ocJ7DGlxNU240klLmRytdlz3h5GKTtd7GEh-lbCWZy_RGM2i9g=s300-c\", \"id\": 12756155, \"name\": \"Tietes FC\"}}:buy"
+      "sourceId": "market|1786511143|7|12756155|39804|4125600:buy",
+      "overpay": 225600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 1683100,
+      "detail": "Óscar Valentín",
+      "date": "2026-08-12",
+      "sourceId": "transfer|1786520345|0|1594880|5352|1683100:sell"
     }
   ],
-  "lastSync": "2026-08-12T07:12:47.851733+00:00",
+  "lastSync": "2026-08-12T08:32:01.433541+00:00",
   "teamValues": {
     "valero10": 41310000,
     "Saltamonti": 55190000,
@@ -1905,7 +2155,7 @@
     "Keko Kane": 44980000,
     "Tikitaki de Aatun": 39360000,
     "Error del sistema": 32870000,
-    "Real Vicentón Balompié": 35960000,
+    "Real Vicentón Balompié": 34320000,
     "FCodina": 28800000
   }
 }
