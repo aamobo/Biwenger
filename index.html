@@ -163,6 +163,7 @@
   let overrides = { leagueName: 'Tablón de Fichajes', basePot: 40000000, players: [] };
   let data = { transactions: [], lastSync: null };
   let activeFilter = 'all';
+  let playerFilter = null;
 
   const $ = (id) => document.getElementById(id);
   const fmt = (n) => new Intl.NumberFormat('es-ES').format(Math.round(n)) + ' €';
@@ -295,7 +296,17 @@
     const box = $('feed');
     let txs = [...data.transactions].reverse();
     if (activeFilter !== 'all') txs = txs.filter(t => t.manager === activeFilter);
-    if (!txs.length){ box.innerHTML = '<div class="empty">Todavía no hay movimientos en el tablón.</div>'; return; }
+    if (playerFilter) txs = txs.filter(t => t.detail === playerFilter);
+
+    let banner = '';
+    if (playerFilter){
+      banner = `<div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; font-size:12px; color:var(--text-dim);">
+        Filtrando por <b style="color:var(--text)">${escapeHtml(playerFilter)}</b>
+        <button id="clear-player-filter" style="background:var(--panel-2); border:1px solid var(--line); color:var(--text-dim); border-radius:6px; padding:2px 8px; cursor:pointer; font-size:11px;">Quitar filtro ✕</button>
+      </div>`;
+    }
+
+    if (!txs.length){ box.innerHTML = banner + '<div class="empty">No hay movimientos que coincidan.</div>'; bindFeedEvents(); return; }
 
     const groups = {}; const order = [];
     txs.forEach(t => {
@@ -304,12 +315,25 @@
       groups[label].push(t);
     });
 
-    box.innerHTML = order.map(label => `
+    box.innerHTML = banner + order.map(label => `
       <div class="day-group">
         <div class="day-label">${label}</div>
         ${groups[label].map(txCardHtml).join('')}
       </div>
     `).join('');
+    bindFeedEvents();
+  }
+
+  function bindFeedEvents(){
+    const clearBtn = document.getElementById('clear-player-filter');
+    if (clearBtn) clearBtn.addEventListener('click', () => { playerFilter = null; renderFeed(); });
+    document.querySelectorAll('[data-player-detail]').forEach(el => {
+      el.addEventListener('click', () => {
+        const name = el.getAttribute('data-player-detail');
+        playerFilter = (playerFilter === name) ? null : name;
+        renderFeed();
+      });
+    });
   }
 
   function txCardHtml(t){
@@ -321,7 +345,7 @@
         <div class="tx-icon">${meta.icon}</div>
         <div class="tx-body">
           <div class="tx-line1"><span class="who">${escapeHtml(t.manager)}</span> <span class="type-label">· ${escapeHtml(meta.label)}</span></div>
-          ${t.detail ? `<div class="tx-detail">${escapeHtml(t.detail)}</div>` : ''}
+          ${t.detail ? `<div class="tx-detail" data-player-detail="${escapeHtml(t.detail)}" style="cursor:pointer; text-decoration:underline dotted; text-underline-offset:2px;">${escapeHtml(t.detail)}</div>` : ''}
         </div>
         <div class="tx-amount ${meta.cls}">${sign}${fmt(Math.abs(d))}</div>
       </div>`;
