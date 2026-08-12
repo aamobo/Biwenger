@@ -43,7 +43,40 @@ def get_json(url, token, league_id=None, user_id=None, params=None):
     return data.get("data", data)
 
 
-def extract_transactions(board, id_to_name):
+def get_players_map():
+    """
+    Diccionario id de jugador -> nombre real, sacado del listado público
+    de La Liga de Biwenger (no necesita sesión ni cabeceras de liga).
+    Si algo falla, devolvemos un diccionario vacío y seguimos sin nombres
+    (mejor eso que romper toda la sincronización).
+    """
+    try:
+        r = requests.get(
+            "https://cf.biwenger.com/api/v2/competitions/la-liga/data",
+            params={"score": 2},
+            timeout=20,
+        )
+        r.raise_for_status()
+        data = r.json()
+        data = data.get("data", data)
+        players_data = data.get("players", {})
+        players_map = {}
+        if isinstance(players_data, dict):
+            for pid, p in players_data.items():
+                if isinstance(p, dict) and p.get("name"):
+                    players_map[str(pid)] = p["name"]
+        elif isinstance(players_data, list):
+            for p in players_data:
+                if isinstance(p, dict) and p.get("id") is not None and p.get("name"):
+                    players_map[str(p["id"])] = p["name"]
+        print(f"Nombres de jugadores descargados: {len(players_map)}")
+        return players_map
+    except Exception as e:
+        print(f"[aviso] No se pudo descargar el listado de jugadores ({e}). Se usarán números de ficha.")
+        return {}
+
+
+def extract_transactions(board, id_to_name, players_map):
     events = board if isinstance(board, list) else board.get("data", [])
     transactions = []
 
@@ -61,24 +94,31 @@ def extract_transactions(board, id_to_name):
         for idx, content in enumerate(content_items):
             if not isinstance(content, dict):
                 continue
-            raw_id = ev.get("id")
-            fallback_key = f"{etype}|{date}|{idx}|{json.dumps(content, sort_keys=True, ensure_ascii=False)}"
-            source_id = f"{raw_id}:{idx}" if raw_id is not None else fallback_key
 
             amount = content.get("amount") or content.get("price")
             to_user = content.get("to") or {}
             from_user = content.get("from") or {}
+            clause_user = content.get("user") or {}
             player_field = content.get("player")
+
             if isinstance(player_field, dict):
+                player_id = player_field.get("id")
                 player_name = player_field.get("name", "")
-            elif player_field is not None:
-                player_name = f"Jugador #{player_field}"
             else:
-                player_name = ""
+                player_id = player_field
+                player_name = players_map.get(str(player_field), f"Jugador #{player_field}") if player_field is not None else ""
+
+            # El identificador para no duplicar se construye SOLO con datos
+            # estables (nunca con campos decorativos como iconos, que pueden
+            # cambiar de una consulta a otra y hacer que el mismo movimiento
+            # parezca "nuevo" cada vez).
+            manager_id_for_key = to_user.get("id") or from_user.get("id") or clause_user.get("id")
+            raw_id = ev.get("id")
+            stable_key = f"{etype}|{date}|{idx}|{manager_id_for_key}|{player_id}|{amount}"
+            source_id = f"{raw_id}:{idx}" if raw_id is not None else stable_key
 
             if etype == "clauseincrement" and amount:
-                user = content.get("user") or {}
-                manager = user.get("name") or id_to_name.get(user.get("id"), "")
+                manager = clause_user.get("name") or id_to_name.get(clause_user.get("id"), "")
                 if manager:
                     transactions.append({"manager": manager, "type": "clausula_subida", "amount": amount, "detail": player_name, "date": date_str, "sourceId": source_id})
             elif "clause" in etype and amount:
@@ -132,7 +172,9 @@ def main():
 
     print("Descargando tablón de actividad...")
     board = get_json(f"{API}/league/{league_id}/board", token, league_id, league_user_id, params={"limit": 300})
-    new_transactions = extract_transactions(board, id_to_name)
+
+    players_map = get_players_map()
+    new_transactions = extract_transactions(board, id_to_name, players_map)
 
     with open("board_raw.json", "w", encoding="utf-8") as f:
         json.dump(board, f, ensure_ascii=False, indent=2)
@@ -152,6 +194,24 @@ def main():
         existing["transactions"].append(t)
         existing_ids.add(t.get("sourceId"))
         added += 1
+
+    # Limpieza de seguridad: si por lo que sea se coló algún duplicado
+    # (identificador distinto pero mismo movimiento real), lo quitamos.
+    # No usamos el "detalle" en la clave porque puede cambiar si antes
+    # salía como "Jugador #ID" y ahora ya tenemos el nombre real.
+    seen = set()
+    deduped = []
+    removed = 0
+    for t in existing["transactions"]:
+        key = (t.get("manager"), t.get("type"), t.get("amount"), t.get("date"))
+        if key in seen:
+            removed += 1
+            continue
+        seen.add(key)
+        deduped.append(t)
+    existing["transactions"] = deduped
+    if removed:
+        print(f"Movimientos duplicados eliminados: {removed}")
 
     existing["lastSync"] = datetime.now(timezone.utc).isoformat()
     existing["teamValues"] = team_values
