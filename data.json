@@ -2337,20 +2337,49 @@
       "playerId": 2009,
       "date": "2026-08-13",
       "sourceId": "transfer|1786619456|1|13978983|2009|5740600:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 4705700,
+      "detail": "Mario Soriano",
+      "playerId": 41072,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786655406|0|12756155|41072|4705700:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 2700001,
+      "detail": "Abqar",
+      "playerId": 30505,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786655385|0|12756155|30505|2700001:buy",
+      "overpay": 1280001,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2700001,
+      "detail": "Abqar",
+      "playerId": 30505,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786655385|0|12756155|30505|2700001:sell"
     }
   ],
-  "lastSync": "2026-08-13T20:03:58.028338+00:00",
+  "lastSync": "2026-08-13T23:24:48.426150+00:00",
   "teamValues": {
     "Saltamonti": 55910000,
     "valero10": 44490000,
     "Diablos Cojos": 35680000,
-    "anihi and the anihaloors": 42520000,
+    "anihi and the anihaloors": 41100000,
     "Jajajajajaja": 38420000,
     "FC Carcelona": 33570000,
     "Reial Club Estanislau": 39790000,
     "Quim fc": 39010000,
     "Yastariabros": 36570000,
-    "Tietes FC": 41290000,
+    "Tietes FC": 37840000,
     "Gruu": 39660000,
     "Keko Kane": 37650000,
     "Tikitaki de Aatun": 45140000,
