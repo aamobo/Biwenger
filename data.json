@@ -2292,9 +2292,54 @@
       "sourceId": "market|1786597507|6|1598649|42444|5654440:buy",
       "overpay": 64440,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 683600,
+      "detail": "Pitarch",
+      "playerId": 27271,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786621607|0|2061477|27271|683600:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 378500,
+      "detail": "Puado",
+      "playerId": 16317,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786621607|1|2061477|16317|378500:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 3669300,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786621607|2|2061477|35344|3669300:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 2183000,
+      "detail": "Dotor",
+      "playerId": 31167,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786619456|0|13978983|31167|2183000:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 5740600,
+      "detail": "Borja Iglesias",
+      "playerId": 2009,
+      "date": "2026-08-13",
+      "sourceId": "transfer|1786619456|1|13978983|2009|5740600:sell"
     }
   ],
-  "lastSync": "2026-08-13T09:47:57.472226+00:00",
+  "lastSync": "2026-08-13T15:32:39.171833+00:00",
   "teamValues": {
     "Saltamonti": 55910000,
     "valero10": 44490000,
@@ -2304,10 +2349,10 @@
     "FC Carcelona": 33570000,
     "Reial Club Estanislau": 39790000,
     "Quim fc": 39010000,
-    "Yastariabros": 41220000,
+    "Yastariabros": 36570000,
     "Tietes FC": 41290000,
     "Gruu": 39660000,
-    "Keko Kane": 45340000,
+    "Keko Kane": 37650000,
     "Tikitaki de Aatun": 45140000,
     "Error del sistema": 33040000,
     "Real Vicentón Balompié": 34460000,
