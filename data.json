@@ -2432,11 +2432,38 @@
       "sourceId": "market|1786683856|5|13990176|17021|5200010:buy",
       "overpay": 20010,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 8665200,
+      "detail": "Yeremay Hernández",
+      "playerId": 41082,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786689807|0|1594869|41082|8665200:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1073700,
+      "detail": "Pedro Díaz",
+      "playerId": 34483,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786689807|1|14039644|34483|1073700:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1618500,
+      "detail": "Alemão",
+      "playerId": 37450,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786689807|2|14039644|37450|1618500:sell"
     }
   ],
-  "lastSync": "2026-08-14T05:47:00.271311+00:00",
+  "lastSync": "2026-08-14T09:42:49.698779+00:00",
   "teamValues": {
-    "Saltamonti": 56370000,
+    "Saltamonti": 47650000,
     "valero10": 46970000,
     "anihi and the anihaloors": 41560000,
     "Diablos Cojos": 40810000,
@@ -2445,7 +2472,7 @@
     "Reial Club Estanislau": 40200000,
     "Yastariabros": 36740000,
     "Keko Kane": 40310000,
-    "Quim fc": 42300000,
+    "Quim fc": 39570000,
     "Gruu": 39930000,
     "Tietes FC": 38000000,
     "Tikitaki de Aatun": 45260000,
