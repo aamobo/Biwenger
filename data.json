@@ -2459,15 +2459,51 @@
       "playerId": 37450,
       "date": "2026-08-14",
       "sourceId": "transfer|1786689807|2|14039644|37450|1618500:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 146000,
+      "detail": "Torrents",
+      "playerId": 31465,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786708811|0|1603117|31465|146000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 450000,
+      "detail": "Miguel Sierra",
+      "playerId": 39350,
+      "date": "2026-08-14",
+      "sourceId": "clauseincrement|1786703704|0|1594869|39350|450000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3415300,
+      "detail": "De Galarreta",
+      "playerId": 2055,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786703589|0|1594869|2055|3415300:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 2689900,
+      "detail": "Gayà",
+      "playerId": 1844,
+      "date": "2026-08-14",
+      "sourceId": "transfer|1786702121|0|1594907|1844|2689900:sell"
     }
   ],
-  "lastSync": "2026-08-14T09:42:49.698779+00:00",
+  "lastSync": "2026-08-14T15:08:25.291132+00:00",
   "teamValues": {
-    "Saltamonti": 47650000,
-    "valero10": 46970000,
+    "Saltamonti": 44320000,
+    "valero10": 44250000,
     "anihi and the anihaloors": 41560000,
     "Diablos Cojos": 40810000,
-    "Jajajajajaja": 38690000,
+    "Jajajajajaja": 38540000,
     "FC Carcelona": 33930000,
     "Reial Club Estanislau": 40200000,
     "Yastariabros": 36740000,
