@@ -2528,9 +2528,27 @@
       "sourceId": "market|1786770151|2|1603117|26879|2996580:buy",
       "overpay": 286580,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 741600,
+      "detail": "Freeman",
+      "playerId": 39901,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786785561|0|13978983|39901|741600:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 1683100,
+      "detail": "Sergi Cardona",
+      "playerId": 30493,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786785561|1|13978983|30493|1683100:sell"
     }
   ],
-  "lastSync": "2026-08-15T07:19:46.935692+00:00",
+  "lastSync": "2026-08-15T09:53:03.451899+00:00",
   "teamValues": {
     "Saltamonti": 45160000,
     "anihi and the anihaloors": 41920000,
@@ -2539,7 +2557,7 @@
     "Jajajajajaja": 41940000,
     "Reial Club Estanislau": 40610000,
     "FC Carcelona": 35060000,
-    "Keko Kane": 40730000,
+    "Keko Kane": 38230000,
     "Quim fc": 39910000,
     "Yastariabros": 36840000,
     "Gruu": 40100000,
