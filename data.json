@@ -2582,9 +2582,18 @@
       "playerId": 9983,
       "date": "2026-08-15",
       "sourceId": "transfer|1786787772|0|14077779|9983|2204600:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 400000,
+      "detail": "Peque",
+      "playerId": 34127,
+      "date": "2026-08-15",
+      "sourceId": "clauseincrement|1786830050|0|14039644|34127|400000"
     }
   ],
-  "lastSync": "2026-08-15T19:01:24.693484+00:00",
+  "lastSync": "2026-08-15T21:45:10.646267+00:00",
   "teamValues": {
     "Saltamonti": 45160000,
     "anihi and the anihaloors": 41920000,
