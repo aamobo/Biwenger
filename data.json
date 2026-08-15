@@ -2546,9 +2546,45 @@
       "playerId": 30493,
       "date": "2026-08-15",
       "sourceId": "transfer|1786785561|1|13978983|30493|1683100:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1444300,
+      "detail": "David Mella",
+      "playerId": 41077,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786801123|0|1598649|41077|1444300:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3442200,
+      "detail": "Roberto Fernández",
+      "playerId": 35678,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786801123|1|1598649|35678|3442200:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3021400,
+      "detail": "Boyé",
+      "playerId": 12494,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786801123|2|1598649|12494|3021400:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2204600,
+      "detail": "Djené",
+      "playerId": 9983,
+      "date": "2026-08-15",
+      "sourceId": "transfer|1786787772|0|14077779|9983|2204600:sell"
     }
   ],
-  "lastSync": "2026-08-15T09:53:03.451899+00:00",
+  "lastSync": "2026-08-15T13:41:13.971664+00:00",
   "teamValues": {
     "Saltamonti": 45160000,
     "anihi and the anihaloors": 41920000,
@@ -2562,9 +2598,9 @@
     "Yastariabros": 36840000,
     "Gruu": 40100000,
     "Tietes FC": 38090000,
-    "Tikitaki de Aatun": 45370000,
+    "Tikitaki de Aatun": 37300000,
     "Error del sistema": 33410000,
     "Real Vicentón Balompié": 34750000,
-    "FCodina": 35030000
+    "FCodina": 32820000
   }
 }
