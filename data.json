@@ -2708,17 +2708,46 @@
       "playerId": 32363,
       "date": "2026-08-16",
       "sourceId": "transfer|1786876624|0|14039644|32363|2747300:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 194000,
+      "detail": "Unai Núñez",
+      "playerId": 10155,
+      "date": "2026-08-16",
+      "sourceId": "clauseincrement|1786913190|0|14077779|10155|194000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 270000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786907123|0|1603117|25815|270000:buy",
+      "overpay": 120000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 270000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786907123|0|1603117|25815|270000:sell"
     }
   ],
-  "lastSync": "2026-08-16T19:00:58.164515+00:00",
+  "lastSync": "2026-08-16T21:41:35.782211+00:00",
   "teamValues": {
-    "Saltamonti": 47900000,
+    "Saltamonti": 47750000,
     "anihi and the anihaloors": 41880000,
     "valero10": 44220000,
     "Diablos Cojos": 40660000,
     "FC Carcelona": 35330000,
     "Reial Club Estanislau": 40830000,
-    "Jajajajajaja": 50730000,
+    "Jajajajajaja": 50880000,
     "Keko Kane": 39580000,
     "Yastariabros": 36810000,
     "Gruu": 40110000,
