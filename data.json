@@ -2699,9 +2699,18 @@
       "playerId": 5678,
       "date": "2026-08-16",
       "sourceId": "transfer|1786869615|0|1594869|5678|918000:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 2747300,
+      "detail": "Isaac Romero",
+      "playerId": 32363,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786876624|0|14039644|32363|2747300:sell"
     }
   ],
-  "lastSync": "2026-08-16T09:54:33.853851+00:00",
+  "lastSync": "2026-08-16T13:45:00.325225+00:00",
   "teamValues": {
     "Saltamonti": 47900000,
     "anihi and the anihaloors": 41880000,
@@ -2713,7 +2722,7 @@
     "Keko Kane": 39580000,
     "Yastariabros": 36810000,
     "Gruu": 40110000,
-    "Quim fc": 40060000,
+    "Quim fc": 37290000,
     "Tietes FC": 37910000,
     "Tikitaki de Aatun": 41030000,
     "Error del sistema": 33400000,
