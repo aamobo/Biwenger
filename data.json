@@ -2679,17 +2679,37 @@
       "sourceId": "market|1786856580|7|13978983|16317|370180:buy",
       "overpay": 10180,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 918000,
+      "detail": "Diego Rico",
+      "playerId": 5678,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786869615|0|1594869|5678|918000:buy",
+      "overpay": 408000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 918000,
+      "detail": "Diego Rico",
+      "playerId": 5678,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786869615|0|1594869|5678|918000:sell"
     }
   ],
-  "lastSync": "2026-08-16T07:45:38.035693+00:00",
+  "lastSync": "2026-08-16T09:54:33.853851+00:00",
   "teamValues": {
-    "Saltamonti": 47390000,
+    "Saltamonti": 47900000,
     "anihi and the anihaloors": 41880000,
     "valero10": 44220000,
     "Diablos Cojos": 40660000,
     "FC Carcelona": 35330000,
     "Reial Club Estanislau": 40830000,
-    "Jajajajajaja": 51240000,
+    "Jajajajajaja": 50730000,
     "Keko Kane": 39580000,
     "Yastariabros": 36810000,
     "Gruu": 40110000,
