@@ -2737,11 +2737,20 @@
       "playerId": 25815,
       "date": "2026-08-16",
       "sourceId": "transfer|1786907123|0|1603117|25815|270000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 10375500,
+      "detail": "Antony",
+      "playerId": 35770,
+      "date": "2026-08-16",
+      "sourceId": "transfer|1786918110|0|1594869|35770|10375500:sell"
     }
   ],
-  "lastSync": "2026-08-16T21:41:35.782211+00:00",
+  "lastSync": "2026-08-17T03:17:00.049369+00:00",
   "teamValues": {
-    "Saltamonti": 47750000,
+    "Saltamonti": 37290000,
     "anihi and the anihaloors": 41880000,
     "valero10": 44220000,
     "Diablos Cojos": 40660000,
