@@ -2839,9 +2839,18 @@
       "playerId": 37863,
       "date": "2026-08-17",
       "sourceId": "transfer|1786976689|1|14077779|37863|1558100:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3491900,
+      "detail": "Fer Niño",
+      "playerId": 21132,
+      "date": "2026-08-17",
+      "sourceId": "transfer|1787002886|0|1598649|21132|3491900:sell"
     }
   ],
-  "lastSync": "2026-08-17T19:17:51.890712+00:00",
+  "lastSync": "2026-08-17T21:54:45.801440+00:00",
   "teamValues": {
     "Saltamonti": 38440000,
     "anihi and the anihaloors": 45170000,
@@ -2855,7 +2864,7 @@
     "Gruu": 40190000,
     "Yastariabros": 36660000,
     "Tietes FC": 37550000,
-    "Tikitaki de Aatun": 44180000,
+    "Tikitaki de Aatun": 40800000,
     "Error del sistema": 33350000,
     "Real Vicentón Balompié": 36170000,
     "FCodina": 30690000
