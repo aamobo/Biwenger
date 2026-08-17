@@ -2821,9 +2821,27 @@
       "sourceId": "market|1786943393|5|1598649|2055|3420540:buy",
       "overpay": 230540,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 412300,
+      "detail": "Oluwaseyi",
+      "playerId": 38854,
+      "date": "2026-08-17",
+      "sourceId": "transfer|1786976689|0|14077779|38854|412300:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1558100,
+      "detail": "Yanis Musuayi",
+      "playerId": 37863,
+      "date": "2026-08-17",
+      "sourceId": "transfer|1786976689|1|14077779|37863|1558100:sell"
     }
   ],
-  "lastSync": "2026-08-17T13:57:22.968413+00:00",
+  "lastSync": "2026-08-17T15:54:33.344044+00:00",
   "teamValues": {
     "Saltamonti": 38440000,
     "anihi and the anihaloors": 45170000,
@@ -2840,6 +2858,6 @@
     "Tikitaki de Aatun": 44180000,
     "Error del sistema": 33350000,
     "Real Vicentón Balompié": 36170000,
-    "FCodina": 32660000
+    "FCodina": 30690000
   }
 }
