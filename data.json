@@ -2995,14 +2995,23 @@
       "playerId": 32435,
       "date": "2026-08-18",
       "sourceId": "transfer|1787061778|0|14077779|32435|4017200:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2520600,
+      "detail": "Iago Aspas",
+      "playerId": 1523,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787068550|0|1603117|1523|2520600:sell"
     }
   ],
-  "lastSync": "2026-08-18T14:06:18.609954+00:00",
+  "lastSync": "2026-08-18T16:01:57.706519+00:00",
   "teamValues": {
     "Saltamonti": 42390000,
     "anihi and the anihaloors": 45030000,
     "valero10": 44100000,
-    "Jajajajajaja": 51150000,
+    "Jajajajajaja": 48750000,
     "Diablos Cojos": 40360000,
     "FC Carcelona": 42290000,
     "Reial Club Estanislau": 45060000,
