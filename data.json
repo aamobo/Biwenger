@@ -2986,9 +2986,18 @@
       "playerId": 23572,
       "date": "2026-08-18",
       "sourceId": "transfer|1787038297|1|1594869|23572|205400:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 4017200,
+      "detail": "Etta Eyong",
+      "playerId": 32435,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787061778|0|14077779|32435|4017200:sell"
     }
   ],
-  "lastSync": "2026-08-18T10:03:02.833017+00:00",
+  "lastSync": "2026-08-18T14:06:18.609954+00:00",
   "teamValues": {
     "Saltamonti": 42390000,
     "anihi and the anihaloors": 45030000,
@@ -3005,6 +3014,6 @@
     "Tikitaki de Aatun": 42430000,
     "Tietes FC": 40860000,
     "Real Vicentón Balompié": 36240000,
-    "FCodina": 30510000
+    "FCodina": 26670000
   }
 }
