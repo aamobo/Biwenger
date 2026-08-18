@@ -2968,11 +2968,29 @@
       "sourceId": "market|1787029414|4|1594869|3259|3232000:buy",
       "overpay": -8000,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 452500,
+      "detail": "Boselli",
+      "playerId": 39801,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787038297|0|1594869|39801|452500:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 205400,
+      "detail": "Rubén Sánchez",
+      "playerId": 23572,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787038297|1|1594869|23572|205400:sell"
     }
   ],
-  "lastSync": "2026-08-18T07:23:38.861194+00:00",
+  "lastSync": "2026-08-18T07:59:05.574166+00:00",
   "teamValues": {
-    "Saltamonti": 43030000,
+    "Saltamonti": 42390000,
     "anihi and the anihaloors": 45030000,
     "valero10": 44100000,
     "Jajajajajaja": 51150000,
