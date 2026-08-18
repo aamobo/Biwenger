@@ -2877,25 +2877,116 @@
       "playerId": 10182,
       "date": "2026-08-18",
       "sourceId": "transfer|1787011324|0|1598649|10182|286700:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 400000,
+      "detail": "Pablo Ramón",
+      "playerId": 35408,
+      "date": "2026-08-18",
+      "sourceId": "clauseincrement|1787037528|0|1594869|35408|400000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 550000,
+      "detail": "Hinojo",
+      "playerId": 14466,
+      "date": "2026-08-18",
+      "sourceId": "clauseincrement|1787037528|1|1594869|14466|550000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1876500,
+      "detail": "Facundo González",
+      "playerId": 41275,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787034730|0|14039644|41275|1876500:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 903300,
+      "detail": "Kumbulla",
+      "playerId": 34080,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787034730|1|14039644|34080|903300:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 4632380,
+      "detail": "Jon Martín",
+      "playerId": 33447,
+      "date": "2026-08-18",
+      "sourceId": "market|1787029414|0|1597817|33447|4632380:buy",
+      "overpay": 222380,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 4052684,
+      "detail": "Renato Veiga",
+      "playerId": 38493,
+      "date": "2026-08-18",
+      "sourceId": "market|1787029414|1|12756155|38493|4052684:buy",
+      "overpay": 192684,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 405000,
+      "detail": "Arnau Ortiz",
+      "playerId": 30802,
+      "date": "2026-08-18",
+      "sourceId": "market|1787029414|2|1594869|30802|405000:buy",
+      "overpay": 35000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1877000,
+      "detail": "Gabriel Suazo",
+      "playerId": 38194,
+      "date": "2026-08-18",
+      "sourceId": "market|1787029414|3|1598649|38194|1877000:buy",
+      "overpay": 87000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 3232000,
+      "detail": "Miguel Román",
+      "playerId": 3259,
+      "date": "2026-08-18",
+      "sourceId": "market|1787029414|4|1594869|3259|3232000:buy",
+      "overpay": -8000,
+      "overpayRef": "su valor de mercado"
     }
   ],
-  "lastSync": "2026-08-18T03:11:05.111125+00:00",
+  "lastSync": "2026-08-18T07:23:38.861194+00:00",
   "teamValues": {
-    "Saltamonti": 38440000,
-    "anihi and the anihaloors": 45170000,
-    "valero10": 44150000,
-    "Diablos Cojos": 40540000,
-    "Jajajajajaja": 51000000,
-    "Reial Club Estanislau": 40840000,
-    "FC Carcelona": 42200000,
-    "Keko Kane": 39680000,
-    "Quim fc": 37800000,
-    "Gruu": 40190000,
-    "Yastariabros": 36660000,
-    "Tietes FC": 37550000,
-    "Tikitaki de Aatun": 40680000,
-    "Error del sistema": 33350000,
-    "Real Vicentón Balompié": 36170000,
-    "FCodina": 30690000
+    "Saltamonti": 43030000,
+    "anihi and the anihaloors": 45030000,
+    "valero10": 44100000,
+    "Jajajajajaja": 51150000,
+    "Diablos Cojos": 40360000,
+    "FC Carcelona": 42290000,
+    "Reial Club Estanislau": 45060000,
+    "Keko Kane": 39620000,
+    "Quim fc": 35100000,
+    "Gruu": 40010000,
+    "Yastariabros": 36200000,
+    "Error del sistema": 33180000,
+    "Tikitaki de Aatun": 42430000,
+    "Tietes FC": 40860000,
+    "Real Vicentón Balompié": 36240000,
+    "FCodina": 30510000
   }
 }
