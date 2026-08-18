@@ -2848,15 +2848,44 @@
       "playerId": 21132,
       "date": "2026-08-17",
       "sourceId": "transfer|1787002886|0|1598649|21132|3491900:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 486000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787011753|0|1598649|25815|486000:buy",
+      "overpay": 326000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 486000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787011753|0|1598649|25815|486000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 286700,
+      "detail": "Fran González",
+      "playerId": 10182,
+      "date": "2026-08-18",
+      "sourceId": "transfer|1787011324|0|1598649|10182|286700:sell"
     }
   ],
-  "lastSync": "2026-08-17T21:54:45.801440+00:00",
+  "lastSync": "2026-08-18T03:11:05.111125+00:00",
   "teamValues": {
     "Saltamonti": 38440000,
     "anihi and the anihaloors": 45170000,
     "valero10": 44150000,
     "Diablos Cojos": 40540000,
-    "Jajajajajaja": 51160000,
+    "Jajajajajaja": 51000000,
     "Reial Club Estanislau": 40840000,
     "FC Carcelona": 42200000,
     "Keko Kane": 39680000,
@@ -2864,7 +2893,7 @@
     "Gruu": 40190000,
     "Yastariabros": 36660000,
     "Tietes FC": 37550000,
-    "Tikitaki de Aatun": 40800000,
+    "Tikitaki de Aatun": 40680000,
     "Error del sistema": 33350000,
     "Real Vicentón Balompié": 36170000,
     "FCodina": 30690000
