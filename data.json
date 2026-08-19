@@ -3153,9 +3153,18 @@
       "playerId": 27960,
       "date": "2026-08-19",
       "sourceId": "transfer|1787152878|0|13979073|27960|1045300:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 1926600,
+      "detail": "Mayoral",
+      "playerId": 91,
+      "date": "2026-08-19",
+      "sourceId": "transfer|1787165795|0|12756155|91|1926600:sell"
     }
   ],
-  "lastSync": "2026-08-19T16:02:40.229650+00:00",
+  "lastSync": "2026-08-19T19:12:38.678306+00:00",
   "teamValues": {
     "Saltamonti": 46820000,
     "anihi and the anihaloors": 43890000,
@@ -3170,7 +3179,7 @@
     "Yastariabros": 35760000,
     "Error del sistema": 33010000,
     "Tikitaki de Aatun": 43180000,
-    "Tietes FC": 38780000,
+    "Tietes FC": 36910000,
     "Real Vicentón Balompié": 36300000,
     "FCodina": 27760000
   }
