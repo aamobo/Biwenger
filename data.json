@@ -3144,12 +3144,21 @@
       "playerId": 5678,
       "date": "2026-08-19",
       "sourceId": "transfer|1787142162|0|14077779|5678|1710000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 1045300,
+      "detail": "Carmona",
+      "playerId": 27960,
+      "date": "2026-08-19",
+      "sourceId": "transfer|1787152878|0|13979073|27960|1045300:sell"
     }
   ],
-  "lastSync": "2026-08-19T14:07:25.377782+00:00",
+  "lastSync": "2026-08-19T16:02:40.229650+00:00",
   "teamValues": {
     "Saltamonti": 46820000,
-    "anihi and the anihaloors": 44900000,
+    "anihi and the anihaloors": 43890000,
     "valero10": 43960000,
     "Jajajajajaja": 46520000,
     "Diablos Cojos": 40120000,
