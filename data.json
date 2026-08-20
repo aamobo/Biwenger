@@ -3198,13 +3198,40 @@
       "playerId": 41415,
       "date": "2026-08-19",
       "sourceId": "transfer|1787170554|3|11770405|41415|152300:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 233600,
+      "detail": "Kambwala",
+      "playerId": 30628,
+      "date": "2026-08-20",
+      "sourceId": "transfer|1787188265|0|1598649|30628|233600:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 10388100,
+      "detail": "Julián Alvarez",
+      "playerId": 34557,
+      "date": "2026-08-19",
+      "sourceId": "transfer|1787178407|0|1594907|34557|10388100:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 151300,
+      "detail": "Foulquier",
+      "playerId": 1780,
+      "date": "2026-08-19",
+      "sourceId": "transfer|1787176841|0|1594869|1780|151300:sell"
     }
   ],
-  "lastSync": "2026-08-19T21:55:50.333409+00:00",
+  "lastSync": "2026-08-20T03:13:29.368403+00:00",
   "teamValues": {
-    "Saltamonti": 46820000,
+    "Saltamonti": 46670000,
     "anihi and the anihaloors": 43890000,
-    "valero10": 43960000,
+    "valero10": 33540000,
     "Jajajajajaja": 46520000,
     "Diablos Cojos": 40120000,
     "FC Carcelona": 41390000,
@@ -3214,7 +3241,7 @@
     "Gruu": 42290000,
     "Yastariabros": 35760000,
     "Error del sistema": 33010000,
-    "Tikitaki de Aatun": 43180000,
+    "Tikitaki de Aatun": 42950000,
     "Tietes FC": 36910000,
     "Real Vicentón Balompié": 36300000,
     "FCodina": 27760000
