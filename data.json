@@ -3296,19 +3296,46 @@
       "playerId": 31989,
       "date": "2026-08-20",
       "sourceId": "transfer|1787221336|0|13990414|31989|2686200:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 1991600,
+      "detail": "Joaquín Muñoz",
+      "playerId": 18570,
+      "date": "2026-08-20",
+      "sourceId": "transfer|1787227748|0|1594880|18570|1991600:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2914900,
+      "detail": "Starfelt",
+      "playerId": 31321,
+      "date": "2026-08-20",
+      "sourceId": "transfer|1787224697|0|1603117|31321|2914900:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3736900,
+      "detail": "Dimitrievski",
+      "playerId": 11677,
+      "date": "2026-08-20",
+      "sourceId": "transfer|1787222452|1|1594869|11677|3736900:sell"
     }
   ],
-  "lastSync": "2026-08-20T10:38:44.881213+00:00",
+  "lastSync": "2026-08-20T14:10:27.539654+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42100000,
-    "Jajajajajaja": 46630000,
+    "Jajajajajaja": 43830000,
     "Quim fc": 39120000,
     "FCodina": 32210000,
-    "Saltamonti": 48780000,
+    "Saltamonti": 44930000,
     "Keko Kane": 39600000,
     "valero10": 38390000,
     "Gruu": 39700000,
-    "Real Vicentón Balompié": 36300000,
+    "Real Vicentón Balompié": 34310000,
     "anihi and the anihaloors": 43780000,
     "Error del sistema": 32820000,
     "Tikitaki de Aatun": 43150000,
