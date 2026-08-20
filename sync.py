@@ -136,14 +136,38 @@ def extract_transactions(board, id_to_name, players_map, players_values):
 
     for ev in events:
         etype = str(ev.get("type", "")).lower()
-        raw_content = ev.get("content", ev)
-        content_items = raw_content if isinstance(raw_content, list) else [raw_content]
         date = ev.get("date")
         date_str = (
             datetime.fromtimestamp(date, tz=timezone.utc).strftime("%Y-%m-%d")
             if isinstance(date, (int, float))
             else str(date)[:10] if date else ""
         )
+
+        if etype == "roundfinished":
+            raw_content = ev.get("content") or {}
+            round_info = raw_content.get("round") or {}
+            round_name = round_info.get("name", "Jornada")
+            results = raw_content.get("results")
+            if isinstance(results, list):
+                for ridx, res in enumerate(results):
+                    if not isinstance(res, dict):
+                        continue
+                    user = res.get("user") or {}
+                    bonus = res.get("bonus")
+                    manager = user.get("name") or id_to_name.get(user.get("id"), "")
+                    if manager and isinstance(bonus, (int, float)):
+                        raw_id = ev.get("id")
+                        stable_key = f"roundfinished|{date}|{ridx}|{user.get('id')}|{bonus}"
+                        source_id = f"{raw_id}:{ridx}" if raw_id is not None else stable_key
+                        transactions.append({
+                            "manager": manager, "type": "prima", "amount": bonus,
+                            "detail": round_name, "playerId": None,
+                            "date": date_str, "sourceId": source_id,
+                        })
+            continue
+
+        raw_content = ev.get("content", ev)
+        content_items = raw_content if isinstance(raw_content, list) else [raw_content]
 
         for idx, content in enumerate(content_items):
             if not isinstance(content, dict):
@@ -165,10 +189,6 @@ def extract_transactions(board, id_to_name, players_map, players_values):
                 player_id = player_field
                 player_name = players_map.get(str(player_field), f"Jugador #{player_field}") if player_field is not None else ""
 
-            # El identificador para no duplicar se construye SOLO con datos
-            # estables (nunca con campos decorativos como iconos, que pueden
-            # cambiar de una consulta a otra y hacer que el mismo movimiento
-            # parezca "nuevo" cada vez).
             manager_id_for_key = to_user.get("id") or from_user.get("id") or clause_user.get("id")
             raw_id = ev.get("id")
             stable_key = f"{etype}|{date}|{idx}|{manager_id_for_key}|{player_id}|{amount}"
@@ -211,6 +231,23 @@ def extract_transactions(board, id_to_name, players_map, players_values):
                     transactions.append({"manager": seller, "type": "venta", "amount": amount, "detail": player_name, "playerId": player_id, "date": date_str, "sourceId": source_id + ":sell"})
 
     return transactions
+
+
+def collect_unparsed_samples(board_events, max_per_type=2):
+    """
+    Guarda un par de ejemplos de cada tipo de evento que el tablón NO
+    reconoce todavía. Se escribe en un archivo normal del repositorio
+    para poder verlo sin descargar nada, ni desde el móvil.
+    """
+    samples = {}
+    for ev in board_events:
+        etype = str(ev.get("type", "")).lower()
+        if etype == "clauseincrement" or etype == "roundfinished" or "clause" in etype or "transfer" in etype or "market" in etype:
+            continue
+        samples.setdefault(etype, [])
+        if len(samples[etype]) < max_per_type:
+            samples[etype].append(ev)
+    return samples
 
 
 def main():
@@ -267,7 +304,7 @@ def main():
 
     own_manager_name = id_to_name.get(league_user_id)
     if own_manager_name:
-        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "ajuste": 1}
+        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "prima": 1, "ajuste": 1}
         own_moves = [t for t in new_transactions if t.get("manager") == own_manager_name]
         net = sum(sign_map.get(t["type"], 0) * t["amount"] for t in own_moves)
         print(f"[debug] En este lote de {len(board_events)} eventos, movimientos detectados para {own_manager_name}: {len(own_moves)} (neto: {net})")
@@ -275,7 +312,11 @@ def main():
     with open("board_raw.json", "w", encoding="utf-8") as f:
         json.dump(board_events, f, ensure_ascii=False, indent=2)
 
-    # Cargar lo que ya teníamos y añadir solo lo nuevo (sin duplicar)
+    unparsed_samples = collect_unparsed_samples(board_events)
+    with open("unparsed_sample.json", "w", encoding="utf-8") as f:
+        json.dump(unparsed_samples, f, ensure_ascii=False, indent=2)
+    print(f"[debug] Tipos de evento sin reconocer todavía: {list(unparsed_samples.keys())}")
+
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             existing = json.load(f)
@@ -291,11 +332,6 @@ def main():
         existing_ids.add(t.get("sourceId"))
         added += 1
 
-    # Limpieza de seguridad: si por lo que sea se coló algún duplicado
-    # (identificador distinto pero mismo movimiento real), lo quitamos.
-    # Cuando hay dos versiones del mismo movimiento, nos quedamos con la
-    # más completa (con nombre real del jugador y sobrepago si lo tiene),
-    # no con la primera que encontremos.
     def richness(t):
         score = 0
         detail = t.get("detail") or ""
@@ -329,13 +365,6 @@ def main():
     print(f"Movimientos nuevos añadidos: {added}")
     print(f"Total movimientos guardados: {len(existing['transactions'])}")
 
-    # Chequeo para TODOS los managers (no solo el tuyo): buscamos grupos de
-    # movimientos que comparten manager+tipo+importe+fecha, el mismo patrón
-    # que causó el fallo de los 150.000 €. Si dentro de un grupo hay más de
-    # un playerId distinto, es señal de que había varios movimientos reales
-    # y ahora se están guardando todos por separado (correcto). Si vieras
-    # aquí un grupo con un solo playerId y más de una entrada, sería un
-    # duplicado real que seguiría sin arreglar.
     from collections import defaultdict
     groups = defaultdict(list)
     for t in existing["transactions"]:
@@ -352,7 +381,7 @@ def main():
         print("\n[debug] No hay grupos con manager+tipo+importe+fecha repetidos en toda la liga.")
 
     if own_manager_name:
-        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "ajuste": 1}
+        sign_map = {"compra": -1, "venta": 1, "clausula_pagada": -1, "clausula_cobrada": 1, "clausula_subida": -1, "prima": 1, "ajuste": 1}
         all_own = [t for t in existing["transactions"] if t.get("manager") == own_manager_name]
         net_total = sum(sign_map.get(t["type"], 0) * t["amount"] for t in all_own)
         print(f"[debug] Historial completo guardado para {own_manager_name}: {len(all_own)} movimientos, neto acumulado: {net_total}")
