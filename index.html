@@ -131,10 +131,11 @@
     <section class="card">
       <h2>ℹ️ Cómo se mantiene esto</h2>
       <div class="howto">
-        Los fichajes, ventas y cláusulas se traen solos de Biwenger cada pocas horas.
-        El valor de plantilla inicial de cada manager (necesario para calcular el saldo:
-        <code>40.000.000 − valor inicial</code>) se guarda en <code>overrides.json</code> del
-        repositorio — para corregirlo, edita ese archivo directamente en GitHub.
+        Los fichajes, ventas, cláusulas y primas de jornada se traen solos de Biwenger
+        cada pocas horas. El valor de plantilla inicial de cada manager (necesario para
+        calcular el saldo: <code>40.000.000 − valor inicial</code>) se guarda en
+        <code>overrides.json</code> del repositorio — para corregirlo, edita ese archivo
+        directamente en GitHub.
       </div>
     </section>
   </div>
@@ -157,8 +158,10 @@
     clausula_pagada:   { label:'Cláusula pagada',    icon:'📤', cls:'down' },
     clausula_cobrada:  { label:'Cláusula cobrada',   icon:'📥', cls:'up'   },
     clausula_subida:   { label:'Cláusula subida',    icon:'📈', cls:'down' },
+    prima:             { label:'Prima de jornada',   icon:'🏅', cls:'up'   },
     ajuste:            { label:'Ajuste manual',      icon:'⚖️', cls:'flat' }
   };
+  const SIGN_MAP = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, clausula_subida:-1, prima:1, ajuste:1 };
 
   let overrides = { leagueName: 'Tablón de Fichajes', basePot: 40000000, players: [] };
   let data = { transactions: [], lastSync: null };
@@ -189,10 +192,7 @@
     const start = overrides.basePot - (player ? player.initialValue : 0);
     const delta = data.transactions
       .filter(t => t.manager === name)
-      .reduce((sum, t) => {
-        const meta = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, clausula_subida:-1, ajuste:1 }[t.type] || 0;
-        return sum + meta * t.amount;
-      }, 0);
+      .reduce((sum, t) => sum + (SIGN_MAP[t.type] || 0) * t.amount, 0);
     return start + delta;
   }
 
@@ -205,8 +205,7 @@
   }
 
   function txDelta(t){
-    const sign = { compra:-1, venta:1, clausula_pagada:-1, clausula_cobrada:1, clausula_subida:-1, ajuste:1 }[t.type] || 0;
-    return sign * t.amount;
+    return (SIGN_MAP[t.type] || 0) * t.amount;
   }
 
   function renderAll(){
@@ -340,12 +339,13 @@
     const meta = TX_TYPES[t.type] || { label: t.type, icon: '•', cls: 'flat' };
     const d = txDelta(t);
     const sign = d > 0 ? '+' : (d < 0 ? '−' : '');
+    const clickable = t.type !== 'prima';
     return `
       <div class="tx-card ${meta.cls}">
         <div class="tx-icon">${meta.icon}</div>
         <div class="tx-body">
           <div class="tx-line1"><span class="who">${escapeHtml(t.manager)}</span> <span class="type-label">· ${escapeHtml(meta.label)}</span></div>
-          ${t.detail ? `<div class="tx-detail" data-player-detail="${escapeHtml(t.detail)}" style="cursor:pointer; text-decoration:underline dotted; text-underline-offset:2px;">${escapeHtml(t.detail)}</div>` : ''}
+          ${t.detail ? `<div class="tx-detail" ${clickable ? `data-player-detail="${escapeHtml(t.detail)}" style="cursor:pointer; text-decoration:underline dotted; text-underline-offset:2px;"` : ''}>${escapeHtml(t.detail)}</div>` : ''}
           ${typeof t.overpay === 'number' ? `<div class="tx-detail" style="color:var(--gold);">${t.overpay >= 0 ? 'Pagó' : 'Ahorró'} ${fmt(Math.abs(t.overpay))} ${t.overpay >= 0 ? 'de más' : ''} respecto a ${t.overpayRef || 'su valor de referencia'}</div>` : ''}
         </div>
         <div class="tx-amount ${meta.cls}">${sign}${fmt(Math.abs(d))}</div>
