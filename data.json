@@ -3518,14 +3518,23 @@
       "sourceId": "market|1787289250|2|14077779|10245|2630170:buy",
       "overpay": -39830,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 3861300,
+      "detail": "Batalla",
+      "playerId": 32134,
+      "date": "2026-08-21",
+      "sourceId": "transfer|1787305435|0|14077779|32134|3861300:sell"
     }
   ],
-  "lastSync": "2026-08-21T08:05:29.253817+00:00",
+  "lastSync": "2026-08-21T10:15:15.168679+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42030000,
     "Jajajajajaja": 43780000,
     "Quim fc": 39110000,
-    "FCodina": 35020000,
+    "FCodina": 31130000,
     "Saltamonti": 36480000,
     "Keko Kane": 39480000,
     "valero10": 33190000,
