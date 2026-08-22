@@ -3558,9 +3558,18 @@
       "sourceId": "market|1787375279|1|14077779|16606|200010:buy",
       "overpay": 10,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 281200,
+      "detail": "Perrotta",
+      "playerId": 42113,
+      "date": "2026-08-22",
+      "sourceId": "transfer|1787395638|0|1594880|42113|281200:sell"
     }
   ],
-  "lastSync": "2026-08-22T09:54:29.317930+00:00",
+  "lastSync": "2026-08-22T13:44:14.932916+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42340000,
     "Jajajajajaja": 43780000,
@@ -3570,7 +3579,7 @@
     "Keko Kane": 39230000,
     "valero10": 33390000,
     "Gruu": 39530000,
-    "Real Vicentón Balompié": 36600000,
+    "Real Vicentón Balompié": 36310000,
     "anihi and the anihaloors": 43490000,
     "Error del sistema": 32200000,
     "Tikitaki de Aatun": 43370000,
