@@ -3576,19 +3576,57 @@
       "playerId": 39350,
       "date": "2026-08-22",
       "sourceId": "clauseincrement|1787416319|0|1594869|39350|400000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Javi Hernández",
+      "playerId": 25322,
+      "date": "2026-08-22",
+      "sourceId": "clauseincrement|1787430235|0|1594869|25322|500000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 3093600,
+      "detail": "Balde",
+      "playerId": 10040,
+      "date": "2026-08-22",
+      "sourceId": "transfer|1787427284|0|1603117|10040|3093600:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 2538000,
+      "detail": "Filip Ugrinic",
+      "playerId": 38368,
+      "date": "2026-08-22",
+      "sourceId": "transfer|1787427099|0|14077779|38368|2538000:buy",
+      "overpay": 1128000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 2538000,
+      "detail": "Filip Ugrinic",
+      "playerId": 38368,
+      "date": "2026-08-22",
+      "sourceId": "transfer|1787427099|0|14077779|38368|2538000:sell"
     }
   ],
-  "lastSync": "2026-08-22T19:03:09.214278+00:00",
+  "lastSync": "2026-08-22T21:48:50.346365+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42340000,
-    "Jajajajajaja": 43780000,
+    "Jajajajajaja": 40830000,
     "Quim fc": 39350000,
-    "FCodina": 31780000,
+    "FCodina": 33190000,
     "Saltamonti": 37610000,
     "Keko Kane": 39230000,
     "valero10": 33390000,
     "Gruu": 39530000,
-    "Real Vicentón Balompié": 36310000,
+    "Real Vicentón Balompié": 34900000,
     "anihi and the anihaloors": 43490000,
     "Error del sistema": 32200000,
     "Tikitaki de Aatun": 43370000,
