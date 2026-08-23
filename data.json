@@ -3614,9 +3614,18 @@
       "playerId": 38368,
       "date": "2026-08-22",
       "sourceId": "transfer|1787427099|0|14077779|38368|2538000:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 559700,
+      "detail": "Álvaro Núñez",
+      "playerId": 37719,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787444290|0|1594907|37719|559700:sell"
     }
   ],
-  "lastSync": "2026-08-22T21:48:50.346365+00:00",
+  "lastSync": "2026-08-23T03:31:06.238228+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42340000,
     "Jajajajajaja": 40830000,
@@ -3624,7 +3633,7 @@
     "FCodina": 33190000,
     "Saltamonti": 37610000,
     "Keko Kane": 39230000,
-    "valero10": 33390000,
+    "valero10": 32850000,
     "Gruu": 39530000,
     "Real Vicentón Balompié": 34900000,
     "anihi and the anihaloors": 43490000,
