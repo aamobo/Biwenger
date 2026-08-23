@@ -3687,15 +3687,44 @@
       "playerId": 25127,
       "date": "2026-08-23",
       "sourceId": "transfer|1787485456|0|1603117|25127|8739400:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 637700,
+      "detail": "Manu Bueno",
+      "playerId": 26299,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787499336|0|1594869|26299|637700:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 648000,
+      "detail": "Nteka",
+      "playerId": 24336,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787494059|0|2061477|24336|648000:buy",
+      "overpay": 288000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 648000,
+      "detail": "Nteka",
+      "playerId": 24336,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787494059|0|2061477|24336|648000:sell"
     }
   ],
-  "lastSync": "2026-08-23T13:46:42.752378+00:00",
+  "lastSync": "2026-08-23T15:50:06.631323+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42430000,
-    "Jajajajajaja": 44100000,
+    "Jajajajajaja": 43740000,
     "Quim fc": 39390000,
     "FCodina": 37740000,
-    "Saltamonti": 38910000,
+    "Saltamonti": 38300000,
     "Keko Kane": 39020000,
     "valero10": 35370000,
     "Gruu": 39480000,
@@ -3706,6 +3735,6 @@
     "FC Carcelona": 40860000,
     "Tietes FC": 40740000,
     "Diablos Cojos": 39020000,
-    "Yastariabros": 35250000
+    "Yastariabros": 35610000
   }
 }
