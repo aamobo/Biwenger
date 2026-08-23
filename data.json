@@ -3716,15 +3716,42 @@
       "playerId": 24336,
       "date": "2026-08-23",
       "sourceId": "transfer|1787494059|0|2061477|24336|648000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 6572600,
+      "detail": "Sancet",
+      "playerId": 17057,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787520608|0|1594869|17057|6572600:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 478100,
+      "detail": "Pablo Marín",
+      "playerId": 29034,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787517227|0|12756155|29034|478100:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 400000,
+      "detail": "Pablo Ramón",
+      "playerId": 35408,
+      "date": "2026-08-23",
+      "sourceId": "clauseincrement|1787513127|0|1594869|35408|400000"
     }
   ],
-  "lastSync": "2026-08-23T19:02:42.305590+00:00",
+  "lastSync": "2026-08-23T21:47:23.960642+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42430000,
     "Jajajajajaja": 43740000,
     "Quim fc": 39390000,
     "FCodina": 37740000,
-    "Saltamonti": 38300000,
+    "Saltamonti": 31930000,
     "Keko Kane": 39020000,
     "valero10": 35370000,
     "Gruu": 39480000,
@@ -3733,7 +3760,7 @@
     "Error del sistema": 32010000,
     "Tikitaki de Aatun": 43190000,
     "FC Carcelona": 40860000,
-    "Tietes FC": 40740000,
+    "Tietes FC": 40270000,
     "Diablos Cojos": 39020000,
     "Yastariabros": 35610000
   }
