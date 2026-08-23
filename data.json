@@ -3678,12 +3678,21 @@
       "sourceId": "market|1787461773|4|1603117|31243|11720000:buy",
       "overpay": 130000,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 8739400,
+      "detail": "Ez Abde",
+      "playerId": 25127,
+      "date": "2026-08-23",
+      "sourceId": "transfer|1787485456|0|1603117|25127|8739400:sell"
     }
   ],
-  "lastSync": "2026-08-23T09:56:05.334553+00:00",
+  "lastSync": "2026-08-23T13:46:42.752378+00:00",
   "teamValues": {
     "Reial Club Estanislau": 42430000,
-    "Jajajajajaja": 52250000,
+    "Jajajajajaja": 44100000,
     "Quim fc": 39390000,
     "FCodina": 37740000,
     "Saltamonti": 38910000,
