@@ -3829,14 +3829,23 @@
       "playerId": 2253,
       "date": "2026-08-24",
       "sourceId": "transfer|1787560826|0|1597817|2253|3275600:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1630300,
+      "detail": "Sangaré",
+      "playerId": 40010,
+      "date": "2026-08-24",
+      "sourceId": "transfer|1787582318|0|14077779|40010|1630300:sell"
     }
   ],
-  "lastSync": "2026-08-24T14:26:22.814330+00:00",
+  "lastSync": "2026-08-24T17:04:36.875788+00:00",
   "teamValues": {
     "Reial Club Estanislau": 39560000,
     "Jajajajajaja": 43900000,
     "Quim fc": 39810000,
-    "FCodina": 38010000,
+    "FCodina": 36410000,
     "Saltamonti": 33800000,
     "Keko Kane": 39040000,
     "valero10": 37480000,
