@@ -3820,11 +3820,20 @@
       "sourceId": "market|1787547731|6|1594869|42726|1089630:buy",
       "overpay": 209630,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 3275600,
+      "detail": "Rüdiger",
+      "playerId": 2253,
+      "date": "2026-08-24",
+      "sourceId": "transfer|1787560826|0|1597817|2253|3275600:sell"
     }
   ],
-  "lastSync": "2026-08-24T08:28:41.222123+00:00",
+  "lastSync": "2026-08-24T10:58:41.071831+00:00",
   "teamValues": {
-    "Reial Club Estanislau": 42730000,
+    "Reial Club Estanislau": 39560000,
     "Jajajajajaja": 43900000,
     "Quim fc": 39810000,
     "FCodina": 38010000,
