@@ -3953,14 +3953,23 @@
       "sourceId": "market|1787634482|7|1597817|38962|10896470:buy",
       "overpay": 546470,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1328700,
+      "detail": "Diego Rico",
+      "playerId": 5678,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787661812|0|14077779|5678|1328700:sell"
     }
   ],
-  "lastSync": "2026-08-25T10:17:21.795981+00:00",
+  "lastSync": "2026-08-25T14:28:09.894155+00:00",
   "teamValues": {
     "Reial Club Estanislau": 49060000,
     "Jajajajajaja": 44260000,
     "Quim fc": 38610000,
-    "FCodina": 36710000,
+    "FCodina": 35340000,
     "Saltamonti": 36150000,
     "Keko Kane": 39110000,
     "valero10": 48090000,
