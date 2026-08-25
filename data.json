@@ -3962,25 +3962,160 @@
       "playerId": 5678,
       "date": "2026-08-25",
       "sourceId": "transfer|1787661812|0|14077779|5678|1328700:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "prima",
+      "amount": 3850000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|0|1594869|3850000"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|1|13978983|4200000"
+    },
+    {
+      "manager": "valero10",
+      "type": "prima",
+      "amount": 3450000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|2|1594907|3450000"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "prima",
+      "amount": 3650000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|3|13979073|3650000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "prima",
+      "amount": 3450000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|4|12756155|3450000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "prima",
+      "amount": 3350000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|5|14039644|3350000"
+    },
+    {
+      "manager": "Gruu",
+      "type": "prima",
+      "amount": 3450000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|6|13990414|3450000"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "prima",
+      "amount": 3750000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|7|11770405|3750000"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "prima",
+      "amount": 3450000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|8|1597817|3450000"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "prima",
+      "amount": 3850000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|9|2061477|3850000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "prima",
+      "amount": 3450000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|10|14077779|3450000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "prima",
+      "amount": 3500000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|11|1603117|3500000"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "prima",
+      "amount": 3800000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|12|13990170|3800000"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "prima",
+      "amount": 3600000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|13|1594880|3600000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "prima",
+      "amount": 3350000,
+      "detail": "Round 2",
+      "playerId": null,
+      "date": "2026-08-25",
+      "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-25T14:28:09.894155+00:00",
+  "lastSync": "2026-08-25T15:31:05.654745+00:00",
   "teamValues": {
     "Reial Club Estanislau": 49060000,
-    "Jajajajajaja": 44260000,
-    "Quim fc": 38610000,
-    "FCodina": 35340000,
     "Saltamonti": 36150000,
     "Keko Kane": 39110000,
+    "Quim fc": 38610000,
     "valero10": 48090000,
-    "Gruu": 39320000,
-    "Real Vicentón Balompié": 35350000,
+    "Jajajajajaja": 44260000,
     "anihi and the anihaloors": 43580000,
-    "Error del sistema": 33790000,
-    "Tikitaki de Aatun": 42680000,
-    "FC Carcelona": 40840000,
+    "Gruu": 39320000,
+    "FCodina": 35340000,
     "Tietes FC": 44640000,
+    "FC Carcelona": 40840000,
+    "Real Vicentón Balompié": 35350000,
+    "Error del sistema": 33790000,
+    "Yastariabros": 35760000,
     "Diablos Cojos": 38400000,
-    "Yastariabros": 35760000
+    "Tikitaki de Aatun": 42680000
   }
 }
