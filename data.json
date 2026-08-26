@@ -4106,25 +4106,114 @@
       "playerId": 42389,
       "date": "2026-08-25",
       "sourceId": "transfer|1787696403|0|1594907|42389|3736300:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 3582000,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|0|1603117|26592|3582000:buy",
+      "overpay": 1592000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 3582000,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|0|1603117|26592|3582000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 900000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|1|1603117|25815|900000:buy",
+      "overpay": 400000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 900000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|1|1603117|25815|900000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 810000,
+      "detail": "Oriol Rey",
+      "playerId": 37726,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|2|1603117|37726|810000:buy",
+      "overpay": 360000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 810000,
+      "detail": "Oriol Rey",
+      "playerId": 37726,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|2|1603117|37726|810000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 414000,
+      "detail": "Herrando",
+      "playerId": 30141,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|3|1603117|30141|414000:buy",
+      "overpay": 184000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 414000,
+      "detail": "Herrando",
+      "playerId": 30141,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787699674|3|1603117|30141|414000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 761600,
+      "detail": "Neto",
+      "playerId": 38355,
+      "date": "2026-08-25",
+      "sourceId": "transfer|1787697507|0|1594869|38355|761600:sell"
     }
   ],
-  "lastSync": "2026-08-25T22:35:16.874537+00:00",
+  "lastSync": "2026-08-26T03:35:37.261410+00:00",
   "teamValues": {
     "Reial Club Estanislau": 49060000,
-    "Saltamonti": 36150000,
+    "Saltamonti": 35390000,
     "Keko Kane": 39110000,
     "Quim fc": 38610000,
     "valero10": 44400000,
-    "Jajajajajaja": 44260000,
+    "Jajajajajaja": 47430000,
     "anihi and the anihaloors": 43580000,
-    "Gruu": 39320000,
+    "Gruu": 37330000,
     "FCodina": 35340000,
     "Tietes FC": 44640000,
-    "FC Carcelona": 40840000,
+    "FC Carcelona": 40610000,
     "Real Vicentón Balompié": 35350000,
-    "Error del sistema": 33790000,
+    "Error del sistema": 33340000,
     "Yastariabros": 35760000,
     "Diablos Cojos": 38400000,
-    "Tikitaki de Aatun": 42680000
+    "Tikitaki de Aatun": 42180000
   }
 }
