@@ -4441,25 +4441,63 @@
       "sourceId": "market|1787807055|5|13978983|19506|1320000:buy",
       "overpay": 0,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2865700,
+      "detail": "De Galarreta",
+      "playerId": 2055,
+      "date": "2026-08-27",
+      "sourceId": "transfer|1787860017|0|1598649|2055|2865700:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 3533200,
+      "detail": "Iván Romero",
+      "playerId": 17937,
+      "date": "2026-08-27",
+      "sourceId": "transfer|1787848229|0|1603117|17937|3533200:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 1422000,
+      "detail": "Christensen",
+      "playerId": 26678,
+      "date": "2026-08-27",
+      "sourceId": "transfer|1787839984|0|1594880|26678|1422000:buy",
+      "overpay": 632000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1422000,
+      "detail": "Christensen",
+      "playerId": 26678,
+      "date": "2026-08-27",
+      "sourceId": "transfer|1787839984|0|1594880|26678|1422000:sell"
     }
   ],
-  "lastSync": "2026-08-27T07:56:06.147287+00:00",
+  "lastSync": "2026-08-28T01:01:47.432784+00:00",
   "teamValues": {
     "Reial Club Estanislau": 49910000,
     "Saltamonti": 48490000,
     "Keko Kane": 42940000,
     "Quim fc": 37830000,
     "valero10": 42050000,
-    "Jajajajajaja": 48100000,
+    "Jajajajajaja": 44780000,
     "anihi and the anihaloors": 54060000,
     "Gruu": 41100000,
     "FCodina": 35850000,
     "Tietes FC": 44750000,
     "FC Carcelona": 39940000,
-    "Real Vicentón Balompié": 35280000,
+    "Real Vicentón Balompié": 36070000,
     "Error del sistema": 33210000,
     "Yastariabros": 40730000,
     "Diablos Cojos": 37840000,
-    "Tikitaki de Aatun": 42280000
+    "Tikitaki de Aatun": 38750000
   }
 }
