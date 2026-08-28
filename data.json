@@ -4545,25 +4545,268 @@
       "sourceId": "market|1787893430|5|1603117|18256|587450:buy",
       "overpay": 237450,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 2280000,
+      "detail": "Rubén Vargas",
+      "playerId": 35615,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787952783|0|2061477|35615|2280000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 273600,
+      "detail": "Gorosabel",
+      "playerId": 15462,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787936533|0|1594880|15462|273600:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 173000,
+      "detail": "Neyou",
+      "playerId": 33691,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787936533|1|1594880|33691|173000:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 5321700,
+      "detail": "De Frutos",
+      "playerId": 18397,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787921830|0|12756155|18397|5321700:sell"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 297100,
+      "detail": "Dani Requena",
+      "playerId": 37488,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787920808|0|13990170|37488|297100:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2469600,
+      "detail": "Gueye",
+      "playerId": 41267,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787918250|0|14077779|41267|2469600:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 4326400,
+      "detail": "Marc Bernal",
+      "playerId": 34077,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787918250|1|14077779|34077|4326400:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 143600,
+      "detail": "Cardoso",
+      "playerId": 38965,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787912745|0|1594907|38965|143600:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 149900,
+      "detail": "Tomás Mendes",
+      "playerId": 3310,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787912745|1|1594907|3310|149900:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 149800,
+      "detail": "Manu Fernández",
+      "playerId": 290,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787908195|0|1594880|290|149800:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|0|1597817|4200000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "prima",
+      "amount": 4100000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|1|1603117|4100000"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "prima",
+      "amount": 3300000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|2|13979073|3300000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "prima",
+      "amount": 3400000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|3|14039644|3400000"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "prima",
+      "amount": 3150000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|4|13978983|3150000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "prima",
+      "amount": 3200000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|5|14077779|3200000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "prima",
+      "amount": 3300000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|6|1594869|3300000"
+    },
+    {
+      "manager": "Gruu",
+      "type": "prima",
+      "amount": 3350000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|7|13990414|3350000"
+    },
+    {
+      "manager": "valero10",
+      "type": "prima",
+      "amount": 3500000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|8|1594907|3500000"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "prima",
+      "amount": 3300000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|9|1594880|3300000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "prima",
+      "amount": 3600000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|10|13990176|3600000"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "prima",
+      "amount": 3400000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|11|1598649|3400000"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "prima",
+      "amount": 3150000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|12|13990170|3150000"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "prima",
+      "amount": 3250000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|13|11770405|3250000"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "prima",
+      "amount": 3400000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|14|2061477|3400000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "prima",
+      "amount": 3500000,
+      "detail": "Round 1 (postponed)",
+      "playerId": null,
+      "date": "2026-08-28",
+      "sourceId": "roundfinished|1787906056|15|12756155|3500000"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 3750100,
+      "detail": "Aimar Oroz",
+      "playerId": 27591,
+      "date": "2026-08-28",
+      "sourceId": "transfer|1787902556|0|13979073|27591|3750100:sell"
     }
   ],
-  "lastSync": "2026-08-28T05:36:56.758794+00:00",
+  "lastSync": "2026-08-28T21:55:40.283207+00:00",
   "teamValues": {
-    "Reial Club Estanislau": 50270000,
-    "Saltamonti": 51670000,
     "Keko Kane": 44720000,
-    "Quim fc": 38940000,
-    "valero10": 45580000,
+    "Saltamonti": 51670000,
+    "anihi and the anihaloors": 50390000,
+    "Reial Club Estanislau": 50270000,
     "Jajajajajaja": 46950000,
-    "anihi and the anihaloors": 54170000,
+    "Quim fc": 38940000,
+    "valero10": 45280000,
     "Gruu": 40870000,
-    "FCodina": 36040000,
-    "Tietes FC": 44730000,
+    "FCodina": 29520000,
+    "Tietes FC": 39320000,
     "FC Carcelona": 39810000,
-    "Real Vicentón Balompié": 35990000,
-    "Error del sistema": 33150000,
-    "Yastariabros": 41000000,
+    "Real Vicentón Balompié": 35380000,
+    "Yastariabros": 38640000,
     "Diablos Cojos": 37500000,
+    "Error del sistema": 32860000,
     "Tikitaki de Aatun": 38740000
   }
 }
