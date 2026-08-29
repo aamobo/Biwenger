@@ -4788,15 +4788,24 @@
       "playerId": 27591,
       "date": "2026-08-28",
       "sourceId": "transfer|1787902556|0|13979073|27591|3750100:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2579100,
+      "detail": "Swedberg",
+      "playerId": 26879,
+      "date": "2026-08-29",
+      "sourceId": "transfer|1787965100|0|1603117|26879|2579100:sell"
     }
   ],
-  "lastSync": "2026-08-29T00:07:12.956474+00:00",
+  "lastSync": "2026-08-29T03:07:07.478127+00:00",
   "teamValues": {
     "Keko Kane": 44720000,
     "Saltamonti": 51670000,
     "anihi and the anihaloors": 50390000,
     "Reial Club Estanislau": 50270000,
-    "Jajajajajaja": 46950000,
+    "Jajajajajaja": 44430000,
     "Quim fc": 38940000,
     "valero10": 45280000,
     "Gruu": 40870000,
