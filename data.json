@@ -4852,15 +4852,44 @@
       "sourceId": "market|1787979966|4|1594880|5771|1950000:buy",
       "overpay": 120000,
       "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 2752200,
+      "detail": "Yassir Zabiri",
+      "playerId": 42610,
+      "date": "2026-08-29",
+      "sourceId": "transfer|1788002502|0|1603117|42610|2752200:buy",
+      "overpay": 1422200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2752200,
+      "detail": "Yassir Zabiri",
+      "playerId": 42610,
+      "date": "2026-08-29",
+      "sourceId": "transfer|1788002502|0|1603117|42610|2752200:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 257000,
+      "detail": "Rego",
+      "playerId": 38449,
+      "date": "2026-08-29",
+      "sourceId": "transfer|1787996976|0|1598649|38449|257000:sell"
     }
   ],
-  "lastSync": "2026-08-29T09:07:04.871750+00:00",
+  "lastSync": "2026-08-29T12:08:14.135066+00:00",
   "teamValues": {
     "Keko Kane": 44630000,
     "Saltamonti": 69010000,
-    "anihi and the anihaloors": 50730000,
+    "anihi and the anihaloors": 49400000,
     "Reial Club Estanislau": 50520000,
-    "Jajajajajaja": 44730000,
+    "Jajajajajaja": 46060000,
     "Quim fc": 54370000,
     "valero10": 45400000,
     "Gruu": 40680000,
@@ -4871,6 +4900,6 @@
     "Yastariabros": 38850000,
     "Diablos Cojos": 37230000,
     "Error del sistema": 38630000,
-    "Tikitaki de Aatun": 38490000
+    "Tikitaki de Aatun": 38250000
   }
 }
