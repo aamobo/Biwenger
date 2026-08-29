@@ -4910,12 +4910,21 @@
       "playerId": 15396,
       "date": "2026-08-29",
       "sourceId": "transfer|1788021644|0|1594869|15396|1183435:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 689800,
+      "detail": "Moi Gómez",
+      "playerId": 1462,
+      "date": "2026-08-29",
+      "sourceId": "transfer|1788037427|0|1594869|1462|689800:sell"
     }
   ],
-  "lastSync": "2026-08-29T18:07:04.285699+00:00",
+  "lastSync": "2026-08-29T21:07:09.091192+00:00",
   "teamValues": {
     "Keko Kane": 44630000,
-    "Saltamonti": 69510000,
+    "Saltamonti": 68800000,
     "anihi and the anihaloors": 49400000,
     "Reial Club Estanislau": 50520000,
     "Jajajajajaja": 40000000,
