@@ -4586,6 +4586,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 2622100,
+      "detail": "Urko Gonzalez",
+      "playerId": 22699,
+      "date": "2026-08-30",
+      "sourceId": "transfer|1788081122|0|14039644|22699|2622100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -4865,14 +4874,14 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-30T09:06:56.199636+00:00",
+  "lastSync": "2026-08-30T12:07:30.163830+00:00",
   "teamValues": {
     "Keko Kane": 46170000,
     "Saltamonti": 70290000,
     "anihi and the anihaloors": 49650000,
     "Reial Club Estanislau": 51010000,
     "Jajajajajaja": 48810000,
-    "Quim fc": 54170000,
+    "Quim fc": 51660000,
     "valero10": 53570000,
     "Gruu": 40620000,
     "FCodina": 29870000,
