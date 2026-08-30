@@ -4613,6 +4613,24 @@
       "sourceId": "transfer|1788093391|0|14039644|27960|871300:sell"
     },
     {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 156800,
+      "detail": "Xavi Grande",
+      "playerId": 37735,
+      "date": "2026-08-30",
+      "sourceId": "transfer|1788103709|0|11770405|37735|156800:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 156700,
+      "detail": "Moussa Diarra",
+      "playerId": 42328,
+      "date": "2026-08-30",
+      "sourceId": "transfer|1788103709|1|11770405|42328|156700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -4892,7 +4910,7 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-30T15:07:06.691750+00:00",
+  "lastSync": "2026-08-30T18:07:13.826552+00:00",
   "teamValues": {
     "Keko Kane": 46170000,
     "Saltamonti": 70290000,
@@ -4904,7 +4922,7 @@
     "Gruu": 40620000,
     "FCodina": 29870000,
     "Tietes FC": 39240000,
-    "FC Carcelona": 40480000,
+    "FC Carcelona": 40180000,
     "Real Vicentón Balompié": 39860000,
     "Yastariabros": 39190000,
     "Diablos Cojos": 37270000,
