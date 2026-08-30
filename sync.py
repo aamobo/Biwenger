@@ -11,6 +11,7 @@ inicial de cada manager, y eso se edita a mano en GitHub, no aquí.
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 
@@ -233,11 +234,44 @@ def extract_transactions(board, id_to_name, players_map, players_values):
     return transactions
 
 
+def base_round_name(name):
+    """'Round 1 (postponed)' -> 'Round 1'"""
+    return re.sub(r"\s*\(postponed\)\s*$", "", name or "", flags=re.IGNORECASE).strip()
+
+
+def resolve_postponed_rounds(transactions):
+    """
+    Cuando Biwenger pospone parte de una jornada, más tarde emite un nuevo
+    evento de prima "(postponed)" que es el RECÁLCULO COMPLETO de esa
+    jornada, no un extra que se suma al original. Aquí nos quedamos solo
+    con la versión pospuesta cuando exista, y descartamos la original,
+    para cada manager y cada jornada por separado.
+    """
+    primas = [t for t in transactions if t.get("type") == "prima"]
+    others = [t for t in transactions if t.get("type") != "prima"]
+
+    by_key = {}
+    for t in primas:
+        base = base_round_name(t.get("detail"))
+        key = (t.get("manager"), base)
+        is_postponed = "(postponed)" in (t.get("detail") or "").lower()
+        existing = by_key.get(key)
+        if existing is None:
+            by_key[key] = t
+        else:
+            existing_is_postponed = "(postponed)" in (existing.get("detail") or "").lower()
+            if is_postponed and not existing_is_postponed:
+                by_key[key] = t  # el pospuesto sustituye al original
+
+    return others + list(by_key.values())
+
+
 def collect_unparsed_samples(board_events, max_per_type=2):
     """
     Guarda un par de ejemplos de cada tipo de evento que el tablón NO
-    reconoce todavía. Se escribe en un archivo normal del repositorio
-    para poder verlo sin descargar nada, ni desde el móvil.
+    reconoce todavía (como las primas de jornada, que aún no sabemos
+    cómo vienen representadas). Esto se escribe en un archivo normal del
+    repositorio para poder verlo sin descargar nada, ni desde el móvil.
     """
     samples = {}
     for ev in board_events:
@@ -355,6 +389,12 @@ def main():
     existing["transactions"] = [best_by_key[k] for k in order]
     if removed:
         print(f"Movimientos duplicados eliminados: {removed}")
+
+    before_postponed = len(existing["transactions"])
+    existing["transactions"] = resolve_postponed_rounds(existing["transactions"])
+    removed_postponed = before_postponed - len(existing["transactions"])
+    if removed_postponed:
+        print(f"Primas originales sustituidas por su versión pospuesta/recalculada: {removed_postponed}")
 
     existing["lastSync"] = datetime.now(timezone.utc).isoformat()
     existing["teamValues"] = team_values
