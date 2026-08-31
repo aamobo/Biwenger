@@ -4762,6 +4762,24 @@
       "sourceId": "transfer|1788173148|0|1594880|27575|143900:sell"
     },
     {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 149700,
+      "detail": "Berrocal",
+      "playerId": 12404,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788186926|0|11770405|12404|149700:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 2996000,
+      "detail": "Oso",
+      "playerId": 39360,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788185323|0|13978983|39360|2996000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5041,9 +5059,9 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-31T12:08:00.995182+00:00",
+  "lastSync": "2026-08-31T15:07:10.341968+00:00",
   "teamValues": {
-    "Keko Kane": 46640000,
+    "Keko Kane": 43710000,
     "Saltamonti": 70450000,
     "anihi and the anihaloors": 59900000,
     "Reial Club Estanislau": 51490000,
@@ -5053,7 +5071,7 @@
     "Gruu": 40540000,
     "FCodina": 30110000,
     "Tietes FC": 39160000,
-    "FC Carcelona": 47540000,
+    "FC Carcelona": 47390000,
     "Real Vicentón Balompié": 39650000,
     "Yastariabros": 39380000,
     "Diablos Cojos": 37330000,
