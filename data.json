@@ -4789,6 +4789,24 @@
       "sourceId": "transfer|1788191871|0|13990170|21084|2245400:sell"
     },
     {
+      "manager": "Real Vicentón Balompié",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Camello",
+      "playerId": 17756,
+      "date": "2026-08-31",
+      "sourceId": "clauseincrement|1788209668|0|1594880|17756|500000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3408200,
+      "detail": "Agirrezabala",
+      "playerId": 19192,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788203771|0|1594869|19192|3408200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5068,10 +5086,10 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-31T18:07:00.051012+00:00",
+  "lastSync": "2026-08-31T21:06:58.852636+00:00",
   "teamValues": {
     "Keko Kane": 43710000,
-    "Saltamonti": 70450000,
+    "Saltamonti": 67200000,
     "anihi and the anihaloors": 59900000,
     "Reial Club Estanislau": 51490000,
     "Jajajajajaja": 49540000,
