@@ -4753,6 +4753,15 @@
       "sourceId": "transfer|1788157362|0|13979073|39357|895700:sell"
     },
     {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 143900,
+      "detail": "Barzic",
+      "playerId": 27575,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788173148|0|1594880|27575|143900:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5032,7 +5041,7 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-31T09:07:04.146856+00:00",
+  "lastSync": "2026-08-31T12:08:00.995182+00:00",
   "teamValues": {
     "Keko Kane": 46640000,
     "Saltamonti": 70450000,
@@ -5045,7 +5054,7 @@
     "FCodina": 30110000,
     "Tietes FC": 39160000,
     "FC Carcelona": 47540000,
-    "Real Vicentón Balompié": 39800000,
+    "Real Vicentón Balompié": 39650000,
     "Yastariabros": 39380000,
     "Diablos Cojos": 37330000,
     "Error del sistema": 38710000,
