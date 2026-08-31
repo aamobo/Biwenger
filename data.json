@@ -4735,6 +4735,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 3262000,
+      "detail": "Natan",
+      "playerId": 19614,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788164452|0|1594907|19614|3262000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 895700,
+      "detail": "Carlos Maciá",
+      "playerId": 39357,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788157362|0|13979073|39357|895700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5014,15 +5032,15 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-31T06:08:46.215811+00:00",
+  "lastSync": "2026-08-31T09:07:04.146856+00:00",
   "teamValues": {
     "Keko Kane": 46640000,
     "Saltamonti": 70450000,
-    "anihi and the anihaloors": 60830000,
+    "anihi and the anihaloors": 59900000,
     "Reial Club Estanislau": 51490000,
     "Jajajajajaja": 49540000,
     "Quim fc": 50930000,
-    "valero10": 48840000,
+    "valero10": 45620000,
     "Gruu": 40540000,
     "FCodina": 30110000,
     "Tietes FC": 39160000,
