@@ -5027,6 +5027,46 @@
       "sourceId": "transfer|1788267284|0|14077779|33531|4592880:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 2322000,
+      "detail": "Bardeli",
+      "playerId": 41385,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788277179|0|14077779|41385|2322000:buy",
+      "overpay": 1032000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 2322000,
+      "detail": "Bardeli",
+      "playerId": 41385,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788277179|0|14077779|41385|2322000:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 6822000,
+      "detail": "Roro Riquelme",
+      "playerId": 8670,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788276456|0|14077779|8670|6822000:buy",
+      "overpay": 3032000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 6822000,
+      "detail": "Roro Riquelme",
+      "playerId": 8670,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788276456|0|14077779|8670|6822000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5450,17 +5490,17 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-01T15:13:38.845313+00:00",
+  "lastSync": "2026-09-01T18:15:37.099193+00:00",
   "teamValues": {
-    "Saltamonti": 65550000,
-    "Keko Kane": 49340000,
+    "Saltamonti": 61760000,
+    "Keko Kane": 48050000,
     "anihi and the anihaloors": 58300000,
     "Reial Club Estanislau": 51120000,
     "valero10": 50430000,
     "Quim fc": 50970000,
     "Gruu": 40460000,
     "Jajajajajaja": 55970000,
-    "FCodina": 32650000,
+    "FCodina": 37730000,
     "Diablos Cojos": 39000000,
     "Real Vicentón Balompié": 39740000,
     "Yastariabros": 39500000,
