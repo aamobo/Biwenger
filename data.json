@@ -4969,6 +4969,35 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2328500,
+      "detail": "Yangel Herrera",
+      "playerId": 17344,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788249624|0|13979073|17344|2328500:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 2250000,
+      "detail": "Brugué",
+      "playerId": 15396,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788249047|0|12756155|15396|2250000:buy",
+      "overpay": 1000000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 2250000,
+      "detail": "Brugué",
+      "playerId": 15396,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788249047|0|12756155|15396|2250000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5248,18 +5277,18 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-09-01T06:17:16.231672+00:00",
+  "lastSync": "2026-09-01T09:13:56.542965+00:00",
   "teamValues": {
     "Keko Kane": 49340000,
-    "Saltamonti": 66800000,
-    "anihi and the anihaloors": 60620000,
+    "Saltamonti": 65550000,
+    "anihi and the anihaloors": 58300000,
     "Reial Club Estanislau": 51120000,
     "Jajajajajaja": 55970000,
     "Quim fc": 50970000,
     "valero10": 50430000,
     "Gruu": 40460000,
     "FCodina": 30370000,
-    "Tietes FC": 38890000,
+    "Tietes FC": 40140000,
     "FC Carcelona": 47290000,
     "Real Vicentón Balompié": 39740000,
     "Yastariabros": 39500000,
