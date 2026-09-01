@@ -4807,6 +4807,33 @@
       "sourceId": "transfer|1788203771|0|1594869|19192|3408200:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3020900,
+      "detail": "Sergio Martínez",
+      "playerId": 41259,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788219451|0|1598649|41259|3020900:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3598100,
+      "detail": "Iñaki Williams",
+      "playerId": 1995,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788219451|1|1598649|1995|3598100:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 862600,
+      "detail": "Tunde",
+      "playerId": 39388,
+      "date": "2026-08-31",
+      "sourceId": "transfer|1788212938|0|1597817|39388|862600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5086,12 +5113,12 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-08-31T21:06:58.852636+00:00",
+  "lastSync": "2026-09-01T00:20:47.112764+00:00",
   "teamValues": {
     "Keko Kane": 43710000,
     "Saltamonti": 67200000,
     "anihi and the anihaloors": 59900000,
-    "Reial Club Estanislau": 51490000,
+    "Reial Club Estanislau": 50610000,
     "Jajajajajaja": 49540000,
     "Quim fc": 50930000,
     "valero10": 45620000,
@@ -5103,6 +5130,6 @@
     "Yastariabros": 39380000,
     "Diablos Cojos": 37330000,
     "Error del sistema": 36560000,
-    "Tikitaki de Aatun": 47660000
+    "Tikitaki de Aatun": 41090000
   }
 }
