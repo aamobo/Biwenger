@@ -4834,6 +4834,141 @@
       "sourceId": "transfer|1788212938|0|1597817|39388|862600:sell"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 1500000,
+      "detail": "Denis Suárez",
+      "playerId": 1876,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788241496|0|13990176|1876|1500000:buy",
+      "overpay": 120000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1500000,
+      "detail": "Denis Suárez",
+      "playerId": 1876,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788241496|0|13990176|1876|1500000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 356200,
+      "detail": "El-Abdellaoui",
+      "playerId": 35606,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788241496|1|1594869|35606|356200:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 154700,
+      "detail": "Jugador #40071",
+      "playerId": 40071,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788239535|0|13990176|40071|154700:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 2104100,
+      "detail": "Sadiq",
+      "playerId": 26077,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788239535|1|13990176|26077|2104100:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 151010,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|0|1594869|30334|151010:buy",
+      "overpay": 1010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 550000,
+      "detail": "Marc Casadó",
+      "playerId": 32629,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|1|13990176|32629|550000:buy",
+      "overpay": 120000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 250010,
+      "detail": "Jofre Carreras",
+      "playerId": 25392,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|2|13979073|25392|250010:buy",
+      "overpay": 10,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 5307400,
+      "detail": "Enes Ünal",
+      "playerId": 9045,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|3|1594907|9045|5307400:buy",
+      "overpay": 697400,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 6568640,
+      "detail": "Konaté",
+      "playerId": 41087,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|4|1603117|41087|6568640:buy",
+      "overpay": 708640,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 5726470,
+      "detail": "Oblak",
+      "playerId": 1897,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|5|13978983|1897|5726470:buy",
+      "overpay": 546470,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 2000010,
+      "detail": "Brahim",
+      "playerId": 129,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|6|13990176|129|2000010:buy",
+      "overpay": 30010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 150010,
+      "detail": "Sannadi",
+      "playerId": 33938,
+      "date": "2026-09-01",
+      "sourceId": "market|1788239344|7|13979073|33938|150010:buy",
+      "overpay": 10,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5113,23 +5248,23 @@
       "sourceId": "roundfinished|1787670579|14|13990176|3350000"
     }
   ],
-  "lastSync": "2026-09-01T03:13:30.086637+00:00",
+  "lastSync": "2026-09-01T06:06:23.643841+00:00",
   "teamValues": {
-    "Keko Kane": 43710000,
-    "Saltamonti": 67200000,
-    "anihi and the anihaloors": 59900000,
-    "Reial Club Estanislau": 50610000,
-    "Jajajajajaja": 49540000,
-    "Quim fc": 50930000,
-    "valero10": 45620000,
-    "Gruu": 40540000,
-    "FCodina": 30110000,
-    "Tietes FC": 39160000,
-    "FC Carcelona": 47390000,
-    "Real Vicentón Balompié": 39650000,
-    "Yastariabros": 39380000,
-    "Diablos Cojos": 37330000,
-    "Error del sistema": 36560000,
-    "Tikitaki de Aatun": 41090000
+    "Keko Kane": 49340000,
+    "Saltamonti": 66800000,
+    "anihi and the anihaloors": 60620000,
+    "Reial Club Estanislau": 51120000,
+    "Jajajajajaja": 55970000,
+    "Quim fc": 50970000,
+    "valero10": 50430000,
+    "Gruu": 40460000,
+    "FCodina": 30370000,
+    "Tietes FC": 38890000,
+    "FC Carcelona": 47290000,
+    "Real Vicentón Balompié": 39740000,
+    "Yastariabros": 39500000,
+    "Diablos Cojos": 39000000,
+    "Error del sistema": 36420000,
+    "Tikitaki de Aatun": 41410000
   }
 }
