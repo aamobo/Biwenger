@@ -5200,6 +5200,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 154000,
+      "detail": "Goti",
+      "playerId": 38424,
+      "date": "2026-09-02",
+      "sourceId": "transfer|1788352712|0|13990414|38424|154000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5623,7 +5632,7 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-02T10:52:59.796092+00:00",
+  "lastSync": "2026-09-02T16:11:54.967378+00:00",
   "teamValues": {
     "Saltamonti": 68240000,
     "Keko Kane": 48340000,
@@ -5631,7 +5640,7 @@
     "Reial Club Estanislau": 51570000,
     "valero10": 50700000,
     "Quim fc": 50850000,
-    "Gruu": 40420000,
+    "Gruu": 40270000,
     "Jajajajajaja": 55040000,
     "FCodina": 38360000,
     "Diablos Cojos": 38650000,
