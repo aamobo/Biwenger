@@ -5067,6 +5067,15 @@
       "sourceId": "transfer|1788276456|0|14077779|8670|6822000:sell"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 1364400,
+      "detail": "Einar Galilea",
+      "playerId": 4070,
+      "date": "2026-09-01",
+      "sourceId": "transfer|1788304583|0|1603117|4070|1364400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5490,7 +5499,7 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-01T23:07:17.985720+00:00",
+  "lastSync": "2026-09-02T03:33:07.418192+00:00",
   "teamValues": {
     "Saltamonti": 61760000,
     "Keko Kane": 48050000,
@@ -5499,7 +5508,7 @@
     "valero10": 50430000,
     "Quim fc": 50970000,
     "Gruu": 40460000,
-    "Jajajajajaja": 55970000,
+    "Jajajajajaja": 54610000,
     "FCodina": 37730000,
     "Diablos Cojos": 39000000,
     "Real Vicentón Balompié": 39740000,
