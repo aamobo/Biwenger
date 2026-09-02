@@ -5258,6 +5258,15 @@
       "sourceId": "transfer|1788365878|0|12756155|38875|188800:sell"
     },
     {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 151900,
+      "detail": "Iván Villar",
+      "playerId": 10117,
+      "date": "2026-09-02",
+      "sourceId": "transfer|1788386572|0|11770405|10117|151900:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5681,7 +5690,7 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-02T20:43:15.215625+00:00",
+  "lastSync": "2026-09-02T23:05:30.864645+00:00",
   "teamValues": {
     "Saltamonti": 68240000,
     "Keko Kane": 48340000,
@@ -5696,7 +5705,7 @@
     "Real Vicentón Balompié": 46820000,
     "Yastariabros": 42310000,
     "Tietes FC": 44490000,
-    "FC Carcelona": 47130000,
+    "FC Carcelona": 46980000,
     "Error del sistema": 36390000,
     "Tikitaki de Aatun": 47620000
   }
