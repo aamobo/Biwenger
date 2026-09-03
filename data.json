@@ -5367,6 +5367,15 @@
       "sourceId": "transfer|1788441496|0|1594880|1602|2719100:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 2227100,
+      "detail": "Kochorashvili",
+      "playerId": 37733,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788467747|0|1594869|37733|2227100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5790,9 +5799,9 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-03T16:01:15.115052+00:00",
+  "lastSync": "2026-09-03T20:41:51.250417+00:00",
   "teamValues": {
-    "Saltamonti": 69270000,
+    "Saltamonti": 67130000,
     "Keko Kane": 48660000,
     "anihi and the anihaloors": 56370000,
     "Reial Club Estanislau": 52120000,
