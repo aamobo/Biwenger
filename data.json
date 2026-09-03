@@ -5311,6 +5311,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 5311700,
+      "detail": "Febas",
+      "playerId": 19860,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788430261|0|12756155|19860|5311700:sell"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 3216500,
+      "detail": "Affengruber",
+      "playerId": 37725,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788424720|0|13990170|37725|3216500:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5734,7 +5752,7 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-03T06:54:13.447233+00:00",
+  "lastSync": "2026-09-03T10:52:56.465779+00:00",
   "teamValues": {
     "Saltamonti": 69270000,
     "Keko Kane": 48660000,
@@ -5748,9 +5766,9 @@
     "Diablos Cojos": 38730000,
     "Real Vicentón Balompié": 47010000,
     "Yastariabros": 42540000,
-    "Tietes FC": 44650000,
+    "Tietes FC": 39360000,
     "FC Carcelona": 46950000,
-    "Error del sistema": 36470000,
+    "Error del sistema": 33350000,
     "Tikitaki de Aatun": 47760000
   }
 }
