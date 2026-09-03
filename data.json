@@ -5329,6 +5329,44 @@
       "sourceId": "transfer|1788424720|0|13990170|37725|3216500:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2927100,
+      "detail": "Gonzalo Villar",
+      "playerId": 25403,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788445163|0|1598649|25403|2927100:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 560000,
+      "detail": "Ponce",
+      "playerId": 5534,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788445163|1|1594880|5534|560000:buy",
+      "overpay": 10000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 560000,
+      "detail": "Ponce",
+      "playerId": 5534,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788445163|1|1594880|5534|560000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 2719100,
+      "detail": "Rubén García",
+      "playerId": 1602,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788441496|0|1594880|1602|2719100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5752,7 +5790,7 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-03T10:52:56.465779+00:00",
+  "lastSync": "2026-09-03T16:01:15.115052+00:00",
   "teamValues": {
     "Saltamonti": 69270000,
     "Keko Kane": 48660000,
@@ -5764,11 +5802,11 @@
     "Jajajajajaja": 55540000,
     "FCodina": 39070000,
     "Diablos Cojos": 38730000,
-    "Real Vicentón Balompié": 47010000,
+    "Real Vicentón Balompié": 44710000,
     "Yastariabros": 42540000,
     "Tietes FC": 39360000,
     "FC Carcelona": 46950000,
     "Error del sistema": 33350000,
-    "Tikitaki de Aatun": 47760000
+    "Tikitaki de Aatun": 44180000
   }
 }
