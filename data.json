@@ -5376,6 +5376,15 @@
       "sourceId": "transfer|1788467747|0|1594869|37733|2227100:sell"
     },
     {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 7873800,
+      "detail": "Cancelo",
+      "playerId": 1952,
+      "date": "2026-09-03",
+      "sourceId": "transfer|1788476372|0|1594907|1952|7873800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -5799,13 +5808,13 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     }
   ],
-  "lastSync": "2026-09-03T20:41:51.250417+00:00",
+  "lastSync": "2026-09-03T23:03:28.735642+00:00",
   "teamValues": {
     "Saltamonti": 67130000,
     "Keko Kane": 48660000,
     "anihi and the anihaloors": 56370000,
     "Reial Club Estanislau": 52120000,
-    "valero10": 51780000,
+    "valero10": 44310000,
     "Quim fc": 50780000,
     "Gruu": 40340000,
     "Jajajajajaja": 55540000,
