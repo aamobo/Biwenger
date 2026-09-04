@@ -5476,6 +5476,26 @@
       "sourceId": "transfer|1788540643|0|1594907|43259|1894100:sell"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 5994000,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-09-04",
+      "sourceId": "transfer|1788560017|0|1603117|1125|5994000:buy",
+      "overpay": 2664000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 5994000,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-09-04",
+      "sourceId": "transfer|1788560017|0|1603117|1125|5994000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6034,7 +6054,7 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-04T20:28:22.941819+00:00",
+  "lastSync": "2026-09-04T22:51:25.611200+00:00",
   "teamValues": {
     "Saltamonti": 69140000,
     "anihi and the anihaloors": 43900000,
@@ -6043,8 +6063,8 @@
     "Gruu": 40250000,
     "Quim fc": 50540000,
     "valero10": 43730000,
-    "Jajajajajaja": 55470000,
-    "Diablos Cojos": 38620000,
+    "Jajajajajaja": 58800000,
+    "Diablos Cojos": 35290000,
     "FCodina": 39620000,
     "Real Vicentón Balompié": 44780000,
     "FC Carcelona": 46820000,
