@@ -5560,6 +5560,84 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 154600,
+      "detail": "Sainz-Maza",
+      "playerId": 41265,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788628286|0|1598649|41265|154600:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 147800,
+      "detail": "Boayar",
+      "playerId": 37709,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788628286|1|1598649|37709|147800:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3528000,
+      "detail": "Pablo García",
+      "playerId": 35763,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788628140|0|1598649|35763|3528000:buy",
+      "overpay": 1568000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 3528000,
+      "detail": "Pablo García",
+      "playerId": 35763,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788628140|0|1598649|35763|3528000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 2160000,
+      "detail": "Yoel Lago",
+      "playerId": 33474,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788624678|0|13979073|33474|2160000:buy",
+      "overpay": 960000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 2160000,
+      "detail": "Yoel Lago",
+      "playerId": 33474,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788624678|0|13979073|33474|2160000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3780000,
+      "detail": "Robert Navarro",
+      "playerId": 24474,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788623757|0|1598649|24474|3780000:buy",
+      "overpay": 1680000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 3780000,
+      "detail": "Robert Navarro",
+      "playerId": 24474,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788623757|0|1598649|24474|3780000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6118,22 +6196,22 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-05T14:49:02.078737+00:00",
+  "lastSync": "2026-09-05T17:12:37.906448+00:00",
   "teamValues": {
-    "Saltamonti": 69720000,
-    "anihi and the anihaloors": 55050000,
+    "Saltamonti": 68520000,
+    "anihi and the anihaloors": 54150000,
     "Reial Club Estanislau": 42030000,
     "Keko Kane": 49620000,
     "Gruu": 40170000,
     "Quim fc": 50400000,
-    "valero10": 48480000,
+    "valero10": 46520000,
     "Jajajajajaja": 59260000,
     "Diablos Cojos": 35150000,
     "FCodina": 40040000,
     "Real Vicentón Balompié": 44870000,
     "FC Carcelona": 46750000,
     "Yastariabros": 46300000,
-    "Tikitaki de Aatun": 45510000,
+    "Tikitaki de Aatun": 49270000,
     "Tietes FC": 43510000,
     "Error del sistema": 42560000
   }
