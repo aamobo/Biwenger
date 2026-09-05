@@ -5656,6 +5656,24 @@
       "sourceId": "clauseincrement|1788629216|0|1594880|17756|500000"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2979500,
+      "detail": "Guridi",
+      "playerId": 10158,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788645014|0|1603117|10158|2979500:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 1188600,
+      "detail": "Bright Ede",
+      "playerId": 42395,
+      "date": "2026-09-05",
+      "sourceId": "transfer|1788641627|0|1594907|42395|1188600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6214,7 +6232,7 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-05T20:04:46.684785+00:00",
+  "lastSync": "2026-09-05T22:42:35.223871+00:00",
   "teamValues": {
     "Saltamonti": 68520000,
     "anihi and the anihaloors": 54150000,
@@ -6222,8 +6240,8 @@
     "Keko Kane": 49620000,
     "Gruu": 40170000,
     "Quim fc": 50400000,
-    "valero10": 44660000,
-    "Jajajajajaja": 59260000,
+    "valero10": 43490000,
+    "Jajajajajaja": 56390000,
     "Diablos Cojos": 35150000,
     "FCodina": 40040000,
     "Real Vicentón Balompié": 44870000,
