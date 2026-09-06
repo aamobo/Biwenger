@@ -5818,6 +5818,24 @@
       "sourceId": "transfer|1788713026|0|14077779|41270|3281700:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 4045200,
+      "detail": "Robbie Ure",
+      "playerId": 41807,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788727610|0|14039644|41807|4045200:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 2757200,
+      "detail": "Peque",
+      "playerId": 34127,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788727610|1|14039644|34127|2757200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6376,14 +6394,14 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-06T20:08:45.058718+00:00",
+  "lastSync": "2026-09-06T22:46:19.849307+00:00",
   "teamValues": {
     "Saltamonti": 72810000,
     "anihi and the anihaloors": 54640000,
     "Reial Club Estanislau": 42050000,
     "Keko Kane": 47470000,
     "Gruu": 40100000,
-    "Quim fc": 50280000,
+    "Quim fc": 43570000,
     "valero10": 53170000,
     "Jajajajajaja": 55740000,
     "Diablos Cojos": 40140000,
