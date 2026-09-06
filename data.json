@@ -5791,6 +5791,33 @@
       "sourceId": "transfer|1788702465|0|13990176|33839|1900000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Ángel Pérez",
+      "playerId": 39885,
+      "date": "2026-09-06",
+      "sourceId": "clauseincrement|1788721892|0|1594869|39885|500000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 1048700,
+      "detail": "Abdelkarim",
+      "playerId": 42747,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788720310|0|1603117|42747|1048700:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 3281700,
+      "detail": "Jorge Salinas",
+      "playerId": 41270,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788713026|0|14077779|41270|3281700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6349,7 +6376,7 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-06T15:08:18.385590+00:00",
+  "lastSync": "2026-09-06T20:08:45.058718+00:00",
   "teamValues": {
     "Saltamonti": 72810000,
     "anihi and the anihaloors": 54640000,
@@ -6358,9 +6385,9 @@
     "Gruu": 40100000,
     "Quim fc": 50280000,
     "valero10": 53170000,
-    "Jajajajajaja": 56770000,
+    "Jajajajajaja": 55740000,
     "Diablos Cojos": 40140000,
-    "FCodina": 40390000,
+    "FCodina": 37240000,
     "Real Vicentón Balompié": 45050000,
     "FC Carcelona": 46610000,
     "Yastariabros": 47120000,
