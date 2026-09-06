@@ -5751,6 +5751,46 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 4374000,
+      "detail": "Paredes",
+      "playerId": 27996,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788702609|0|2061477|27996|4374000:buy",
+      "overpay": 1944000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 4374000,
+      "detail": "Paredes",
+      "playerId": 27996,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788702609|0|2061477|27996|4374000:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 1900000,
+      "detail": "Javi Rodríguez",
+      "playerId": 33839,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788702465|0|13990176|33839|1900000:buy",
+      "overpay": 50000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 1900000,
+      "detail": "Javi Rodríguez",
+      "playerId": 33839,
+      "date": "2026-09-06",
+      "sourceId": "transfer|1788702465|0|13990176|33839|1900000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6309,21 +6349,21 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-06T10:31:23.493240+00:00",
+  "lastSync": "2026-09-06T15:08:18.385590+00:00",
   "teamValues": {
     "Saltamonti": 72810000,
     "anihi and the anihaloors": 54640000,
     "Reial Club Estanislau": 42050000,
-    "Keko Kane": 49900000,
+    "Keko Kane": 47470000,
     "Gruu": 40100000,
     "Quim fc": 50280000,
     "valero10": 53170000,
     "Jajajajajaja": 56770000,
-    "Diablos Cojos": 38290000,
+    "Diablos Cojos": 40140000,
     "FCodina": 40390000,
     "Real Vicentón Balompié": 45050000,
     "FC Carcelona": 46610000,
-    "Yastariabros": 46540000,
+    "Yastariabros": 47120000,
     "Tikitaki de Aatun": 52040000,
     "Tietes FC": 43650000,
     "Error del sistema": 42320000
