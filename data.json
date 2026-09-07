@@ -5889,6 +5889,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2841000,
+      "detail": "Santiago Mouriño",
+      "playerId": 31018,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788764482|0|13979073|31018|2841000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6447,10 +6456,10 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-07T06:53:33.263921+00:00",
+  "lastSync": "2026-09-07T11:54:44.751482+00:00",
   "teamValues": {
     "Saltamonti": 72960000,
-    "anihi and the anihaloors": 56020000,
+    "anihi and the anihaloors": 53310000,
     "Reial Club Estanislau": 42020000,
     "Keko Kane": 47600000,
     "Gruu": 40100000,
