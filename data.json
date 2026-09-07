@@ -5898,6 +5898,95 @@
       "sourceId": "transfer|1788764482|0|13979073|31018|2841000:sell"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 34164000,
+      "detail": "Raphinha",
+      "playerId": 26930,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|0|1603117|26930|34164000:buy",
+      "overpay": 15184000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 34164000,
+      "detail": "Raphinha",
+      "playerId": 26930,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|0|1603117|26930|34164000:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 7632000,
+      "detail": "Ángel Pérez",
+      "playerId": 39885,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|1|2061477|39885|7632000:buy",
+      "overpay": 3892000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 7632000,
+      "detail": "Ángel Pérez",
+      "playerId": 39885,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|1|2061477|39885|7632000:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 10303200,
+      "detail": "Ryan",
+      "playerId": 2184,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|2|2061477|2184|10303200:buy",
+      "overpay": 5863200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 10303200,
+      "detail": "Ryan",
+      "playerId": 2184,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815676|2|2061477|2184|10303200:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 25092000,
+      "detail": "Fermín",
+      "playerId": 31243,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788814675|0|1597817|31243|25092000:buy",
+      "overpay": 11152000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 25092000,
+      "detail": "Fermín",
+      "playerId": 31243,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788814675|0|1597817|31243|25092000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 956900,
+      "detail": "Francho",
+      "playerId": 42726,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788811673|0|1594869|42726|956900:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6456,22 +6545,22 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-07T17:31:11.353582+00:00",
+  "lastSync": "2026-09-07T21:15:52.533778+00:00",
   "teamValues": {
-    "Saltamonti": 72960000,
+    "Saltamonti": 68280000,
     "anihi and the anihaloors": 53310000,
-    "Reial Club Estanislau": 42020000,
     "Keko Kane": 47600000,
+    "Reial Club Estanislau": 55960000,
     "Gruu": 40100000,
     "Quim fc": 47350000,
     "valero10": 53280000,
-    "Jajajajajaja": 55980000,
+    "Jajajajajaja": 61020000,
     "Diablos Cojos": 42910000,
     "FCodina": 49720000,
     "Real Vicentón Balompié": 45270000,
     "FC Carcelona": 46330000,
-    "Yastariabros": 47530000,
-    "Tikitaki de Aatun": 53080000,
+    "Yastariabros": 36730000,
+    "Tikitaki de Aatun": 48640000,
     "Tietes FC": 43570000,
     "Error del sistema": 42160000
   }
