@@ -5987,6 +5987,64 @@
       "sourceId": "transfer|1788811673|0|1594869|42726|956900:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 396000,
+      "detail": "Marrero",
+      "playerId": 31228,
+      "date": "2026-09-08",
+      "sourceId": "transfer|1788829555|0|1598649|31228|396000:buy",
+      "overpay": 176000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 396000,
+      "detail": "Marrero",
+      "playerId": 31228,
+      "date": "2026-09-08",
+      "sourceId": "transfer|1788829555|0|1598649|31228|396000:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 155100,
+      "detail": "Carles Pérez",
+      "playerId": 10658,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788816274|0|12756155|10658|155100:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 148300,
+      "detail": "Jon Karrikaburu",
+      "playerId": 27625,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788816274|1|12756155|27625|148300:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 10789200,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815775|3|2061477|1125|10789200:buy",
+      "overpay": 7259200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 10789200,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-09-07",
+      "sourceId": "transfer|1788815775|3|2061477|1125|10789200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -6545,7 +6603,7 @@
       "sourceId": "roundfinished|1788516352|15|13990170|-100000"
     }
   ],
-  "lastSync": "2026-09-07T21:15:52.533778+00:00",
+  "lastSync": "2026-09-08T03:39:45.096204+00:00",
   "teamValues": {
     "Saltamonti": 68280000,
     "anihi and the anihaloors": 53310000,
@@ -6554,14 +6612,14 @@
     "Gruu": 40100000,
     "Quim fc": 47350000,
     "valero10": 53280000,
-    "Jajajajajaja": 61020000,
+    "Jajajajajaja": 57490000,
     "Diablos Cojos": 42910000,
     "FCodina": 49720000,
-    "Real Vicentón Balompié": 45270000,
+    "Real Vicentón Balompié": 45050000,
     "FC Carcelona": 46330000,
-    "Yastariabros": 36730000,
-    "Tikitaki de Aatun": 48640000,
-    "Tietes FC": 43570000,
+    "Yastariabros": 40260000,
+    "Tikitaki de Aatun": 48860000,
+    "Tietes FC": 43260000,
     "Error del sistema": 42160000
   }
 }
