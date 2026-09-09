@@ -6360,6 +6360,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2909800,
+      "detail": "Unai Núñez",
+      "playerId": 10155,
+      "date": "2026-09-09",
+      "sourceId": "transfer|1788957030|0|14077779|10155|2909800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7062,7 +7071,7 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-09T10:56:47.437474+00:00",
+  "lastSync": "2026-09-09T16:09:47.272915+00:00",
   "teamValues": {
     "anihi and the anihaloors": 60440000,
     "Saltamonti": 71640000,
@@ -7074,7 +7083,7 @@
     "Gruu": 56820000,
     "Real Vicentón Balompié": 45440000,
     "Diablos Cojos": 41130000,
-    "FCodina": 50260000,
+    "FCodina": 47360000,
     "Yastariabros": 41070000,
     "Tikitaki de Aatun": 55830000,
     "Tietes FC": 42750000,
