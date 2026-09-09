@@ -6378,6 +6378,15 @@
       "sourceId": "transfer|1788975436|0|11770405|41559|151300:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3829400,
+      "detail": "Miguel Román",
+      "playerId": 3259,
+      "date": "2026-09-09",
+      "sourceId": "transfer|1788986927|0|1594869|3259|3829400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7080,10 +7089,10 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-09T20:39:28.128120+00:00",
+  "lastSync": "2026-09-09T23:02:32.290490+00:00",
   "teamValues": {
     "anihi and the anihaloors": 60440000,
-    "Saltamonti": 71640000,
+    "Saltamonti": 67990000,
     "Reial Club Estanislau": 55840000,
     "Keko Kane": 48890000,
     "Quim fc": 54780000,
