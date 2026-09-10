@@ -6453,6 +6453,69 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 4080600,
+      "detail": "Álvaro García",
+      "playerId": 33,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789030855|0|13990414|33|4080600:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 2645700,
+      "detail": "Dolan",
+      "playerId": 38308,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789030855|1|13990414|38308|2645700:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 5084300,
+      "detail": "Larrubia",
+      "playerId": 41412,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789030855|2|13990414|41412|5084300:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 3970400,
+      "detail": "Catena",
+      "playerId": 17731,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789028016|0|13979073|17731|3970400:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Alfonso Herrero",
+      "playerId": 41101,
+      "date": "2026-09-10",
+      "sourceId": "clauseincrement|1789023436|0|1603117|41101|500000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 843000,
+      "detail": "Barja",
+      "playerId": 18256,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789023379|0|1603117|18256|843000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 157500,
+      "detail": "Guevara",
+      "playerId": 17369,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789023379|1|1603117|17369|157500:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7155,16 +7218,16 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-10T06:02:14.294346+00:00",
+  "lastSync": "2026-09-10T10:53:16.861900+00:00",
   "teamValues": {
-    "anihi and the anihaloors": 61190000,
+    "anihi and the anihaloors": 57300000,
     "Saltamonti": 70200000,
     "Reial Club Estanislau": 55770000,
     "Keko Kane": 49110000,
     "Quim fc": 54860000,
-    "Jajajajajaja": 62490000,
+    "Jajajajajaja": 61480000,
     "valero10": 55850000,
-    "Gruu": 57020000,
+    "Gruu": 45390000,
     "Real Vicentón Balompié": 45740000,
     "Diablos Cojos": 40870000,
     "FCodina": 47700000,
