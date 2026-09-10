@@ -6516,6 +6516,15 @@
       "sourceId": "transfer|1789023379|1|1603117|17369|157500:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2035200,
+      "detail": "Bardeli",
+      "playerId": 41385,
+      "date": "2026-09-10",
+      "sourceId": "transfer|1789049700|0|14077779|41385|2035200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7218,7 +7227,7 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-10T10:53:16.861900+00:00",
+  "lastSync": "2026-09-10T16:02:24.278268+00:00",
   "teamValues": {
     "anihi and the anihaloors": 57300000,
     "Saltamonti": 70200000,
@@ -7230,7 +7239,7 @@
     "Gruu": 45390000,
     "Real Vicentón Balompié": 45740000,
     "Diablos Cojos": 40870000,
-    "FCodina": 47700000,
+    "FCodina": 45700000,
     "Yastariabros": 41500000,
     "Tikitaki de Aatun": 56670000,
     "Tietes FC": 42970000,
