@@ -6525,6 +6525,15 @@
       "sourceId": "transfer|1789049700|0|14077779|41385|2035200:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1591600,
+      "detail": "Ximo Navarro",
+      "playerId": 9065,
+      "date": "2026-09-11",
+      "sourceId": "transfer|1789089164|0|1598649|9065|1591600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7227,7 +7236,7 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-10T22:59:12.286547+00:00",
+  "lastSync": "2026-09-11T03:40:33.390078+00:00",
   "teamValues": {
     "anihi and the anihaloors": 57300000,
     "Saltamonti": 70200000,
@@ -7241,7 +7250,7 @@
     "Diablos Cojos": 40870000,
     "FCodina": 45700000,
     "Yastariabros": 41500000,
-    "Tikitaki de Aatun": 56670000,
+    "Tikitaki de Aatun": 55110000,
     "Tietes FC": 42970000,
     "FC Carcelona": 51470000,
     "Error del sistema": 41520000
