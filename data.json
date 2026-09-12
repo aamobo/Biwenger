@@ -6716,6 +6716,15 @@
       "sourceId": "transfer|1789214348|0|14077779|38368|1473700:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 536000,
+      "detail": "El Hilali",
+      "playerId": 28103,
+      "date": "2026-09-12",
+      "sourceId": "clauseincrement|1789227100|0|14077779|28103|536000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7418,7 +7427,7 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-12T15:13:38.001224+00:00",
+  "lastSync": "2026-09-12T20:19:35.691400+00:00",
   "teamValues": {
     "anihi and the anihaloors": 59730000,
     "Saltamonti": 70930000,
