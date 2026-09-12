@@ -6660,6 +6660,62 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 118000,
+      "detail": "Roberto Fernández",
+      "playerId": 35678,
+      "date": "2026-09-12",
+      "sourceId": "clauseincrement|1789224595|0|14077779|35678|118000"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 7254000,
+      "detail": "Zabiri",
+      "playerId": 42610,
+      "date": "2026-09-12",
+      "sourceId": "transfer|1789221915|0|2061477|42610|7254000:buy",
+      "overpay": 3724000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 7254000,
+      "detail": "Zabiri",
+      "playerId": 42610,
+      "date": "2026-09-12",
+      "sourceId": "transfer|1789221915|0|2061477|42610|7254000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Zabiri",
+      "playerId": 42610,
+      "date": "2026-09-12",
+      "sourceId": "clauseincrement|1789219682|0|1603117|42610|500000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 1722300,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-09-12",
+      "sourceId": "transfer|1789219660|0|1603117|26592|1722300:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1473700,
+      "detail": "Ugrinic",
+      "playerId": 38368,
+      "date": "2026-09-12",
+      "sourceId": "transfer|1789214348|0|14077779|38368|1473700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7362,20 +7418,20 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-12T10:18:38.695658+00:00",
+  "lastSync": "2026-09-12T15:13:38.001224+00:00",
   "teamValues": {
     "anihi and the anihaloors": 59730000,
     "Saltamonti": 70930000,
     "Reial Club Estanislau": 59770000,
     "Keko Kane": 49220000,
     "Quim fc": 54850000,
-    "Jajajajajaja": 61470000,
+    "Jajajajajaja": 56130000,
     "valero10": 55440000,
     "Gruu": 45140000,
     "Real Vicentón Balompié": 52670000,
     "Diablos Cojos": 40330000,
-    "FCodina": 45950000,
-    "Yastariabros": 42030000,
+    "FCodina": 44520000,
+    "Yastariabros": 45560000,
     "Tikitaki de Aatun": 60710000,
     "Tietes FC": 42650000,
     "FC Carcelona": 51080000,
