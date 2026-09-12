@@ -6596,6 +6596,70 @@
       "sourceId": "transfer|1789180217|0|1598649|37715|152200:sell"
     },
     {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 1641100,
+      "detail": "Mikel Rodriguez",
+      "playerId": 31069,
+      "date": "2026-09-12",
+      "sourceId": "transfer|1789203577|0|13990170|31069|1641100:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 575010,
+      "detail": "Riki Rodríguez",
+      "playerId": 41081,
+      "date": "2026-09-12",
+      "sourceId": "market|1789189361|0|13979073|41081|575010:buy",
+      "overpay": 15010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2945530,
+      "detail": "Simeone",
+      "playerId": 19501,
+      "date": "2026-09-12",
+      "sourceId": "market|1789189361|1|1598649|19501|2945530:buy",
+      "overpay": 95530,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 3980000,
+      "detail": "Stassin",
+      "playerId": 43264,
+      "date": "2026-09-12",
+      "sourceId": "market|1789189361|2|1594880|43264|3980000:buy",
+      "overpay": 670000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 2810000,
+      "detail": "Noubi",
+      "playerId": 41083,
+      "date": "2026-09-12",
+      "sourceId": "market|1789189361|3|13979073|41083|2810000:buy",
+      "overpay": 110000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2130170,
+      "detail": "Suazo",
+      "playerId": 38194,
+      "date": "2026-09-12",
+      "sourceId": "market|1789189361|4|1598649|38194|2130170:buy",
+      "overpay": 410170,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7298,23 +7362,23 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-12T03:44:13.135449+00:00",
+  "lastSync": "2026-09-12T10:18:38.695658+00:00",
   "teamValues": {
-    "anihi and the anihaloors": 55870000,
-    "Saltamonti": 70740000,
-    "Reial Club Estanislau": 59880000,
-    "Keko Kane": 49230000,
-    "Quim fc": 54920000,
-    "Jajajajajaja": 61540000,
-    "valero10": 55690000,
-    "Gruu": 45300000,
-    "Real Vicentón Balompié": 49090000,
-    "Diablos Cojos": 40620000,
-    "FCodina": 45880000,
-    "Yastariabros": 41850000,
-    "Tikitaki de Aatun": 55660000,
-    "Tietes FC": 42850000,
-    "FC Carcelona": 51330000,
-    "Error del sistema": 41190000
+    "anihi and the anihaloors": 59730000,
+    "Saltamonti": 70930000,
+    "Reial Club Estanislau": 59770000,
+    "Keko Kane": 49220000,
+    "Quim fc": 54850000,
+    "Jajajajajaja": 61470000,
+    "valero10": 55440000,
+    "Gruu": 45140000,
+    "Real Vicentón Balompié": 52670000,
+    "Diablos Cojos": 40330000,
+    "FCodina": 45950000,
+    "Yastariabros": 42030000,
+    "Tikitaki de Aatun": 60710000,
+    "Tietes FC": 42650000,
+    "FC Carcelona": 51080000,
+    "Error del sistema": 39290000
   }
 }
