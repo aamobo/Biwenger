@@ -6780,6 +6780,62 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 1587000,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-09-13",
+      "sourceId": "clauseincrement|1789310130|0|13978983|31027|1587000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 7781100,
+      "detail": "Barrios",
+      "playerId": 29184,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789309441|0|1594869|29184|7781100:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 1296000,
+      "detail": "Marcos Fernández",
+      "playerId": 37644,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789308560|0|12756155|37644|1296000:buy",
+      "overpay": 576000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 1296000,
+      "detail": "Marcos Fernández",
+      "playerId": 37644,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789308560|0|12756155|37644|1296000:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Álvaro Carreras",
+      "playerId": 31707,
+      "date": "2026-09-13",
+      "sourceId": "clauseincrement|1789306406|0|13990176|31707|500000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 3141400,
+      "detail": "Elliott",
+      "playerId": 43260,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789298726|0|14039644|43260|3141400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7482,13 +7538,13 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-13T11:19:08.863591+00:00",
+  "lastSync": "2026-09-13T15:49:33.102848+00:00",
   "teamValues": {
-    "anihi and the anihaloors": 60350000,
-    "Saltamonti": 71390000,
+    "anihi and the anihaloors": 59630000,
+    "Saltamonti": 63450000,
     "Reial Club Estanislau": 59990000,
     "Keko Kane": 49360000,
-    "Quim fc": 61050000,
+    "Quim fc": 57770000,
     "Jajajajajaja": 56250000,
     "valero10": 60870000,
     "Gruu": 45130000,
@@ -7497,7 +7553,7 @@
     "FCodina": 44760000,
     "Yastariabros": 45930000,
     "Tikitaki de Aatun": 63970000,
-    "Tietes FC": 42650000,
+    "Tietes FC": 43370000,
     "FC Carcelona": 51050000,
     "Error del sistema": 45650000
   }
