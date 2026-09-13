@@ -6836,6 +6836,62 @@
       "sourceId": "transfer|1789298726|0|14039644|43260|3141400:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 2487800,
+      "detail": "Héctor Fort",
+      "playerId": 32460,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789328986|0|1594869|32460|2487800:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1418400,
+      "detail": "Cárdenas",
+      "playerId": 22975,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789328986|1|1594869|22975|1418400:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 759900,
+      "detail": "Diakhaby",
+      "playerId": 15464,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789324412|0|2061477|15464|759900:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 8470800,
+      "detail": "Espart",
+      "playerId": 40075,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789322747|0|13979073|40075|8470800:buy",
+      "overpay": 3860800,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 8470800,
+      "detail": "Espart",
+      "playerId": 40075,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789322747|0|13979073|40075|8470800:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 488100,
+      "detail": "Ponce",
+      "playerId": 5534,
+      "date": "2026-09-13",
+      "sourceId": "transfer|1789316204|0|1594880|5534|488100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7538,20 +7594,20 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-13T15:49:33.102848+00:00",
+  "lastSync": "2026-09-13T20:29:29.058485+00:00",
   "teamValues": {
-    "anihi and the anihaloors": 59630000,
-    "Saltamonti": 63450000,
+    "anihi and the anihaloors": 64240000,
+    "Saltamonti": 59430000,
     "Reial Club Estanislau": 59990000,
     "Keko Kane": 49360000,
     "Quim fc": 57770000,
     "Jajajajajaja": 56250000,
     "valero10": 60870000,
     "Gruu": 45130000,
-    "Real Vicentón Balompié": 53060000,
+    "Real Vicentón Balompié": 52560000,
     "Diablos Cojos": 40220000,
     "FCodina": 44760000,
-    "Yastariabros": 45930000,
+    "Yastariabros": 40580000,
     "Tikitaki de Aatun": 63970000,
     "Tietes FC": 43370000,
     "FC Carcelona": 51050000,
