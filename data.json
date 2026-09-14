@@ -7010,6 +7010,24 @@
       "sourceId": "transfer|1789389168|2|2061477|24336|350800:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 1500000,
+      "detail": "Gulácsi",
+      "playerId": 38433,
+      "date": "2026-09-14",
+      "sourceId": "clauseincrement|1789419960|0|1594869|38433|1500000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 676600,
+      "detail": "Víctor García",
+      "playerId": 17121,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789419084|0|12756155|17121|676600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7712,7 +7730,7 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-14T19:45:52.810522+00:00",
+  "lastSync": "2026-09-14T23:43:29.118295+00:00",
   "teamValues": {
     "anihi and the anihaloors": 60960000,
     "Saltamonti": 59760000,
@@ -7727,7 +7745,7 @@
     "FCodina": 45020000,
     "Yastariabros": 46740000,
     "Tikitaki de Aatun": 67790000,
-    "Tietes FC": 43590000,
+    "Tietes FC": 42930000,
     "FC Carcelona": 50790000,
     "Error del sistema": 45460000
   }
