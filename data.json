@@ -6954,6 +6954,62 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1433900,
+      "detail": "Thiago Fernández",
+      "playerId": 39431,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789393810|0|1598649|39431|1433900:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 3366000,
+      "detail": "Koski",
+      "playerId": 39924,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789389378|0|2061477|39924|3366000:buy",
+      "overpay": 1496000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 3366000,
+      "detail": "Koski",
+      "playerId": 39924,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789389378|0|2061477|39924|3366000:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 154300,
+      "detail": "Jugador #35705",
+      "playerId": 35705,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789389168|0|2061477|35705|154300:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 156400,
+      "detail": "Copete",
+      "playerId": 26344,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789389168|1|2061477|26344|156400:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 350800,
+      "detail": "Nteka",
+      "playerId": 24336,
+      "date": "2026-09-14",
+      "sourceId": "transfer|1789389168|2|2061477|24336|350800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7656,11 +7712,11 @@
       "sourceId": "roundfinished|1788880526|15|11770405|3800000"
     }
   ],
-  "lastSync": "2026-09-14T12:09:52.608227+00:00",
+  "lastSync": "2026-09-14T19:45:52.810522+00:00",
   "teamValues": {
     "anihi and the anihaloors": 60960000,
     "Saltamonti": 59760000,
-    "Reial Club Estanislau": 60160000,
+    "Reial Club Estanislau": 58290000,
     "Keko Kane": 49400000,
     "Quim fc": 60890000,
     "Jajajajajaja": 59610000,
@@ -7669,8 +7725,8 @@
     "Real Vicentón Balompié": 53090000,
     "Diablos Cojos": 39880000,
     "FCodina": 45020000,
-    "Yastariabros": 45500000,
-    "Tikitaki de Aatun": 69220000,
+    "Yastariabros": 46740000,
+    "Tikitaki de Aatun": 67790000,
     "Tietes FC": 43590000,
     "FC Carcelona": 50790000,
     "Error del sistema": 45460000
