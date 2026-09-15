@@ -7106,6 +7106,24 @@
       "sourceId": "transfer|1789456389|0|14077779|33531|3060000:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 93000,
+      "detail": "Rodri",
+      "playerId": 429,
+      "date": "2026-09-15",
+      "sourceId": "clauseincrement|1789482057|0|14077779|429|93000"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 1494600,
+      "detail": "Facundo González",
+      "playerId": 41275,
+      "date": "2026-09-15",
+      "sourceId": "transfer|1789475524|0|13978983|41275|1494600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7943,12 +7961,12 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-15T11:20:46.349668+00:00",
+  "lastSync": "2026-09-15T16:32:19.310311+00:00",
   "teamValues": {
     "Saltamonti": 57850000,
     "anihi and the anihaloors": 60820000,
     "Real Vicentón Balompié": 53640000,
-    "Keko Kane": 49340000,
+    "Keko Kane": 47940000,
     "Jajajajajaja": 65100000,
     "valero10": 61520000,
     "Gruu": 45030000,
