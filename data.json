@@ -7124,6 +7124,15 @@
       "sourceId": "transfer|1789475524|0|13978983|41275|1494600:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 841000,
+      "detail": "Roberto Fernández",
+      "playerId": 35678,
+      "date": "2026-09-15",
+      "sourceId": "clauseincrement|1789496483|0|14077779|35678|841000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7961,7 +7970,7 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-15T16:32:19.310311+00:00",
+  "lastSync": "2026-09-15T20:59:31.981670+00:00",
   "teamValues": {
     "Saltamonti": 57850000,
     "anihi and the anihaloors": 60820000,
