@@ -7297,6 +7297,44 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 1768800,
+      "detail": "Izan Merino",
+      "playerId": 41098,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789562231|0|2061477|41098|1768800:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 7506000,
+      "detail": "Terrats",
+      "playerId": 26092,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789562218|0|2061477|26092|7506000:buy",
+      "overpay": 3336000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 7506000,
+      "detail": "Terrats",
+      "playerId": 26092,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789562218|0|2061477|26092|7506000:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 146800,
+      "detail": "Jugador #40033",
+      "playerId": 40033,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789562148|0|2061477|40033|146800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8134,7 +8172,7 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-16T11:03:59.688683+00:00",
+  "lastSync": "2026-09-16T16:24:27.530406+00:00",
   "teamValues": {
     "Saltamonti": 58570000,
     "anihi and the anihaloors": 61160000,
@@ -8142,13 +8180,13 @@
     "Keko Kane": 58050000,
     "Jajajajajaja": 65220000,
     "valero10": 61360000,
-    "Gruu": 46470000,
+    "Gruu": 42300000,
     "Quim fc": 60180000,
     "FCodina": 44710000,
     "Reial Club Estanislau": 58160000,
     "Diablos Cojos": 39020000,
     "Tietes FC": 48830000,
-    "Yastariabros": 47150000,
+    "Yastariabros": 49390000,
     "FC Carcelona": 50140000,
     "Tikitaki de Aatun": 65860000,
     "Error del sistema": 44720000
