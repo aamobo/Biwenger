@@ -7151,6 +7151,152 @@
       "sourceId": "transfer|1789527708|1|1598649|19299|3535500:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 2376000,
+      "detail": "Marcos Fernández",
+      "playerId": 37644,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789555906|0|14077779|37644|2376000:buy",
+      "overpay": 1056000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 2376000,
+      "detail": "Marcos Fernández",
+      "playerId": 37644,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789555906|0|14077779|37644|2376000:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2564200,
+      "detail": "Facundo Bernal",
+      "playerId": 42370,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789555605|0|14077779|42370|2564200:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Álvaro Carreras",
+      "playerId": 31707,
+      "date": "2026-09-16",
+      "sourceId": "clauseincrement|1789553641|0|13990176|31707|500000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 2875000,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789535511|0|12756155|35344|2875000:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 5405890,
+      "detail": "Grimaldo",
+      "playerId": 41684,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|0|13978983|41684|5405890:buy",
+      "overpay": 655890,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 1675000,
+      "detail": "Hugo González",
+      "playerId": 31468,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|1|13990414|31468|1675000:buy",
+      "overpay": 205000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 3913780,
+      "detail": "Agoumé",
+      "playerId": 32338,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|2|13978983|32338|3913780:buy",
+      "overpay": 353780,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 1931510,
+      "detail": "Ximo Navarro",
+      "playerId": 9065,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|3|13978983|9065|1931510:buy",
+      "overpay": 211510,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 558000,
+      "detail": "Óscar Sánchez",
+      "playerId": 43436,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|4|1594869|43436|558000:buy",
+      "overpay": 158000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 6935485,
+      "detail": "Mariano",
+      "playerId": 5697,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|5|12756155|5697|6935485:buy",
+      "overpay": 1345485,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1190030,
+      "detail": "Terzić",
+      "playerId": 42572,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|6|1598649|42572|1190030:buy",
+      "overpay": 10030,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 280000,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|7|1598649|37488|280000:buy",
+      "overpay": -20000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 4253000,
+      "detail": "Álvaro García",
+      "playerId": 33,
+      "date": "2026-09-16",
+      "sourceId": "market|1789535029|8|12756155|33|4253000:buy",
+      "overpay": 483000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -7988,23 +8134,23 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-16T03:56:14.280594+00:00",
+  "lastSync": "2026-09-16T11:03:59.688683+00:00",
   "teamValues": {
-    "Saltamonti": 57850000,
-    "anihi and the anihaloors": 60820000,
-    "Real Vicentón Balompié": 53640000,
-    "Keko Kane": 47940000,
-    "Jajajajajaja": 65100000,
-    "valero10": 61520000,
-    "Gruu": 45030000,
-    "Quim fc": 60520000,
-    "FCodina": 45590000,
-    "Reial Club Estanislau": 58290000,
-    "Diablos Cojos": 39320000,
-    "Tietes FC": 43280000,
-    "Yastariabros": 46960000,
-    "FC Carcelona": 50370000,
-    "Tikitaki de Aatun": 63930000,
-    "Error del sistema": 45010000
+    "Saltamonti": 58570000,
+    "anihi and the anihaloors": 61160000,
+    "Real Vicentón Balompié": 54010000,
+    "Keko Kane": 58050000,
+    "Jajajajajaja": 65220000,
+    "valero10": 61360000,
+    "Gruu": 46470000,
+    "Quim fc": 60180000,
+    "FCodina": 44710000,
+    "Reial Club Estanislau": 58160000,
+    "Diablos Cojos": 39020000,
+    "Tietes FC": 48830000,
+    "Yastariabros": 47150000,
+    "FC Carcelona": 50140000,
+    "Tikitaki de Aatun": 65860000,
+    "Error del sistema": 44720000
   }
 }
