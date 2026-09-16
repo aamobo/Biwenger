@@ -7335,6 +7335,26 @@
       "sourceId": "transfer|1789562148|0|2061477|40033|146800:sell"
     },
     {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 6836400,
+      "detail": "Natan",
+      "playerId": 19614,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789584810|0|13990414|19614|6836400:buy",
+      "overpay": 3396400,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 6836400,
+      "detail": "Natan",
+      "playerId": 19614,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789584810|0|13990414|19614|6836400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8172,15 +8192,15 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-16T16:24:27.530406+00:00",
+  "lastSync": "2026-09-16T21:01:29.379251+00:00",
   "teamValues": {
     "Saltamonti": 58570000,
     "anihi and the anihaloors": 61160000,
     "Real Vicentón Balompié": 54010000,
     "Keko Kane": 58050000,
-    "Jajajajajaja": 65220000,
+    "Jajajajajaja": 61780000,
     "valero10": 61360000,
-    "Gruu": 42300000,
+    "Gruu": 45740000,
     "Quim fc": 60180000,
     "FCodina": 44710000,
     "Reial Club Estanislau": 58160000,
