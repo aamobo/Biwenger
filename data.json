@@ -7355,6 +7355,53 @@
       "sourceId": "transfer|1789584810|0|13990414|19614|6836400:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2830900,
+      "detail": "Simeone",
+      "playerId": 19501,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789614089|0|1598649|19501|2830900:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 468000,
+      "detail": "Aitor Fernández",
+      "playerId": 16606,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789613905|0|1598649|16606|468000:buy",
+      "overpay": 208000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 468000,
+      "detail": "Aitor Fernández",
+      "playerId": 16606,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789613905|0|1598649|16606|468000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3756700,
+      "detail": "Ratiu",
+      "playerId": 26276,
+      "date": "2026-09-16",
+      "sourceId": "transfer|1789597524|0|1598649|26276|3756700:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Unai Simón",
+      "playerId": 17021,
+      "date": "2026-09-16",
+      "sourceId": "clauseincrement|1789594980|0|13990176|17021|500000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8192,7 +8239,7 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-16T21:01:29.379251+00:00",
+  "lastSync": "2026-09-17T04:02:09.803913+00:00",
   "teamValues": {
     "Saltamonti": 58570000,
     "anihi and the anihaloors": 61160000,
@@ -8202,13 +8249,13 @@
     "valero10": 61360000,
     "Gruu": 45740000,
     "Quim fc": 60180000,
-    "FCodina": 44710000,
+    "FCodina": 44450000,
     "Reial Club Estanislau": 58160000,
     "Diablos Cojos": 39020000,
     "Tietes FC": 48830000,
     "Yastariabros": 49390000,
     "FC Carcelona": 50140000,
-    "Tikitaki de Aatun": 65860000,
+    "Tikitaki de Aatun": 59650000,
     "Error del sistema": 44720000
   }
 }
