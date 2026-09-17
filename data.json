@@ -7546,6 +7546,82 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Álvaro Carreras",
+      "playerId": 31707,
+      "date": "2026-09-17",
+      "sourceId": "clauseincrement|1789657145|0|13990176|31707|500000"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 2335200,
+      "detail": "Isi Palazón",
+      "playerId": 5069,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789652722|0|13978983|5069|2335200:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 1682200,
+      "detail": "Ximo Navarro",
+      "playerId": 9065,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789652722|1|13978983|9065|1682200:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 1290000,
+      "detail": "Deossa",
+      "playerId": 37416,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789652722|2|13978983|37416|1290000:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 15804000,
+      "detail": "Camello",
+      "playerId": 17756,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789646041|0|2061477|17756|15804000:buy",
+      "overpay": 9024000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 15804000,
+      "detail": "Camello",
+      "playerId": 17756,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789646041|0|2061477|17756|15804000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 26202600,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789646041|1|1594880|31027|26202600:buy",
+      "overpay": 13232600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 26202600,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789646041|1|1594880|31027|26202600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8383,12 +8459,12 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-17T11:14:08.196824+00:00",
+  "lastSync": "2026-09-17T16:31:03.687862+00:00",
   "teamValues": {
     "Saltamonti": 68640000,
     "anihi and the anihaloors": 65360000,
-    "Real Vicentón Balompié": 46090000,
-    "Keko Kane": 58370000,
+    "Real Vicentón Balompié": 52280000,
+    "Keko Kane": 40120000,
     "Jajajajajaja": 70010000,
     "valero10": 61280000,
     "Gruu": 49540000,
@@ -8397,7 +8473,7 @@
     "Reial Club Estanislau": 58140000,
     "Diablos Cojos": 38840000,
     "Tietes FC": 48950000,
-    "Yastariabros": 42910000,
+    "Yastariabros": 49690000,
     "FC Carcelona": 49970000,
     "Tikitaki de Aatun": 60730000,
     "Error del sistema": 45760000
