@@ -7402,6 +7402,150 @@
       "sourceId": "clauseincrement|1789594980|0|13990176|17021|500000"
     },
     {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 490300,
+      "detail": "Pedro Felipe",
+      "playerId": 33871,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789634297|0|14039644|33871|490300:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 8586000,
+      "detail": "Remiro",
+      "playerId": 7003,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789633802|0|14077779|7003|8586000:buy",
+      "overpay": 3816000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 8586000,
+      "detail": "Remiro",
+      "playerId": 7003,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789633802|0|14077779|7003|8586000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 16092000,
+      "detail": "Adeyemi",
+      "playerId": 42557,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789633802|1|13979073|42557|16092000:buy",
+      "overpay": 7492000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 16092000,
+      "detail": "Adeyemi",
+      "playerId": 42557,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789633802|1|13979073|42557|16092000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 13302000,
+      "detail": "Gerard Moreno",
+      "playerId": 1927,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789629201|0|1603117|1927|13302000:buy",
+      "overpay": 6442000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 13302000,
+      "detail": "Gerard Moreno",
+      "playerId": 1927,
+      "date": "2026-09-17",
+      "sourceId": "transfer|1789629201|0|1603117|1927|13302000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Camello",
+      "playerId": 17756,
+      "date": "2026-09-17",
+      "sourceId": "clauseincrement|1789626205|0|1594880|17756|1000000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 12032000,
+      "detail": "Diomande",
+      "playerId": 8555,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|0|1594869|8555|12032000:buy",
+      "overpay": 2452000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 666660,
+      "detail": "Mayol",
+      "playerId": 23080,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|1|14039644|23080|666660:buy",
+      "overpay": 196660,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 1550000,
+      "detail": "Galilea",
+      "playerId": 4070,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|2|1603117|4070|1550000:buy",
+      "overpay": 250000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "compra",
+      "amount": 1284170,
+      "detail": "Pau Navarro",
+      "playerId": 35156,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|3|13990170|35156|1284170:buy",
+      "overpay": 144170,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 4140000,
+      "detail": "Mario Soriano",
+      "playerId": 41072,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|4|13990414|41072|4140000:buy",
+      "overpay": 220000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 360070,
+      "detail": "Pablo Marín",
+      "playerId": 29034,
+      "date": "2026-09-17",
+      "sourceId": "market|1789621417|5|1598649|29034|360070:buy",
+      "overpay": 70,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8239,23 +8383,23 @@
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
     }
   ],
-  "lastSync": "2026-09-17T04:02:09.803913+00:00",
+  "lastSync": "2026-09-17T11:14:08.196824+00:00",
   "teamValues": {
-    "Saltamonti": 58570000,
-    "anihi and the anihaloors": 61160000,
-    "Real Vicentón Balompié": 54010000,
-    "Keko Kane": 58050000,
-    "Jajajajajaja": 61780000,
-    "valero10": 61360000,
-    "Gruu": 45740000,
-    "Quim fc": 60180000,
-    "FCodina": 44450000,
-    "Reial Club Estanislau": 58160000,
-    "Diablos Cojos": 39020000,
-    "Tietes FC": 48830000,
-    "Yastariabros": 49390000,
-    "FC Carcelona": 50140000,
-    "Tikitaki de Aatun": 59650000,
-    "Error del sistema": 44720000
+    "Saltamonti": 68640000,
+    "anihi and the anihaloors": 65360000,
+    "Real Vicentón Balompié": 46090000,
+    "Keko Kane": 58370000,
+    "Jajajajajaja": 70010000,
+    "valero10": 61280000,
+    "Gruu": 49540000,
+    "Quim fc": 59770000,
+    "FCodina": 49710000,
+    "Reial Club Estanislau": 58140000,
+    "Diablos Cojos": 38840000,
+    "Tietes FC": 48950000,
+    "Yastariabros": 42910000,
+    "FC Carcelona": 49970000,
+    "Tikitaki de Aatun": 60730000,
+    "Error del sistema": 45760000
   }
 }
