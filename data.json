@@ -7700,6 +7700,78 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2891700,
+      "detail": "Yangel Herrera",
+      "playerId": 17344,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|0|1598649|17344|2891700:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2674000,
+      "detail": "Yuri",
+      "playerId": 1074,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|1|1598649|1074|2674000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 153100,
+      "detail": "Letacek",
+      "playerId": 34149,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|2|1598649|34149|153100:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1172400,
+      "detail": "Terzić",
+      "playerId": 42572,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|3|1598649|42572|1172400:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 376800,
+      "detail": "Pablo Marín",
+      "playerId": 29034,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|4|1598649|29034|376800:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 314400,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789742887|5|1598649|37488|314400:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Unai Simón",
+      "playerId": 17021,
+      "date": "2026-09-18",
+      "sourceId": "clauseincrement|1789740878|0|13990176|17021|500000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 4332100,
+      "detail": "Roro Riquelme",
+      "playerId": 8670,
+      "date": "2026-09-18",
+      "sourceId": "transfer|1789730001|0|14077779|8670|4332100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8546,7 +8618,7 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-18T10:46:50.532097+00:00",
+  "lastSync": "2026-09-18T16:02:22.965124+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 52490000,
     "anihi and the anihaloors": 59990000,
@@ -8554,7 +8626,7 @@
     "valero10": 60980000,
     "Jajajajajaja": 66590000,
     "Keko Kane": 40170000,
-    "FCodina": 49900000,
+    "FCodina": 45540000,
     "Gruu": 49220000,
     "Reial Club Estanislau": 58040000,
     "Quim fc": 53470000,
@@ -8562,7 +8634,7 @@
     "Tietes FC": 49040000,
     "Diablos Cojos": 38620000,
     "FC Carcelona": 49840000,
-    "Tikitaki de Aatun": 66290000,
+    "Tikitaki de Aatun": 58730000,
     "Error del sistema": 45790000
   }
 }
