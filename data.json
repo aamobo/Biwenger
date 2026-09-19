@@ -7845,6 +7845,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 5157200,
+      "detail": "Konaté",
+      "playerId": 41087,
+      "date": "2026-09-19",
+      "sourceId": "transfer|1789826540|0|1603117|41087|5157200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8691,13 +8700,13 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-19T10:31:20.487344+00:00",
+  "lastSync": "2026-09-19T15:35:01.421757+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 53340000,
     "anihi and the anihaloors": 60300000,
     "Saltamonti": 67080000,
     "valero10": 64330000,
-    "Jajajajajaja": 66610000,
+    "Jajajajajaja": 61640000,
     "Keko Kane": 43920000,
     "FCodina": 47630000,
     "Gruu": 48800000,
