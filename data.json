@@ -7894,6 +7894,15 @@
       "sourceId": "transfer|1789834388|0|1603117|27996|7873200:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 4251000,
+      "detail": "Pablo García",
+      "playerId": 35763,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789875494|0|1598649|35763|4251000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8740,7 +8749,7 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-19T22:44:26.852096+00:00",
+  "lastSync": "2026-09-20T04:01:14.177660+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 50080000,
     "anihi and the anihaloors": 60300000,
@@ -8756,7 +8765,7 @@
     "Tietes FC": 49000000,
     "Diablos Cojos": 38300000,
     "FC Carcelona": 49640000,
-    "Tikitaki de Aatun": 59140000,
+    "Tikitaki de Aatun": 55030000,
     "Error del sistema": 45770000
   }
 }
