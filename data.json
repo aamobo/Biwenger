@@ -8045,6 +8045,64 @@
       "sourceId": "transfer|1789889814|0|1594880|43264|2757700:sell"
     },
     {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 16452000,
+      "detail": "Kang-in Lee",
+      "playerId": 17687,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789907297|0|1594907|17687|16452000:buy",
+      "overpay": 7312000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 16452000,
+      "detail": "Kang-in Lee",
+      "playerId": 17687,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789907297|0|1594907|17687|16452000:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 1477800,
+      "detail": "Pere Milla",
+      "playerId": 9047,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789903476|0|13978983|9047|1477800:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 992100,
+      "detail": "Alemão",
+      "playerId": 37450,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789903476|1|13978983|37450|992100:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 7146000,
+      "detail": "Fer Niño",
+      "playerId": 21132,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789902152|0|14077779|21132|7146000:buy",
+      "overpay": 3266000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 7146000,
+      "detail": "Fer Niño",
+      "playerId": 21132,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789902152|0|14077779|21132|7146000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8891,17 +8949,17 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-20T10:53:24.262240+00:00",
+  "lastSync": "2026-09-20T15:40:50.394993+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 54030000,
+    "Real Vicentón Balompié": 50150000,
     "anihi and the anihaloors": 60740000,
     "Saltamonti": 81220000,
-    "valero10": 59170000,
+    "valero10": 68310000,
     "Jajajajajaja": 57980000,
-    "Keko Kane": 69270000,
-    "FCodina": 34850000,
+    "Keko Kane": 66790000,
+    "FCodina": 38730000,
     "Gruu": 48760000,
-    "Reial Club Estanislau": 57850000,
+    "Reial Club Estanislau": 48710000,
     "Quim fc": 60350000,
     "Yastariabros": 44200000,
     "Tietes FC": 49160000,
