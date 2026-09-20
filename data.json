@@ -8103,6 +8103,93 @@
       "sourceId": "transfer|1789902152|0|14077779|21132|7146000:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 800000,
+      "detail": "Mayol",
+      "playerId": 23080,
+      "date": "2026-09-20",
+      "sourceId": "clauseincrement|1789935602|0|14039644|23080|800000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 20916198,
+      "detail": "Dani Olmo",
+      "playerId": 34527,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933487|0|14077779|34527|20916198:buy",
+      "overpay": 11136198,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 20916198,
+      "detail": "Dani Olmo",
+      "playerId": 34527,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933487|0|14077779|34527|20916198:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 3330000,
+      "detail": "Camavinga",
+      "playerId": 1733,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933487|1|14077779|1733|3330000:buy",
+      "overpay": 1480000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 3330000,
+      "detail": "Camavinga",
+      "playerId": 1733,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933487|1|14077779|1733|3330000:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 4528900,
+      "detail": "Amatucci",
+      "playerId": 42425,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933130|0|14077779|42425|4528900:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 5796000,
+      "detail": "Koke",
+      "playerId": 1083,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933083|0|14077779|1083|5796000:buy",
+      "overpay": 2576000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 5796000,
+      "detail": "Koke",
+      "playerId": 1083,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789933083|0|14077779|1083|5796000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3793900,
+      "detail": "Javi Hernández",
+      "playerId": 25322,
+      "date": "2026-09-20",
+      "sourceId": "transfer|1789921150|0|1594869|25322|3793900:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -8949,23 +9036,23 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-20T15:40:50.394993+00:00",
+  "lastSync": "2026-09-20T20:30:17.377247+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 50150000,
     "anihi and the anihaloors": 60740000,
-    "Saltamonti": 81220000,
+    "Saltamonti": 77440000,
     "valero10": 68310000,
     "Jajajajajaja": 57980000,
     "Keko Kane": 66790000,
-    "FCodina": 38730000,
+    "FCodina": 49200000,
     "Gruu": 48760000,
     "Reial Club Estanislau": 48710000,
-    "Quim fc": 60350000,
-    "Yastariabros": 44200000,
+    "Quim fc": 57130000,
+    "Yastariabros": 42350000,
     "Tietes FC": 49160000,
     "Diablos Cojos": 38250000,
     "FC Carcelona": 49720000,
     "Tikitaki de Aatun": 61420000,
-    "Error del sistema": 45960000
+    "Error del sistema": 36180000
   }
 }
