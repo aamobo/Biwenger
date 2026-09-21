@@ -8268,6 +8268,119 @@
       "sourceId": "transfer|1789956758|0|1598649|42444|4875200:sell"
     },
     {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 594000,
+      "detail": "Valentín Gómez",
+      "playerId": 38318,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1789977219|0|1594880|38318|594000:buy",
+      "overpay": 264000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 594000,
+      "detail": "Valentín Gómez",
+      "playerId": 38318,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1789977219|0|1594880|38318|594000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 5786400,
+      "detail": "Huijsen",
+      "playerId": 37495,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1789967498|0|1594869|37495|5786400:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 2229700,
+      "detail": "Pablo Ramón",
+      "playerId": 35408,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1789967498|1|1594869|35408|2229700:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3505000,
+      "detail": "Marc Casadó",
+      "playerId": 32629,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1789967498|2|1594869|32629|3505000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 160000,
+      "detail": "Rubén Gómez",
+      "playerId": 42021,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|0|1594880|42021|160000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 160000,
+      "detail": "Barcia",
+      "playerId": 41080,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|1|1594880|41080|160000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 150010,
+      "detail": "Barzic",
+      "playerId": 27575,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|2|1594880|27575|150010:buy",
+      "overpay": 10,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3752760,
+      "detail": "Catena",
+      "playerId": 17731,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|3|1598649|17731|3752760:buy",
+      "overpay": 582760,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3004860,
+      "detail": "Ilaix Moriba",
+      "playerId": 21084,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|4|1598649|21084|3004860:buy",
+      "overpay": 724860,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 821460,
+      "detail": "Bright Ede",
+      "playerId": 42395,
+      "date": "2026-09-21",
+      "sourceId": "market|1789966909|5|1598649|42395|821460:buy",
+      "overpay": 71460,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9114,23 +9227,23 @@
       "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     }
   ],
-  "lastSync": "2026-09-21T03:59:09.353887+00:00",
+  "lastSync": "2026-09-21T12:18:55.104888+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 50150000,
-    "anihi and the anihaloors": 60740000,
-    "Saltamonti": 76860000,
-    "valero10": 64370000,
-    "Jajajajajaja": 57980000,
-    "Keko Kane": 66790000,
-    "FCodina": 41710000,
-    "Gruu": 48760000,
-    "Reial Club Estanislau": 60140000,
-    "Quim fc": 57130000,
-    "Yastariabros": 42350000,
-    "Tietes FC": 49160000,
-    "Diablos Cojos": 38250000,
-    "FC Carcelona": 49720000,
-    "Tikitaki de Aatun": 57250000,
-    "Error del sistema": 36180000
+    "Real Vicentón Balompié": 51380000,
+    "anihi and the anihaloors": 60830000,
+    "Saltamonti": 65440000,
+    "valero10": 63920000,
+    "Jajajajajaja": 58310000,
+    "Keko Kane": 66990000,
+    "FCodina": 42040000,
+    "Gruu": 48520000,
+    "Reial Club Estanislau": 59940000,
+    "Quim fc": 57170000,
+    "Yastariabros": 42250000,
+    "Tietes FC": 49140000,
+    "Diablos Cojos": 37930000,
+    "FC Carcelona": 49700000,
+    "Tikitaki de Aatun": 64130000,
+    "Error del sistema": 36060000
   }
 }
