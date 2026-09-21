@@ -8528,6 +8528,44 @@
       "sourceId": "transfer|1789993473|0|2061477|42327|3403400:sell"
     },
     {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 10674200,
+      "detail": "Pépé",
+      "playerId": 34479,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1790032264|0|1594907|34479|10674200:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 4147700,
+      "detail": "Enes Ünal",
+      "playerId": 9045,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1790032264|1|1594907|9045|4147700:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 18111114,
+      "detail": "Ez Abde",
+      "playerId": 25127,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1790032147|0|1594907|25127|18111114:buy",
+      "overpay": 9861114,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 18111114,
+      "detail": "Ez Abde",
+      "playerId": 25127,
+      "date": "2026-09-21",
+      "sourceId": "transfer|1790032147|0|1594907|25127|18111114:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9509,11 +9547,11 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-21T19:53:58.427229+00:00",
+  "lastSync": "2026-09-21T23:54:25.559943+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 51380000,
     "Jajajajajaja": 58310000,
-    "valero10": 63920000,
+    "valero10": 57260000,
     "Saltamonti": 65440000,
     "Keko Kane": 66990000,
     "Gruu": 46810000,
@@ -9524,7 +9562,7 @@
     "Tietes FC": 40370000,
     "Reial Club Estanislau": 59940000,
     "FC Carcelona": 42680000,
-    "Tikitaki de Aatun": 59930000,
+    "Tikitaki de Aatun": 51680000,
     "Diablos Cojos": 37930000,
     "Error del sistema": 36060000
   }
