@@ -8566,6 +8566,46 @@
       "sourceId": "transfer|1790032147|0|1594907|25127|18111114:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 16937226,
+      "detail": "Nico Williams",
+      "playerId": 21008,
+      "date": "2026-09-22",
+      "sourceId": "transfer|1790045634|0|1598649|21008|16937226:buy",
+      "overpay": 8187226,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 16937226,
+      "detail": "Nico Williams",
+      "playerId": 21008,
+      "date": "2026-09-22",
+      "sourceId": "transfer|1790045634|0|1598649|21008|16937226:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 864000,
+      "detail": "Puado",
+      "playerId": 16317,
+      "date": "2026-09-22",
+      "sourceId": "transfer|1790045634|1|1598649|16317|864000:buy",
+      "overpay": 384000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 864000,
+      "detail": "Puado",
+      "playerId": 16317,
+      "date": "2026-09-22",
+      "sourceId": "transfer|1790045634|1|1598649|16317|864000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9547,13 +9587,13 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-21T23:54:25.559943+00:00",
+  "lastSync": "2026-09-22T03:56:21.980690+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 51380000,
     "Jajajajajaja": 58310000,
-    "valero10": 57260000,
+    "valero10": 48510000,
     "Saltamonti": 65440000,
-    "Keko Kane": 66990000,
+    "Keko Kane": 66510000,
     "Gruu": 46810000,
     "anihi and the anihaloors": 60830000,
     "FCodina": 52680000,
@@ -9562,7 +9602,7 @@
     "Tietes FC": 40370000,
     "Reial Club Estanislau": 59940000,
     "FC Carcelona": 42680000,
-    "Tikitaki de Aatun": 51680000,
+    "Tikitaki de Aatun": 60910000,
     "Diablos Cojos": 37930000,
     "Error del sistema": 36060000
   }
