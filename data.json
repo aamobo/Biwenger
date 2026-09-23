@@ -8808,6 +8808,112 @@
       "sourceId": "transfer|1790091357|1|13979073|41609|882000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 1494000,
+      "detail": "Aitor Fernández",
+      "playerId": 16606,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790145354|0|1594869|16606|1494000:buy",
+      "overpay": 664000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1494000,
+      "detail": "Aitor Fernández",
+      "playerId": 16606,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790145354|0|1594869|16606|1494000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 1555200,
+      "detail": "Puado",
+      "playerId": 16317,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790145354|1|1594869|16317|1555200:buy",
+      "overpay": 815200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1555200,
+      "detail": "Puado",
+      "playerId": 16317,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790145354|1|1594869|16317|1555200:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 3140010,
+      "detail": "Yuri",
+      "playerId": 1074,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|0|13979073|1074|3140010:buy",
+      "overpay": 260010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 370000,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|1|1594880|37488|370000:buy",
+      "overpay": 10000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 6745850,
+      "detail": "Amatucci",
+      "playerId": 42425,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|2|1603117|42425|6745850:buy",
+      "overpay": 2275850,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 2870000,
+      "detail": "Deossa",
+      "playerId": 37416,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|3|13990176|37416|2870000:buy",
+      "overpay": 870000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 9635454,
+      "detail": "Cristian Romero",
+      "playerId": 15828,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|4|1603117|15828|9635454:buy",
+      "overpay": 4075454,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 150000,
+      "detail": "Iván Villar",
+      "playerId": 10117,
+      "date": "2026-09-23",
+      "sourceId": "market|1790139869|5|12756155|10117|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9789,23 +9895,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-23T03:53:55.964334+00:00",
+  "lastSync": "2026-09-23T06:44:44.659880+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 51080000,
-    "Jajajajajaja": 53430000,
-    "valero10": 48630000,
-    "Saltamonti": 65120000,
-    "Keko Kane": 66560000,
-    "Gruu": 46480000,
-    "anihi and the anihaloors": 55220000,
-    "FCodina": 53060000,
-    "Yastariabros": 50260000,
-    "Quim fc": 56020000,
-    "Tietes FC": 45210000,
-    "Reial Club Estanislau": 59670000,
-    "FC Carcelona": 54580000,
-    "Tikitaki de Aatun": 64550000,
-    "Diablos Cojos": 41440000,
-    "Error del sistema": 35770000
+    "Real Vicentón Balompié": 51930000,
+    "Jajajajajaja": 63640000,
+    "valero10": 48810000,
+    "Saltamonti": 66850000,
+    "Keko Kane": 66770000,
+    "Gruu": 46320000,
+    "anihi and the anihaloors": 58350000,
+    "FCodina": 53500000,
+    "Yastariabros": 50800000,
+    "Quim fc": 55960000,
+    "Tietes FC": 45200000,
+    "Reial Club Estanislau": 59550000,
+    "FC Carcelona": 54470000,
+    "Tikitaki de Aatun": 63900000,
+    "Diablos Cojos": 43130000,
+    "Error del sistema": 35530000
   }
 }
