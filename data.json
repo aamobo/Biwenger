@@ -8914,6 +8914,93 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 7294831,
+      "detail": "Veiga",
+      "playerId": 38493,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790160000|0|14077779|38493|7294831:buy",
+      "overpay": 3684831,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 7294831,
+      "detail": "Veiga",
+      "playerId": 38493,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790160000|0|14077779|38493|7294831:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1859900,
+      "detail": "Manu Sánchez",
+      "playerId": 1721,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790158983|0|14077779|1721|1859900:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 1076000,
+      "detail": "Nacho Pérez",
+      "playerId": 25815,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790156450|0|1603117|25815|1076000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 7995600,
+      "detail": "El Hilali",
+      "playerId": 28103,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790156420|0|1603117|28103|7995600:buy",
+      "overpay": 5145600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 7995600,
+      "detail": "El Hilali",
+      "playerId": 28103,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790156420|0|1603117|28103|7995600:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 8724924,
+      "detail": "Luka Sucic",
+      "playerId": 34469,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790152238|0|1594907|34469|8724924:buy",
+      "overpay": 4684924,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 8724924,
+      "detail": "Luka Sucic",
+      "playerId": 34469,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790152238|0|1594907|34469|8724924:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 195700,
+      "detail": "Pacheco",
+      "playerId": 12424,
+      "date": "2026-09-23",
+      "sourceId": "transfer|1790149947|0|13979073|12424|195700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9895,19 +9982,19 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-23T06:44:44.659880+00:00",
+  "lastSync": "2026-09-23T11:01:34.202612+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 51930000,
-    "Jajajajajaja": 63640000,
-    "valero10": 48810000,
+    "Jajajajajaja": 65490000,
+    "valero10": 52850000,
     "Saltamonti": 66850000,
-    "Keko Kane": 66770000,
+    "Keko Kane": 62730000,
     "Gruu": 46320000,
-    "anihi and the anihaloors": 58350000,
-    "FCodina": 53500000,
+    "anihi and the anihaloors": 58160000,
+    "FCodina": 52450000,
     "Yastariabros": 50800000,
     "Quim fc": 55960000,
-    "Tietes FC": 45200000,
+    "Tietes FC": 41590000,
     "Reial Club Estanislau": 59550000,
     "FC Carcelona": 54470000,
     "Tikitaki de Aatun": 63900000,
