@@ -9010,6 +9010,103 @@
       "sourceId": "transfer|1790182223|0|11770405|37898|430800:sell"
     },
     {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 5760000,
+      "detail": "Iván Romero",
+      "playerId": 17937,
+      "date": "2026-09-24",
+      "sourceId": "transfer|1790244329|0|13990414|17937|5760000:buy",
+      "overpay": 2560000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 5760000,
+      "detail": "Iván Romero",
+      "playerId": 17937,
+      "date": "2026-09-24",
+      "sourceId": "transfer|1790244329|0|13990414|17937|5760000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 1358000,
+      "detail": "Ugrinic",
+      "playerId": 38368,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|0|1594869|38368|1358000:buy",
+      "overpay": 58000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 4399000,
+      "detail": "Carlos Romero",
+      "playerId": 26566,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|1|14039644|26566|4399000:buy",
+      "overpay": 99000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 2220000,
+      "detail": "Facundo Bernal",
+      "playerId": 42370,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|2|11770405|42370|2220000:buy",
+      "overpay": 20000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 450000,
+      "detail": "Rubén Sánchez",
+      "playerId": 23572,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|3|1594880|23572|450000:buy",
+      "overpay": 20000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 4250000,
+      "detail": "Ratiu",
+      "playerId": 26276,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|4|1594869|26276|4250000:buy",
+      "overpay": 520000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 4580010,
+      "detail": "Mourinho",
+      "playerId": 41386,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|5|13990176|41386|4580010:buy",
+      "overpay": 50010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 1516960,
+      "detail": "Diego Llorente",
+      "playerId": 1679,
+      "date": "2026-09-24",
+      "sourceId": "market|1790226237|6|13978983|1679|1516960:buy",
+      "overpay": 16960,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -9991,23 +10088,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-24T03:46:28.210229+00:00",
+  "lastSync": "2026-09-24T11:20:16.113073+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 51930000,
-    "Jajajajajaja": 65490000,
-    "valero10": 52850000,
-    "Saltamonti": 66850000,
-    "Keko Kane": 62730000,
-    "Gruu": 46320000,
+    "Real Vicentón Balompié": 52940000,
+    "Jajajajajaja": 65740000,
+    "valero10": 49910000,
+    "Saltamonti": 72420000,
+    "Keko Kane": 64440000,
+    "Gruu": 49470000,
     "anihi and the anihaloors": 58160000,
-    "FCodina": 52450000,
-    "Yastariabros": 50800000,
-    "Quim fc": 55960000,
-    "Tietes FC": 41590000,
-    "Reial Club Estanislau": 59550000,
-    "FC Carcelona": 54030000,
-    "Tikitaki de Aatun": 63900000,
-    "Diablos Cojos": 43130000,
-    "Error del sistema": 35530000
+    "FCodina": 52910000,
+    "Yastariabros": 51330000,
+    "Quim fc": 60200000,
+    "Tietes FC": 41440000,
+    "Reial Club Estanislau": 59460000,
+    "FC Carcelona": 56190000,
+    "Tikitaki de Aatun": 64470000,
+    "Diablos Cojos": 47570000,
+    "Error del sistema": 35420000
   }
 }
