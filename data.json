@@ -9107,6 +9107,92 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 330700,
+      "detail": "Óscar Sánchez",
+      "playerId": 43436,
+      "date": "2026-09-25",
+      "sourceId": "transfer|1790314867|0|1594869|43436|330700:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 1895000,
+      "detail": "Vivian",
+      "playerId": 12400,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|0|1594869|12400|1895000:buy",
+      "overpay": 455000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3422340,
+      "detail": "Lemar",
+      "playerId": 11196,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|1|1598649|11196|3422340:buy",
+      "overpay": 112340,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 590000,
+      "detail": "Villares",
+      "playerId": 41076,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|2|1594880|41076|590000:buy",
+      "overpay": -10000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 150000,
+      "detail": "Esquivel",
+      "playerId": 43281,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|3|1598649|43281|150000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 3650000,
+      "detail": "Andrés Martín",
+      "playerId": 4753,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|4|1594869|4753|3650000:buy",
+      "overpay": 460000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 4400000,
+      "detail": "Marc Bernal",
+      "playerId": 34077,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|5|11770405|34077|4400000:buy",
+      "overpay": 220000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 2485000,
+      "detail": "Aimar",
+      "playerId": 27591,
+      "date": "2026-09-25",
+      "sourceId": "market|1790312572|6|1594869|27591|2485000:buy",
+      "overpay": 275000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10088,23 +10174,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-25T04:02:05.488740+00:00",
+  "lastSync": "2026-09-25T11:25:34.288802+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 52940000,
-    "Jajajajajaja": 65740000,
-    "valero10": 49910000,
-    "Saltamonti": 72420000,
-    "Keko Kane": 64440000,
-    "Gruu": 49470000,
-    "anihi and the anihaloors": 58160000,
-    "FCodina": 52910000,
-    "Yastariabros": 51330000,
-    "Quim fc": 60200000,
-    "Tietes FC": 41440000,
-    "Reial Club Estanislau": 59460000,
-    "FC Carcelona": 56190000,
-    "Tikitaki de Aatun": 64470000,
-    "Diablos Cojos": 47570000,
-    "Error del sistema": 35420000
+    "Real Vicentón Balompié": 54070000,
+    "Jajajajajaja": 65870000,
+    "valero10": 49990000,
+    "Saltamonti": 79440000,
+    "Keko Kane": 64580000,
+    "Gruu": 49420000,
+    "anihi and the anihaloors": 57480000,
+    "FCodina": 53340000,
+    "Yastariabros": 51830000,
+    "Quim fc": 60050000,
+    "Tietes FC": 41260000,
+    "Reial Club Estanislau": 59270000,
+    "FC Carcelona": 60270000,
+    "Tikitaki de Aatun": 68390000,
+    "Diablos Cojos": 47390000,
+    "Error del sistema": 35260000
   }
 }
