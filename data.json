@@ -9248,6 +9248,26 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 7426080,
+      "detail": "Zaid Romero",
+      "playerId": 39804,
+      "date": "2026-09-26",
+      "sourceId": "transfer|1790442979|0|2061477|39804|7426080:buy",
+      "overpay": 4466080,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 7426080,
+      "detail": "Zaid Romero",
+      "playerId": 39804,
+      "date": "2026-09-26",
+      "sourceId": "transfer|1790442979|0|2061477|39804|7426080:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10229,7 +10249,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-26T16:00:47.463694+00:00",
+  "lastSync": "2026-09-26T20:47:41.477700+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 54580000,
     "Jajajajajaja": 66100000,
@@ -10239,9 +10259,9 @@
     "Gruu": 49430000,
     "anihi and the anihaloors": 60500000,
     "FCodina": 53710000,
-    "Yastariabros": 52300000,
+    "Yastariabros": 55260000,
     "Quim fc": 60310000,
-    "Tietes FC": 41160000,
+    "Tietes FC": 38200000,
     "Reial Club Estanislau": 59120000,
     "FC Carcelona": 60190000,
     "Tikitaki de Aatun": 71090000,
