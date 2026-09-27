@@ -9321,6 +9321,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 2665000,
+      "detail": "Grimaldo",
+      "playerId": 41684,
+      "date": "2026-09-27",
+      "sourceId": "clauseincrement|1790535555|0|13978983|41684|2665000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10302,7 +10311,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-27T16:37:51.029991+00:00",
+  "lastSync": "2026-09-27T21:04:07.663732+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 55000000,
     "Jajajajajaja": 66260000,
