@@ -9341,6 +9341,28 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 2000000,
+      "detail": "Dolan",
+      "playerId": 38308,
+      "date": "2026-09-29",
+      "sourceId": "market|1790658276|0|13978983|38308|2000000:buy",
+      "overpay": 30000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 10697758,
+      "detail": "Pépé",
+      "playerId": 34479,
+      "date": "2026-09-29",
+      "sourceId": "market|1790658276|1|1598649|34479|10697758:buy",
+      "overpay": 1797758,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10322,23 +10344,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-29T04:52:54.836922+00:00",
+  "lastSync": "2026-09-29T12:22:51.028532+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 55540000,
-    "Jajajajajaja": 66510000,
-    "valero10": 53470000,
-    "Saltamonti": 80940000,
-    "Keko Kane": 64910000,
-    "Gruu": 52170000,
-    "anihi and the anihaloors": 59920000,
-    "FCodina": 54250000,
-    "Yastariabros": 56150000,
-    "Quim fc": 62630000,
-    "Tietes FC": 37790000,
-    "Reial Club Estanislau": 58770000,
-    "FC Carcelona": 59920000,
-    "Tikitaki de Aatun": 72000000,
-    "Diablos Cojos": 51080000,
-    "Error del sistema": 34960000
+    "Real Vicentón Balompié": 55940000,
+    "Jajajajajaja": 66660000,
+    "valero10": 53400000,
+    "Saltamonti": 81130000,
+    "Keko Kane": 66820000,
+    "Gruu": 52070000,
+    "anihi and the anihaloors": 59740000,
+    "FCodina": 54420000,
+    "Yastariabros": 56510000,
+    "Quim fc": 62330000,
+    "Tietes FC": 37480000,
+    "Reial Club Estanislau": 58520000,
+    "FC Carcelona": 59770000,
+    "Tikitaki de Aatun": 81120000,
+    "Diablos Cojos": 50990000,
+    "Error del sistema": 34810000
   }
 }
