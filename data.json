@@ -9363,6 +9363,81 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 4073000,
+      "detail": "Miguel Román",
+      "playerId": 3259,
+      "date": "2026-09-30",
+      "sourceId": "transfer|1790755403|0|13990176|3259|4073000:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 3239420,
+      "detail": "Marcos Alonso",
+      "playerId": 28087,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|0|1594907|28087|3239420:buy",
+      "overpay": 449420,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 460020,
+      "detail": "Javier Aguirre",
+      "playerId": 25892,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|1|13979073|25892|460020:buy",
+      "overpay": -19980,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 2565750,
+      "detail": "Yangel Herrera",
+      "playerId": 17344,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|2|1594907|17344|2565750:buy",
+      "overpay": 25750,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 1345000,
+      "detail": "Belocian",
+      "playerId": 43259,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|3|12756155|43259|1345000:buy",
+      "overpay": 35000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 3613500,
+      "detail": "Luismi Cruz",
+      "playerId": 25777,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|4|1594907|25777|3613500:buy",
+      "overpay": 13500,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 2320000,
+      "detail": "Ejuke",
+      "playerId": 33531,
+      "date": "2026-09-30",
+      "sourceId": "market|1790744542|5|12756155|33531|2320000:buy",
+      "overpay": 80000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10344,23 +10419,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-09-30T00:07:53.234154+00:00",
+  "lastSync": "2026-09-30T09:26:21.699258+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 55940000,
-    "Jajajajajaja": 66660000,
-    "valero10": 53400000,
-    "Saltamonti": 81130000,
-    "Keko Kane": 66820000,
-    "Gruu": 52070000,
-    "anihi and the anihaloors": 59740000,
-    "FCodina": 54420000,
-    "Yastariabros": 56510000,
-    "Quim fc": 62330000,
-    "Tietes FC": 37480000,
-    "Reial Club Estanislau": 58520000,
-    "FC Carcelona": 59770000,
-    "Tikitaki de Aatun": 81120000,
-    "Diablos Cojos": 50990000,
-    "Error del sistema": 34810000
+    "Real Vicentón Balompié": 56340000,
+    "Jajajajajaja": 66760000,
+    "valero10": 62320000,
+    "Saltamonti": 81300000,
+    "Keko Kane": 66750000,
+    "Gruu": 51980000,
+    "anihi and the anihaloors": 60140000,
+    "FCodina": 54610000,
+    "Yastariabros": 56930000,
+    "Quim fc": 61970000,
+    "Tietes FC": 40800000,
+    "Reial Club Estanislau": 58130000,
+    "FC Carcelona": 59590000,
+    "Tikitaki de Aatun": 81200000,
+    "Diablos Cojos": 46830000,
+    "Error del sistema": 34700000
   }
 }
