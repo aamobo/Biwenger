@@ -9527,6 +9527,26 @@
       "sourceId": "transfer|1791101456|0|1594869|18174|1530000:sell"
     },
     {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 4698000,
+      "detail": "Lago",
+      "playerId": 33474,
+      "date": "2026-10-04",
+      "sourceId": "transfer|1791116464|0|2061477|33474|4698000:buy",
+      "overpay": 2088000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 4698000,
+      "detail": "Lago",
+      "playerId": 33474,
+      "date": "2026-10-04",
+      "sourceId": "transfer|1791116464|0|2061477|33474|4698000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10508,7 +10528,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-04T11:57:21.051913+00:00",
+  "lastSync": "2026-10-04T16:46:34.097749+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 58100000,
     "Jajajajajaja": 66500000,
@@ -10516,9 +10536,9 @@
     "Saltamonti": 82840000,
     "Keko Kane": 65460000,
     "Gruu": 51610000,
-    "anihi and the anihaloors": 59640000,
+    "anihi and the anihaloors": 57030000,
     "FCodina": 54980000,
-    "Yastariabros": 58010000,
+    "Yastariabros": 60620000,
     "Quim fc": 60080000,
     "Tietes FC": 50590000,
     "Reial Club Estanislau": 56450000,
