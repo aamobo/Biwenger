@@ -9547,6 +9547,26 @@
       "sourceId": "transfer|1791116464|0|2061477|33474|4698000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1184300,
+      "detail": "Ugrinic",
+      "playerId": 38368,
+      "date": "2026-10-05",
+      "sourceId": "transfer|1791178435|0|1594869|38368|1184300:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 170000,
+      "detail": "Diego López",
+      "playerId": 27994,
+      "date": "2026-10-05",
+      "sourceId": "market|1791176591|0|13979073|27994|170000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10528,23 +10548,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-05T04:42:43.425361+00:00",
+  "lastSync": "2026-10-05T13:58:30.183000+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 58100000,
-    "Jajajajajaja": 66500000,
-    "valero10": 62770000,
-    "Saltamonti": 82840000,
-    "Keko Kane": 65460000,
-    "Gruu": 51610000,
-    "anihi and the anihaloors": 57030000,
+    "Real Vicentón Balompié": 58430000,
+    "Jajajajajaja": 66400000,
+    "valero10": 62780000,
+    "Saltamonti": 81890000,
+    "Keko Kane": 65260000,
+    "Gruu": 51420000,
+    "anihi and the anihaloors": 56990000,
     "FCodina": 54980000,
-    "Yastariabros": 60620000,
-    "Quim fc": 60080000,
-    "Tietes FC": 50590000,
-    "Reial Club Estanislau": 56450000,
-    "FC Carcelona": 58760000,
-    "Tikitaki de Aatun": 75800000,
-    "Diablos Cojos": 45990000,
-    "Error del sistema": 34410000
+    "Yastariabros": 60720000,
+    "Quim fc": 59560000,
+    "Tietes FC": 50230000,
+    "Reial Club Estanislau": 56060000,
+    "FC Carcelona": 58560000,
+    "Tikitaki de Aatun": 75150000,
+    "Diablos Cojos": 45690000,
+    "Error del sistema": 34240000
   }
 }
