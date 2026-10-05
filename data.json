@@ -9567,6 +9567,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 152400,
+      "detail": "Valou",
+      "playerId": 42394,
+      "date": "2026-10-05",
+      "sourceId": "transfer|1791218269|0|12756155|42394|152400:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 275800,
+      "detail": "Marchal",
+      "playerId": 42627,
+      "date": "2026-10-05",
+      "sourceId": "transfer|1791218269|1|12756155|42627|275800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10548,7 +10566,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-05T13:58:30.183000+00:00",
+  "lastSync": "2026-10-05T21:52:56.525265+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 58430000,
     "Jajajajajaja": 66400000,
@@ -10560,7 +10578,7 @@
     "FCodina": 54980000,
     "Yastariabros": 60720000,
     "Quim fc": 59560000,
-    "Tietes FC": 50230000,
+    "Tietes FC": 49790000,
     "Reial Club Estanislau": 56060000,
     "FC Carcelona": 58560000,
     "Tikitaki de Aatun": 75150000,
