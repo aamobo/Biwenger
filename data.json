@@ -9725,6 +9725,28 @@
       "sourceId": "transfer|1791415742|1|1598649|25403|3125700:sell"
     },
     {
+      "manager": "Error del sistema",
+      "type": "compra",
+      "amount": 1095210,
+      "detail": "Gorrotxategi",
+      "playerId": 37897,
+      "date": "2026-10-08",
+      "sourceId": "market|1791435791|0|13990170|37897|1095210:buy",
+      "overpay": 115210,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 151400,
+      "detail": "Benavidez",
+      "playerId": 30507,
+      "date": "2026-10-08",
+      "sourceId": "market|1791435791|1|1598649|30507|151400:buy",
+      "overpay": 1400,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10706,23 +10728,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-08T00:47:51.138529+00:00",
+  "lastSync": "2026-10-08T10:11:33.502356+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 58980000,
-    "Jajajajajaja": 66230000,
-    "valero10": 62730000,
-    "Saltamonti": 82120000,
-    "Keko Kane": 68140000,
-    "Gruu": 51090000,
-    "anihi and the anihaloors": 58190000,
-    "FCodina": 54820000,
-    "Yastariabros": 60550000,
-    "Quim fc": 58440000,
-    "Tietes FC": 49250000,
-    "Reial Club Estanislau": 55420000,
-    "FC Carcelona": 60600000,
-    "Tikitaki de Aatun": 62920000,
-    "Diablos Cojos": 44980000,
-    "Error del sistema": 33900000
+    "Real Vicentón Balompié": 59250000,
+    "Jajajajajaja": 66210000,
+    "valero10": 62740000,
+    "Saltamonti": 82190000,
+    "Keko Kane": 67990000,
+    "Gruu": 51050000,
+    "anihi and the anihaloors": 57770000,
+    "FCodina": 54720000,
+    "Yastariabros": 60570000,
+    "Quim fc": 58010000,
+    "Tietes FC": 49050000,
+    "Reial Club Estanislau": 55140000,
+    "FC Carcelona": 60250000,
+    "Tikitaki de Aatun": 62690000,
+    "Diablos Cojos": 44670000,
+    "Error del sistema": 34750000
   }
 }
