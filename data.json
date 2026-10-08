@@ -9707,6 +9707,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3256700,
+      "detail": "Johnny",
+      "playerId": 32120,
+      "date": "2026-10-07",
+      "sourceId": "transfer|1791415742|0|1598649|32120|3256700:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3125700,
+      "detail": "Gonzalo Villar",
+      "playerId": 25403,
+      "date": "2026-10-07",
+      "sourceId": "transfer|1791415742|1|1598649|25403|3125700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10688,7 +10706,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-07T18:37:43.271213+00:00",
+  "lastSync": "2026-10-08T00:47:51.138529+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 58980000,
     "Jajajajajaja": 66230000,
@@ -10703,7 +10721,7 @@
     "Tietes FC": 49250000,
     "Reial Club Estanislau": 55420000,
     "FC Carcelona": 60600000,
-    "Tikitaki de Aatun": 69050000,
+    "Tikitaki de Aatun": 62920000,
     "Diablos Cojos": 44980000,
     "Error del sistema": 33900000
   }
