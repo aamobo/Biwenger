@@ -9843,6 +9843,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 1548500,
+      "detail": "Arguibide",
+      "playerId": 10292,
+      "date": "2026-10-09",
+      "sourceId": "transfer|1791565474|0|11770405|10292|1548500:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2878500,
+      "detail": "Suazo",
+      "playerId": 38194,
+      "date": "2026-10-09",
+      "sourceId": "transfer|1791552289|0|1598649|38194|2878500:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10824,7 +10842,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-09T10:12:59.089992+00:00",
+  "lastSync": "2026-10-09T18:07:30.563573+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 59410000,
     "Jajajajajaja": 66120000,
@@ -10838,8 +10856,8 @@
     "Quim fc": 57120000,
     "Tietes FC": 48830000,
     "Reial Club Estanislau": 54840000,
-    "FC Carcelona": 59820000,
-    "Tikitaki de Aatun": 62310000,
+    "FC Carcelona": 58270000,
+    "Tikitaki de Aatun": 59300000,
     "Diablos Cojos": 44420000,
     "Error del sistema": 34530000
   }
