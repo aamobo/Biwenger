@@ -9861,6 +9861,26 @@
       "sourceId": "transfer|1791552289|0|1598649|38194|2878500:sell"
     },
     {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 271818,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-10-09",
+      "sourceId": "transfer|1791578985|0|1594907|30334|271818:buy",
+      "overpay": 121818,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 271818,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-10-09",
+      "sourceId": "transfer|1791578985|0|1594907|30334|271818:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10842,12 +10862,12 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-09T18:07:30.563573+00:00",
+  "lastSync": "2026-10-10T00:33:48.647273+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 59410000,
     "Jajajajajaja": 66120000,
-    "valero10": 62710000,
-    "Saltamonti": 80710000,
+    "valero10": 62860000,
+    "Saltamonti": 80560000,
     "Keko Kane": 67630000,
     "Gruu": 50980000,
     "anihi and the anihaloors": 57940000,
