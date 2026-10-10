@@ -9892,6 +9892,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Recio",
+      "playerId": 41419,
+      "date": "2026-10-10",
+      "sourceId": "clauseincrement|1791635106|0|13979073|41419|500000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10873,7 +10882,7 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-10T09:34:01.545717+00:00",
+  "lastSync": "2026-10-10T17:07:01.732480+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 59630000,
     "Jajajajajaja": 69410000,
