@@ -10012,6 +10012,24 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 857300,
+      "detail": "Galilea",
+      "playerId": 4070,
+      "date": "2026-10-11",
+      "sourceId": "transfer|1791723126|0|1603117|4070|857300:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Courtois",
+      "playerId": 16738,
+      "date": "2026-10-11",
+      "sourceId": "clauseincrement|1791721781|0|13979073|16738|500000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -10993,10 +11011,10 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-11T12:20:07.534694+00:00",
+  "lastSync": "2026-10-11T19:23:57.446036+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 59880000,
-    "Jajajajajaja": 69470000,
+    "Jajajajajaja": 68580000,
     "valero10": 65530000,
     "Saltamonti": 81870000,
     "Keko Kane": 67210000,
