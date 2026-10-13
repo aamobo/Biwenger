@@ -10123,6 +10123,81 @@
       "sourceId": "transfer|1791805793|0|14039644|31475|360000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1415700,
+      "detail": "Maffeo",
+      "playerId": 10030,
+      "date": "2026-10-13",
+      "sourceId": "transfer|1791870741|0|1594869|10030|1415700:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1146430,
+      "detail": "Almeida",
+      "playerId": 27929,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|0|1598649|27929|1146430:buy",
+      "overpay": 16430,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 1860010,
+      "detail": "Adrián Niño",
+      "playerId": 35706,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|1|13979073|35706|1860010:buy",
+      "overpay": 790010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 560000,
+      "detail": "Livakovic",
+      "playerId": 38960,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|2|14039644|38960|560000:buy",
+      "overpay": 10000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 758000,
+      "detail": "Morante",
+      "playerId": 35116,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|3|1594869|35116|758000:buy",
+      "overpay": 98000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 1890000,
+      "detail": "Iago Aspas",
+      "playerId": 1523,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|4|13990176|1523|1890000:buy",
+      "overpay": 10000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1111920,
+      "detail": "Villalibre",
+      "playerId": 6792,
+      "date": "2026-10-13",
+      "sourceId": "market|1791867684|5|1598649|6792|1111920:buy",
+      "overpay": 11920,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -11104,23 +11179,23 @@
       "sourceId": "roundfinished|1790002953|14|13990176|3550000"
     }
   ],
-  "lastSync": "2026-10-12T21:03:12.204236+00:00",
+  "lastSync": "2026-10-13T06:00:30.583676+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 60090000,
-    "Jajajajajaja": 68580000,
-    "valero10": 65510000,
-    "Saltamonti": 81800000,
-    "Keko Kane": 67020000,
-    "Gruu": 50070000,
-    "anihi and the anihaloors": 57200000,
-    "FCodina": 55840000,
-    "Yastariabros": 60470000,
-    "Quim fc": 56810000,
-    "Tietes FC": 51910000,
-    "Reial Club Estanislau": 54050000,
-    "FC Carcelona": 57600000,
-    "Tikitaki de Aatun": 58430000,
-    "Diablos Cojos": 44020000,
-    "Error del sistema": 33800000
+    "Real Vicentón Balompié": 60370000,
+    "Jajajajajaja": 68450000,
+    "valero10": 65460000,
+    "Saltamonti": 81320000,
+    "Keko Kane": 66900000,
+    "Gruu": 49950000,
+    "anihi and the anihaloors": 57890000,
+    "FCodina": 55790000,
+    "Yastariabros": 60390000,
+    "Quim fc": 57360000,
+    "Tietes FC": 52010000,
+    "Reial Club Estanislau": 53840000,
+    "FC Carcelona": 57400000,
+    "Tikitaki de Aatun": 60480000,
+    "Diablos Cojos": 45910000,
+    "Error del sistema": 33730000
   }
 }
