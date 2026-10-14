@@ -10287,6 +10287,15 @@
       "sourceId": "transfer|1791946604|0|1598649|40552|759100:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2365400,
+      "detail": "Hugo González",
+      "playerId": 31468,
+      "date": "2026-10-14",
+      "sourceId": "transfer|1791983348|0|14077779|31468|2365400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -11403,7 +11412,7 @@
       "sourceId": "roundfinished|1791903838|14|13990170|800000"
     }
   ],
-  "lastSync": "2026-10-14T08:29:29.236440+00:00",
+  "lastSync": "2026-10-14T14:24:21.696169+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 60500000,
     "Jajajajajaja": 67690000,
@@ -11412,7 +11421,7 @@
     "Keko Kane": 66610000,
     "Gruu": 49780000,
     "anihi and the anihaloors": 60480000,
-    "FCodina": 55610000,
+    "FCodina": 53260000,
     "Tietes FC": 51400000,
     "Quim fc": 57180000,
     "Reial Club Estanislau": 53510000,
