@@ -10498,6 +10498,61 @@
       "sourceId": "clauseincrement|1792164081|0|1594869|11633|500000"
     },
     {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 800000,
+      "detail": "Prati",
+      "playerId": 42814,
+      "date": "2026-10-17",
+      "sourceId": "market|1792213382|0|12756155|42814|800000:buy",
+      "overpay": 120000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 2782000,
+      "detail": "Félix Correia",
+      "playerId": 43262,
+      "date": "2026-10-17",
+      "sourceId": "market|1792213382|1|1594869|43262|2782000:buy",
+      "overpay": 252000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 1690000,
+      "detail": "Rioja",
+      "playerId": 17442,
+      "date": "2026-10-17",
+      "sourceId": "market|1792213382|2|1603117|17442|1690000:buy",
+      "overpay": 220000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 270000,
+      "detail": "Nteka",
+      "playerId": 24336,
+      "date": "2026-10-17",
+      "sourceId": "market|1792213382|3|1603117|24336|270000:buy",
+      "overpay": 0,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 901000,
+      "detail": "Calero",
+      "playerId": 11045,
+      "date": "2026-10-17",
+      "sourceId": "market|1792213382|4|1594869|11045|901000:buy",
+      "overpay": 121000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -11614,23 +11669,23 @@
       "sourceId": "roundfinished|1791903838|14|13990170|800000"
     }
   ],
-  "lastSync": "2026-10-17T03:31:50.906355+00:00",
+  "lastSync": "2026-10-17T10:19:42.953775+00:00",
   "teamValues": {
-    "Real Vicentón Balompié": 60860000,
-    "Jajajajajaja": 67450000,
-    "valero10": 62120000,
-    "Saltamonti": 78390000,
-    "Keko Kane": 66380000,
-    "Gruu": 51910000,
-    "anihi and the anihaloors": 50740000,
-    "FCodina": 55280000,
-    "Tietes FC": 51230000,
-    "Reial Club Estanislau": 53290000,
-    "Quim fc": 57910000,
-    "Yastariabros": 60230000,
-    "Diablos Cojos": 45890000,
-    "FC Carcelona": 50590000,
-    "Tikitaki de Aatun": 59830000,
-    "Error del sistema": 33410000
+    "Real Vicentón Balompié": 61100000,
+    "Jajajajajaja": 69090000,
+    "valero10": 61990000,
+    "Saltamonti": 81840000,
+    "Keko Kane": 66060000,
+    "Gruu": 51630000,
+    "anihi and the anihaloors": 50560000,
+    "FCodina": 55300000,
+    "Tietes FC": 51750000,
+    "Reial Club Estanislau": 53010000,
+    "Quim fc": 57590000,
+    "Yastariabros": 60120000,
+    "Diablos Cojos": 45840000,
+    "FC Carcelona": 50110000,
+    "Tikitaki de Aatun": 59430000,
+    "Error del sistema": 33230000
   }
 }
