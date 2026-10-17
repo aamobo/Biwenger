@@ -10562,6 +10562,15 @@
       "sourceId": "transfer|1792247097|0|13990414|33971|1118200:sell"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Foyth",
+      "playerId": 22964,
+      "date": "2026-10-17",
+      "sourceId": "clauseincrement|1792258218|0|13990176|22964|1000000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -11678,7 +11687,7 @@
       "sourceId": "roundfinished|1791903838|14|13990170|800000"
     }
   ],
-  "lastSync": "2026-10-17T15:12:33.988539+00:00",
+  "lastSync": "2026-10-17T20:18:01.770346+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 61100000,
     "Jajajajajaja": 69090000,
