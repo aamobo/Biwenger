@@ -10553,6 +10553,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 1118200,
+      "detail": "Bretones",
+      "playerId": 33971,
+      "date": "2026-10-17",
+      "sourceId": "transfer|1792247097|0|13990414|33971|1118200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -11669,14 +11678,14 @@
       "sourceId": "roundfinished|1791903838|14|13990170|800000"
     }
   ],
-  "lastSync": "2026-10-17T10:19:42.953775+00:00",
+  "lastSync": "2026-10-17T15:12:33.988539+00:00",
   "teamValues": {
     "Real Vicentón Balompié": 61100000,
     "Jajajajajaja": 69090000,
     "valero10": 61990000,
     "Saltamonti": 81840000,
     "Keko Kane": 66060000,
-    "Gruu": 51630000,
+    "Gruu": 50530000,
     "anihi and the anihaloors": 50560000,
     "FCodina": 55300000,
     "Tietes FC": 51750000,
