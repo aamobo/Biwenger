@@ -10797,6 +10797,15 @@
       "sourceId": "clauseincrement|1792514002|1|13990176|2603|1000000"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "clausula_subida",
+      "amount": 250000,
+      "detail": "Espart",
+      "playerId": 40075,
+      "date": "2026-10-20",
+      "sourceId": "clauseincrement|1792527777|0|13979073|40075|250000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12039,7 +12048,7 @@
       "sourceId": "roundfinished|1792508602|13|13990170|3750000"
     }
   ],
-  "lastSync": "2026-10-20T19:01:41.918888+00:00",
+  "lastSync": "2026-10-20T23:40:44.742637+00:00",
   "teamValues": {
     "valero10": 66690000,
     "Saltamonti": 83970000,
