@@ -10904,6 +10904,60 @@
       "sourceId": "bonus|1789759713|4|13990176|None|-500000"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 929800,
+      "detail": "Belocian",
+      "playerId": 43259,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|0|12756155|43259|929800:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 171700,
+      "detail": "Vertrouwd",
+      "playerId": 38404,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|1|12756155|38404|171700:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 525800,
+      "detail": "Zakharyan",
+      "playerId": 31475,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|2|14039644|31475|525800:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 161600,
+      "detail": "Josan",
+      "playerId": 22061,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|3|13990176|22061|161600:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 1145800,
+      "detail": "Brahim",
+      "playerId": 129,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|4|13990176|129|1145800:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 145300,
+      "detail": "Nico Serrano",
+      "playerId": 24956,
+      "date": "2026-10-21",
+      "sourceId": "transfer|1792607995|5|13990176|24956|145300:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12146,7 +12200,7 @@
       "sourceId": "roundfinished|1792508602|13|13990170|3750000"
     }
   ],
-  "lastSync": "2026-10-21T16:50:03.481466+00:00",
+  "lastSync": "2026-10-21T21:24:04.229865+00:00",
   "teamValues": {
     "valero10": 66670000,
     "Saltamonti": 85900000,
@@ -12155,10 +12209,10 @@
     "Keko Kane": 68070000,
     "anihi and the anihaloors": 51230000,
     "FCodina": 55850000,
-    "Tietes FC": 53380000,
+    "Tietes FC": 52280000,
     "Reial Club Estanislau": 52260000,
-    "Diablos Cojos": 49050000,
-    "Quim fc": 59770000,
+    "Diablos Cojos": 47620000,
+    "Quim fc": 59280000,
     "Gruu": 50460000,
     "FC Carcelona": 52330000,
     "Tikitaki de Aatun": 62370000,
