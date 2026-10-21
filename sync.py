@@ -195,6 +195,19 @@ def extract_transactions(board, id_to_name, players_map, players_values):
             stable_key = f"{etype}|{date}|{idx}|{manager_id_for_key}|{player_id}|{amount}"
             source_id = f"{raw_id}:{idx}" if raw_id is not None else stable_key
 
+            if etype == "bonus" and isinstance(amount, (int, float)) and amount != 0:
+                # Ajustes del administrador (por ejemplo sanciones "Transacciones ilegales").
+                # El importe viene con signo: negativo resta, positivo suma.
+                manager = clause_user.get("name") or id_to_name.get(clause_user.get("id"), "")
+                if manager:
+                    reason = content.get("reason") or "Ajuste del administrador"
+                    transactions.append({
+                        "manager": manager, "type": "ajuste", "amount": amount,
+                        "detail": reason, "playerId": None,
+                        "date": date_str, "sourceId": source_id,
+                    })
+                continue
+
             if etype == "clauseincrement" and amount:
                 manager = clause_user.get("name") or id_to_name.get(clause_user.get("id"), "")
                 if manager:
