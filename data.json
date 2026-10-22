@@ -10958,6 +10958,39 @@
       "sourceId": "transfer|1792607995|5|13990176|24956|145300:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2141150,
+      "detail": "Revivo",
+      "playerId": 43268,
+      "date": "2026-10-22",
+      "sourceId": "market|1792645740|0|1598649|43268|2141150:buy",
+      "overpay": 471150,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 4035990,
+      "detail": "Bryan Zaragoza",
+      "playerId": 30502,
+      "date": "2026-10-22",
+      "sourceId": "market|1792645740|1|1594907|30502|4035990:buy",
+      "overpay": 665990,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1230110,
+      "detail": "Gudelj",
+      "playerId": 18916,
+      "date": "2026-10-22",
+      "sourceId": "market|1792645740|2|1598649|18916|1230110:buy",
+      "overpay": 110,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12200,23 +12233,23 @@
       "sourceId": "roundfinished|1792508602|13|13990170|3750000"
     }
   ],
-  "lastSync": "2026-10-22T03:49:09.973821+00:00",
+  "lastSync": "2026-10-22T11:22:58.139096+00:00",
   "teamValues": {
-    "valero10": 66670000,
-    "Saltamonti": 85900000,
-    "Real Vicentón Balompié": 62130000,
-    "Jajajajajaja": 68340000,
-    "Keko Kane": 68070000,
-    "anihi and the anihaloors": 51230000,
-    "FCodina": 55850000,
-    "Tietes FC": 52280000,
-    "Reial Club Estanislau": 52260000,
-    "Diablos Cojos": 47620000,
-    "Quim fc": 59280000,
-    "Gruu": 50460000,
-    "FC Carcelona": 52330000,
-    "Tikitaki de Aatun": 62370000,
-    "Yastariabros": 59940000,
-    "Error del sistema": 33010000
+    "valero10": 70050000,
+    "Saltamonti": 86430000,
+    "Real Vicentón Balompié": 62390000,
+    "Jajajajajaja": 68160000,
+    "Keko Kane": 68270000,
+    "anihi and the anihaloors": 51330000,
+    "FCodina": 55540000,
+    "Tietes FC": 52630000,
+    "Reial Club Estanislau": 52210000,
+    "Diablos Cojos": 47970000,
+    "Quim fc": 59230000,
+    "Gruu": 50610000,
+    "FC Carcelona": 52590000,
+    "Tikitaki de Aatun": 65050000,
+    "Yastariabros": 59930000,
+    "Error del sistema": 32960000
   }
 }
