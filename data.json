@@ -11084,6 +11084,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 3717043,
+      "detail": "Baena",
+      "playerId": 19547,
+      "date": "2026-10-23",
+      "sourceId": "clauseincrement|1792782637|0|13978983|19547|3717043"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12342,7 +12351,7 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-23T19:08:31.076828+00:00",
+  "lastSync": "2026-10-23T21:09:15.488818+00:00",
   "teamValues": {
     "valero10": 69980000,
     "Jajajajajaja": 68010000,
