@@ -163,6 +163,7 @@ def extract_transactions(board, id_to_name, players_map, players_values):
                         transactions.append({
                             "manager": manager, "type": "prima", "amount": bonus,
                             "detail": round_name, "playerId": None,
+                            "ts": date if isinstance(date, (int, float)) else None,
                             "date": date_str, "sourceId": source_id,
                         })
             continue
@@ -252,31 +253,38 @@ def base_round_name(name):
     return re.sub(r"\s*\(postponed\)\s*$", "", name or "", flags=re.IGNORECASE).strip()
 
 
+def prima_ts(t):
+    """Hora (unix) del evento de prima. En registros antiguos se saca del sourceId."""
+    ts = t.get("ts")
+    if isinstance(ts, (int, float)):
+        return ts
+    parts = str(t.get("sourceId", "")).split("|")
+    if len(parts) > 1 and parts[0] == "roundfinished" and parts[1].isdigit():
+        return int(parts[1])
+    return 0
+
+
 def resolve_postponed_rounds(transactions):
     """
-    Cuando Biwenger pospone parte de una jornada, más tarde emite un nuevo
-    evento de prima "(postponed)" que es el RECÁLCULO COMPLETO de esa
-    jornada, no un extra que se suma al original. Aquí nos quedamos solo
-    con la versión pospuesta cuando exista, y descartamos la original,
-    para cada manager y cada jornada por separado.
+    Biwenger puede emitir varias veces la prima de una misma jornada
+    (por ejemplo "Jornada 6", luego "Jornada 6 (aplazada)" parte 2 y
+    luego parte 3). Cada emision es el RECALCULO COMPLETO de esa jornada,
+    no un extra que se suma. Por eso, para cada jornada nos quedamos solo
+    con las primas de la emision MAS RECIENTE y descartamos las anteriores.
     """
     primas = [t for t in transactions if t.get("type") == "prima"]
     others = [t for t in transactions if t.get("type") != "prima"]
 
-    by_key = {}
+    latest = {}
     for t in primas:
         base = base_round_name(t.get("detail"))
-        key = (t.get("manager"), base)
-        is_postponed = "(postponed)" in (t.get("detail") or "").lower()
-        existing = by_key.get(key)
-        if existing is None:
-            by_key[key] = t
-        else:
-            existing_is_postponed = "(postponed)" in (existing.get("detail") or "").lower()
-            if is_postponed and not existing_is_postponed:
-                by_key[key] = t  # el pospuesto sustituye al original
+        ts = prima_ts(t)
+        if base not in latest or ts > latest[base]:
+            latest[base] = ts
 
-    return others + list(by_key.values())
+    kept = [t for t in primas
+            if prima_ts(t) == latest[base_round_name(t.get("detail"))]]
+    return others + kept
 
 
 def collect_unparsed_samples(board_events, max_per_type=2):
