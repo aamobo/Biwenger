@@ -11507,141 +11507,6 @@
       "sourceId": "roundfinished|1788275098|15|12756155|3950000"
     },
     {
-      "manager": "Tikitaki de Aatun",
-      "type": "prima",
-      "amount": 1750000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|10|1598649|1750000"
-    },
-    {
-      "manager": "Gruu",
-      "type": "prima",
-      "amount": 1550000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|12|13990414|1550000"
-    },
-    {
-      "manager": "FC Carcelona",
-      "type": "prima",
-      "amount": 2150000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|6|11770405|2150000"
-    },
-    {
-      "manager": "Saltamonti",
-      "type": "prima",
-      "amount": 2000000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|9|1594869|2000000"
-    },
-    {
-      "manager": "anihi and the anihaloors",
-      "type": "prima",
-      "amount": 2100000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|7|13979073|2100000"
-    },
-    {
-      "manager": "Reial Club Estanislau",
-      "type": "prima",
-      "amount": 2250000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|5|1597817|2250000"
-    },
-    {
-      "manager": "Quim fc",
-      "type": "prima",
-      "amount": 1450000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|13|14039644|1450000"
-    },
-    {
-      "manager": "Diablos Cojos",
-      "type": "prima",
-      "amount": 1100000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|15|13990176|1100000"
-    },
-    {
-      "manager": "Yastariabros",
-      "type": "prima",
-      "amount": 2550000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|4|2061477|2550000"
-    },
-    {
-      "manager": "Jajajajajaja",
-      "type": "prima",
-      "amount": 2550000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|3|1603117|2550000"
-    },
-    {
-      "manager": "Real Vicentón Balompié",
-      "type": "prima",
-      "amount": 3250000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|0|1594880|3250000"
-    },
-    {
-      "manager": "valero10",
-      "type": "prima",
-      "amount": 3250000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|1|1594907|3250000"
-    },
-    {
-      "manager": "Tietes FC",
-      "type": "prima",
-      "amount": 2050000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|8|12756155|2050000"
-    },
-    {
-      "manager": "FCodina",
-      "type": "prima",
-      "amount": 2750000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|2|14077779|2750000"
-    },
-    {
-      "manager": "Error del sistema",
-      "type": "prima",
-      "amount": 1200000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|14|13990170|1200000"
-    },
-    {
       "manager": "Real Vicentón Balompié",
       "type": "prima",
       "amount": 4300000,
@@ -11919,15 +11784,6 @@
       "playerId": null,
       "date": "2026-09-15",
       "sourceId": "roundfinished|1789466685|14|13990170|3900000"
-    },
-    {
-      "manager": "Keko Kane",
-      "type": "prima",
-      "amount": 1700000,
-      "detail": "Round 6 (postponed)",
-      "playerId": null,
-      "date": "2026-09-18",
-      "sourceId": "roundfinished|1789720353|11|13978983|1700000"
     },
     {
       "manager": "Yastariabros",
@@ -12324,9 +12180,169 @@
       "playerId": null,
       "date": "2026-10-20",
       "sourceId": "roundfinished|1792508602|13|13990170|3750000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "prima",
+      "amount": 4700000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|0|12756155|4700000"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "prima",
+      "amount": 4150000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|1|1594880|4150000"
+    },
+    {
+      "manager": "valero10",
+      "type": "prima",
+      "amount": 4550000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|2|1594907|4550000"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "prima",
+      "amount": 4100000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|3|1603117|4100000"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "prima",
+      "amount": 3850000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|4|1598649|3850000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "prima",
+      "amount": 4000000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|5|14077779|4000000"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|6|2061477|4200000"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|7|1597817|4200000"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "prima",
+      "amount": 4050000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|8|13979073|4050000"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|9|11770405|4200000"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "prima",
+      "amount": 4000000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|10|1594869|4000000"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|11|13978983|4200000"
+    },
+    {
+      "manager": "Gruu",
+      "type": "prima",
+      "amount": 4050000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|12|13990414|4050000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "prima",
+      "amount": 3750000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|13|14039644|3750000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "prima",
+      "amount": 3850000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|14|13990176|3850000"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "prima",
+      "amount": 4200000,
+      "detail": "Round 6 (postponed)",
+      "playerId": null,
+      "ts": 1792681646,
+      "date": "2026-10-22",
+      "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-23T16:41:53.309956+00:00",
+  "lastSync": "2026-10-23T19:08:31.076828+00:00",
   "teamValues": {
     "valero10": 69980000,
     "Jajajajajaja": 68010000,
