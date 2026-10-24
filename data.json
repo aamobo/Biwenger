@@ -11146,6 +11146,15 @@
       "sourceId": "clauseincrement|1792849989|0|14077779|39901|312467"
     },
     {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 2500000,
+      "detail": "Julián Alvarez",
+      "playerId": 34557,
+      "date": "2026-10-24",
+      "sourceId": "clauseincrement|1792872820|0|14039644|34557|2500000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12404,7 +12413,7 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-24T15:35:22.678036+00:00",
+  "lastSync": "2026-10-24T20:26:20.766563+00:00",
   "teamValues": {
     "valero10": 75940000,
     "Jajajajajaja": 68950000,
