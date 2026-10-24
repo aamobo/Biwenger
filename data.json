@@ -11093,6 +11093,50 @@
       "sourceId": "clauseincrement|1792782637|0|13978983|19547|3717043"
     },
     {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 6500000,
+      "detail": "Cucurella",
+      "playerId": 15410,
+      "date": "2026-10-24",
+      "sourceId": "market|1792818257|0|11770405|15410|6500000:buy",
+      "overpay": 850000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 1240000,
+      "detail": "Ugrinic",
+      "playerId": 38368,
+      "date": "2026-10-24",
+      "sourceId": "market|1792818257|1|1603117|38368|1240000:buy",
+      "overpay": 220000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 4228880,
+      "detail": "Akhomach",
+      "playerId": 25159,
+      "date": "2026-10-24",
+      "sourceId": "market|1792818257|2|1594907|25159|4228880:buy",
+      "overpay": 258880,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 2097580,
+      "detail": "Óskarsson",
+      "playerId": 35055,
+      "date": "2026-10-24",
+      "sourceId": "market|1792818257|3|1594907|35055|2097580:buy",
+      "overpay": 197580,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12351,23 +12395,23 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-24T03:47:52.107655+00:00",
+  "lastSync": "2026-10-24T10:31:37.085795+00:00",
   "teamValues": {
-    "valero10": 69980000,
-    "Jajajajajaja": 68010000,
-    "Saltamonti": 86880000,
-    "Real Vicentón Balompié": 62660000,
-    "Keko Kane": 68530000,
-    "anihi and the anihaloors": 54070000,
-    "Tietes FC": 53050000,
-    "FCodina": 58960000,
-    "Reial Club Estanislau": 52200000,
-    "Diablos Cojos": 48350000,
-    "Gruu": 52140000,
-    "Quim fc": 59270000,
-    "Tikitaki de Aatun": 64770000,
-    "FC Carcelona": 57730000,
-    "Yastariabros": 59960000,
-    "Error del sistema": 32920000
+    "valero10": 75940000,
+    "Jajajajajaja": 68950000,
+    "Saltamonti": 87310000,
+    "Real Vicentón Balompié": 63050000,
+    "Keko Kane": 68790000,
+    "anihi and the anihaloors": 53880000,
+    "Tietes FC": 53480000,
+    "FCodina": 58760000,
+    "Reial Club Estanislau": 52170000,
+    "Diablos Cojos": 48700000,
+    "Gruu": 52280000,
+    "Quim fc": 59250000,
+    "Tikitaki de Aatun": 64430000,
+    "FC Carcelona": 63530000,
+    "Yastariabros": 59910000,
+    "Error del sistema": 32830000
   }
 }
