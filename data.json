@@ -11155,6 +11155,26 @@
       "sourceId": "clauseincrement|1792872820|0|14039644|34557|2500000"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 558000,
+      "detail": "Novoa",
+      "playerId": 34196,
+      "date": "2026-10-24",
+      "sourceId": "transfer|1792875679|0|14077779|34196|558000:buy",
+      "overpay": 248000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 558000,
+      "detail": "Novoa",
+      "playerId": 34196,
+      "date": "2026-10-24",
+      "sourceId": "transfer|1792875679|0|14077779|34196|558000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12413,16 +12433,16 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-24T20:26:20.766563+00:00",
+  "lastSync": "2026-10-24T22:58:48.808280+00:00",
   "teamValues": {
     "valero10": 75940000,
-    "Jajajajajaja": 68950000,
+    "Jajajajajaja": 68640000,
     "Saltamonti": 87310000,
     "Real Vicentón Balompié": 63050000,
     "Keko Kane": 68790000,
     "anihi and the anihaloors": 53880000,
     "Tietes FC": 53480000,
-    "FCodina": 58760000,
+    "FCodina": 59070000,
     "Reial Club Estanislau": 52170000,
     "Diablos Cojos": 48700000,
     "Gruu": 52280000,
