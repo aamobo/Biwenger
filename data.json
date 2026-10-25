@@ -11219,6 +11219,15 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 2270000,
+      "detail": "Dmitrovic",
+      "playerId": 9090,
+      "date": "2026-10-25",
+      "sourceId": "transfer|1792934304|0|1594907|9090|2270000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12477,9 +12486,9 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-25T10:57:29.357415+00:00",
+  "lastSync": "2026-10-25T15:45:31.712641+00:00",
   "teamValues": {
-    "valero10": 79310000,
+    "valero10": 76960000,
     "Jajajajajaja": 68660000,
     "Saltamonti": 87950000,
     "Real Vicentón Balompié": 63450000,
