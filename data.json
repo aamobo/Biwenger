@@ -11228,6 +11228,44 @@
       "sourceId": "transfer|1792934304|0|1594907|9090|2270000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 755500,
+      "detail": "Calero",
+      "playerId": 11045,
+      "date": "2026-10-25",
+      "sourceId": "transfer|1792968209|0|1594869|11045|755500:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 587900,
+      "detail": "Jesús Vázquez",
+      "playerId": 24734,
+      "date": "2026-10-25",
+      "sourceId": "transfer|1792968209|1|1594869|24734|587900:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 5076000,
+      "detail": "De Jong",
+      "playerId": 18174,
+      "date": "2026-10-25",
+      "sourceId": "transfer|1792964467|0|1598649|18174|5076000:buy",
+      "overpay": 2256000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 5076000,
+      "detail": "De Jong",
+      "playerId": 18174,
+      "date": "2026-10-25",
+      "sourceId": "transfer|1792964467|0|1598649|18174|5076000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12486,11 +12524,11 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-25T20:32:54.337197+00:00",
+  "lastSync": "2026-10-25T23:04:05.196699+00:00",
   "teamValues": {
     "valero10": 76960000,
     "Jajajajajaja": 68660000,
-    "Saltamonti": 87950000,
+    "Saltamonti": 83850000,
     "Real Vicentón Balompié": 63450000,
     "Keko Kane": 76670000,
     "anihi and the anihaloors": 54090000,
@@ -12500,7 +12538,7 @@
     "Diablos Cojos": 49120000,
     "Gruu": 52460000,
     "Quim fc": 59530000,
-    "Tikitaki de Aatun": 64400000,
+    "Tikitaki de Aatun": 67220000,
     "FC Carcelona": 63820000,
     "Yastariabros": 60090000,
     "Error del sistema": 32850000
