@@ -11306,6 +11306,95 @@
       "sourceId": "transfer|1792973951|1|1598649|30334|2610000:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 3528000,
+      "detail": "Dituro",
+      "playerId": 17482,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793016574|0|1598649|17482|3528000:buy",
+      "overpay": 1568000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 3528000,
+      "detail": "Dituro",
+      "playerId": 17482,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793016574|0|1598649|17482|3528000:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2309300,
+      "detail": "Mojica",
+      "playerId": 10245,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793016480|0|14077779|10245|2309300:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1225100,
+      "detail": "Gudelj",
+      "playerId": 18916,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793016480|1|1598649|18916|1225100:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 259800,
+      "detail": "Logan Costa",
+      "playerId": 34717,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792997045|0|1594869|34717|259800:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 1883100,
+      "detail": "Endrick",
+      "playerId": 33796,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792997045|1|1594869|33796|1883100:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 2855000,
+      "detail": "Iñaki Williams",
+      "playerId": 1995,
+      "date": "2026-10-26",
+      "sourceId": "market|1792994643|0|1594869|1995|2855000:buy",
+      "overpay": 305000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 2230000,
+      "detail": "Dotor",
+      "playerId": 31167,
+      "date": "2026-10-26",
+      "sourceId": "market|1792994643|1|13990414|31167|2230000:buy",
+      "overpay": 410000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 2111000,
+      "detail": "Miguel Román",
+      "playerId": 3259,
+      "date": "2026-10-26",
+      "sourceId": "market|1792994643|2|14039644|3259|2111000:buy",
+      "overpay": 71000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12564,23 +12653,23 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-26T03:50:20.122695+00:00",
+  "lastSync": "2026-10-26T12:29:03.088905+00:00",
   "teamValues": {
-    "valero10": 75510000,
-    "Jajajajajaja": 68660000,
-    "Saltamonti": 83850000,
-    "Real Vicentón Balompié": 62630000,
-    "Keko Kane": 76670000,
-    "anihi and the anihaloors": 54090000,
-    "Tietes FC": 53970000,
-    "FCodina": 59460000,
-    "Reial Club Estanislau": 52330000,
-    "Diablos Cojos": 49120000,
-    "Gruu": 52460000,
-    "Quim fc": 59530000,
-    "Tikitaki de Aatun": 69490000,
-    "FC Carcelona": 63820000,
-    "Yastariabros": 60090000,
-    "Error del sistema": 32850000
+    "valero10": 75650000,
+    "Jajajajajaja": 68180000,
+    "Saltamonti": 84610000,
+    "Real Vicentón Balompié": 62680000,
+    "Keko Kane": 76850000,
+    "anihi and the anihaloors": 53580000,
+    "Tietes FC": 54250000,
+    "FCodina": 57180000,
+    "Reial Club Estanislau": 50270000,
+    "Diablos Cojos": 49300000,
+    "Gruu": 54350000,
+    "Quim fc": 61740000,
+    "Tikitaki de Aatun": 70240000,
+    "FC Carcelona": 63940000,
+    "Yastariabros": 60180000,
+    "Error del sistema": 32640000
   }
 }
