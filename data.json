@@ -11266,6 +11266,46 @@
       "sourceId": "transfer|1792964467|0|1598649|18174|5076000:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1476000,
+      "detail": "Javi Morcillo",
+      "playerId": 12734,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792973951|0|1598649|12734|1476000:buy",
+      "overpay": 656000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 1476000,
+      "detail": "Javi Morcillo",
+      "playerId": 12734,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792973951|0|1598649|12734|1476000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2610000,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792973951|1|1598649|30334|2610000:buy",
+      "overpay": 1160000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 2610000,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1792973951|1|1598649|30334|2610000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12524,12 +12564,12 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-25T23:04:05.196699+00:00",
+  "lastSync": "2026-10-26T03:50:20.122695+00:00",
   "teamValues": {
-    "valero10": 76960000,
+    "valero10": 75510000,
     "Jajajajajaja": 68660000,
     "Saltamonti": 83850000,
-    "Real Vicentón Balompié": 63450000,
+    "Real Vicentón Balompié": 62630000,
     "Keko Kane": 76670000,
     "anihi and the anihaloors": 54090000,
     "Tietes FC": 53970000,
@@ -12538,7 +12578,7 @@
     "Diablos Cojos": 49120000,
     "Gruu": 52460000,
     "Quim fc": 59530000,
-    "Tikitaki de Aatun": 67220000,
+    "Tikitaki de Aatun": 69490000,
     "FC Carcelona": 63820000,
     "Yastariabros": 60090000,
     "Error del sistema": 32850000
