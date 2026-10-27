@@ -11671,6 +11671,86 @@
       "sourceId": "transfer|1793117825|0|13979073|34557|19728000:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 13599000,
+      "detail": "Tchouameni",
+      "playerId": 26048,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|0|1594869|26048|13599000:buy",
+      "overpay": 9089000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 13599000,
+      "detail": "Tchouameni",
+      "playerId": 26048,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|0|1594869|26048|13599000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 11520144,
+      "detail": "Pepelu",
+      "playerId": 12221,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|1|1594869|12221|11520144:buy",
+      "overpay": 8400144,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 11520144,
+      "detail": "Pepelu",
+      "playerId": 12221,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|1|1594869|12221|11520144:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 18483418,
+      "detail": "Gordon",
+      "playerId": 41200,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|2|1594869|41200|18483418:buy",
+      "overpay": 8603418,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 18483418,
+      "detail": "Gordon",
+      "playerId": 41200,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793141339|2|1594869|41200|18483418:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 29304000,
+      "detail": "Diomande",
+      "playerId": 8555,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793139782|0|14039644|8555|29304000:buy",
+      "overpay": 15024000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 29304000,
+      "detail": "Diomande",
+      "playerId": 8555,
+      "date": "2026-10-27",
+      "sourceId": "transfer|1793139782|0|14039644|8555|29304000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13069,21 +13149,21 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-27T21:56:02.887251+00:00",
+  "lastSync": "2026-10-27T22:52:46.285093+00:00",
   "teamValues": {
     "Jajajajajaja": 71030000,
     "valero10": 77450000,
-    "Saltamonti": 85120000,
+    "Saltamonti": 88350000,
     "Keko Kane": 74650000,
     "Real Vicentón Balompié": 62620000,
-    "Tietes FC": 46920000,
+    "Tietes FC": 37040000,
     "FCodina": 58480000,
     "anihi and the anihaloors": 58120000,
     "Reial Club Estanislau": 53880000,
-    "Quim fc": 56090000,
+    "Quim fc": 65860000,
     "Diablos Cojos": 49550000,
     "Gruu": 54490000,
-    "FC Carcelona": 64070000,
+    "FC Carcelona": 60950000,
     "Tikitaki de Aatun": 70930000,
     "Yastariabros": 60400000,
     "Error del sistema": 32540000
