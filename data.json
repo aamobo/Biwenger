@@ -11433,6 +11433,64 @@
       "sourceId": "transfer|1793023487|0|14077779|35706|6026432:sell"
     },
     {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 1500000,
+      "detail": "Félix Correia",
+      "playerId": 43262,
+      "date": "2026-10-26",
+      "sourceId": "clauseincrement|1793052170|0|1594869|43262|1500000"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 668100,
+      "detail": "Prati",
+      "playerId": 42814,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793051633|0|12756155|42814|668100:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 7758000,
+      "detail": "Radu",
+      "playerId": 37600,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793049538|0|1597817|37600|7758000:buy",
+      "overpay": 4058000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 7758000,
+      "detail": "Radu",
+      "playerId": 37600,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793049538|0|1597817|37600|7758000:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 8067600,
+      "detail": "Berenguer",
+      "playerId": 897,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793049538|1|1597817|897|8067600:buy",
+      "overpay": 4757600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 8067600,
+      "detail": "Berenguer",
+      "playerId": 897,
+      "date": "2026-10-26",
+      "sourceId": "transfer|1793049538|1|1597817|897|8067600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -12691,7 +12749,7 @@
       "sourceId": "roundfinished|1792681646|15|13990170|4200000"
     }
   ],
-  "lastSync": "2026-10-26T20:20:56.625026+00:00",
+  "lastSync": "2026-10-27T00:16:20.374317+00:00",
   "teamValues": {
     "valero10": 75650000,
     "Jajajajajaja": 68180000,
@@ -12699,11 +12757,11 @@
     "Real Vicentón Balompié": 62680000,
     "Keko Kane": 74520000,
     "anihi and the anihaloors": 53580000,
-    "Tietes FC": 50980000,
+    "Tietes FC": 47010000,
     "FCodina": 60450000,
-    "Reial Club Estanislau": 50270000,
+    "Reial Club Estanislau": 57280000,
     "Diablos Cojos": 49300000,
-    "Gruu": 54350000,
+    "Gruu": 50650000,
     "Quim fc": 61740000,
     "Tikitaki de Aatun": 70240000,
     "FC Carcelona": 63940000,
