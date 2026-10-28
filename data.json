@@ -11842,6 +11842,89 @@
       "sourceId": "transfer|1793165966|1|12756155|33839|3420000:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 3802400,
+      "detail": "Barrenetxea",
+      "playerId": 2602,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793188889|0|14039644|2602|3802400:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 2727900,
+      "detail": "Rafita",
+      "playerId": 41093,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793188889|1|14039644|41093|2727900:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 337600,
+      "detail": "Eddahchouri",
+      "playerId": 41073,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793188889|2|14039644|41073|337600:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 306800,
+      "detail": "Pablo Marín",
+      "playerId": 29034,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793188889|3|14039644|29034|306800:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 4361000,
+      "detail": "Espart",
+      "playerId": 40075,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793183891|0|13979073|40075|4361000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2258000,
+      "detail": "David Otorbi",
+      "playerId": 34599,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793183891|1|13979073|34599|2258000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 2543300,
+      "detail": "Johnny",
+      "playerId": 32120,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793183891|2|13979073|32120|2543300:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 4410000,
+      "detail": "Óskarsson",
+      "playerId": 35055,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793175620|0|1594880|35055|4410000:buy",
+      "overpay": 1960000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 4410000,
+      "detail": "Óskarsson",
+      "playerId": 35055,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793175620|0|1594880|35055|4410000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13240,18 +13323,18 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-28T07:51:18.445769+00:00",
+  "lastSync": "2026-10-28T12:21:28.226932+00:00",
   "teamValues": {
     "Jajajajajaja": 70880000,
-    "valero10": 77350000,
+    "valero10": 74900000,
     "Saltamonti": 89180000,
     "Keko Kane": 74840000,
-    "Real Vicentón Balompié": 62250000,
+    "Real Vicentón Balompié": 64700000,
     "Tietes FC": 43120000,
     "FCodina": 54130000,
-    "anihi and the anihaloors": 57670000,
+    "anihi and the anihaloors": 48400000,
     "Reial Club Estanislau": 53970000,
-    "Quim fc": 73800000,
+    "Quim fc": 66700000,
     "Diablos Cojos": 48060000,
     "Gruu": 54560000,
     "FC Carcelona": 60720000,
