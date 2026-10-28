@@ -11925,6 +11925,26 @@
       "sourceId": "transfer|1793175620|0|1594880|35055|4410000:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 12366000,
+      "detail": "Fofana",
+      "playerId": 43272,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793195437|0|14077779|43272|12366000:buy",
+      "overpay": 5496000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 12366000,
+      "detail": "Fofana",
+      "playerId": 43272,
+      "date": "2026-10-28",
+      "sourceId": "transfer|1793195437|0|14077779|43272|12366000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13323,7 +13343,7 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-28T12:21:28.226932+00:00",
+  "lastSync": "2026-10-28T20:07:59.053499+00:00",
   "teamValues": {
     "Jajajajajaja": 70880000,
     "valero10": 74900000,
@@ -13331,7 +13351,7 @@
     "Keko Kane": 74840000,
     "Real Vicentón Balompié": 64700000,
     "Tietes FC": 43120000,
-    "FCodina": 54130000,
+    "FCodina": 61000000,
     "anihi and the anihaloors": 48400000,
     "Reial Club Estanislau": 53970000,
     "Quim fc": 66700000,
@@ -13339,7 +13359,7 @@
     "Gruu": 54560000,
     "FC Carcelona": 60720000,
     "Tikitaki de Aatun": 70670000,
-    "Yastariabros": 52790000,
+    "Yastariabros": 45920000,
     "Error del sistema": 32390000
   }
 }
