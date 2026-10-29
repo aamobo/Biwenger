@@ -11945,6 +11945,88 @@
       "sourceId": "transfer|1793195437|0|14077779|43272|12366000:sell"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 1263200,
+      "detail": "Matarazzo",
+      "playerId": 39399,
+      "date": "2026-10-29",
+      "sourceId": "transfer|1793256221|0|12756155|39399|1263200:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 4568100,
+      "detail": "Eric García",
+      "playerId": 20,
+      "date": "2026-10-29",
+      "sourceId": "transfer|1793256221|1|12756155|20|4568100:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 980000,
+      "detail": "Maciá",
+      "playerId": 39357,
+      "date": "2026-10-29",
+      "sourceId": "market|1793253734|0|1594880|39357|980000:buy",
+      "overpay": 350000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 2990000,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-10-29",
+      "sourceId": "market|1793253734|1|1594880|35344|2990000:buy",
+      "overpay": 580000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 2910000,
+      "detail": "Chust",
+      "playerId": 1760,
+      "date": "2026-10-29",
+      "sourceId": "market|1793253734|2|1594880|1760|2910000:buy",
+      "overpay": 530000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 768505,
+      "detail": "Galilea",
+      "playerId": 4070,
+      "date": "2026-10-29",
+      "sourceId": "market|1793253734|3|1594869|4070|768505:buy",
+      "overpay": 78505,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 1080000,
+      "detail": "Brahim",
+      "playerId": 129,
+      "date": "2026-10-29",
+      "sourceId": "market|1793253734|4|12756155|129|1080000:buy",
+      "overpay": 60000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2455400,
+      "detail": "Isi Palazón",
+      "playerId": 5069,
+      "date": "2026-10-29",
+      "sourceId": "transfer|1793239321|0|1598649|5069|2455400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13343,23 +13425,23 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-29T00:39:46.614850+00:00",
+  "lastSync": "2026-10-29T09:34:53.350311+00:00",
   "teamValues": {
-    "Jajajajajaja": 70880000,
-    "valero10": 74900000,
-    "Saltamonti": 89180000,
-    "Keko Kane": 74840000,
-    "Real Vicentón Balompié": 64700000,
-    "Tietes FC": 43120000,
-    "FCodina": 61000000,
-    "anihi and the anihaloors": 48400000,
-    "Reial Club Estanislau": 53970000,
-    "Quim fc": 66700000,
-    "Diablos Cojos": 48060000,
-    "Gruu": 54560000,
-    "FC Carcelona": 60720000,
-    "Tikitaki de Aatun": 70670000,
-    "Yastariabros": 45920000,
-    "Error del sistema": 32390000
+    "Jajajajajaja": 70960000,
+    "valero10": 74790000,
+    "Saltamonti": 90380000,
+    "Keko Kane": 75120000,
+    "Real Vicentón Balompié": 70290000,
+    "Tietes FC": 38370000,
+    "FCodina": 61390000,
+    "anihi and the anihaloors": 48640000,
+    "Reial Club Estanislau": 54200000,
+    "Quim fc": 67160000,
+    "Diablos Cojos": 48260000,
+    "Gruu": 54690000,
+    "FC Carcelona": 60590000,
+    "Tikitaki de Aatun": 68800000,
+    "Yastariabros": 46010000,
+    "Error del sistema": 32360000
   }
 }
