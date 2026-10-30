@@ -12215,6 +12215,42 @@
       "sourceId": "transfer|1793361007|1|13990414|32460|1616400:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2431200,
+      "detail": "Catena",
+      "playerId": 17731,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793388422|0|1598649|17731|2431200:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 3433000,
+      "detail": "Ilaix Moriba",
+      "playerId": 21084,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793388422|1|1598649|21084|3433000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 574400,
+      "detail": "Arrasate",
+      "playerId": 19508,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793388422|2|1598649|19508|574400:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 437800,
+      "detail": "San José",
+      "playerId": 41088,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793388422|3|1598649|41088|437800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13613,7 +13649,7 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-30T17:50:09.534779+00:00",
+  "lastSync": "2026-10-30T22:01:53.915107+00:00",
   "teamValues": {
     "Jajajajajaja": 70990000,
     "valero10": 68500000,
@@ -13628,7 +13664,7 @@
     "Diablos Cojos": 56440000,
     "Gruu": 51580000,
     "FC Carcelona": 64300000,
-    "Tikitaki de Aatun": 66970000,
+    "Tikitaki de Aatun": 60140000,
     "Yastariabros": 46070000,
     "Error del sistema": 32350000
   }
