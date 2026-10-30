@@ -12197,6 +12197,24 @@
       "sourceId": "transfer|1793328647|0|1598649|24576|2363200:sell"
     },
     {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 1498700,
+      "detail": "Mandi",
+      "playerId": 2480,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793361007|0|13990414|2480|1498700:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 1616400,
+      "detail": "Héctor Fort",
+      "playerId": 32460,
+      "date": "2026-10-30",
+      "sourceId": "transfer|1793361007|1|13990414|32460|1616400:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13595,7 +13613,7 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-30T09:43:54.359060+00:00",
+  "lastSync": "2026-10-30T17:50:09.534779+00:00",
   "teamValues": {
     "Jajajajajaja": 70990000,
     "valero10": 68500000,
@@ -13608,7 +13626,7 @@
     "Reial Club Estanislau": 50550000,
     "Quim fc": 67510000,
     "Diablos Cojos": 56440000,
-    "Gruu": 54750000,
+    "Gruu": 51580000,
     "FC Carcelona": 64300000,
     "Tikitaki de Aatun": 66970000,
     "Yastariabros": 46070000,
