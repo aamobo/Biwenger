@@ -12251,6 +12251,35 @@
       "sourceId": "transfer|1793388422|3|1598649|41088|437800:sell"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 690246,
+      "detail": "Bauzà",
+      "playerId": 10997,
+      "date": "2026-10-31",
+      "sourceId": "transfer|1793413396|0|1598649|10997|690246:buy",
+      "overpay": 390246,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 690246,
+      "detail": "Bauzà",
+      "playerId": 10997,
+      "date": "2026-10-31",
+      "sourceId": "transfer|1793413396|0|1598649|10997|690246:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "clausula_subida",
+      "amount": 2000000,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-10-30",
+      "sourceId": "clauseincrement|1793398342|0|1594907|30334|2000000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13649,7 +13678,7 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-10-30T22:01:53.915107+00:00",
+  "lastSync": "2026-10-31T04:40:07.345189+00:00",
   "teamValues": {
     "Jajajajajaja": 70990000,
     "valero10": 68500000,
@@ -13659,12 +13688,12 @@
     "Tietes FC": 48060000,
     "FCodina": 61770000,
     "anihi and the anihaloors": 48210000,
-    "Reial Club Estanislau": 50550000,
+    "Reial Club Estanislau": 50250000,
     "Quim fc": 67510000,
     "Diablos Cojos": 56440000,
     "Gruu": 51580000,
     "FC Carcelona": 64300000,
-    "Tikitaki de Aatun": 60140000,
+    "Tikitaki de Aatun": 60440000,
     "Yastariabros": 46070000,
     "Error del sistema": 32350000
   }
