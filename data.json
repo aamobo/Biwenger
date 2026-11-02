@@ -12440,6 +12440,53 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 2422000,
+      "detail": "Rüdiger",
+      "playerId": 2253,
+      "date": "2026-11-01",
+      "sourceId": "transfer|1793570264|0|1603117|2253|2422000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 4373500,
+      "detail": "Gerard Moreno",
+      "playerId": 1927,
+      "date": "2026-11-01",
+      "sourceId": "transfer|1793570264|1|1603117|1927|4373500:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 2466000,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-11-01",
+      "sourceId": "transfer|1793568418|0|14077779|26592|2466000:buy",
+      "overpay": 1096000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 2466000,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-11-01",
+      "sourceId": "transfer|1793568418|0|14077779|26592|2466000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Iñaki Williams",
+      "playerId": 1995,
+      "date": "2026-11-01",
+      "sourceId": "clauseincrement|1793564508|0|1594869|1995|1000000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13838,15 +13885,15 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-11-01T19:25:08.560564+00:00",
+  "lastSync": "2026-11-02T00:24:32.088306+00:00",
   "teamValues": {
-    "Jajajajajaja": 71030000,
+    "Jajajajajaja": 64660000,
     "valero10": 69000000,
     "Saltamonti": 82100000,
     "Keko Kane": 67100000,
     "Real Vicentón Balompié": 71020000,
-    "Tietes FC": 47220000,
-    "FCodina": 62440000,
+    "Tietes FC": 45850000,
+    "FCodina": 63810000,
     "anihi and the anihaloors": 50890000,
     "Reial Club Estanislau": 50280000,
     "Quim fc": 68070000,
