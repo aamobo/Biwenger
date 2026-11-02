@@ -12589,6 +12589,26 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 12765600,
+      "detail": "Hancko",
+      "playerId": 38290,
+      "date": "2026-11-02",
+      "sourceId": "transfer|1793620797|0|13978983|38290|12765600:buy",
+      "overpay": 8485600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 12765600,
+      "detail": "Hancko",
+      "playerId": 38290,
+      "date": "2026-11-02",
+      "sourceId": "transfer|1793620797|0|13978983|38290|12765600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -13987,17 +14007,17 @@
       "sourceId": "roundfinished|1793117036|13|13979073|3900000"
     }
   ],
-  "lastSync": "2026-11-02T10:41:32.888424+00:00",
+  "lastSync": "2026-11-02T21:30:38.103877+00:00",
   "teamValues": {
     "Jajajajajaja": 71380000,
     "valero10": 69320000,
     "Saltamonti": 76130000,
-    "Keko Kane": 66920000,
+    "Keko Kane": 71200000,
     "Real Vicentón Balompié": 71310000,
     "Tietes FC": 44960000,
     "FCodina": 64120000,
     "anihi and the anihaloors": 51190000,
-    "Reial Club Estanislau": 50320000,
+    "Reial Club Estanislau": 46040000,
     "Quim fc": 68270000,
     "Diablos Cojos": 55930000,
     "Gruu": 44170000,
