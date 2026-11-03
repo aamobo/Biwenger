@@ -12778,6 +12778,329 @@
       "sourceId": "transfer|1793722864|0|13990414|30789|15246000:sell"
     },
     {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 6350400,
+      "detail": "Dituro",
+      "playerId": 17482,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|0|14077779|17482|6350400:buy",
+      "overpay": 3840400,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 6350400,
+      "detail": "Dituro",
+      "playerId": 17482,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|0|14077779|17482|6350400:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 14858652,
+      "detail": "Yeremay",
+      "playerId": 41082,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|1|14077779|41082|14858652:buy",
+      "overpay": 8158652,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 14858652,
+      "detail": "Yeremay",
+      "playerId": 41082,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|1|14077779|41082|14858652:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 6228018,
+      "detail": "Vivian",
+      "playerId": 12400,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|2|14077779|12400|6228018:buy",
+      "overpay": 3678018,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 6228018,
+      "detail": "Vivian",
+      "playerId": 12400,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|2|14077779|12400|6228018:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 3834000,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|3|14077779|37488|3834000:buy",
+      "overpay": 1704000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 3834000,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|3|14077779|37488|3834000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 78225642,
+      "detail": "Mbappé",
+      "playerId": 19577,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|4|1603117|19577|78225642:buy",
+      "overpay": 53605642,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 78225642,
+      "detail": "Mbappé",
+      "playerId": 19577,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|4|1603117|19577|78225642:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 2458206,
+      "detail": "Sadiq",
+      "playerId": 26077,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|5|11770405|26077|2458206:buy",
+      "overpay": 1148206,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2458206,
+      "detail": "Sadiq",
+      "playerId": 26077,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|5|11770405|26077|2458206:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 12906000,
+      "detail": "Soler",
+      "playerId": 6837,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|6|11770405|6837|12906000:buy",
+      "overpay": 7946000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 12906000,
+      "detail": "Soler",
+      "playerId": 6837,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745082|6|11770405|6837|12906000:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 11605680,
+      "detail": "Unai López",
+      "playerId": 1969,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793743023|0|13990414|1969|11605680:buy",
+      "overpay": 8695680,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 11605680,
+      "detail": "Unai López",
+      "playerId": 1969,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793743023|0|13990414|1969|11605680:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 3000000,
+      "detail": "Bellingham",
+      "playerId": 30477,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793742870|0|13990176|30477|3000000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Isco",
+      "playerId": 1249,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793742870|1|13990176|1249|1000000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Danjuma",
+      "playerId": 24509,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793742870|2|13990176|24509|1000000"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 1000000,
+      "detail": "Unai Simón",
+      "playerId": 17021,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793742870|3|13990176|17021|1000000"
+    },
+    {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 11700000,
+      "detail": "Cucurella",
+      "playerId": 15410,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793741255|0|13990414|15410|11700000:buy",
+      "overpay": 5850000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 11700000,
+      "detail": "Cucurella",
+      "playerId": 15410,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793741255|0|13990414|15410|11700000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "clausula_subida",
+      "amount": 1500000,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793740570|0|1594880|31027|1500000"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "compra",
+      "amount": 18759600,
+      "detail": "Iñigo Vicente",
+      "playerId": 18564,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793740276|0|11770405|18564|18759600:buy",
+      "overpay": 12399600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 18759600,
+      "detail": "Iñigo Vicente",
+      "playerId": 18564,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793740276|0|11770405|18564|18759600:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 2781900,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739299|0|1594880|35344|2781900:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "clausula_subida",
+      "amount": 931069,
+      "detail": "Mbappé",
+      "playerId": 19577,
+      "date": "2026-11-03",
+      "sourceId": "clauseincrement|1793739086|0|13978983|19577|931069"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 10847577,
+      "detail": "Adrián Niño",
+      "playerId": 35706,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|0|13978983|35706|10847577:buy",
+      "overpay": 6467577,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 10847577,
+      "detail": "Adrián Niño",
+      "playerId": 35706,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|0|13978983|35706|10847577:sell"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "compra",
+      "amount": 55224000,
+      "detail": "Yamal",
+      "playerId": 26271,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|1|1597817|26271|55224000:buy",
+      "overpay": 29774000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 55224000,
+      "detail": "Yamal",
+      "playerId": 26271,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|1|1597817|26271|55224000:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 61495200,
+      "detail": "Raphinha",
+      "playerId": 26930,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|2|1594880|26930|61495200:buy",
+      "overpay": 36715200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 61495200,
+      "detail": "Raphinha",
+      "playerId": 26930,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793739039|2|1594880|26930|61495200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -14336,23 +14659,23 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-03T20:49:17.500076+00:00",
+  "lastSync": "2026-11-03T22:34:08.278865+00:00",
   "teamValues": {
     "valero10": 68980000,
-    "Jajajajajaja": 73000000,
+    "Jajajajajaja": 66140000,
     "Saltamonti": 76670000,
-    "Keko Kane": 69040000,
-    "Real Vicentón Balompié": 71630000,
+    "Keko Kane": 48800000,
+    "Real Vicentón Balompié": 66140000,
     "Tietes FC": 42140000,
-    "FCodina": 64330000,
+    "FCodina": 73840000,
     "Quim fc": 68470000,
-    "Gruu": 51220000,
+    "Gruu": 48660000,
     "Diablos Cojos": 56570000,
-    "Reial Club Estanislau": 45990000,
-    "anihi and the anihaloors": 51480000,
-    "Tikitaki de Aatun": 73350000,
-    "FC Carcelona": 57270000,
-    "Yastariabros": 57280000,
+    "Reial Club Estanislau": 71440000,
+    "anihi and the anihaloors": 48930000,
+    "Tikitaki de Aatun": 69530000,
+    "FC Carcelona": 64050000,
+    "Yastariabros": 54370000,
     "Error del sistema": 32150000
   }
 }
