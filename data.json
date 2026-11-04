@@ -13239,6 +13239,93 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 3168000,
+      "detail": "Thiago Fernández",
+      "playerId": 39431,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793820586|0|13979073|39431|3168000:buy",
+      "overpay": 1408000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 3168000,
+      "detail": "Thiago Fernández",
+      "playerId": 39431,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793820586|0|13979073|39431|3168000:sell"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "compra",
+      "amount": 7578000,
+      "detail": "Iñaki Williams",
+      "playerId": 1995,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793819672|0|13979073|1995|7578000:buy",
+      "overpay": 4368000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 7578000,
+      "detail": "Iñaki Williams",
+      "playerId": 1995,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793819672|0|13979073|1995|7578000:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 1577000,
+      "detail": "Abde Rebbach",
+      "playerId": 30510,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793807947|0|11770405|30510|1577000:sell"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 2478900,
+      "detail": "Marc Bernal",
+      "playerId": 34077,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793801963|0|11770405|34077|2478900:sell"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "clausula_subida",
+      "amount": 2000000,
+      "detail": "Iván Romero",
+      "playerId": 17937,
+      "date": "2026-11-04",
+      "sourceId": "clauseincrement|1793795224|0|2061477|17937|2000000"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "compra",
+      "amount": 18779040,
+      "detail": "Koke",
+      "playerId": 1083,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793795184|0|2061477|1083|18779040:buy",
+      "overpay": 15659040,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "anihi and the anihaloors",
+      "type": "venta",
+      "amount": 18779040,
+      "detail": "Koke",
+      "playerId": 1083,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793795184|0|2061477|1083|18779040:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -14797,11 +14884,11 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-04T10:37:35.868168+00:00",
+  "lastSync": "2026-11-04T19:30:28.590909+00:00",
   "teamValues": {
     "valero10": 69180000,
     "Jajajajajaja": 66160000,
-    "Saltamonti": 76760000,
+    "Saltamonti": 71790000,
     "Keko Kane": 68810000,
     "Real Vicentón Balompié": 66070000,
     "Tietes FC": 42110000,
@@ -14810,10 +14897,10 @@
     "Gruu": 50640000,
     "Diablos Cojos": 56450000,
     "Reial Club Estanislau": 66750000,
-    "anihi and the anihaloors": 51140000,
+    "anihi and the anihaloors": 52990000,
     "Tikitaki de Aatun": 74650000,
-    "FC Carcelona": 63990000,
-    "Yastariabros": 54030000,
+    "FC Carcelona": 59910000,
+    "Yastariabros": 57150000,
     "Error del sistema": 26880000
   }
 }
