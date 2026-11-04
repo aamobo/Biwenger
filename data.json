@@ -13101,6 +13101,84 @@
       "sourceId": "transfer|1793739039|2|1594880|26930|61495200:sell"
     },
     {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 31140000,
+      "detail": "Pedri",
+      "playerId": 19441,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793749095|0|13978983|19441|31140000:buy",
+      "overpay": 16470000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 31140000,
+      "detail": "Pedri",
+      "playerId": 19441,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793749095|0|13978983|19441|31140000:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 12960000,
+      "detail": "Pubill",
+      "playerId": 25398,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793749095|1|13978983|25398|12960000:buy",
+      "overpay": 7790000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Error del sistema",
+      "type": "venta",
+      "amount": 12960000,
+      "detail": "Pubill",
+      "playerId": 25398,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793749095|1|13978983|25398|12960000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 282400,
+      "detail": "Pablo Marín",
+      "playerId": 29034,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793748712|0|1598649|29034|282400:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 171600,
+      "detail": "Dani Martínez",
+      "playerId": 14424,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793748712|1|1598649|14424|171600:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 14709600,
+      "detail": "Mario Soriano",
+      "playerId": 41072,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745241|7|1598649|41072|14709600:buy",
+      "overpay": 9679600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 14709600,
+      "detail": "Mario Soriano",
+      "playerId": 41072,
+      "date": "2026-11-03",
+      "sourceId": "transfer|1793745241|7|1598649|41072|14709600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -14659,23 +14737,23 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-03T22:34:08.278865+00:00",
+  "lastSync": "2026-11-04T01:06:12.404834+00:00",
   "teamValues": {
     "valero10": 68980000,
     "Jajajajajaja": 66140000,
     "Saltamonti": 76670000,
-    "Keko Kane": 48800000,
+    "Keko Kane": 68640000,
     "Real Vicentón Balompié": 66140000,
     "Tietes FC": 42140000,
-    "FCodina": 73840000,
-    "Quim fc": 68470000,
+    "FCodina": 68810000,
+    "Quim fc": 53800000,
     "Gruu": 48660000,
     "Diablos Cojos": 56570000,
     "Reial Club Estanislau": 71440000,
     "anihi and the anihaloors": 48930000,
-    "Tikitaki de Aatun": 69530000,
+    "Tikitaki de Aatun": 74100000,
     "FC Carcelona": 64050000,
     "Yastariabros": 54370000,
-    "Error del sistema": 32150000
+    "Error del sistema": 26980000
   }
 }
