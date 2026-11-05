@@ -13326,6 +13326,75 @@
       "sourceId": "transfer|1793795184|0|2061477|1083|18779040:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1427800,
+      "detail": "Hugo González",
+      "playerId": 31468,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793832132|0|14039644|31468|1427800:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 26745573,
+      "detail": "Yeremay",
+      "playerId": 41082,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793830713|0|14039644|41082|26745573:buy",
+      "overpay": 19975573,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 26745573,
+      "detail": "Yeremay",
+      "playerId": 41082,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793830713|0|14039644|41082|26745573:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 9922122,
+      "detail": "De la Fuente",
+      "playerId": 37739,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793830713|1|14039644|37739|9922122:buy",
+      "overpay": 4972122,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 9922122,
+      "detail": "De la Fuente",
+      "playerId": 37739,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793830713|1|14039644|37739|9922122:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 5238000,
+      "detail": "Chust",
+      "playerId": 1760,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793826078|0|12756155|1760|5238000:buy",
+      "overpay": 2518000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 5238000,
+      "detail": "Chust",
+      "playerId": 1760,
+      "date": "2026-11-04",
+      "sourceId": "transfer|1793826078|0|12756155|1760|5238000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -14884,21 +14953,21 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-04T19:30:28.590909+00:00",
+  "lastSync": "2026-11-05T01:21:04.276494+00:00",
   "teamValues": {
     "valero10": 69180000,
     "Jajajajajaja": 66160000,
     "Saltamonti": 71790000,
     "Keko Kane": 68810000,
-    "Real Vicentón Balompié": 66070000,
-    "Tietes FC": 42110000,
-    "FCodina": 69280000,
-    "Quim fc": 53860000,
+    "Real Vicentón Balompié": 63350000,
+    "Tietes FC": 44830000,
+    "FCodina": 62510000,
+    "Quim fc": 64210000,
     "Gruu": 50640000,
     "Diablos Cojos": 56450000,
     "Reial Club Estanislau": 66750000,
     "anihi and the anihaloors": 52990000,
-    "Tikitaki de Aatun": 74650000,
+    "Tikitaki de Aatun": 69700000,
     "FC Carcelona": 59910000,
     "Yastariabros": 57150000,
     "Error del sistema": 26880000
