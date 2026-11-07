@@ -13635,6 +13635,44 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 33270152,
+      "detail": "Gordon",
+      "playerId": 41200,
+      "date": "2026-11-07",
+      "sourceId": "transfer|1794071983|0|1594907|41200|33270152:buy",
+      "overpay": 22670152,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 33270152,
+      "detail": "Gordon",
+      "playerId": 41200,
+      "date": "2026-11-07",
+      "sourceId": "transfer|1794071983|0|1594907|41200|33270152:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "clausula_subida",
+      "amount": 2000000,
+      "detail": "Fortuño",
+      "playerId": 30334,
+      "date": "2026-11-07",
+      "sourceId": "clauseincrement|1794071861|0|1594907|30334|2000000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 1109600,
+      "detail": "Novoa",
+      "playerId": 34196,
+      "date": "2026-11-07",
+      "sourceId": "transfer|1794046409|0|14077779|34196|1109600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15193,15 +15231,15 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-07T09:44:11.017039+00:00",
+  "lastSync": "2026-11-07T17:35:18.105642+00:00",
   "teamValues": {
-    "valero10": 58100000,
+    "valero10": 68700000,
     "Jajajajajaja": 66110000,
-    "Saltamonti": 84620000,
+    "Saltamonti": 74020000,
     "Keko Kane": 64430000,
     "Real Vicentón Balompié": 65590000,
     "Tietes FC": 45940000,
-    "FCodina": 63780000,
+    "FCodina": 62710000,
     "Quim fc": 71570000,
     "Gruu": 54640000,
     "Diablos Cojos": 56620000,
