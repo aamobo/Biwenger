@@ -13613,6 +13613,28 @@
       "sourceId": "transfer|1793930098|0|1598649|39874|1626600:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 6855000,
+      "detail": "Eric García",
+      "playerId": 20,
+      "date": "2026-11-07",
+      "sourceId": "market|1794031520|0|14039644|20|6855000:buy",
+      "overpay": 2145000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 2888160,
+      "detail": "Agirrezabala",
+      "playerId": 19192,
+      "date": "2026-11-07",
+      "sourceId": "market|1794031520|1|13978983|19192|2888160:buy",
+      "overpay": 688160,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15171,23 +15193,23 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-07T00:41:19.467942+00:00",
+  "lastSync": "2026-11-07T09:44:11.017039+00:00",
   "teamValues": {
-    "valero10": 57890000,
-    "Jajajajajaja": 66240000,
-    "Saltamonti": 84550000,
-    "Keko Kane": 61970000,
-    "Real Vicentón Balompié": 65400000,
-    "Tietes FC": 45800000,
-    "FCodina": 63500000,
-    "Quim fc": 66630000,
-    "Gruu": 54410000,
-    "Diablos Cojos": 56600000,
-    "Reial Club Estanislau": 66970000,
-    "anihi and the anihaloors": 53260000,
-    "Tikitaki de Aatun": 69360000,
-    "FC Carcelona": 60270000,
-    "Yastariabros": 56670000,
-    "Error del sistema": 26760000
+    "valero10": 58100000,
+    "Jajajajajaja": 66110000,
+    "Saltamonti": 84620000,
+    "Keko Kane": 64430000,
+    "Real Vicentón Balompié": 65590000,
+    "Tietes FC": 45940000,
+    "FCodina": 63780000,
+    "Quim fc": 71570000,
+    "Gruu": 54640000,
+    "Diablos Cojos": 56620000,
+    "Reial Club Estanislau": 67100000,
+    "anihi and the anihaloors": 53510000,
+    "Tikitaki de Aatun": 69760000,
+    "FC Carcelona": 60320000,
+    "Yastariabros": 56370000,
+    "Error del sistema": 26660000
   }
 }
