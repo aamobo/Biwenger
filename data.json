@@ -13846,6 +13846,35 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 3000000,
+      "detail": "Zabiri",
+      "playerId": 42610,
+      "date": "2026-11-08",
+      "sourceId": "clauseincrement|1794144461|0|14039644|42610|3000000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 45165600,
+      "detail": "Fermín",
+      "playerId": 31243,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794143813|0|14039644|31243|45165600:buy",
+      "overpay": 30875600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Reial Club Estanislau",
+      "type": "venta",
+      "amount": 45165600,
+      "detail": "Fermín",
+      "playerId": 31243,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794143813|0|14039644|31243|45165600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15404,7 +15433,7 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-08T12:56:45.199415+00:00",
+  "lastSync": "2026-11-08T19:24:06.069382+00:00",
   "teamValues": {
     "valero10": 68490000,
     "Jajajajajaja": 66170000,
@@ -15413,10 +15442,10 @@
     "Real Vicentón Balompié": 67240000,
     "Tietes FC": 46130000,
     "FCodina": 79420000,
-    "Quim fc": 55030000,
+    "Quim fc": 69320000,
     "Gruu": 55030000,
     "Diablos Cojos": 56740000,
-    "Reial Club Estanislau": 67260000,
+    "Reial Club Estanislau": 52970000,
     "anihi and the anihaloors": 53810000,
     "Tikitaki de Aatun": 77100000,
     "FC Carcelona": 60400000,
