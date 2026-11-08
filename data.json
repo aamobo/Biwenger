@@ -13682,6 +13682,75 @@
       "sourceId": "clauseincrement|1794083871|0|1594869|9402|3000000"
     },
     {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 864000,
+      "detail": "Ramón Enríquez",
+      "playerId": 41411,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|0|1598649|41411|864000:buy",
+      "overpay": 384000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 864000,
+      "detail": "Ramón Enríquez",
+      "playerId": 41411,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|0|1598649|41411|864000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 2214000,
+      "detail": "Adrià Altimira",
+      "playerId": 31989,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|1|1598649|31989|2214000:buy",
+      "overpay": 984000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "venta",
+      "amount": 2214000,
+      "detail": "Adrià Altimira",
+      "playerId": 31989,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|1|1598649|31989|2214000:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 11210432,
+      "detail": "Vivian",
+      "playerId": 12400,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|2|1598649|12400|11210432:buy",
+      "overpay": 7930432,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 11210432,
+      "detail": "Vivian",
+      "playerId": 12400,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794111498|2|1598649|12400|11210432:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "clausula_subida",
+      "amount": 4000000,
+      "detail": "Valverde",
+      "playerId": 9402,
+      "date": "2026-11-07",
+      "sourceId": "clauseincrement|1794089583|0|1594869|9402|4000000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15240,21 +15309,21 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-07T21:35:30.419260+00:00",
+  "lastSync": "2026-11-08T05:05:14.708149+00:00",
   "teamValues": {
-    "valero10": 68700000,
+    "valero10": 68220000,
     "Jajajajajaja": 66110000,
     "Saltamonti": 74020000,
-    "Keko Kane": 64430000,
+    "Keko Kane": 63200000,
     "Real Vicentón Balompié": 65590000,
     "Tietes FC": 45940000,
-    "FCodina": 62710000,
+    "FCodina": 59430000,
     "Quim fc": 71570000,
     "Gruu": 54640000,
     "Diablos Cojos": 56620000,
     "Reial Club Estanislau": 67100000,
     "anihi and the anihaloors": 53510000,
-    "Tikitaki de Aatun": 69760000,
+    "Tikitaki de Aatun": 74750000,
     "FC Carcelona": 60320000,
     "Yastariabros": 56370000,
     "Error del sistema": 26660000
