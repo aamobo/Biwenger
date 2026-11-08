@@ -13751,6 +13751,101 @@
       "sourceId": "clauseincrement|1794089583|0|1594869|9402|4000000"
     },
     {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 52747200,
+      "detail": "Diomande",
+      "playerId": 8555,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794141000|0|1594880|8555|52747200:buy",
+      "overpay": 35947200,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 52747200,
+      "detail": "Diomande",
+      "playerId": 8555,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794141000|0|1594880|8555|52747200:sell"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 49864680,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794138393|0|14077779|31027|49864680:buy",
+      "overpay": 33034680,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 49864680,
+      "detail": "Arda Güler",
+      "playerId": 31027,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794138393|0|14077779|31027|49864680:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 3120000,
+      "detail": "Redondo",
+      "playerId": 38422,
+      "date": "2026-11-08",
+      "sourceId": "market|1794117997|0|1594880|38422|3120000:buy",
+      "overpay": 1670000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 2835000,
+      "detail": "Suazo",
+      "playerId": 38194,
+      "date": "2026-11-08",
+      "sourceId": "market|1794117997|1|1594869|38194|2835000:buy",
+      "overpay": 175000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 605000,
+      "detail": "David Mella",
+      "playerId": 41077,
+      "date": "2026-11-08",
+      "sourceId": "market|1794117997|2|1594869|41077|605000:buy",
+      "overpay": 45000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 2882870,
+      "detail": "Marc Bernal",
+      "playerId": 34077,
+      "date": "2026-11-08",
+      "sourceId": "market|1794117997|3|14077779|34077|2882870:buy",
+      "overpay": 12870,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 1770030,
+      "detail": "De Galarreta",
+      "playerId": 2055,
+      "date": "2026-11-08",
+      "sourceId": "market|1794117997|4|1598649|2055|1770030:buy",
+      "overpay": 10030,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15309,23 +15404,23 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-08T05:05:14.708149+00:00",
+  "lastSync": "2026-11-08T12:56:45.199415+00:00",
   "teamValues": {
-    "valero10": 68220000,
-    "Jajajajajaja": 66110000,
-    "Saltamonti": 74020000,
-    "Keko Kane": 63200000,
-    "Real Vicentón Balompié": 65590000,
-    "Tietes FC": 45940000,
-    "FCodina": 59430000,
-    "Quim fc": 71570000,
-    "Gruu": 54640000,
-    "Diablos Cojos": 56620000,
-    "Reial Club Estanislau": 67100000,
-    "anihi and the anihaloors": 53510000,
-    "Tikitaki de Aatun": 74750000,
-    "FC Carcelona": 60320000,
-    "Yastariabros": 56370000,
+    "valero10": 68490000,
+    "Jajajajajaja": 66170000,
+    "Saltamonti": 77740000,
+    "Keko Kane": 63540000,
+    "Real Vicentón Balompié": 67240000,
+    "Tietes FC": 46130000,
+    "FCodina": 79420000,
+    "Quim fc": 55030000,
+    "Gruu": 55030000,
+    "Diablos Cojos": 56740000,
+    "Reial Club Estanislau": 67260000,
+    "anihi and the anihaloors": 53810000,
+    "Tikitaki de Aatun": 77100000,
+    "FC Carcelona": 60400000,
+    "Yastariabros": 56190000,
     "Error del sistema": 26660000
   }
 }
