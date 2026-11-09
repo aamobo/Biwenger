@@ -13875,6 +13875,24 @@
       "sourceId": "transfer|1794143813|0|14039644|31243|45165600:sell"
     },
     {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 1800000,
+      "detail": "Carlos Romero",
+      "playerId": 26566,
+      "date": "2026-11-08",
+      "sourceId": "clauseincrement|1794167382|0|14039644|26566|1800000"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 1626200,
+      "detail": "Stassin",
+      "playerId": 43264,
+      "date": "2026-11-08",
+      "sourceId": "transfer|1794167338|0|14039644|43264|1626200:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15433,7 +15451,7 @@
       "sourceId": "roundfinished|1793721807|15|13990170|3750000"
     }
   ],
-  "lastSync": "2026-11-08T19:24:06.069382+00:00",
+  "lastSync": "2026-11-09T00:37:36.354338+00:00",
   "teamValues": {
     "valero10": 68490000,
     "Jajajajajaja": 66170000,
@@ -15442,7 +15460,7 @@
     "Real Vicentón Balompié": 67240000,
     "Tietes FC": 46130000,
     "FCodina": 79420000,
-    "Quim fc": 69320000,
+    "Quim fc": 67620000,
     "Gruu": 55030000,
     "Diablos Cojos": 56740000,
     "Reial Club Estanislau": 52970000,
