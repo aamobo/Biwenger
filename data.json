@@ -14198,6 +14198,26 @@
       "sourceId": "transfer|1794297548|0|14039644|30493|1957200:sell"
     },
     {
+      "manager": "Gruu",
+      "type": "compra",
+      "amount": 7938000,
+      "detail": "Óskarsson",
+      "playerId": 35055,
+      "date": "2026-11-10",
+      "sourceId": "transfer|1794337743|0|13990414|35055|7938000:buy",
+      "overpay": 4518000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 7938000,
+      "detail": "Óskarsson",
+      "playerId": 35055,
+      "date": "2026-11-10",
+      "sourceId": "transfer|1794337743|0|13990414|35055|7938000:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -15916,16 +15936,16 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-10T16:51:40.928695+00:00",
+  "lastSync": "2026-11-10T22:58:00.112353+00:00",
   "teamValues": {
     "Jajajajajaja": 65460000,
     "valero10": 64970000,
     "Saltamonti": 83000000,
     "Keko Kane": 65660000,
-    "Real Vicentón Balompié": 67500000,
+    "Real Vicentón Balompié": 64080000,
     "Tietes FC": 51770000,
     "FCodina": 68700000,
-    "Gruu": 48380000,
+    "Gruu": 51800000,
     "Quim fc": 64570000,
     "Reial Club Estanislau": 67860000,
     "Diablos Cojos": 56850000,
