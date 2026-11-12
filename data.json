@@ -14311,6 +14311,84 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 326300,
+      "detail": "Abqar",
+      "playerId": 30505,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794497829|0|12756155|30505|326300:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 1316900,
+      "detail": "Mangala",
+      "playerId": 41606,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794484799|0|1598649|41606|1316900:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 11859372,
+      "detail": "Marcos Llorente",
+      "playerId": 2600,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794473135|0|13990176|2600|11859372:buy",
+      "overpay": 5659372,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 11859372,
+      "detail": "Marcos Llorente",
+      "playerId": 2600,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794473135|0|13990176|2600|11859372:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 63234000,
+      "detail": "Bellingham",
+      "playerId": 30477,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794472490|0|13978983|30477|63234000:buy",
+      "overpay": 44034000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 63234000,
+      "detail": "Bellingham",
+      "playerId": 30477,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794472490|0|13978983|30477|63234000:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 19420560,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794472490|1|13990176|1125|19420560:buy",
+      "overpay": 15750560,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Yastariabros",
+      "type": "venta",
+      "amount": 19420560,
+      "detail": "Bartra",
+      "playerId": 1125,
+      "date": "2026-11-12",
+      "sourceId": "transfer|1794472490|1|13990176|1125|19420560:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -16029,23 +16107,23 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-12T06:20:38.817622+00:00",
+  "lastSync": "2026-11-12T17:26:23.747029+00:00",
   "teamValues": {
     "Jajajajajaja": 66940000,
     "valero10": 64930000,
     "Saltamonti": 83980000,
-    "Keko Kane": 65570000,
+    "Keko Kane": 84770000,
     "Real Vicentón Balompié": 65410000,
-    "Tietes FC": 50200000,
+    "Tietes FC": 49860000,
     "FCodina": 64730000,
     "Gruu": 52430000,
     "Quim fc": 65300000,
     "Reial Club Estanislau": 67870000,
-    "Diablos Cojos": 56310000,
+    "Diablos Cojos": 46980000,
     "anihi and the anihaloors": 56870000,
-    "Tikitaki de Aatun": 83080000,
+    "Tikitaki de Aatun": 75580000,
     "FC Carcelona": 60710000,
-    "Yastariabros": 54340000,
+    "Yastariabros": 50670000,
     "Error del sistema": 25620000
   }
 }
