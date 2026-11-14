@@ -14527,6 +14527,17 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 1710010,
+      "detail": "Cepeda",
+      "playerId": 39874,
+      "date": "2026-11-14",
+      "sourceId": "market|1794636253|0|1594880|39874|1710010:buy",
+      "overpay": 10,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -16245,23 +16256,23 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-14T05:30:40.808428+00:00",
+  "lastSync": "2026-11-14T13:10:05.111710+00:00",
   "teamValues": {
-    "Jajajajajaja": 67950000,
-    "valero10": 62670000,
-    "Saltamonti": 87720000,
-    "Keko Kane": 81110000,
-    "Real Vicentón Balompié": 65630000,
-    "Tietes FC": 50000000,
-    "FCodina": 68610000,
-    "Gruu": 52850000,
-    "Quim fc": 65680000,
-    "Reial Club Estanislau": 67880000,
-    "Diablos Cojos": 47130000,
-    "anihi and the anihaloors": 57000000,
-    "Tikitaki de Aatun": 78540000,
-    "FC Carcelona": 60850000,
-    "Yastariabros": 50290000,
-    "Error del sistema": 25440000
+    "Jajajajajaja": 68030000,
+    "valero10": 62610000,
+    "Saltamonti": 88110000,
+    "Keko Kane": 81350000,
+    "Real Vicentón Balompié": 67580000,
+    "Tietes FC": 50130000,
+    "FCodina": 68890000,
+    "Gruu": 53200000,
+    "Quim fc": 66050000,
+    "Reial Club Estanislau": 67930000,
+    "Diablos Cojos": 47280000,
+    "anihi and the anihaloors": 57160000,
+    "Tikitaki de Aatun": 78670000,
+    "FC Carcelona": 60870000,
+    "Yastariabros": 49930000,
+    "Error del sistema": 25310000
   }
 }
