@@ -14660,6 +14660,59 @@
       "sourceId": "transfer|1794952876|0|1594907|20|12339000:sell"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 1940010,
+      "detail": "Adama Traoré",
+      "playerId": 25677,
+      "date": "2026-11-18",
+      "sourceId": "market|1794981867|0|13990176|25677|1940010:buy",
+      "overpay": 20010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 645750,
+      "detail": "Hidalgo",
+      "playerId": 42569,
+      "date": "2026-11-18",
+      "sourceId": "market|1794981867|1|1598649|42569|645750:buy",
+      "overpay": 5750,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "compra",
+      "amount": 2290010,
+      "detail": "Luismi Cruz",
+      "playerId": 25777,
+      "date": "2026-11-18",
+      "sourceId": "market|1794981867|2|13990176|25777|2290010:buy",
+      "overpay": 20010,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "compra",
+      "amount": 15843600,
+      "detail": "Félix Correia",
+      "playerId": 43262,
+      "date": "2026-11-18",
+      "sourceId": "transfer|1794973380|0|1598649|43262|15843600:buy",
+      "overpay": 11283600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 15843600,
+      "detail": "Félix Correia",
+      "playerId": 43262,
+      "date": "2026-11-18",
+      "sourceId": "transfer|1794973380|0|1598649|43262|15843600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -16378,23 +16431,23 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-18T02:46:18.694135+00:00",
+  "lastSync": "2026-11-18T11:17:37.182659+00:00",
   "teamValues": {
-    "Jajajajajaja": 68150000,
-    "valero10": 67610000,
-    "Saltamonti": 88860000,
-    "Keko Kane": 81500000,
-    "Real Vicentón Balompié": 68580000,
-    "Tietes FC": 50150000,
-    "FCodina": 69510000,
-    "Gruu": 54120000,
-    "Quim fc": 65540000,
-    "Reial Club Estanislau": 68000000,
-    "Diablos Cojos": 47580000,
-    "anihi and the anihaloors": 58920000,
-    "Tikitaki de Aatun": 75680000,
-    "FC Carcelona": 63690000,
-    "Yastariabros": 48870000,
-    "Error del sistema": 24880000
+    "Jajajajajaja": 68230000,
+    "valero10": 67360000,
+    "Saltamonti": 89120000,
+    "Keko Kane": 81410000,
+    "Real Vicentón Balompié": 68640000,
+    "Tietes FC": 45580000,
+    "FCodina": 69780000,
+    "Gruu": 54400000,
+    "Quim fc": 65630000,
+    "Reial Club Estanislau": 68010000,
+    "Diablos Cojos": 51790000,
+    "anihi and the anihaloors": 59120000,
+    "Tikitaki de Aatun": 80810000,
+    "FC Carcelona": 63640000,
+    "Yastariabros": 48520000,
+    "Error del sistema": 24750000
   }
 }
