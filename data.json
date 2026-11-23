@@ -15023,6 +15023,80 @@
       "sourceId": "clauseincrement|1795401357|0|14077779|1462|737000"
     },
     {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 354000,
+      "detail": "Requena",
+      "playerId": 37488,
+      "date": "2026-11-23",
+      "sourceId": "clauseincrement|1795475546|0|14077779|37488|354000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 682000,
+      "detail": "Tárrega",
+      "playerId": 26592,
+      "date": "2026-11-23",
+      "sourceId": "clauseincrement|1795475546|1|14077779|26592|682000"
+    },
+    {
+      "manager": "FCodina",
+      "type": "compra",
+      "amount": 5616000,
+      "detail": "Redondo",
+      "playerId": 38422,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795475268|0|14077779|38422|5616000:buy",
+      "overpay": 4156000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 5616000,
+      "detail": "Redondo",
+      "playerId": 38422,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795475268|0|14077779|38422|5616000:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "clausula_subida",
+      "amount": 3000000,
+      "detail": "Zabiri",
+      "playerId": 42610,
+      "date": "2026-11-23",
+      "sourceId": "clauseincrement|1795460881|0|14039644|42610|3000000"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 2702400,
+      "detail": "Bryan Zaragoza",
+      "playerId": 30502,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795457846|0|1594907|30502|2702400:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "venta",
+      "amount": 1275500,
+      "detail": "Yangel Herrera",
+      "playerId": 17344,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795457846|1|1594907|17344|1275500:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 381700,
+      "detail": "Manu Bueno",
+      "playerId": 26299,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795443239|0|12756155|26299|381700:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -16741,15 +16815,15 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-23T11:57:47.005089+00:00",
+  "lastSync": "2026-11-23T23:45:35.119995+00:00",
   "teamValues": {
     "Jajajajajaja": 70670000,
-    "valero10": 68470000,
+    "valero10": 64840000,
     "Saltamonti": 90780000,
     "Keko Kane": 71530000,
-    "Real Vicentón Balompié": 72530000,
-    "Tietes FC": 52720000,
-    "FCodina": 62660000,
+    "Real Vicentón Balompié": 71070000,
+    "Tietes FC": 52340000,
+    "FCodina": 64120000,
     "Gruu": 55600000,
     "Quim fc": 66340000,
     "Reial Club Estanislau": 68630000,
