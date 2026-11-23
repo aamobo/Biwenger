@@ -14943,6 +14943,86 @@
       "sourceId": "clauseincrement|1795378866|1|14039644|41413|500000"
     },
     {
+      "manager": "FCodina",
+      "type": "venta",
+      "amount": 2921600,
+      "detail": "Marc Bernal",
+      "playerId": 34077,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795430179|0|14077779|34077|2921600:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 5490000,
+      "detail": "Dimitrievski",
+      "playerId": 11677,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795426029|0|1603117|11677|5490000:buy",
+      "overpay": 2470000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FC Carcelona",
+      "type": "venta",
+      "amount": 5490000,
+      "detail": "Dimitrievski",
+      "playerId": 11677,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795426029|0|1603117|11677|5490000:sell"
+    },
+    {
+      "manager": "Diablos Cojos",
+      "type": "venta",
+      "amount": 846900,
+      "detail": "Óscar Valentín",
+      "playerId": 5352,
+      "date": "2026-11-23",
+      "sourceId": "transfer|1795417714|0|13990176|5352|846900:sell"
+    },
+    {
+      "manager": "Keko Kane",
+      "type": "compra",
+      "amount": 6784520,
+      "detail": "Guedes",
+      "playerId": 10745,
+      "date": "2026-11-23",
+      "sourceId": "market|1795413888|0|13978983|10745|6784520:buy",
+      "overpay": 3114520,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 1572000,
+      "detail": "Sergio Herrera",
+      "playerId": 18251,
+      "date": "2026-11-23",
+      "sourceId": "market|1795413888|1|12756155|18251|1572000:buy",
+      "overpay": 2000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 2050959,
+      "detail": "Gonzalo Villar",
+      "playerId": 25403,
+      "date": "2026-11-23",
+      "sourceId": "market|1795413888|2|12756155|25403|2050959:buy",
+      "overpay": 90959,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "FCodina",
+      "type": "clausula_subida",
+      "amount": 737000,
+      "detail": "Moi Gómez",
+      "playerId": 1462,
+      "date": "2026-11-23",
+      "sourceId": "clauseincrement|1795401357|0|14077779|1462|737000"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -16661,23 +16741,23 @@
       "sourceId": "roundfinished|1794240308|15|13990170|3850000"
     }
   ],
-  "lastSync": "2026-11-23T01:27:19.911297+00:00",
+  "lastSync": "2026-11-23T11:57:47.005089+00:00",
   "teamValues": {
-    "Jajajajajaja": 67740000,
-    "valero10": 68740000,
-    "Saltamonti": 90340000,
-    "Keko Kane": 67760000,
-    "Real Vicentón Balompié": 72760000,
-    "Tietes FC": 49410000,
-    "FCodina": 65240000,
-    "Gruu": 55420000,
-    "Quim fc": 66120000,
-    "Reial Club Estanislau": 68500000,
-    "Diablos Cojos": 61840000,
-    "anihi and the anihaloors": 62450000,
-    "Tikitaki de Aatun": 80780000,
-    "FC Carcelona": 63470000,
-    "Yastariabros": 47580000,
-    "Error del sistema": 24380000
+    "Jajajajajaja": 70670000,
+    "valero10": 68470000,
+    "Saltamonti": 90780000,
+    "Keko Kane": 71530000,
+    "Real Vicentón Balompié": 72530000,
+    "Tietes FC": 52720000,
+    "FCodina": 62660000,
+    "Gruu": 55600000,
+    "Quim fc": 66340000,
+    "Reial Club Estanislau": 68630000,
+    "Diablos Cojos": 61040000,
+    "anihi and the anihaloors": 62390000,
+    "Tikitaki de Aatun": 80740000,
+    "FC Carcelona": 60470000,
+    "Yastariabros": 47350000,
+    "Error del sistema": 24270000
   }
 }
