@@ -15206,6 +15206,133 @@
       "sourceId": "transfer|1795533206|0|1603117|41101|2353000:sell"
     },
     {
+      "manager": "anihi and the anihaloors",
+      "type": "clausula_subida",
+      "amount": 2000000,
+      "detail": "Julián Alvarez",
+      "playerId": 34557,
+      "date": "2026-11-25",
+      "sourceId": "clauseincrement|1795610123|0|13979073|34557|2000000"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "clausula_subida",
+      "amount": 500000,
+      "detail": "Kike Salas",
+      "playerId": 28115,
+      "date": "2026-11-25",
+      "sourceId": "clauseincrement|1795601843|0|1594880|28115|500000"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 592900,
+      "detail": "Rubén Sánchez",
+      "playerId": 23572,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795601679|0|1594880|23572|592900:sell"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 3582000,
+      "detail": "Alejandro Santiago",
+      "playerId": 43458,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795601334|0|1594880|43458|3582000:buy",
+      "overpay": 1592000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 3582000,
+      "detail": "Alejandro Santiago",
+      "playerId": 43458,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795601334|0|1594880|43458|3582000:sell"
+    },
+    {
+      "manager": "valero10",
+      "type": "compra",
+      "amount": 6084000,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795600001|0|1594907|35344|6084000:buy",
+      "overpay": 2704000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 6084000,
+      "detail": "Buchanan",
+      "playerId": 35344,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795600001|0|1594907|35344|6084000:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "venta",
+      "amount": 496000,
+      "detail": "David Mella",
+      "playerId": 41077,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795587544|0|1594869|41077|496000:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 154900,
+      "detail": "Jauregi",
+      "playerId": 41095,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795587544|1|13990414|41095|154900:sell"
+    },
+    {
+      "manager": "Gruu",
+      "type": "venta",
+      "amount": 150900,
+      "detail": "Adrián Rodríguez",
+      "playerId": 36566,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795587544|2|13990414|36566|150900:sell"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 751000,
+      "detail": "Eder Sarabia",
+      "playerId": 38236,
+      "date": "2026-11-25",
+      "sourceId": "market|1795586898|0|1594869|38236|751000:buy",
+      "overpay": 131000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Saltamonti",
+      "type": "compra",
+      "amount": 8956000,
+      "detail": "Antony",
+      "playerId": 35770,
+      "date": "2026-11-25",
+      "sourceId": "market|1795586898|1|1594869|35770|8956000:buy",
+      "overpay": 2796000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "compra",
+      "amount": 500000,
+      "detail": "Diego Rico",
+      "playerId": 5678,
+      "date": "2026-11-25",
+      "sourceId": "market|1795586898|2|1594880|5678|500000:buy",
+      "overpay": 190000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -17074,23 +17201,23 @@
       "sourceId": "roundfinished|1795536174|14|13990170|4200000"
     }
   ],
-  "lastSync": "2026-11-25T03:59:13.798768+00:00",
+  "lastSync": "2026-11-25T16:56:17.206031+00:00",
   "teamValues": {
-    "valero10": 64690000,
-    "Jajajajajaja": 68230000,
-    "Saltamonti": 93350000,
-    "Keko Kane": 71640000,
-    "Real Vicentón Balompié": 70950000,
-    "Tietes FC": 51990000,
-    "FCodina": 67590000,
-    "Quim fc": 66470000,
-    "Gruu": 54550000,
-    "Diablos Cojos": 61170000,
-    "Reial Club Estanislau": 68580000,
-    "anihi and the anihaloors": 62360000,
-    "FC Carcelona": 62440000,
-    "Tikitaki de Aatun": 80700000,
-    "Yastariabros": 47050000,
-    "Error del sistema": 23940000
+    "valero10": 67850000,
+    "Jajajajajaja": 66190000,
+    "Saltamonti": 100120000,
+    "Keko Kane": 71740000,
+    "Real Vicentón Balompié": 72600000,
+    "Tietes FC": 51760000,
+    "FCodina": 67860000,
+    "Quim fc": 66410000,
+    "Gruu": 54310000,
+    "Diablos Cojos": 61280000,
+    "Reial Club Estanislau": 68480000,
+    "anihi and the anihaloors": 62000000,
+    "FC Carcelona": 62330000,
+    "Tikitaki de Aatun": 77350000,
+    "Yastariabros": 46760000,
+    "Error del sistema": 23720000
   }
 }
