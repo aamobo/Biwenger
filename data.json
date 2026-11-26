@@ -15389,6 +15389,95 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 2658200,
+      "detail": "Mariano",
+      "playerId": 5697,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795725350|0|12756155|5697|2658200:sell"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "compra",
+      "amount": 14337000,
+      "detail": "Pape Gueye",
+      "playerId": 30081,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|0|14039644|30081|14337000:buy",
+      "overpay": 7467000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "venta",
+      "amount": 14337000,
+      "detail": "Pape Gueye",
+      "playerId": 30081,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|0|14039644|30081|14337000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 15300000,
+      "detail": "Kike Salas",
+      "playerId": 28115,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|1|1603117|28115|15300000:buy",
+      "overpay": 10050000,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 15300000,
+      "detail": "Kike Salas",
+      "playerId": 28115,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|1|1603117|28115|15300000:sell"
+    },
+    {
+      "manager": "Jajajajajaja",
+      "type": "compra",
+      "amount": 6447600,
+      "detail": "Alejandro Santiago",
+      "playerId": 43458,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|2|1603117|43458|6447600:buy",
+      "overpay": 4327600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Real Vicentón Balompié",
+      "type": "venta",
+      "amount": 6447600,
+      "detail": "Alejandro Santiago",
+      "playerId": 43458,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795723107|2|1603117|43458|6447600:sell"
+    },
+    {
+      "manager": "Tietes FC",
+      "type": "compra",
+      "amount": 13899600,
+      "detail": "Cucho",
+      "playerId": 10276,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795709531|0|12756155|10276|13899600:buy",
+      "overpay": 9169600,
+      "overpayRef": "su valor de mercado"
+    },
+    {
+      "manager": "Quim fc",
+      "type": "venta",
+      "amount": 13899600,
+      "detail": "Cucho",
+      "playerId": 10276,
+      "date": "2026-11-26",
+      "sourceId": "transfer|1795709531|0|12756155|10276|13899600:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -17257,16 +17346,16 @@
       "sourceId": "roundfinished|1795536174|14|13990170|4200000"
     }
   ],
-  "lastSync": "2026-11-26T12:00:13.605250+00:00",
+  "lastSync": "2026-11-26T21:24:03.377959+00:00",
   "teamValues": {
     "valero10": 67920000,
-    "Jajajajajaja": 66090000,
+    "Jajajajajaja": 66590000,
     "Saltamonti": 100480000,
     "Keko Kane": 71920000,
-    "Real Vicentón Balompié": 73690000,
-    "Tietes FC": 51710000,
+    "Real Vicentón Balompié": 66320000,
+    "Tietes FC": 53740000,
     "FCodina": 68250000,
-    "Quim fc": 66540000,
+    "Quim fc": 68680000,
     "Gruu": 53200000,
     "Diablos Cojos": 61490000,
     "Reial Club Estanislau": 68570000,
