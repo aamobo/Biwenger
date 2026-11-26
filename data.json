@@ -15333,6 +15333,33 @@
       "overpayRef": "su valor de mercado"
     },
     {
+      "manager": "Diablos Cojos",
+      "type": "clausula_subida",
+      "amount": 2000000,
+      "detail": "Marcos Llorente",
+      "playerId": 2600,
+      "date": "2026-11-25",
+      "sourceId": "clauseincrement|1795628037|0|13990176|2600|2000000"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 666300,
+      "detail": "Boselli",
+      "playerId": 39801,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795625863|0|1598649|39801|666300:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2407800,
+      "detail": "Pablo García",
+      "playerId": 35763,
+      "date": "2026-11-25",
+      "sourceId": "transfer|1795625863|1|1598649|35763|2407800:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -17201,7 +17228,7 @@
       "sourceId": "roundfinished|1795536174|14|13990170|4200000"
     }
   ],
-  "lastSync": "2026-11-25T16:56:17.206031+00:00",
+  "lastSync": "2026-11-26T01:40:20.196453+00:00",
   "teamValues": {
     "valero10": 67850000,
     "Jajajajajaja": 66190000,
@@ -17216,7 +17243,7 @@
     "Reial Club Estanislau": 68480000,
     "anihi and the anihaloors": 62000000,
     "FC Carcelona": 62330000,
-    "Tikitaki de Aatun": 77350000,
+    "Tikitaki de Aatun": 74310000,
     "Yastariabros": 46760000,
     "Error del sistema": 23720000
   }
