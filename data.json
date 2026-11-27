@@ -15589,6 +15589,24 @@
       "sourceId": "transfer|1795734750|3|1603117|22690|976900:sell"
     },
     {
+      "manager": "Tietes FC",
+      "type": "venta",
+      "amount": 316600,
+      "detail": "Ratkov",
+      "playerId": 43270,
+      "date": "2026-11-27",
+      "sourceId": "transfer|1795801231|0|12756155|43270|316600:sell"
+    },
+    {
+      "manager": "Tikitaki de Aatun",
+      "type": "venta",
+      "amount": 2247100,
+      "detail": "Peio Canales",
+      "playerId": 35171,
+      "date": "2026-11-27",
+      "sourceId": "transfer|1795771623|0|1598649|35171|2247100:sell"
+    },
+    {
       "manager": "Reial Club Estanislau",
       "type": "prima",
       "amount": 4200000,
@@ -17457,14 +17475,14 @@
       "sourceId": "roundfinished|1795536174|14|13990170|4200000"
     }
   ],
-  "lastSync": "2026-11-27T07:21:37.693392+00:00",
+  "lastSync": "2026-11-27T18:44:17.225856+00:00",
   "teamValues": {
     "valero10": 70020000,
     "Jajajajajaja": 64120000,
     "Saltamonti": 101260000,
     "Keko Kane": 74150000,
     "Real Vicentón Balompié": 66200000,
-    "Tietes FC": 52020000,
+    "Tietes FC": 51700000,
     "FCodina": 68650000,
     "Quim fc": 69960000,
     "Gruu": 53400000,
@@ -17472,7 +17490,7 @@
     "Reial Club Estanislau": 68750000,
     "anihi and the anihaloors": 61610000,
     "FC Carcelona": 63900000,
-    "Tikitaki de Aatun": 74870000,
+    "Tikitaki de Aatun": 72710000,
     "Yastariabros": 46570000,
     "Error del sistema": 23560000
   }
